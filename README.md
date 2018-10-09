@@ -6,11 +6,13 @@ This notebook contains scripts, workflows, and results for analyzing publicly av
 
 - [NCBI Genome Download Tool](https://github.com/kblin/ncbi-genome-download)
 - HMMer
-- Prokka 
+- [Prokka](https://github.com/tseemann/prokka) 
 - Muscle
+- AliView
 - FastTree 
 - RaxML 
 - GTDBtk
+- CheckM
 
 ## Datasets Analyzed 
 
@@ -43,7 +45,7 @@ awk '!/^>/ { printf "%s", $0; n = "\n" } /^>/ { print n $0; n = "" } END { print
 
 This step also works for pulling down all genome bins from Woodcroft et al. 2018, that studied MAGs from a permafrost gradient. The project accession number is PRJNA386568, and on that NCBI Accession page, download the Assembly Details file. From that file, get the assembly id's using `tail -n +3 PRJNA386568_AssemblyDetails.txt | cut -f1 > assembly_ids.txt`, and then supply that list to the ncbi-genome-download tool with `ncbi-genome-download --section genbank --assembly-accessions assembly_ids.txt bacteria,archaea`. The Parks dataset (as far as I know yet), has not been deposited on NCBI, and has to be manually downloaded wtih `wget https://data.ace.uq.edu.au/public/misc_downloads/uba_genomes/uba_bac_prokka.tar.gz `. The size of the compressed folder is 90 GB, and takes about an hour and a half to download, and another hour and a half to decompress. Anantharaman datasets are manually downloaded from ggKbase, for which I downloaded the proteins file for the entire dataset. From what I can tell, selected bins of contigs then have to manually downloaded one by one. All other datasets can pull down the protein FASTA files by genome. Lake Mendota, Trout Bog, and Lake Tanganyika bins are analyzed from unpublished datasets, and were binned by Ben Peterson, Sarah Stevens, and Patricia Tran, all members of the McMahon lab. 
 
-### Searching for the _hgcA_ gene 
+### Searching for the _hgcA_ protein
 
 Using the _hgcA_ HMM profile in the `files/` directory, run the following. I generally run a normal HMMSearch with an E value cutoff of 1e-50, since that is what the Podar 2015 paper did for analyzing short read metagenomic sequences for the _hgcA_ gene. Curation of hits and pruning is described below. 
 
@@ -66,13 +68,34 @@ for dir in $(cat bac-meth-genomes-list.txt); do cp -rf refseq/bacteria/"$dir" ME
 
 The above example is done on the bacterial NCBI reference genomes, but generally works the same for all datasets *except* the Anantharaman datasets since all of the genome bins are not downloaded with the dataset, only the protein FASTA file of the entire dataset. Therefore, hits have to manually pulled down if you want the entire genome files. Once this has been done for all dataset, a concatentated FASTA file of the _hgcA_ protein hits can be made for alignment and tree making purposes. Based off of e-value, I usually throw out any hits that hover around the cutoff, because usually a decent hit has an e-value hovering around 300-400. The hits around the cutoff have really long, spurious branches, and might likely actually be the acetyl CoA pathway protein. 
 
+### Functional Annotation 
+
+For functional annotation, and getting files other than the genome nucleotide files (GBK, protein-fasta, etc.), the quickest way to get other file formats and functional annotation is with Prokka. Install Prokka with `conda install -c conda-forge -c bioconda prokka` if using Anaconda. For a given set of bacterial/archaeal genomes, run the following: 
+
+```
+# Bacteria
+for fasta in *.fa; do
+    N=$(basename $fasta .contigs.fa);
+    prokka --outdir $N --prefix $N --cpus 15 $fasta --centre X --compliant;
+done
+
+# Archaea
+for fasta in *.fa; do
+    N=$(basename $fasta contigs.fa);
+    prokka --kingdom Archaea --outdir $N --prefix $N --cpus 15 $fasta;
+done
+```
+
+Therefore your bacterial and archaeal bins per dataset will need to be split up accordingly. 
+
+
 ### Align Protein Hits 
+
+### Manually Inspect Alignments 
 
 ### Make Phylogenetic Tree of _hgcA_ Protein Hits 
 
 ### Classification 
-
-### Functional Annotation 
 
 ### Quality Statistics 
 
