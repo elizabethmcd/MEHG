@@ -100,4 +100,5 @@ Therefore your bacterial and archaeal bins per dataset will need to be split up 
 ### Quality Statistics 
 
 ### Metabolic Pathway Prediction 
+- Looking @ organisms that haven't been characterized as methylators before, really make sure the HMM hit is good, and characterize their metabolism. Identify closely related organisms in the dataset with ANI comparison, can do genome presence/absence studies to figure out if something weird in the genome beside hgcA
 
