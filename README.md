@@ -8,7 +8,8 @@ This notebook contains scripts, workflows, and results for analyzing publicly av
 - HMMer
 - [Prokka](https://github.com/tseemann/prokka) 
 - Muscle
-- AliView
+- [AliView](http://www.ormbunkar.se/aliview/)
+- ANICalculator
 - FastTree 
 - RaxML 
 - GTDBtk
@@ -16,7 +17,7 @@ This notebook contains scripts, workflows, and results for analyzing publicly av
 
 ## Datasets Analyzed 
 
-- Thousands of microbial genomes shed light on interconnected biogeochemical processes in an aquifer system, [Anantharaman et al. 2016](https://www.nature.com/articles/ncomms13219)
+- Thousands of microbial genomes shed light on interconnected biogeochemical processes in an aquifer system, [Anantharaman et al. 2016](https://www.nature.com/articles/ncomms13219) (Genomes from sulfur group 2018 overlap)
 - Expanded diversity of microbial groups that shape the dissimilatory sulfur cycle [Anantharaman et al. 2018](https://www.nature.com/articles/s41396-018-0078-0)
 - Recovery of nearly 8,000 metagenome-assembled genomes substantially expands the tree of life [Parks et al. 2018](https://www.nature.com/articles/s41564-017-0012-7)
 - Genome-centric view of carbon processing in thawing permafrost [Woodcroft et al. 2018](https://www.nature.com/articles/s41586-018-0338-1)
@@ -43,7 +44,7 @@ for filename in bacteria/*/*.faa; do GENNAME=`basename ${filename%.faa}`; sed "s
 awk '!/^>/ { printf "%s", $0; n = "\n" } /^>/ { print n $0; n = "" } END { printf "%s", n }' all-bac-refseq-prots.faa > all-bac-prots-singleline.faa
 ```
 
-This step also works for pulling down all genome bins from Woodcroft et al. 2018, that studied MAGs from a permafrost gradient. The project accession number is PRJNA386568, and on that NCBI Accession page, download the Assembly Details file. From that file, get the assembly id's using `tail -n +3 PRJNA386568_AssemblyDetails.txt | cut -f1 > assembly_ids.txt`, and then supply that list to the ncbi-genome-download tool with `ncbi-genome-download --section genbank --assembly-accessions assembly_ids.txt bacteria,archaea`. The Parks dataset (as far as I know yet), has not been deposited on NCBI, and has to be manually downloaded wtih `wget https://data.ace.uq.edu.au/public/misc_downloads/uba_genomes/uba_bac_prokka.tar.gz `. The size of the compressed folder is 90 GB, and takes about an hour and a half to download, and another hour and a half to decompress. Anantharaman datasets are manually downloaded from ggKbase, for which I downloaded the proteins file for the entire dataset. From what I can tell, selected bins of contigs then have to manually downloaded one by one. All other datasets can pull down the protein FASTA files by genome. Lake Mendota, Trout Bog, and Lake Tanganyika bins are analyzed from unpublished datasets, and were binned by Ben Peterson, Sarah Stevens, and Patricia Tran, all members of the McMahon lab. 
+This step also works for pulling down all genome bins from Woodcroft et al. 2018, that studied MAGs from a permafrost gradient. The project accession number is PRJNA386568, and on that NCBI Accession page, download the Assembly Details file. From that file, get the assembly id's using `tail -n +3 PRJNA386568_AssemblyDetails.txt | cut -f1 > assembly_ids.txt`, and then supply that list to the ncbi-genome-download tool with `ncbi-genome-download --section genbank -F fasta,protein-fasta --assembly-accessions assembly_ids.txt bacteria,archaea`. The Parks dataset (as far as I know yet), has not been deposited on NCBI, and has to be manually downloaded wtih `wget https://data.ace.uq.edu.au/public/misc_downloads/uba_genomes/uba_bac_prokka.tar.gz `. The size of the compressed folder is 90 GB, and takes about an hour and a half to download, and another hour and a half to decompress. Anantharaman datasets are manually downloaded from ggKbase, for which I downloaded the proteins file for the entire dataset. From what I can tell, selected bins of contigs then have to manually downloaded one by one. All other datasets can pull down the protein FASTA files by genome. Lake Mendota, Trout Bog, and Lake Tanganyika bins are analyzed from unpublished datasets, and were binned by Ben Peterson, Sarah Stevens, and Patricia Tran, all members of the McMahon lab. 
 
 ### Searching for the _hgcA_ protein
 
@@ -88,10 +89,15 @@ done
 
 Therefore your bacterial and archaeal bins per dataset will need to be split up accordingly. 
 
-
 ### Align Protein Hits 
 
+Align the _hgcA_ protein hits with Mafft `mafft hits.faa > hits.aln`, or with Muscle `muscle -in hits.faa -out hits.aln`. 
+
 ### Manually Inspect Alignments 
+
+Using AliView, import the alignment files and manually inspect alignments for anomolies or specific conserved domains of interest. 
+
+### Dereplicate Bins from Same Datasets and Find Related Non-Methylators
 
 ### Make Phylogenetic Tree of _hgcA_ Protein Hits 
 

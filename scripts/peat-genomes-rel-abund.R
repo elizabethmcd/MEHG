@@ -54,5 +54,22 @@ methreltable <- as.data.frame(spread(methsub, key="genome", value="relative_abun
 
 methrelabund %>% ggplot(aes(x=sample, y=relative_abundance, group=genome, colour=phylum)) + geom_point()
 
+# Acidobacteria genomes similar ANI patterns
+acidoani = read.delim("~/Desktop/PEAT-FNAs.all.ani.out.cleaned", sep="\t", header=FALSE)
+colnames(acidoani) = c("Genome1", "Genome2", "ANI1", "ANI2", "AF1", "AF2")
+above80 = acidoani %>% filter(ANI1 > 75 | ANI2 > 75)
+actinoani = read.delim("~/Desktop/all-genomes.all.ani.out.cleaned", sep="\t", header=FALSE)
+colnames(actinoani) = c("Genome1", "Genome2", "ANI1", "ANI2", "AF1", "AF2")
+actino70 = actinoani %>% filter(ANI1 > 70 | ANI2 > 70)
 
-                                                                                                                        
+# All meths to dereplicate
+allmethsani = read.delim("~/Desktop/METH-FNAs.all.ani.out.cleaned", sep="\t", header=FALSE)
+colnames(allmethsani) = c("Genome1", "Genome2", "ANI1", "ANI2", "AF1", "AF2")
+meth80 = read.delim("~/Desktop/METHS-greater-80.cleaned", sep="\t", header=FALSE)
+colnames(meth80) = c("Genome1", "Genome2", "ANI1", "ANI2", "AF1", "AF2")
+cleanallmeths = allmethsani %>% filter(Genome1 !="GENOME1")
+cleanallmeths[,3] = as.numeric(as.character(cleanallmeths[,3]))
+cleanallmeths[,4] = as.numeric(as.character(cleanallmeths[,4]))
+meth70 = cleanallmeths %>% filter(ANI1 > 70 | ANI2 > 70)
+meth80 = cleanallmeths %>% filter(ANI1 > 80 | ANI2 > 80)
+meth90 = cleanallmeths %>% filter(ANI1 < 99.99 & ANI1 > 90)
