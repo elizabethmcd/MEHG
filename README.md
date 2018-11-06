@@ -38,7 +38,7 @@ nohup ncbi-genome-download --format "protein-fasta,fasta,assembly-report" --asse
 for filename in */*.faa; do mv $filename ${filename%/*}/${filename%/*}.faa; done
 
 # Create master FASTA files with genome name included in header, example of bacteria
-for filename in bacteria/*/*.faa; do GENNAME=`basename ${filename%.faa}`; sed "s|^>|>${GENNAME} |" $filename; done > all-bac-refseq-prots.faa
+for filename in */*.faa; do GENNAME=`basename ${filename%.faa}`; sed "s|^>|>${GENNAME}_|" $filename; done > all-bac-refseq-prots.faa
 
 # Change multi-line fasta to single-line fasta
 awk '!/^>/ { printf "%s", $0; n = "\n" } /^>/ { print n $0; n = "" } END { printf "%s", n }' all-bac-refseq-prots.faa > all-bac-prots-singleline.faa
@@ -91,15 +91,22 @@ Therefore your bacterial and archaeal bins per dataset will need to be split up 
 
 ### Align Protein Hits 
 
-Align the _hgcA_ protein hits with Mafft `mafft hits.faa > hits.aln`, or with Muscle `muscle -in hits.faa -out hits.aln`. 
-
-### Manually Inspect Alignments 
-
-Using AliView, import the alignment files and manually inspect alignments for anomolies or specific conserved domains of interest. 
+Align the _hgcA_ protein hits with Mafft `mafft hits.faa > hits.aln`, or with Muscle `muscle -in hits.faa -out hits.aln`. Using AliView, import the alignment files and manually inspect alignments for anomolies or specific conserved domains of interest. 
 
 ### Dereplicate Bins from Same Datasets and Find Related Non-Methylators
 
+To schedule mass ANI comparisons on CHTC, we will use Sarah Stevens' [DAG pipeline](https://github.com/sstevens2/ani_compare_dag). This can be used for comparing the methylating bins wihtin datasets to see nucleotide similarity and dereplicate where the original authors did not, and also find genetically similar organisms within the dataset or others of non-methylating organisms. Clone the repo, and change the `group.sub` script to where the ANIcalculator is installed. If you want comparisons of all bins within a directory, write that directory to `groupslist.txt`. If wanting to compare between two directories, in each directory list the genomes and end in `_genome_list.txt`. Then put both the lists and sets of genomes into one directory, such as `all-genomes/`. Then in `groupslist.txt`, list the `all-genomes/` directory, and this will make comparisons against genomes in the directories, and not all-v-al within a directory. 
+
 ### Make Phylogenetic Tree of _hgcA_ Protein Hits 
+
+Using FastTree, make a tree of just the _hgcA_ protein within all the genomes that had the hit. Install FastTree: 
+
+```
+wget http://www.microbesonline.org/fasttree/FastTree.c
+gcc -DNO_SSE -O3 -finline-functions -funroll-loops -Wall -o FastTree FastTree.c -lm
+mv FastTree /usr/local/bin
+```
+Usage is `FastTree prot-file.faa > tree.tre`. Pretty-fy it in iTOL based upon manual classifications. 
 
 ### Classification 
 
