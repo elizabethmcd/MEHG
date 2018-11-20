@@ -1,5 +1,0 @@
-genome_name	taxonomy
-2582580680  Actinobacteria;Solirubrobacterales
-2582580684  Deltaproteobacteria;Desulfobacterales
-2582580694  Bacteroidetes;Flavobacteriia;Flavobacteriales
-2593339183  Deltaproteobacteria;Desulfobacterales
