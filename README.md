@@ -153,9 +153,34 @@ Usage is `FastTree aln-file.aln > tree.tre`. Pretty-fy it in iTOL based upon man
 
 To schedule mass ANI comparisons on CHTC, we will use Sarah Stevens' [DAG pipeline](https://github.com/sstevens2/ani_compare_dag). This can be used for comparing the methylating bins wihtin datasets to see nucleotide similarity and dereplicate where the original authors did not, and also find genetically similar organisms within the dataset or others of non-methylating organisms. Clone the repo, and change the `group.sub` script to where the ANIcalculator is installed. If you want comparisons of all bins within a directory, write that directory to `groupslist.txt`. If wanting to compare between two directories, in each directory list the genomes and end in `_genome_list.txt`. Then put both the lists and sets of genomes into one directory, such as `all-genomes/`. Then in `groupslist.txt`, list the `all-genomes/` directory, and this will make comparisons against genomes in the directories, and not all-v-al within a directory. 
 
-### Full-Genome Analysis of Methylators
+### Full-Genome Phylogenies of Methylators
 
 ### Wood-Ljungdhal Pathway Characterization 
+
+The HgcA protein is most similar to the acetyl CoA synthase subunits of the Wood-Ljungdhal pathway. To characterize presence of this protein and the subunits (gamma, beta, alpha), I've pulled down these protein subunits from the model acetogen _Acetobacterium woodii_. To perform the BLAST run, make a BLAST database of the three protein subunits: 
+
+```
+makeblastdb -dbtype prot -in acetobacterium-wlj-acetyl-coA-synthase-proteins.fa -input_type faste -parse_sequid s-out WLJ-acSynth.db
+```
+
+Concatenate all bacterial proteins to include the genome name in the output with:
+
+```
+for filename in *.faa; do GENNAME=`basename ${filename%.faa}`; sed "s|^>|>${GENNAME}_|" $filename; done > all-bac-proteins.faa
+```
+
+Then run BLAST with: 
+
+```
+#! /bin/bash 
+
+blastp -query all-bac-proteins.faa -db WLJ-acSynth.db -out bac-WLJ-blast.out -outfmt 11 -max_target_seqs 5
+
+blast_formatter -archive bac-WLJ-blast.out -outfmt "7 qacc sacc evalue qstart qend sstart send pident qcovs qcovhsp" -out WLJ-blast-formatted.out
+
+awk ' ($3 <=0.00001) && ($10 >=85) ' WLJ-blast-formatted.out > WLJ-blast-top-hits.txt
+
+```
 
 ### Metabolic Markers
 
