@@ -2,6 +2,7 @@
 
 library(tidyverse)
 library(reshape2)
+library(plotly)
 
 # Taking three metadata files, merge together, and create an organized relative abundance table
 
@@ -52,7 +53,8 @@ colnames(methrelabund)
 methsub <- methrelabund[,c(1,2,4)]
 methreltable <- as.data.frame(spread(methsub, key="genome", value="relative_abundance", fill=0))
 
-methrelabund %>% ggplot(aes(x=sample, y=relative_abundance, group=genome, colour=phylum)) + geom_point()
+p1 <- methrelabund %>% ggplot(aes(x=sample, y=relative_abundance, group=genome, colour=genome)) + geom_point()
+ggplotly(p1)
 
 # Acidobacteria genomes similar ANI patterns
 acidoani = read.delim("~/Desktop/PEAT-FNAs.all.ani.out.cleaned", sep="\t", header=FALSE)

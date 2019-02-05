@@ -155,6 +155,8 @@ To schedule mass ANI comparisons on CHTC, we will use Sarah Stevens' [DAG pipeli
 
 ### Full-Genome Phylogenies of Methylators
 
+Using the `metabolisHMM` package, run HMMs against the ribosomal protein set, and create a phylogenetic tree with RaxML. Alternatively, run all genomes through the GTDB-tk and create a phylogenetic tree of the single copy markers. 
+
 ### Wood-Ljungdhal Pathway Characterization 
 
 The HgcA protein is most similar to the acetyl CoA synthase subunits of the Wood-Ljungdhal pathway. To characterize presence of this protein and the subunits (gamma, beta, alpha), I've pulled down these protein subunits from the model acetogen _Acetobacterium woodii_. To perform the BLAST run, make a BLAST database of the three protein subunits: 
@@ -182,6 +184,10 @@ awk ' ($3 <=0.00001) && ($10 >=85) ' WLJ-blast-formatted.out > WLJ-blast-top-hit
 
 ```
 
+Additionally there are curated HMM profiles for key steps in the Wood-Ljungdahl pathway. I downloaded the TIGRFAMs version 15 on 2018-12-19. The existing TIGRFAMs for the acetyl-CoA pathway in metabolisHMM are those for formaldehyde dehydrogenase, in which CO2 is converted to formaldehyde. Those codes are TIGR01591, TIGR01582, TIGR01583.  The running hypothesis is that organisms that have this still may not perform the full WLJ pathway, as formate can be used for other things. The real rate limiting step is the incorporation of THF in bacteria to later form acetyl CoA from the CO dehydrogenase/acetyl coA synthase. 
+
+For incorporation of THF, a ligase is needed to added the cofactor to formate to form THF-CHO. This is the 	5-formyltetrahydrofolate cyclo-ligase with code TIGR02727.
+
 ### Metabolic Markers
 
-
+Create a high level summary of metabolic characteristics with the `metabolisHMM` package using custom and curated HMM markers. The `metabolisHMM` package is still under active [development](https://github.com/elizabethmcd/metabolisHMM). 
