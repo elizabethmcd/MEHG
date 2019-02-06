@@ -53,7 +53,7 @@ colnames(methrelabund)
 methsub <- methrelabund[,c(1,2,4)]
 methreltable <- as.data.frame(spread(methsub, key="genome", value="relative_abundance", fill=0))
 
-p1 <- methrelabund %>% ggplot(aes(x=sample, y=relative_abundance, group=genome, colour=genome)) + geom_point()
+p1 <- methrelabund %>% ggplot(aes(x=sample, y=relative_abundance, group=genome, colour=genome)) + geom_point() + theme(axis.text.x= element_text(angle=85, hjust=1), legend.position="none")
 ggplotly(p1)
 
 # Acidobacteria genomes similar ANI patterns

@@ -14,6 +14,10 @@ meta$genome_size = formatC(meta$genome_size, digits=3, format="fg")
 # Medium quality bins for metabolic summaries
 medium = meta %>% filter(meta$completeness > 50 & meta$redundancy < 10)
 
+medium$filename = paste(medium$genome_name, ".fna", sep="")
+
+write_delim(medium, "files/medium-qual-methylator-metadata.csv", delim=",")
+
 # High quality bins 
 high = meta %>% filter(meta$completeness > 90 & meta$redundancy < 5)
 
@@ -36,5 +40,4 @@ meta.final = meta.full[, c("genome_name", "original_name", "genome_size", "compl
 
 # Output tables 
 write_delim(meta.final, "files/all-methylator-metadata.tsv", delim="\t")
-write_delim(medium, "files/medium-qual-methylator-metadata.tsv", delim="\t")
 write_delim(high, "files/high-qual-methylator-metadata.tsv", delim="\t")
