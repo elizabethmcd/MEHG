@@ -6,23 +6,18 @@ This notebook contains scripts, workflows, and results for analyzing publicly av
 
 - [NCBI Genome Download Tool](https://github.com/kblin/ncbi-genome-download)
 - [Prokka](https://github.com/tseemann/prokka) 
-- [HMMer](http://hmmer.org/)
-- [Muscle](https://www.ebi.ac.uk/Tools/msa/muscle/)
 - [AliView](http://www.ormbunkar.se/aliview/)
-- [FastTree](http://microbesonline.org/fasttree/)
-- RaxML 
 - [metabolisHMM](https://github.com/elizabethmcd/metabolisHMM)
-- GTDBtk
-- CheckM
-- Kallisto
-- DESeq2
+- [GTDBtk](http://gtdb.ecogenomic.org/)
+- [Kallisto]((https://pachterlab.github.io/kallisto/))
+- [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
 
 ## Datasets Analyzed 
 
 - Thousands of microbial genomes shed light on interconnected biogeochemical processes in an aquifer system, [Anantharaman et al. 2016](https://www.nature.com/articles/ncomms13219)
 - Recovery of nearly 8,000 metagenome-assembled genomes substantially expands the tree of life [Parks et al. 2018](https://www.nature.com/articles/s41564-017-0012-7)
-- Genome-centric view of carbon processing in thawing permafrost [Woodcroft et al. 2018]
-- Molecular evidence for novel mercury methylating microorganisms in sulfate-impacted lakes [Jones et al. 2019](https://www.nature.com/articles/s41396-019-0376-1?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ismej%2Frss%2Fcurrent+%28The+ISME+Journal+-+Current%29)(https://www.nature.com/articles/s41586-018-0338-1)
+- Genome-centric view of carbon processing in thawing permafrost [Woodcroft et al. 2018](https://www.nature.com/articles/s41586-018-0338-1#Sec37)
+- Molecular evidence for novel mercury methylating microorganisms in sulfate-impacted lakes [Jones et al. 2019](https://www.nature.com/articles/s41396-019-0376-1?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ismej%2Frss%2Fcurrent+%28The+ISME+Journal+-+Current%29)
 - NCBI Genbank Publicly Available (Complete) Genomes 
 - Trout Bog MAGs binned by Sarah Stevens (2015)
 - Lake Mendota Hypolimnia Bins collected/binned by Ben Peterson (2018)
@@ -52,7 +47,7 @@ Jones et al. 2019 genomes were downloaded from JGI using the GOLD ID Gs0130353. 
 
 ### Metadata and Reorganization
 
-For all available genomes, I will organize the metadata and rename all the genomes in a uniform way to make all downstream processes easier. The genomes are split into archaea and bacteria folders, and the naming scheme will be `archaea0001` and `bacteria0001` and so on and so forth. First, we will create a dataframe of the existing names and the corresponding taxonomy. For the reference genomes from genbank, all metadata are in `_assembly_details.txt` files. The script `genbank-reference-metadata-prep.py` will take a directory of the assembly detail files and create two files, one with all the metadata for each genome, and one with the genome name and corresponding taxonomy. The UBA, permafrost, and aquifer datasets' taxonomy can be accessed from the assembly information BioProject files that were downloaded to get the accession numbers. 
+For Genbank genomes, all genomes are renamed in a uniform way to make all downstream processes easier. The genomes are split into archaea and bacteria folders, and the naming scheme is `archaea0001` and `bacteria0001` and so on and so forth. First, create a dataframe of the existing names and the corresponding taxonomy. For the reference genomes from genbank, all metadata are in `_assembly_details.txt` files. The script `genbank-reference-metadata-prep.py` will take a directory of the assembly detail files and create two files, one with all the metadata for each genome, and one with the genome name and corresponding taxonomy. The UBA, permafrost, and aquifer datasets' taxonomy can be accessed from the assembly information BioProject files that were downloaded to get the accession numbers. Also, `ncbi-download-tool` allows for downloading metadata (with the `-m` flag), so don't have to parse the assembly details file. 
 
 To keep all genomes named uniformly, create a list of all the FNA files of all genome bins in the archaea and bacteria folders. Use the scripts `create-new-genome-names.py` to create new, sequential names based on the order of the FNA files. Then to get the matching metadata of the original genome names to the new names, run `all-genome-metadata.py`, which will also give classifications for the new names, and all genomes in the database. To change the names in the two lists: 
 
@@ -62,7 +57,7 @@ awk '{print $4}' bac-genomes-new-names.txt > new-names.txt
 for file in *.fna; do read line; mv -v "${file}" "${line}"; done < new-names.txt
 ```
 
-Now all the genomes in the database (almost 25,000 complete reference genomes and publicly available MAGs plus our own lakes datasets), are named the same way and easier to find, link back to in the future with functional annotations. However, the additional 19 genomes from Jones et al. 2019 have their JGI numbers for now in all names because I added them at the last minute. At the end of downloading genomes and doing all of the metadata reorganization, I realized that there is a flag in `ncbi-genome-download` to get the metadata of any downloaded set of genomes, which is `-m METADATA-TABLE.txt` added onto the download command. 
+Now all the genomes in the database (almost 25,000 complete reference genomes and publicly available MAGs plus our own lakes datasets), are named the same way and easier to find, link back to in the future with functional annotations. However, the additional 19 genomes from Jones et al. 2019 have their JGI numbers for now in all names because I added them at the last minute.
 
 ### Gene Calling
 
@@ -112,3 +107,11 @@ Then use the [metabolisHMM](https://github.com/elizabethmcd/metabolisHMM) packag
 Create a high level summary of metabolic characteristics with the `metabolisHMM` package using custom and curated HMM markers. The `metabolisHMM` package is still under active [development](https://github.com/elizabethmcd/metabolisHMM). With this workflow and downloading KEGG groups, I no longer use BLAST for pathway/genes characterization. 
 
 ### Transcription of Putative Methylators in a Permafrost System 
+
+Woodcroft et al. 2018 analyzed metatranscriptomes along a perfmafrost thawing gradient. I identified ~100 methylators in their system and want to understand the expression profiles of those organisms at different depths. 
+
+1. Create a concatenated FASTA file of all predicted ORFs for methylating genomes from this system
+2. Build a genome index with kallisto: `kallisto index -i ebpr-orfs fastafile`
+3. Pseudoalign and quantify with kallisto: `kallisto quant -i index -o outdir fastqfiles`
+
+The last step can be queued with the list of each paired end file with the sample name to create a directory with mapping results for each sample depth. 
