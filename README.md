@@ -9,8 +9,9 @@ This notebook contains scripts, workflows, and results for analyzing publicly av
 - [AliView](http://www.ormbunkar.se/aliview/)
 - [metabolisHMM](https://github.com/elizabethmcd/metabolisHMM)
 - [GTDBtk](http://gtdb.ecogenomic.org/)
-- [Kallisto]((https://pachterlab.github.io/kallisto/))
-- [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
+- [Kallisto]((https://pachterlab.github.io/kallisto/)
+- [KofamKOALA](https://www.genome.jp/tools/kofamkoala/)
+
 
 ## Datasets Analyzed 
 
@@ -96,15 +97,32 @@ done
 Pull down Refseq representative genomes to populate a full genome phylogeny for archaeal and bacterial methylators. 
 
 ```
-nohup ncbi-genome-download --format protein-fasta -m archaea-metadata.txt -R representative archaea &
-nohup ncbi-genome-download --format protein-fasta -m bacteria-metadata.txt -R representative bacteria --parallel 10 &
+nohup ncbi-genome-download --refseq-category representative --format 'assembly-report,protein-fasta' bacteria,archaea &
 ``` 
 
-Then use the [metabolisHMM](https://github.com/elizabethmcd/metabolisHMM) package for making these trees with the specific set of archaeal/bacterial genomes. 
+Then use the [metabolisHMM](https://github.com/elizabethmcd/metabolisHMM) package for making these trees with the specific set of archaeal/bacterial ribosomal markers. 
  
 ### Pathway Characterizations 
 
-Create a high level summary of metabolic characteristics with the `metabolisHMM` package using custom and curated HMM markers. The `metabolisHMM` package is still under active [development](https://github.com/elizabethmcd/metabolisHMM). With this workflow and downloading KEGG groups, I no longer use BLAST for pathway/genes characterization. 
+Create a high level summary of metabolic characteristics with the `metabolisHMM` package using custom and curated HMM markers. The `metabolisHMM` package is still under active [development](https://github.com/elizabethmcd/metabolisHMM). With this workflow and downloading KEGG groups, I no longer use BLAST for pathway/genes characterization. Additionally, KEGG annotations can now be done with the KofamKOALA tool using HMM based searches and threshold cutoffs for HMMs. I had previously been doing this manually for specific markers, but now there is a better way. Additionally, the resulting KO list can then be fed into KO mapper for exploring presence/absence of metabolic pathways. Running KofamKOALA locally looks like so: 
+```
+nohup ./exec_annotation ../Actinobacteria-metabolism/bacteria23279.faa -p profiles/ -k ko_list -o ../Actinobacteria-metabolism/bacteria23279-kofam-annots.txt --cpu 10 &
+```
+
+### Investigating Specific Methylators
+
+For this paper, I specifically honed in on the putative Actinobacterial methylators, because they are somewhat weird and they haven't been identified as mercury methylators before. They are preliminarily classified as Coriobacteriia,Thermoleophilia, and some weird UBA classes. To download all genomes of a specific taxonomic type from NCBI: 
+
+1. Go to the [NCBI Taxonomy Database](https://www.ncbi.nlm.nih.gov/taxonomy)
+2. Type in your taxonomy identfier of interest, such as Coriobacteriia
+3. Click on the taxonomy names twice
+4. In the taxonomy brower, look at the table of Entrez records, and click the number in the Assembly field.
+5. At the top of the page, click the "Send to" dropdown button
+6. Click ID Table (text) and order however you want
+
+Once you have saved the assembly-ids file, modify it to only get the list of genbank accession numbers by: `awk '{print $1}' coriobacteriia-class-accessions.txt | tail -n +2 > coriobacteriia-ids.txt`. Then feed this into `ncbi-genome-download` with `nohup ncbi-genome-download --section genbank --assembly-accessions coriobacteriia-ids.txt --format "fasta" -m metadata.txt bacteria &`. 
+
+Then you have the genomes and can make trees with your MAGs, metabolic comparsions etc.
 
 ### Transcription of Putative Methylators in a Permafrost System 
 

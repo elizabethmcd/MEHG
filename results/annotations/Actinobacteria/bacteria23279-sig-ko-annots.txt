@@ -1,0 +1,1098 @@
+PDPDEDFA_00004	K01821	4-oxalocrotonate tautomerase [EC:5.3.2.6]    
+PDPDEDFA_00008	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]   
+PDPDEDFA_00010	K10532	heparan-alpha-glucosaminide N-acetyltransferase [EC:2.3.1.78]    
+PDPDEDFA_00012	K15580	oligopeptide transport system substrate-binding protein  
+PDPDEDFA_00012	K02035	peptide/nickel transport system substrate-binding protein  
+PDPDEDFA_00014	K07063	uncharacterized protein     
+PDPDEDFA_00016	K18828	tRNA(fMet)-specific endonuclease VapC [EC:3.1.-.-]   
+PDPDEDFA_00020	K21498	antitoxin HigA-1     
+PDPDEDFA_00024	K03584	DNA repair protein RecO (recombination protein O)
+PDPDEDFA_00025	K01619	deoxyribose-phosphate aldolase [EC:4.1.2.4]    
+PDPDEDFA_00026	K03595	GTPase      
+PDPDEDFA_00029	K09121	pyridinium-3,5-bisthiocarboxylic acid mononucleotide nickel chelatase [EC:4.99.1.12] 
+PDPDEDFA_00035	K04518	prephenate dehydratase [EC:4.2.1.51]    
+PDPDEDFA_00036	K01875	seryl-tRNA synthetase [EC:6.1.1.11]    
+PDPDEDFA_00040	K00662	aminoglycoside 3-N-acetyltransferase [EC:2.3.1.81]    
+PDPDEDFA_00046	K10439	ribose transport system substrate-binding protein  
+PDPDEDFA_00053	K01808	ribose 5-phosphate isomerase B [EC:5.3.1.6]  
+PDPDEDFA_00054	K11530	(4S)-4-hydroxy-5-phosphonooxypentane-2,3-dione isomerase [EC:5.3.1.32]    
+PDPDEDFA_00055	K03525	type III pantothenate kinase [EC:2.7.1.33]  
+PDPDEDFA_00056	K05540	tRNA-dihydrouridine synthase B [EC:1.-.-.-]   
+PDPDEDFA_00058	K09005	uncharacterized protein     
+PDPDEDFA_00059	K03975	membrane-associated protein     
+PDPDEDFA_00060	K03284	magnesium transporter     
+PDPDEDFA_00062	K07052	uncharacterized protein     
+PDPDEDFA_00064	K05841	sterol 3beta-glucosyltransferase [EC:2.4.1.173]    
+PDPDEDFA_00067	K06941	23S rRNA (adenine2503-C2)-methyltransferase [EC:2.1.1.192]   
+PDPDEDFA_00069	K10440	ribose transport system permease protein  
+PDPDEDFA_00075	K07171	mRNA interferase MazF [EC:3.1.-.-]   
+PDPDEDFA_00081	K01677	fumarate hydratase subunit alpha [EC:4.2.1.2]  
+PDPDEDFA_00085	K19689	aminopeptidase [EC:3.4.11.-]     
+PDPDEDFA_00090	K07079	uncharacterized protein     
+PDPDEDFA_00092	K02016	iron complex transport system substrate-binding protein 
+PDPDEDFA_00095	K02574	ferredoxin-type protein NapH    
+PDPDEDFA_00097	K19221	cob(I)alamin adenosyltransferase [EC:2.5.1.17]    
+PDPDEDFA_00098	K11050	multidrug/hemolysin transport system ATP-binding protein  
+PDPDEDFA_00098	K01990	ABC-2 type transport system ATP-binding protein 
+PDPDEDFA_00099	K11051	multidrug/hemolysin transport system permease protein  
+PDPDEDFA_00100	K00768	nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase [EC:2.4.2.21]    
+PDPDEDFA_00104	K01804	L-arabinose isomerase [EC:5.3.1.4]    
+PDPDEDFA_00105	K00848	rhamnulokinase [EC:2.7.1.5]     
+PDPDEDFA_00108	K00560	thymidylate synthase [EC:2.1.1.45]    
+PDPDEDFA_00113	K06872	uncharacterized protein     
+PDPDEDFA_00114	K12343	3-oxo-5-alpha-steroid 4-dehydrogenase 1 [EC:1.3.1.22]   
+PDPDEDFA_00122	K10822	nonpolar-amino-acid-transporting ATPase [EC:7.4.2.2]    
+PDPDEDFA_00128	K18910	D-psicose/D-tagatose/L-ribulose 3-epimerase [EC:5.1.3.30 5.1.3.31]   
+PDPDEDFA_00129	K02510	4-hydroxy-2-oxoheptanedioate aldolase [EC:4.1.2.52]    
+PDPDEDFA_00131	K01666	4-hydroxy 2-oxovalerate aldolase [EC:4.1.3.39]   
+PDPDEDFA_00132	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]
+PDPDEDFA_00133	K21416	acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit alpha [EC:1.1.1.-]  
+PDPDEDFA_00133	K00161	pyruvate dehydrogenase E1 component alpha subunit [EC:1.2.4.1]
+PDPDEDFA_00134	K21417	acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit beta [EC:1.1.1.-]  
+PDPDEDFA_00135	K10439	ribose transport system substrate-binding protein  
+PDPDEDFA_00136	K10441	ribose transport system ATP-binding protein [EC:3.6.3.17] 
+PDPDEDFA_00136	K10822	nonpolar-amino-acid-transporting ATPase [EC:7.4.2.2]    
+PDPDEDFA_00137	K10440	ribose transport system permease protein  
+PDPDEDFA_00142	K03088	RNA polymerase sigma-70 factor, ECF subfamily 
+PDPDEDFA_00144	K01624	fructose-bisphosphate aldolase, class II [EC:4.1.2.13]  
+PDPDEDFA_00147	K19092	toxin ParE1/3/4     
+PDPDEDFA_00150	K07064	uncharacterized protein     
+PDPDEDFA_00156	K07133	uncharacterized protein     
+PDPDEDFA_00158	K02031	peptide/nickel transport system ATP-binding protein  
+PDPDEDFA_00159	K15582	oligopeptide transport system permease protein  
+PDPDEDFA_00159	K02034	peptide/nickel transport system permease protein  
+PDPDEDFA_00160	K15581	oligopeptide transport system permease protein  
+PDPDEDFA_00160	K02033	peptide/nickel transport system permease protein  
+PDPDEDFA_00162	K02035	peptide/nickel transport system substrate-binding protein  
+PDPDEDFA_00163	K03075	preprotein translocase subunit SecG   
+PDPDEDFA_00164	K15633	2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12]   
+PDPDEDFA_00166	K08296	phosphohistidine phosphatase [EC:3.1.3.-]    
+PDPDEDFA_00170	K11071	spermidine/putrescine transport system permease protein  
+PDPDEDFA_00175	K06969	23S rRNA (cytosine1962-C5)-methyltransferase [EC:2.1.1.191]   
+PDPDEDFA_00177	K02005	HlyD family secretion protein   
+PDPDEDFA_00178	K02003	putative ABC transport system ATP-binding protein 
+PDPDEDFA_00179	K02004	putative ABC transport system permease protein 
+PDPDEDFA_00184	K01992	ABC-2 type transport system permease protein 
+PDPDEDFA_00186	K01990	ABC-2 type transport system ATP-binding protein 
+PDPDEDFA_00187	K06949	ribosome biogenesis GTPase / thiamine phosphate phosphatase
+PDPDEDFA_00188	K00929	butyrate kinase [EC:2.7.2.7]    
+PDPDEDFA_00190	K09155	uncharacterized protein     
+PDPDEDFA_00191	K07079	uncharacterized protein     
+PDPDEDFA_00192	K09803	uncharacterized protein     
+PDPDEDFA_00195	K04085	tRNA 2-thiouridine synthesizing protein A [EC:2.8.1.-] 
+PDPDEDFA_00197	K04488	nitrogen fixation protein NifU and related proteins
+PDPDEDFA_00198	K04487	cysteine desulfurase [EC:2.8.1.7]    
+PDPDEDFA_00199	K07092	uncharacterized protein     
+PDPDEDFA_00200	K00925	acetate kinase [EC:2.7.2.1]    
+PDPDEDFA_00202	K03800	lipoate---protein ligase [EC:6.3.1.20]    
+PDPDEDFA_00204	K04763	integrase/recombinase XerD     
+PDPDEDFA_00205	K01515	ADP-ribose pyrophosphatase [EC:3.6.1.13]    
+PDPDEDFA_00206	K01258	tripeptide aminopeptidase [EC:3.4.11.4]    
+PDPDEDFA_00208	K01937	CTP synthase [EC:6.3.4.2]    
+PDPDEDFA_00209	K03631	DNA repair protein RecN (Recombination protein N)
+PDPDEDFA_00210	K00858	NAD+ kinase [EC:2.7.1.23]    
+PDPDEDFA_00211	K06442	23S rRNA (cytidine1920-2'-O)/16S rRNA (cytidine1409-2'-O)-methyltransferase [EC:2.1.1.226 2.1.1.227]
+PDPDEDFA_00213	K03625	N utilization substance protein B  
+PDPDEDFA_00214	K02356	elongation factor P    
+PDPDEDFA_00216	K03786	3-dehydroquinate dehydratase II [EC:4.2.1.10]   
+PDPDEDFA_00217	K01735	3-dehydroquinate synthase [EC:4.2.3.4]    
+PDPDEDFA_00218	K00891	shikimate kinase [EC:2.7.1.71]    
+PDPDEDFA_00219	K01736	chorismate synthase [EC:4.2.3.5]    
+PDPDEDFA_00220	K02654	leader peptidase (prepilin peptidase) / N-methyltransferase [EC:3.4.23.43
+PDPDEDFA_00221	K00014	shikimate dehydrogenase [EC:1.1.1.25]    
+PDPDEDFA_00222	K01512	acylphosphatase [EC:3.6.1.7]     
+PDPDEDFA_00224	K08303	putative protease [EC:3.4.-.-]    
+PDPDEDFA_00226	K07082	UPF0755 protein     
+PDPDEDFA_00227	K07447	putative holliday junction resolvase [EC:3.1.-.-]  
+PDPDEDFA_00228	K01872	alanyl-tRNA synthetase [EC:6.1.1.7]    
+PDPDEDFA_00229	K01876	aspartyl-tRNA synthetase [EC:6.1.1.12]    
+PDPDEDFA_00230	K01892	histidyl-tRNA synthetase [EC:6.1.1.21]    
+PDPDEDFA_00231	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]    
+PDPDEDFA_00232	K00951	GTP pyrophosphokinase [EC:2.7.6.5]    
+PDPDEDFA_00233	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]    
+PDPDEDFA_00238	K04487	cysteine desulfurase [EC:2.8.1.7]    
+PDPDEDFA_00240	K01950	NAD+ synthase (glutamine-hydrolysing) [EC:6.3.5.1]   
+PDPDEDFA_00243	K01915	glutamine synthetase [EC:6.3.1.2]    
+PDPDEDFA_00245	K03644	lipoyl synthase [EC:2.8.1.8]    
+PDPDEDFA_00246	K03497	chromosome partitioning protein, ParB family  
+PDPDEDFA_00247	K03496	chromosome partitioning protein    
+PDPDEDFA_00248	K03501	16S rRNA (guanine527-N7)-methyltransferase [EC:2.1.1.170]   
+PDPDEDFA_00249	K03495	tRNA uridine 5-carboxymethylaminomethyl modification enzyme  
+PDPDEDFA_00250	K03495	tRNA uridine 5-carboxymethylaminomethyl modification enzyme  
+PDPDEDFA_00251	K07483	transposase      
+PDPDEDFA_00252	K07497	putative transposase     
+PDPDEDFA_00253	K03650	tRNA modification GTPase [EC:3.6.-.-]   
+PDPDEDFA_00255	K06346	spoIIIJ-associated protein     
+PDPDEDFA_00256	K03217	YidC/Oxa1 family membrane protein insertase  
+PDPDEDFA_00257	K02914	large subunit ribosomal protein L34  
+PDPDEDFA_00263	K17742	sorbose reductase [EC:1.1.1.289]    
+PDPDEDFA_00265	K05962	protein-histidine pros-kinase [EC:2.7.13.1]    
+PDPDEDFA_00271	K05919	superoxide reductase [EC:1.15.1.2]    
+PDPDEDFA_00277	K08315	hydrogenase 3 maturation protease [EC:3.4.23.51]  
+PDPDEDFA_00288	K03641	TolB protein     
+PDPDEDFA_00289	K01678	fumarate hydratase subunit beta [EC:4.2.1.2]  
+PDPDEDFA_00291	K00943	dTMP kinase [EC:2.7.4.9]    
+PDPDEDFA_00295	K03327	multidrug resistance protein, MATE family  
+PDPDEDFA_00296	K01586	diaminopimelate decarboxylase [EC:4.1.1.20]    
+PDPDEDFA_00298	K06218	mRNA interferase RelE/StbE    
+PDPDEDFA_00299	K00003	homoserine dehydrogenase [EC:1.1.1.3]    
+PDPDEDFA_00300	K01733	threonine synthase [EC:4.2.3.1]    
+PDPDEDFA_00301	K15635	2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12]   
+PDPDEDFA_00306	K01791	UDP-N-acetylglucosamine 2-epimerase (non-hydrolysing) [EC:5.1.3.14]   
+PDPDEDFA_00308	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]    
+PDPDEDFA_00310	K02406	flagellin      
+PDPDEDFA_00311	K03497	chromosome partitioning protein, ParB family  
+PDPDEDFA_00312	K03496	chromosome partitioning protein    
+PDPDEDFA_00314	K03641	TolB protein     
+PDPDEDFA_00318	K08591	acyl phosphate:glycerol-3-phosphate acyltransferase [EC:2.3.1.275]   
+PDPDEDFA_00320	K01951	GMP synthase (glutamine-hydrolysing) [EC:6.3.5.2]   
+PDPDEDFA_00323	K03657	DNA helicase II / ATP-dependent DNA helicase
+PDPDEDFA_00327	K20444	O-antigen biosynthesis protein [EC:2.4.1.-]   
+PDPDEDFA_00328	K07027	glycosyltransferase 2 family protein   
+PDPDEDFA_00330	K07133	uncharacterized protein     
+PDPDEDFA_00334	K00230	menaquinone-dependent protoporphyrinogen oxidase [EC:1.3.5.3]   
+PDPDEDFA_00336	K10947	PadR family transcriptional regulator, regulatory protein PadR
+PDPDEDFA_00342	K03273	D-glycero-D-manno-heptose 1,7-bisphosphate phosphatase [EC:3.1.3.82 3.1.3.83]  
+PDPDEDFA_00343	K09790	uncharacterized protein     
+PDPDEDFA_00346	K03651	3',5'-cyclic-AMP phosphodiesterase [EC:3.1.4.53]    
+PDPDEDFA_00353	K01818	L-fucose/D-arabinose isomerase [EC:5.3.1.25 5.3.1.3]   
+PDPDEDFA_00355	K00854	xylulokinase [EC:2.7.1.17]     
+PDPDEDFA_00356	K00135	succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79
+PDPDEDFA_00360	K07065	uncharacterized protein     
+PDPDEDFA_00365	K03601	exodeoxyribonuclease VII large subunit [EC:3.1.11.6]  
+PDPDEDFA_00366	K03602	exodeoxyribonuclease VII small subunit [EC:3.1.11.6]  
+PDPDEDFA_00367	K03925	MraZ protein     
+PDPDEDFA_00368	K03438	16S rRNA (cytosine1402-N4)-methyltransferase [EC:2.1.1.199]   
+PDPDEDFA_00370	K03587	cell division protein FtsI (penicillin-binding protein 3)
+PDPDEDFA_00371	K01928	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase [EC:6.3.2.13]    
+PDPDEDFA_00373	K01929	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [EC:6.3.2.10]    
+PDPDEDFA_00374	K01000	phospho-N-acetylmuramoyl-pentapeptide-transferase [EC:2.7.8.13]     
+PDPDEDFA_00375	K01925	UDP-N-acetylmuramoylalanine--D-glutamate ligase [EC:6.3.2.9]    
+PDPDEDFA_00376	K03588	cell division protein FtsW   
+PDPDEDFA_00377	K02563	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase [EC:2.4.1.227]  
+PDPDEDFA_00378	K01924	UDP-N-acetylmuramate--alanine ligase [EC:6.3.2.8]    
+PDPDEDFA_00379	K00075	UDP-N-acetylmuramate dehydrogenase [EC:1.3.1.98]    
+PDPDEDFA_00380	K01921	D-alanine-D-alanine ligase [EC:6.3.2.4]    
+PDPDEDFA_00381	K03589	cell division protein FtsQ   
+PDPDEDFA_00382	K03590	cell division protein FtsA   
+PDPDEDFA_00383	K03531	cell division protein FtsZ   
+PDPDEDFA_00384	K06997	PLP dependent protein    
+PDPDEDFA_00385	K09772	cell division inhibitor SepF   
+PDPDEDFA_00386	K00286	pyrroline-5-carboxylate reductase [EC:1.5.1.2]    
+PDPDEDFA_00387	K04074	cell division initiation protein   
+PDPDEDFA_00388	K09131	uncharacterized protein     
+PDPDEDFA_00394	K01934	5-formyltetrahydrofolate cyclo-ligase [EC:6.3.3.2]    
+PDPDEDFA_00398	K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]   
+PDPDEDFA_00402	K02501	imidazole glycerol-phosphate synthase subunit HisH [EC:4.3.2.10] 
+PDPDEDFA_00404	K00765	ATP phosphoribosyltransferase [EC:2.4.2.17]    
+PDPDEDFA_00405	K02502	ATP phosphoribosyltransferase regulatory subunit   
+PDPDEDFA_00407	K02337	DNA polymerase III subunit alpha [EC:2.7.7.7] 
+PDPDEDFA_00408	K06898	pyridinium-3,5-biscarboxylic acid mononucleotide synthase [EC:2.5.1.143]  
+PDPDEDFA_00416	K02472	UDP-N-acetyl-D-mannosaminuronic acid dehydrogenase [EC:1.1.1.336]   
+PDPDEDFA_00417	K01791	UDP-N-acetylglucosamine 2-epimerase (non-hydrolysing) [EC:5.1.3.14]   
+PDPDEDFA_00418	K01953	asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]   
+PDPDEDFA_00420	K07334	toxin HigB-1     
+PDPDEDFA_00422	K00330	NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]  
+PDPDEDFA_00423	K00331	NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]  
+PDPDEDFA_00425	K00333	NADH-quinone oxidoreductase subunit D [EC:7.1.1.2]  
+PDPDEDFA_00426	K00337	NADH-quinone oxidoreductase subunit H [EC:7.1.1.2]  
+PDPDEDFA_00427	K00338	NADH-quinone oxidoreductase subunit I [EC:7.1.1.2]  
+PDPDEDFA_00428	K00339	NADH-quinone oxidoreductase subunit J [EC:7.1.1.2]  
+PDPDEDFA_00429	K00340	NADH-quinone oxidoreductase subunit K [EC:7.1.1.2]  
+PDPDEDFA_00430	K00341	NADH-quinone oxidoreductase subunit L [EC:7.1.1.2]  
+PDPDEDFA_00430	K05577	NAD(P)H-quinone oxidoreductase subunit 5 [EC:7.1.1.2]  
+PDPDEDFA_00431	K00342	NADH-quinone oxidoreductase subunit M [EC:7.1.1.2]  
+PDPDEDFA_00432	K00343	NADH-quinone oxidoreductase subunit N [EC:7.1.1.2]  
+PDPDEDFA_00443	K07814	putative two-component system response regulator  
+PDPDEDFA_00444	K02434	aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit B [EC:6.3.5.6 6.3.5.7] 
+PDPDEDFA_00446	K02279	pilus assembly protein CpaB   
+PDPDEDFA_00451	K02651	pilus assembly protein Flp/PilA   
+PDPDEDFA_00456	K06910	uncharacterized protein     
+PDPDEDFA_00457	K01507	inorganic pyrophosphatase [EC:3.6.1.1]    
+PDPDEDFA_00458	K21929	uracil-DNA glycosylase [EC:3.2.2.27]    
+PDPDEDFA_00459	K06925	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE  
+PDPDEDFA_00460	K14742	tRNA threonylcarbamoyladenosine biosynthesis protein TsaB  
+PDPDEDFA_00461	K01409	N6-L-threonylcarbamoyladenine synthase [EC:2.3.1.234]    
+PDPDEDFA_00466	K07063	uncharacterized protein     
+PDPDEDFA_00470	K00067	dTDP-4-dehydrorhamnose reductase [EC:1.1.1.133]    
+PDPDEDFA_00479	K09116	uncharacterized protein     
+PDPDEDFA_00481	K02529	LacI family transcriptional regulator   
+PDPDEDFA_00483	K02028	polar amino acid transport system ATP-binding protein
+PDPDEDFA_00483	K10822	nonpolar-amino-acid-transporting ATPase [EC:7.4.2.2]    
+PDPDEDFA_00484	K02029	polar amino acid transport system permease protein
+PDPDEDFA_00485	K02030	polar amino acid transport system substrate-binding protein
+PDPDEDFA_00489	K16937	thiosulfate dehydrogenase [quinone] large subunit [EC:1.8.5.2] 
+PDPDEDFA_00490	K02004	putative ABC transport system permease protein 
+PDPDEDFA_00491	K02003	putative ABC transport system ATP-binding protein 
+PDPDEDFA_00492	K02005	HlyD family secretion protein   
+PDPDEDFA_00501	K06147	ATP-binding cassette, subfamily B, bacterial  
+PDPDEDFA_00504	K06958	RNase adapter protein RapZ   
+PDPDEDFA_00505	K00134	glyceraldehyde 3-phosphate dehydrogenase [EC:1.2.1.12]   
+PDPDEDFA_00506	K00927	phosphoglycerate kinase [EC:2.7.2.3]    
+PDPDEDFA_00507	K01803	triosephosphate isomerase (TIM) [EC:5.3.1.1]   
+PDPDEDFA_00511	K07098	uncharacterized protein     
+PDPDEDFA_00513	K07154	serine/threonine-protein kinase HipA [EC:2.7.11.1]   
+PDPDEDFA_00514	K07154	serine/threonine-protein kinase HipA [EC:2.7.11.1]   
+PDPDEDFA_00526	K07065	uncharacterized protein     
+PDPDEDFA_00527	K13012	O-antigen biosynthesis protein WbqP   
+PDPDEDFA_00530	K00790	UDP-N-acetylglucosamine 1-carboxyvinyltransferase [EC:2.5.1.7]    
+PDPDEDFA_00531	K07814	putative two-component system response regulator  
+PDPDEDFA_00532	K05962	protein-histidine pros-kinase [EC:2.7.13.1]    
+PDPDEDFA_00535	K02112	F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1]
+PDPDEDFA_00536	K02115	F-type H+-transporting ATPase subunit gamma  
+PDPDEDFA_00537	K02111	F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1]
+PDPDEDFA_00538	K02113	F-type H+-transporting ATPase subunit delta  
+PDPDEDFA_00539	K02109	F-type H+-transporting ATPase subunit b  
+PDPDEDFA_00540	K02110	F-type H+-transporting ATPase subunit c  
+PDPDEDFA_00541	K02108	F-type H+-transporting ATPase subunit a  
+PDPDEDFA_00543	K00965	UDPglucose--hexose-1-phosphate uridylyltransferase [EC:2.7.7.12]    
+PDPDEDFA_00546	K00703	starch synthase [EC:2.4.1.21]    
+PDPDEDFA_00547	K00700	1,4-alpha-glucan branching enzyme [EC:2.4.1.18]   
+PDPDEDFA_00549	K00705	4-alpha-glucanotransferase [EC:2.4.1.25]     
+PDPDEDFA_00550	K00975	glucose-1-phosphate adenylyltransferase [EC:2.7.7.27]    
+PDPDEDFA_00551	K01493	dCMP deaminase [EC:3.5.4.12]    
+PDPDEDFA_00553	K07566	L-threonylcarbamoyladenylate synthase [EC:2.7.7.87]    
+PDPDEDFA_00556	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]  
+PDPDEDFA_00557	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]  
+PDPDEDFA_00559	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]   
+PDPDEDFA_00560	K02935	large subunit ribosomal protein L7/L12  
+PDPDEDFA_00562	K02864	large subunit ribosomal protein L10  
+PDPDEDFA_00563	K02863	large subunit ribosomal protein L1  
+PDPDEDFA_00564	K02867	large subunit ribosomal protein L11  
+PDPDEDFA_00565	K02601	transcriptional antiterminator NusG    
+PDPDEDFA_00566	K03073	preprotein translocase subunit SecE   
+PDPDEDFA_00573	K02428	XTP/dITP diphosphohydrolase [EC:3.6.1.66]    
+PDPDEDFA_00574	K00989	ribonuclease PH [EC:2.7.7.56]    
+PDPDEDFA_00575	K01776	glutamate racemase [EC:5.1.1.3]    
+PDPDEDFA_00579	K03086	RNA polymerase primary sigma factor  
+PDPDEDFA_00582	K19334	biofilm protein TabA    
+PDPDEDFA_00584	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]   
+PDPDEDFA_00586	K05366	penicillin-binding protein 1A [EC:2.4.1.129 3.4.16.4]  
+PDPDEDFA_00587	K01866	tyrosyl-tRNA synthetase [EC:6.1.1.1]    
+PDPDEDFA_00592	K08223	MFS transporter, FSR family, fosmidomycin resistance protein
+PDPDEDFA_00593	K02343	DNA polymerase III subunit gamma/tau [EC:2.7.7.7] 
+PDPDEDFA_00594	K09747	uncharacterized protein     
+PDPDEDFA_00595	K06187	recombination protein RecR    
+PDPDEDFA_00596	K03737	pyruvate-ferredoxin/flavodoxin oxidoreductase [EC:1.2.7.1 1.2.7.-]   
+PDPDEDFA_00597	K00928	aspartate kinase [EC:2.7.2.4]    
+PDPDEDFA_00598	K00133	aspartate-semialdehyde dehydrogenase [EC:1.2.1.11]    
+PDPDEDFA_00599	K07478	putative ATPase     
+PDPDEDFA_00601	K00856	adenosine kinase [EC:2.7.1.20]    
+PDPDEDFA_00602	K00772	5'-methylthioadenosine phosphorylase [EC:2.4.2.28]    
+PDPDEDFA_00603	K01923	phosphoribosylaminoimidazole-succinocarboxamide synthase [EC:6.3.2.6]    
+PDPDEDFA_00604	K05979	2-phosphosulfolactate phosphatase [EC:3.1.3.71]    
+PDPDEDFA_00608	K03568	TldD protein     
+PDPDEDFA_00609	K03592	PmbA protein     
+PDPDEDFA_00610	K06153	undecaprenyl-diphosphatase [EC:3.6.1.27]     
+PDPDEDFA_00610	K07090	uncharacterized protein     
+PDPDEDFA_00611	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]    
+PDPDEDFA_00613	K03671	thioredoxin 1     
+PDPDEDFA_00615	K01870	isoleucyl-tRNA synthetase [EC:6.1.1.5]    
+PDPDEDFA_00616	K03101	signal peptidase II [EC:3.4.23.36]   
+PDPDEDFA_00617	K06180	23S rRNA pseudouridine1911/1915/1917 synthase [EC:5.4.99.23]  
+PDPDEDFA_00618	K09732	uncharacterized protein     
+PDPDEDFA_00620	K01990	ABC-2 type transport system ATP-binding protein 
+PDPDEDFA_00624	K22227	heme synthase     
+PDPDEDFA_00627	K02825	pyrimidine operon attenuation protein / uracil phosphoribosyltransferase
+PDPDEDFA_00628	K00609	aspartate carbamoyltransferase catalytic subunit [EC:2.1.3.2]  
+PDPDEDFA_00629	K01465	dihydroorotase [EC:3.5.2.3]     
+PDPDEDFA_00630	K01956	carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]  
+PDPDEDFA_00631	K00794	6,7-dimethyl-8-ribityllumazine synthase [EC:2.5.1.78]    
+PDPDEDFA_00632	K14652	3,4-dihydroxy 2-butanone 4-phosphate synthase / GTP cyclohydrolase
+PDPDEDFA_00633	K00793	riboflavin synthase [EC:2.5.1.9]    
+PDPDEDFA_00634	K11752	diaminohydroxyphosphoribosylaminopyrimidine deaminase / 5-amino-6-(5-phosphoribosylamino)uracil reductase [EC:3.5.4.26 1.1.1.193]
+PDPDEDFA_00636	K02574	ferredoxin-type protein NapH    
+PDPDEDFA_00636	K19339	NosR/NirI family transcriptional regulator, nitrous oxide reductase
+PDPDEDFA_00637	K01783	ribulose-phosphate 3-epimerase [EC:5.1.3.1]    
+PDPDEDFA_00639	K05337	ferredoxin      
+PDPDEDFA_00645	K02257	heme o synthase [EC:2.5.1.141]   
+PDPDEDFA_00653	K09740	uncharacterized protein     
+PDPDEDFA_00656	K03496	chromosome partitioning protein    
+PDPDEDFA_00658	K03118	sec-independent protein translocase protein TatC  
+PDPDEDFA_00659	K03116	sec-independent protein translocase protein TatA  
+PDPDEDFA_00666	K09141	uncharacterized protein     
+PDPDEDFA_00667	K06990	MEMO1 family protein    
+PDPDEDFA_00672	K00012	UDPglucose 6-dehydrogenase [EC:1.1.1.22]    
+PDPDEDFA_00674	K04063	osmotically inducible protein OsmC   
+PDPDEDFA_00680	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]   
+PDPDEDFA_00681	K00432	glutathione peroxidase [EC:1.11.1.9]    
+PDPDEDFA_00683	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]    
+PDPDEDFA_00698	K19157	mRNA interferase YafQ [EC:3.1.-.-]   
+PDPDEDFA_00699	K07473	DNA-damage-inducible protein J    
+PDPDEDFA_00701	K03734	FAD:protein FMN transferase [EC:2.7.1.180]   
+PDPDEDFA_00706	K01599	uroporphyrinogen decarboxylase [EC:4.1.1.37]    
+PDPDEDFA_00709	K00111	glycerol-3-phosphate dehydrogenase [EC:1.1.5.3]    
+PDPDEDFA_00712	K06282	hydrogenase small subunit [EC:1.12.99.6]   
+PDPDEDFA_00713	K06281	hydrogenase large subunit [EC:1.12.99.6]   
+PDPDEDFA_00715	K03605	hydrogenase maturation protease [EC:3.4.23.-]   
+PDPDEDFA_00716	K04651	hydrogenase nickel incorporation protein HypA/HybF  
+PDPDEDFA_00717	K02600	N utilization substance protein A  
+PDPDEDFA_00718	K02519	translation initiation factor IF-2   
+PDPDEDFA_00719	K02834	ribosome-binding factor A    
+PDPDEDFA_00720	K06881	bifunctional oligoribonuclease and PAP phosphatase NrnA [EC:3.1.3.7
+PDPDEDFA_00723	K11753	riboflavin kinase / FMN adenylyltransferase [EC:2.7.1.26 2.7.7.2]
+PDPDEDFA_00724	K02956	small subunit ribosomal protein S15  
+PDPDEDFA_00725	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]    
+PDPDEDFA_00727	K00215	4-hydroxy-tetrahydrodipicolinate reductase [EC:1.17.1.8]    
+PDPDEDFA_00728	K01714	4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]    
+PDPDEDFA_00729	K12574	ribonuclease J [EC:3.1.-.-]    
+PDPDEDFA_00731	K03517	quinolinate synthase [EC:2.5.1.72]    
+PDPDEDFA_00732	K00278	L-aspartate oxidase [EC:1.4.3.16]    
+PDPDEDFA_00733	K00767	nicotinate-nucleotide pyrophosphorylase (carboxylating) [EC:2.4.2.19]   
+PDPDEDFA_00735	K07001	NTE family protein    
+PDPDEDFA_00739	K10112	multiple sugar transport system ATP-binding protein 
+PDPDEDFA_00740	K08591	acyl phosphate:glycerol-3-phosphate acyltransferase [EC:2.3.1.275]   
+PDPDEDFA_00741	K07738	transcriptional repressor NrdR    
+PDPDEDFA_00745	K08303	putative protease [EC:3.4.-.-]    
+PDPDEDFA_00746	K08303	putative protease [EC:3.4.-.-]    
+PDPDEDFA_00747	K01755	argininosuccinate lyase [EC:4.3.2.1]    
+PDPDEDFA_00748	K01940	argininosuccinate synthase [EC:6.3.4.5]    
+PDPDEDFA_00749	K03402	transcriptional regulator of arginine metabolism  
+PDPDEDFA_00750	K00611	ornithine carbamoyltransferase [EC:2.1.3.3]    
+PDPDEDFA_00751	K00821	acetylornithine/N-succinyldiaminopimelate aminotransferase [EC:2.6.1.11 2.6.1.17]   
+PDPDEDFA_00752	K00930	acetylglutamate kinase [EC:2.7.2.8]    
+PDPDEDFA_00755	K02407	flagellar hook-associated protein 2   
+PDPDEDFA_00756	K02422	flagellar protein FliS    
+PDPDEDFA_00758	K07814	putative two-component system response regulator  
+PDPDEDFA_00759	K02387	flagellar basal-body rod protein FlgB  
+PDPDEDFA_00760	K02388	flagellar basal-body rod protein FlgC  
+PDPDEDFA_00761	K02408	flagellar hook-basal body complex protein FliE 
+PDPDEDFA_00762	K02409	flagellar M-ring protein FliF   
+PDPDEDFA_00763	K02410	flagellar motor switch protein FliG  
+PDPDEDFA_00764	K02411	flagellar assembly protein FliH   
+PDPDEDFA_00765	K02412	flagellum-specific ATP synthase [EC:3.6.3.50]   
+PDPDEDFA_00766	K02413	flagellar FliJ protein    
+PDPDEDFA_00768	K02414	flagellar hook-length control protein FliK  
+PDPDEDFA_00769	K02389	flagellar basal-body rod modification protein FlgD 
+PDPDEDFA_00772	K10440	ribose transport system permease protein  
+PDPDEDFA_00774	K07130	arylformamidase [EC:3.5.1.9]     
+PDPDEDFA_00786	K07334	toxin HigB-1     
+PDPDEDFA_00787	K21498	antitoxin HigA-1     
+PDPDEDFA_00789	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]   
+PDPDEDFA_00790	K00615	transketolase [EC:2.2.1.1]     
+PDPDEDFA_00794	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]   
+PDPDEDFA_00795	K21417	acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit beta [EC:1.1.1.-]  
+PDPDEDFA_00795	K00162	pyruvate dehydrogenase E1 component beta subunit [EC:1.2.4.1]
+PDPDEDFA_00796	K21416	acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit alpha [EC:1.1.1.-]  
+PDPDEDFA_00801	K00161	pyruvate dehydrogenase E1 component alpha subunit [EC:1.2.4.1]
+PDPDEDFA_00802	K00874	2-dehydro-3-deoxygluconokinase [EC:2.7.1.45]     
+PDPDEDFA_00803	K01625	2-dehydro-3-deoxyphosphogluconate aldolase / (4S)-4-hydroxy-2-oxoglutarate aldolase [EC:4.1.2.14 4.1.3.42]
+PDPDEDFA_00810	K00844	hexokinase [EC:2.7.1.1]     
+PDPDEDFA_00811	K00606	3-methyl-2-oxobutanoate hydroxymethyltransferase [EC:2.1.2.11]    
+PDPDEDFA_00824	K10822	nonpolar-amino-acid-transporting ATPase [EC:7.4.2.2]    
+PDPDEDFA_00830	K00615	transketolase [EC:2.2.1.1]     
+PDPDEDFA_00835	K03496	chromosome partitioning protein    
+PDPDEDFA_00836	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]    
+PDPDEDFA_00839	K08591	acyl phosphate:glycerol-3-phosphate acyltransferase [EC:2.3.1.275]   
+PDPDEDFA_00841	K22373	lactate racemase [EC:5.1.2.1]    
+PDPDEDFA_00848	K01448	N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]    
+PDPDEDFA_00851	K10716	voltage-gated potassium channel    
+PDPDEDFA_00858	K02899	large subunit ribosomal protein L27  
+PDPDEDFA_00860	K07154	serine/threonine-protein kinase HipA [EC:2.7.11.1]   
+PDPDEDFA_00861	K07154	serine/threonine-protein kinase HipA [EC:2.7.11.1]   
+PDPDEDFA_00865	K08301	ribonuclease G [EC:3.1.26.-]    
+PDPDEDFA_00868	K05837	rod shape determining protein RodA  
+PDPDEDFA_00868	K03588	cell division protein FtsW   
+PDPDEDFA_00869	K05515	penicillin-binding protein 2 [EC:3.4.16.4]   
+PDPDEDFA_00870	K03571	rod shape-determining protein MreD   
+PDPDEDFA_00871	K03570	rod shape-determining protein MreC   
+PDPDEDFA_00872	K03569	rod shape-determining protein MreB and related proteins
+PDPDEDFA_00873	K06287	septum formation protein    
+PDPDEDFA_00876	K11754	dihydrofolate synthase / folylpolyglutamate synthase [EC:6.3.2.12 6.3.2.17]
+PDPDEDFA_00877	K01873	valyl-tRNA synthetase [EC:6.1.1.9]    
+PDPDEDFA_00878	K03544	ATP-dependent Clp protease ATP-binding subunit ClpX 
+PDPDEDFA_00879	K01358	ATP-dependent Clp protease, protease subunit [EC:3.4.21.92] 
+PDPDEDFA_00880	K03545	trigger factor     
+PDPDEDFA_00884	K07133	uncharacterized protein     
+PDPDEDFA_00885	K00661	maltose O-acetyltransferase [EC:2.3.1.79]    
+PDPDEDFA_00889	K00721	dolichol-phosphate mannosyltransferase [EC:2.4.1.83]    
+PDPDEDFA_00892	K00657	diamine N-acetyltransferase [EC:2.3.1.57]    
+PDPDEDFA_00902	K03496	chromosome partitioning protein    
+PDPDEDFA_00905	K03521	electron transfer flavoprotein beta subunit  
+PDPDEDFA_00906	K03522	electron transfer flavoprotein alpha subunit  
+PDPDEDFA_00907	K00812	aspartate aminotransferase [EC:2.6.1.1]    
+PDPDEDFA_00908	K07027	glycosyltransferase 2 family protein   
+PDPDEDFA_00910	K19955	alcohol dehydrogenase [EC:1.1.1.-]    
+PDPDEDFA_00914	K02039	phosphate transport system protein   
+PDPDEDFA_00915	K02036	phosphate transport system ATP-binding protein [EC:7.3.2.1] 
+PDPDEDFA_00916	K02036	phosphate transport system ATP-binding protein [EC:7.3.2.1] 
+PDPDEDFA_00917	K02038	phosphate transport system permease protein  
+PDPDEDFA_00918	K02037	phosphate transport system permease protein  
+PDPDEDFA_00919	K02040	phosphate transport system substrate-binding protein  
+PDPDEDFA_00922	K03524	BirA family transcriptional regulator, biotin operon repressor
+PDPDEDFA_00923	K02372	3-hydroxyacyl-[acyl-carrier-protein] dehydratase [EC:4.2.1.59]    
+PDPDEDFA_00924	K00645	[acyl-carrier-protein] S-malonyltransferase [EC:2.3.1.39]    
+PDPDEDFA_00925	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]   
+PDPDEDFA_00926	K09458	3-oxoacyl-[acyl-carrier-protein] synthase II [EC:2.3.1.179]   
+PDPDEDFA_00927	K01963	acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2
+PDPDEDFA_00928	K01962	acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2
+PDPDEDFA_00929	K12132	eukaryotic-like serine/threonine-protein kinase [EC:2.7.11.1]   
+PDPDEDFA_00929	K08884	serine/threonine protein kinase, bacterial [EC:2.7.11.1]  
+PDPDEDFA_00930	K20074	PPM family protein phosphatase [EC:3.1.3.16]  
+PDPDEDFA_00931	K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]  
+PDPDEDFA_00934	K03768	peptidyl-prolyl cis-trans isomerase B (cyclophilin B) [EC:5.2.1.8]
+PDPDEDFA_00936	K13924	two-component system, chemotaxis family, CheB/CheR fusion protein
+PDPDEDFA_00936	K00575	chemotaxis protein methyltransferase CheR [EC:2.1.1.80]  
+PDPDEDFA_00938	K07814	putative two-component system response regulator  
+PDPDEDFA_00945	K07814	putative two-component system response regulator  
+PDPDEDFA_00946	K07133	uncharacterized protein     
+PDPDEDFA_00948	K02396	flagellar hook-associated protein 1 FlgK  
+PDPDEDFA_00949	K02397	flagellar hook-associated protein 3 FlgL  
+PDPDEDFA_00950	K13626	flagellar assembly factor FliW   
+PDPDEDFA_00951	K13626	flagellar assembly factor FliW   
+PDPDEDFA_00952	K03563	carbon storage regulator    
+PDPDEDFA_00953	K02406	flagellin      
+PDPDEDFA_00956	K00817	histidinol-phosphate aminotransferase [EC:2.6.1.9]    
+PDPDEDFA_00957	K00013	histidinol dehydrogenase [EC:1.1.1.23]    
+PDPDEDFA_00958	K09765	epoxyqueuosine reductase [EC:1.17.99.6]    
+PDPDEDFA_00959	K21416	acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit alpha [EC:1.1.1.-]  
+PDPDEDFA_00959	K00161	pyruvate dehydrogenase E1 component alpha subunit [EC:1.2.4.1]
+PDPDEDFA_00960	K21417	acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit beta [EC:1.1.1.-]  
+PDPDEDFA_00960	K00162	pyruvate dehydrogenase E1 component beta subunit [EC:1.2.4.1]
+PDPDEDFA_00968	K03210	preprotein translocase subunit YajC   
+PDPDEDFA_00969	K00773	queuine tRNA-ribosyltransferase [EC:2.4.2.29]    
+PDPDEDFA_00970	K07568	S-adenosylmethionine:tRNA ribosyltransferase-isomerase [EC:2.4.99.17]    
+PDPDEDFA_00971	K03551	holliday junction DNA helicase RuvB [EC:3.6.4.12] 
+PDPDEDFA_00972	K03550	holliday junction DNA helicase RuvA [EC:3.6.4.12] 
+PDPDEDFA_00973	K01159	crossover junction endodeoxyribonuclease RuvC [EC:3.1.22.4]  
+PDPDEDFA_00974	K18189	translational activator of cytochrome c oxidase 1
+PDPDEDFA_00975	K08681	5'-phosphate synthase pdxT subunit [EC:4.3.3.6]  
+PDPDEDFA_00976	K06215	pyridoxal 5'-phosphate synthase pdxS subunit [EC:4.3.3.6] 
+PDPDEDFA_00977	K03799	heat shock protein HtpX [EC:3.4.24.-]  
+PDPDEDFA_00978	K03744	LemA protein     
+PDPDEDFA_00979	K02355	elongation factor G    
+PDPDEDFA_00984	K00803	alkyldihydroxyacetonephosphate synthase [EC:2.5.1.26]    
+PDPDEDFA_00986	K01470	creatinine amidohydrolase [EC:3.5.2.10]    
+PDPDEDFA_00994	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]    
+PDPDEDFA_00997	K11477	glc operon protein GlcG   
+PDPDEDFA_00999	K00865	glycerate 2-kinase [EC:2.7.1.165]    
+PDPDEDFA_01003	K01803	triosephosphate isomerase (TIM) [EC:5.3.1.1]   
+PDPDEDFA_01007	K01890	phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]  
+PDPDEDFA_01008	K01889	phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20]  
+PDPDEDFA_01009	K02887	large subunit ribosomal protein L20  
+PDPDEDFA_01010	K02916	large subunit ribosomal protein L35  
+PDPDEDFA_01011	K02520	translation initiation factor IF-3   
+PDPDEDFA_01013	K01868	threonyl-tRNA synthetase [EC:6.1.1.3]    
+PDPDEDFA_01029	K02614	acyl-CoA thioesterase [EC:3.1.2.-]    
+PDPDEDFA_01031	K10773	endonuclease III [EC:4.2.99.18]    
+PDPDEDFA_01032	K02347	DNA polymerase (family X)   
+PDPDEDFA_01035	K02529	LacI family transcriptional regulator   
+PDPDEDFA_01040	K06889	uncharacterized protein     
+PDPDEDFA_01042	K01805	xylose isomerase [EC:5.3.1.5]    
+PDPDEDFA_01043	K03534	L-rhamnose mutarotase [EC:5.1.3.32]    
+PDPDEDFA_01045	K00848	rhamnulokinase [EC:2.7.1.5]     
+PDPDEDFA_01046	K09003	uncharacterized protein     
+PDPDEDFA_01047	K00573	protein-L-isoaspartate(D-aspartate) O-methyltransferase [EC:2.1.1.77]    
+PDPDEDFA_01049	K07284	sortase A [EC:3.4.22.70]    
+PDPDEDFA_01051	K01738	cysteine synthase [EC:2.5.1.47]    
+PDPDEDFA_01052	K07037	cyclic-di-AMP phosphodiesterase PgpH [EC:3.1.4.-]   
+PDPDEDFA_01053	K06217	phosphate starvation-inducible protein PhoH and related proteins
+PDPDEDFA_01054	K02503	histidine triad (HIT) family protein  
+PDPDEDFA_01055	K18707	threonylcarbamoyladenosine tRNA methylthiotransferase MtaB [EC:2.8.4.5]  
+PDPDEDFA_01056	K09761	16S rRNA (uracil1498-N3)-methyltransferase [EC:2.1.1.193]   
+PDPDEDFA_01057	K03686	molecular chaperone DnaJ    
+PDPDEDFA_01058	K03705	heat-inducible transcriptional repressor    
+PDPDEDFA_01059	K00949	thiamine pyrophosphokinase [EC:2.7.6.2]    
+PDPDEDFA_01060	K02050	NitT/TauT family transport system permease protein 
+PDPDEDFA_01061	K02051	NitT/TauT family transport system substrate-binding protein 
+PDPDEDFA_01063	K07814	putative two-component system response regulator  
+PDPDEDFA_01064	K07722	CopG family transcriptional regulator, nickel-responsive regulator 
+PDPDEDFA_01065	K07075	uncharacterized protein     
+PDPDEDFA_01068	K01524	exopolyphosphatase / guanosine-5'-triphosphate,3'-diphosphate pyrophosphatase [EC:3.6.1.11 3.6.1.40] 
+PDPDEDFA_01071	K07533	foldase protein PrsA [EC:5.2.1.8]   
+PDPDEDFA_01071	K03769	peptidyl-prolyl cis-trans isomerase C [EC:5.2.1.8]  
+PDPDEDFA_01072	K03723	transcription-repair coupling factor (superfamily II helicase) [EC:3.6.4.-]
+PDPDEDFA_01073	K01056	peptidyl-tRNA hydrolase, PTH1 family [EC:3.1.1.29]  
+PDPDEDFA_01074	K02897	large subunit ribosomal protein L25  
+PDPDEDFA_01075	K00948	ribose-phosphate pyrophosphokinase [EC:2.7.6.1]    
+PDPDEDFA_01076	K04042	bifunctional UDP-N-acetylglucosamine pyrophosphorylase / Glucosamine-1-phosphate N-acetyltransferase [EC:2.7.7.23
+PDPDEDFA_01079	K01884	cysteinyl-tRNA synthetase, unknown class [EC:6.1.1.16]  
+PDPDEDFA_01080	K21012	polysaccharide biosynthesis protein PelG   
+PDPDEDFA_01081	K21011	polysaccharide biosynthesis protein PelF   
+PDPDEDFA_01086	K06872	uncharacterized protein     
+PDPDEDFA_01088	K21866	ion channel POLLUX/CASTOR    
+PDPDEDFA_01089	K20866	glucose-1-phosphatase [EC:3.1.3.10]     
+PDPDEDFA_01092	K07096	uncharacterized protein     
+PDPDEDFA_01093	K07814	putative two-component system response regulator  
+PDPDEDFA_01094	K14597	chlorobactene glucosyltransferase     
+PDPDEDFA_01098	K02013	iron complex transport system ATP-binding protein [EC:3.6.3.34]
+PDPDEDFA_01099	K02015	iron complex transport system permease protein 
+PDPDEDFA_01100	K02233	adenosylcobinamide-GDP ribazoletransferase [EC:2.7.8.26]    
+PDPDEDFA_01101	K02231	adenosylcobinamide kinase / adenosylcobinamide-phosphate guanylyltransferase [EC:2.7.1.156 2.7.7.62]
+PDPDEDFA_01106	K19092	toxin ParE1/3/4     
+PDPDEDFA_01115	K04070	putative pyruvate formate lyase activating enzyme [EC:1.97.1.4]
+PDPDEDFA_01117	K03630	DNA repair protein RadC   
+PDPDEDFA_01119	K06218	mRNA interferase RelE/StbE    
+PDPDEDFA_01124	K22391	GTP cyclohydrolase I [EC:3.5.4.16]   
+PDPDEDFA_01125	K07164	uncharacterized protein     
+PDPDEDFA_01126	K03469	ribonuclease HI [EC:3.1.26.4]    
+PDPDEDFA_01128	K03628	transcription termination factor Rho   
+PDPDEDFA_01129	K02909	large subunit ribosomal protein L31  
+PDPDEDFA_01130	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]   
+PDPDEDFA_01132	K02835	peptide chain release factor 1  
+PDPDEDFA_01133	K02493	release factor glutamine methyltransferase [EC:2.1.1.297]  
+PDPDEDFA_01134	K03893	arsenical pump membrane protein   
+PDPDEDFA_01135	K00600	glycine hydroxymethyltransferase [EC:2.1.2.1]    
+PDPDEDFA_01143	K21417	acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit beta [EC:1.1.1.-]  
+PDPDEDFA_01146	K03801	lipoyl(octanoyl) transferase [EC:2.3.1.181]    
+PDPDEDFA_01148	K01653	acetolactate synthase I/III small subunit [EC:2.2.1.6] 
+PDPDEDFA_01149	K01652	acetolactate synthase I/II/III large subunit [EC:2.2.1.6] 
+PDPDEDFA_01150	K01687	dihydroxy-acid dehydratase [EC:4.2.1.9]    
+PDPDEDFA_01151	K02355	elongation factor G    
+PDPDEDFA_01152	K02992	small subunit ribosomal protein S7  
+PDPDEDFA_01153	K02950	small subunit ribosomal protein S12  
+PDPDEDFA_01154	K03046	DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6] 
+PDPDEDFA_01155	K03043	DNA-directed RNA polymerase subunit beta [EC:2.7.7.6] 
+PDPDEDFA_01160	K01658	anthranilate synthase component II [EC:4.1.3.27]  
+PDPDEDFA_01161	K01990	ABC-2 type transport system ATP-binding protein 
+PDPDEDFA_01162	K01992	ABC-2 type transport system permease protein 
+PDPDEDFA_01164	K00091	dihydroflavonol-4-reductase [EC:1.1.1.219]     
+PDPDEDFA_01173	K17742	sorbose reductase [EC:1.1.1.289]    
+PDPDEDFA_01173	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]   
+PDPDEDFA_01174	K01804	L-arabinose isomerase [EC:5.3.1.4]    
+PDPDEDFA_01176	K18123	4-hydroxy-2-oxoglutarate aldolase [EC:4.1.3.16]    
+PDPDEDFA_01177	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]
+PDPDEDFA_01178	K18119	succinate-semialdehyde dehydrogenase [EC:1.2.1.76]    
+PDPDEDFA_01180	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]  
+PDPDEDFA_01182	K21417	acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit beta [EC:1.1.1.-]  
+PDPDEDFA_01183	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]   
+PDPDEDFA_01200	K03699	putative hemolysin     
+PDPDEDFA_01201	K07133	uncharacterized protein     
+PDPDEDFA_01203	K03466	DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family 
+PDPDEDFA_01204	K03742	nicotinamide-nucleotide amidase [EC:3.5.1.42]    
+PDPDEDFA_01205	K01975	RNA 2',3'-cyclic 3'-phosphodiesterase [EC:3.1.4.58]   
+PDPDEDFA_01206	K03553	recombination protein RecA    
+PDPDEDFA_01211	K14083	trimethylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.250]   
+PDPDEDFA_01212	K02529	LacI family transcriptional regulator   
+PDPDEDFA_01213	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]    
+PDPDEDFA_01217	K01886	glutaminyl-tRNA synthetase [EC:6.1.1.18]    
+PDPDEDFA_01218	K07306	anaerobic dimethyl sulfoxide reductase subunit A [EC:1.8.5.3]
+PDPDEDFA_01219	K06966	pyrimidine/purine-5'-nucleotide nucleosidase [EC:3.2.2.10 3.2.2.-]   
+PDPDEDFA_01223	K06864	pyridinium-3,5-biscarboxylic acid mononucleotide sulfurtransferase [EC:4.4.1.37]  
+PDPDEDFA_01224	K01740	O-acetylhomoserine (thiol)-lyase [EC:2.5.1.49]    
+PDPDEDFA_01235	K02025	multiple sugar transport system permease protein 
+PDPDEDFA_01238	K08223	MFS transporter, FSR family, fosmidomycin resistance protein
+PDPDEDFA_01241	K07001	NTE family protein    
+PDPDEDFA_01248	K02529	LacI family transcriptional regulator   
+PDPDEDFA_01250	K07814	putative two-component system response regulator  
+PDPDEDFA_01254	K02282	pilus assembly protein CpaE   
+PDPDEDFA_01256	K15738	ABC transport system ATP-binding/permease protein  
+PDPDEDFA_01261	K21929	uracil-DNA glycosylase [EC:3.2.2.27]    
+PDPDEDFA_01262	K09974	uncharacterized protein     
+PDPDEDFA_01273	K00196	anaerobic carbon-monoxide dehydrogenase iron sulfur subunit 
+PDPDEDFA_01277	K01624	fructose-bisphosphate aldolase, class II [EC:4.1.2.13]  
+PDPDEDFA_01296	K10440	ribose transport system permease protein  
+PDPDEDFA_01299	K10822	nonpolar-amino-acid-transporting ATPase [EC:7.4.2.2]    
+PDPDEDFA_01313	K04759	ferrous iron transport protein B  
+PDPDEDFA_01314	K04758	ferrous iron transport protein A  
+PDPDEDFA_01316	K03088	RNA polymerase sigma-70 factor, ECF subfamily 
+PDPDEDFA_01324	K01624	fructose-bisphosphate aldolase, class II [EC:4.1.2.13]  
+PDPDEDFA_01328	K01624	fructose-bisphosphate aldolase, class II [EC:4.1.2.13]  
+PDPDEDFA_01331	K01818	L-fucose/D-arabinose isomerase [EC:5.3.1.25 5.3.1.3]   
+PDPDEDFA_01334	K10119	raffinose/stachyose/melibiose transport system permease protein  
+PDPDEDFA_01334	K02026	multiple sugar transport system permease protein 
+PDPDEDFA_01335	K02025	multiple sugar transport system permease protein 
+PDPDEDFA_01343	K03657	DNA helicase II / ATP-dependent DNA helicase
+PDPDEDFA_01344	K21498	antitoxin HigA-1     
+PDPDEDFA_01351	K13924	two-component system, chemotaxis family, CheB/CheR fusion protein
+PDPDEDFA_01351	K00575	chemotaxis protein methyltransferase CheR [EC:2.1.1.80]  
+PDPDEDFA_01352	K03641	TolB protein     
+PDPDEDFA_01360	K10822	nonpolar-amino-acid-transporting ATPase [EC:7.4.2.2]    
+PDPDEDFA_01364	K01470	creatinine amidohydrolase [EC:3.5.2.10]    
+PDPDEDFA_01367	K14083	trimethylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.250]   
+PDPDEDFA_01368	K03534	L-rhamnose mutarotase [EC:5.1.3.32]    
+PDPDEDFA_01369	K14083	trimethylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.250]   
+PDPDEDFA_01372	K00848	rhamnulokinase [EC:2.7.1.5]     
+PDPDEDFA_01374	K02171	BlaI family transcriptional regulator, penicillinase repressor 
+PDPDEDFA_01379	K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]  
+PDPDEDFA_01380	K02823	dihydroorotate dehydrogenase electron transfer subunit  
+PDPDEDFA_01381	K17828	dihydroorotate dehydrogenase (NAD+) catalytic subunit [EC:1.3.1.14] 
+PDPDEDFA_01382	K01591	orotidine-5'-phosphate decarboxylase [EC:4.1.1.23]    
+PDPDEDFA_01383	K00762	orotate phosphoribosyltransferase [EC:2.4.2.10]    
+PDPDEDFA_01385	K00942	guanylate kinase [EC:2.7.4.8]    
+PDPDEDFA_01386	K03060	DNA-directed RNA polymerase subunit omega [EC:2.7.7.6] 
+PDPDEDFA_01387	K13038	phosphopantothenoylcysteine decarboxylase / phosphopantothenate---cysteine ligase [EC:4.1.1.36 6.3.2.5]
+PDPDEDFA_01388	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]    
+PDPDEDFA_01389	K04066	primosomal protein N' (replication factor Y) (superfamily
+PDPDEDFA_01390	K01462	peptide deformylase [EC:3.5.1.88]    
+PDPDEDFA_01391	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]    
+PDPDEDFA_01392	K03500	16S rRNA (cytosine967-C5)-methyltransferase [EC:2.1.1.176]   
+PDPDEDFA_01393	K07814	putative two-component system response regulator  
+PDPDEDFA_01395	K02902	large subunit ribosomal protein L28  
+PDPDEDFA_01396	K10804	acyl-CoA thioesterase I [EC:3.1.2.- 3.1.1.5]  
+PDPDEDFA_01397	K07030	uncharacterized protein     
+PDPDEDFA_01398	K08316	16S rRNA (guanine966-N2)-methyltransferase [EC:2.1.1.171]   
+PDPDEDFA_01399	K00954	pantetheine-phosphate adenylyltransferase [EC:2.7.7.3]    
+PDPDEDFA_01401	K02911	large subunit ribosomal protein L32  
+PDPDEDFA_01402	K06873	uncharacterized protein     
+PDPDEDFA_01403	K03621	phosphate acyltransferase [EC:2.3.1.274]    
+PDPDEDFA_01404	K02078	acyl carrier protein    
+PDPDEDFA_01405	K03685	ribonuclease III [EC:3.1.26.3]    
+PDPDEDFA_01406	K03529	chromosome segregation protein    
+PDPDEDFA_01407	K03110	fused signal recognition particle receptor  
+PDPDEDFA_01408	K03106	signal recognition particle subunit SRP54 [EC:3.6.5.4] 
+PDPDEDFA_01409	K02959	small subunit ribosomal protein S16  
+PDPDEDFA_01410	K06960	uncharacterized protein     
+PDPDEDFA_01411	K02860	16S rRNA processing protein RimM  
+PDPDEDFA_01412	K00554	tRNA (guanine37-N1)-methyltransferase [EC:2.1.1.228]    
+PDPDEDFA_01413	K02884	large subunit ribosomal protein L19  
+PDPDEDFA_01414	K03100	signal peptidase I [EC:3.4.21.89]   
+PDPDEDFA_01415	K03470	ribonuclease HII [EC:3.1.26.4]    
+PDPDEDFA_01416	K07460	putative endonuclease     
+PDPDEDFA_01417	K07391	magnesium chelatase family protein   
+PDPDEDFA_01418	K04096	DNA processing protein    
+PDPDEDFA_01421	K02967	small subunit ribosomal protein S2  
+PDPDEDFA_01422	K02357	elongation factor Ts    
+PDPDEDFA_01423	K09903	uridylate kinase [EC:2.7.4.22]    
+PDPDEDFA_01424	K02838	ribosome recycling factor    
+PDPDEDFA_01425	K00806	undecaprenyl diphosphate synthase [EC:2.5.1.31]   
+PDPDEDFA_01426	K11749	regulator of sigma E protease [EC:3.4.24.-] 
+PDPDEDFA_01427	K03526	(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase [EC:1.17.7.1 1.17.7.3]   
+PDPDEDFA_01429	K01912	phenylacetate-CoA ligase [EC:6.2.1.30]    
+PDPDEDFA_01430	K01912	phenylacetate-CoA ligase [EC:6.2.1.30]    
+PDPDEDFA_01434	K07088	uncharacterized protein     
+PDPDEDFA_01436	K08309	soluble lytic murein transglycosylase [EC:4.2.2.-]  
+PDPDEDFA_01437	K07133	uncharacterized protein     
+PDPDEDFA_01439	K19158	toxin YoeB [EC:3.1.-.-]    
+PDPDEDFA_01440	K07473	DNA-damage-inducible protein J    
+PDPDEDFA_01441	K01810	glucose-6-phosphate isomerase [EC:5.3.1.9]    
+PDPDEDFA_01442	K00566	tRNA-uridine 2-sulfurtransferase [EC:2.8.1.13]    
+PDPDEDFA_01450	K16785	energy-coupling factor transport system permease protein 
+PDPDEDFA_01451	K03753	molybdopterin-guanine dinucleotide biosynthesis adapter protein  
+PDPDEDFA_01455	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]    
+PDPDEDFA_01458	K01804	L-arabinose isomerase [EC:5.3.1.4]    
+PDPDEDFA_01464	K07133	uncharacterized protein     
+PDPDEDFA_01466	K18890	ATP-binding cassette, subfamily B, multidrug efflux pump
+PDPDEDFA_01466	K06147	ATP-binding cassette, subfamily B, bacterial  
+PDPDEDFA_01470	K00854	xylulokinase [EC:2.7.1.17]     
+PDPDEDFA_01474	K04043	molecular chaperone DnaK    
+PDPDEDFA_01475	K05516	curved DNA-binding protein    
+PDPDEDFA_01476	K03695	ATP-dependent Clp protease ATP-binding subunit ClpB 
+PDPDEDFA_01477	K06218	mRNA interferase RelE/StbE    
+PDPDEDFA_01479	K01624	fructose-bisphosphate aldolase, class II [EC:4.1.2.13]  
+PDPDEDFA_01481	K03215	23S rRNA (uracil1939-C5)-methyltransferase [EC:2.1.1.190]   
+PDPDEDFA_01485	K02040	phosphate transport system substrate-binding protein  
+PDPDEDFA_01486	K03741	arsenate reductase (thioredoxin) [EC:1.20.4.4]   
+PDPDEDFA_01495	K02040	phosphate transport system substrate-binding protein  
+PDPDEDFA_01496	K02037	phosphate transport system permease protein  
+PDPDEDFA_01497	K02038	phosphate transport system permease protein  
+PDPDEDFA_01498	K02039	phosphate transport system protein   
+PDPDEDFA_01500	K07056	16S rRNA (cytidine1402-2'-O)-methyltransferase [EC:2.1.1.198]   
+PDPDEDFA_01501	K01874	methionyl-tRNA synthetase [EC:6.1.1.10]    
+PDPDEDFA_01502	K03424	TatD DNase family protein [EC:3.1.21.-]  
+PDPDEDFA_01503	K02528	16S rRNA (adenine1518-N6/adenine1519-N6)-dimethyltransferase [EC:2.1.1.182]   
+PDPDEDFA_01504	K00919	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase [EC:2.7.1.148]    
+PDPDEDFA_01511	K02003	putative ABC transport system ATP-binding protein 
+PDPDEDFA_01512	K02004	putative ABC transport system permease protein 
+PDPDEDFA_01515	K11527	two-component system, sensor histidine kinase and response
+PDPDEDFA_01515	K05962	protein-histidine pros-kinase [EC:2.7.13.1]    
+PDPDEDFA_01516	K11527	two-component system, sensor histidine kinase and response
+PDPDEDFA_01516	K05962	protein-histidine pros-kinase [EC:2.7.13.1]    
+PDPDEDFA_01518	K11527	two-component system, sensor histidine kinase and response
+PDPDEDFA_01518	K05962	protein-histidine pros-kinase [EC:2.7.13.1]    
+PDPDEDFA_01525	K03750	molybdopterin molybdotransferase [EC:2.10.1.1]    
+PDPDEDFA_01526	K00950	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase [EC:2.7.6.3]    
+PDPDEDFA_01526	K01633	7,8-dihydroneopterin aldolase/epimerase/oxygenase [EC:4.1.2.25 5.1.99.8 1.13.11.81]  
+PDPDEDFA_01527	K00796	dihydropteroate synthase [EC:2.5.1.15]    
+PDPDEDFA_01528	K01495	GTP cyclohydrolase IA [EC:3.5.4.16]   
+PDPDEDFA_01530	K03798	cell division protease FtsH [EC:3.4.24.-]  
+PDPDEDFA_01531	K00760	hypoxanthine phosphoribosyltransferase [EC:2.4.2.8]    
+PDPDEDFA_01532	K04075	tRNA(Ile)-lysidine synthase [EC:6.3.4.19]    
+PDPDEDFA_01533	K09769	uncharacterized protein     
+PDPDEDFA_01536	K02574	ferredoxin-type protein NapH    
+PDPDEDFA_01536	K19339	NosR/NirI family transcriptional regulator, nitrous oxide reductase
+PDPDEDFA_01543	K17686	Cu+-exporting ATPase [EC:3.6.3.54]    
+PDPDEDFA_01543	K01533	Cu2+-exporting ATPase [EC:3.6.3.4]    
+PDPDEDFA_01546	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]    
+PDPDEDFA_01547	K18910	D-psicose/D-tagatose/L-ribulose 3-epimerase [EC:5.1.3.30 5.1.3.31]   
+PDPDEDFA_01558	K02529	LacI family transcriptional regulator   
+PDPDEDFA_01560	K10211	4,4'-diaponeurosporenoate glycosyltransferase [EC:2.4.1.-]    
+PDPDEDFA_01561	K10212	glycosyl-4,4'-diaponeurosporenoate acyltransferase [EC:2.3.1.-]    
+PDPDEDFA_01569	K00688	glycogen phosphorylase [EC:2.4.1.1]    
+PDPDEDFA_01570	K02549	O-succinylbenzoate synthase [EC:4.2.1.113]    
+PDPDEDFA_01571	K03738	aldehyde:ferredoxin oxidoreductase [EC:1.2.7.5]    
+PDPDEDFA_01575	K00525	ribonucleoside-diphosphate reductase alpha chain [EC:1.17.4.1]  
+PDPDEDFA_01580	K02392	flagellar basal-body rod protein FlgG  
+PDPDEDFA_01581	K02392	flagellar basal-body rod protein FlgG  
+PDPDEDFA_01582	K02405	RNA polymerase sigma factor for flagellar operon
+PDPDEDFA_01592	K03641	TolB protein     
+PDPDEDFA_01596	K08679	UDP-glucuronate 4-epimerase [EC:5.1.3.6]    
+PDPDEDFA_01596	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]    
+PDPDEDFA_01597	K10012	undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase [EC:2.4.2.53]   
+PDPDEDFA_01599	K00091	dihydroflavonol-4-reductase [EC:1.1.1.219]     
+PDPDEDFA_01601	K07027	glycosyltransferase 2 family protein   
+PDPDEDFA_01602	K07027	glycosyltransferase 2 family protein   
+PDPDEDFA_01606	K05601	hydroxylamine reductase [EC:1.7.99.1]    
+PDPDEDFA_01610	K13292	phosphatidylglycerol---prolipoprotein diacylglyceryl transferase [EC:2.5.1.145]   
+PDPDEDFA_01611	K06196	cytochrome c-type biogenesis protein   
+PDPDEDFA_01617	K00374	nitrate reductase gamma subunit [EC:1.7.5.1 1.7.99.-] 
+PDPDEDFA_01618	K04085	tRNA 2-thiouridine synthesizing protein A [EC:2.8.1.-] 
+PDPDEDFA_01622	K14128	F420-non-reducing hydrogenase small subunit [EC:1.12.99.- 1.8.98.5] 
+PDPDEDFA_01623	K14126	F420-non-reducing hydrogenase large subunit [EC:1.12.99.- 1.8.98.5] 
+PDPDEDFA_01629	K00615	transketolase [EC:2.2.1.1]     
+PDPDEDFA_01631	K00262	glutamate dehydrogenase (NADP+) [EC:1.4.1.4]   
+PDPDEDFA_01634	K04940	opine dehydrogenase [EC:1.5.1.28]    
+PDPDEDFA_01636	K07133	uncharacterized protein     
+PDPDEDFA_01639	K06013	STE24 endopeptidase [EC:3.4.24.84]    
+PDPDEDFA_01643	K07171	mRNA interferase MazF [EC:3.1.-.-]   
+PDPDEDFA_01648	K02651	pilus assembly protein Flp/PilA   
+PDPDEDFA_01649	K02651	pilus assembly protein Flp/PilA   
+PDPDEDFA_01652	K02279	pilus assembly protein CpaB   
+PDPDEDFA_01653	K02282	pilus assembly protein CpaE   
+PDPDEDFA_01654	K02283	pilus assembly protein CpaF   
+PDPDEDFA_01655	K12510	tight adherence protein B   
+PDPDEDFA_01655	K07114	Ca-activated chloride channel homolog   
+PDPDEDFA_01656	K12511	tight adherence protein C   
+PDPDEDFA_01658	K10947	PadR family transcriptional regulator, regulatory protein PadR
+PDPDEDFA_01660	K11621	lia operon protein LiaG   
+PDPDEDFA_01662	K02390	flagellar hook protein FlgE   
+PDPDEDFA_01663	K02385	flagellar protein FlbD    
+PDPDEDFA_01664	K02556	chemotaxis protein MotA    
+PDPDEDFA_01665	K02557	chemotaxis protein MotB    
+PDPDEDFA_01666	K02415	flagellar FliL protein    
+PDPDEDFA_01667	K02416	flagellar motor switch protein FliM  
+PDPDEDFA_01668	K02417	flagellar motor switch protein FliN/FliY  
+PDPDEDFA_01669	K02418	flagellar protein FliO/FliZ    
+PDPDEDFA_01670	K02419	flagellar biosynthetic protein FliP   
+PDPDEDFA_01671	K02420	flagellar biosynthetic protein FliQ   
+PDPDEDFA_01672	K02421	flagellar biosynthetic protein FliR   
+PDPDEDFA_01673	K02401	flagellar biosynthetic protein FlhB   
+PDPDEDFA_01674	K02400	flagellar biosynthesis protein FlhA   
+PDPDEDFA_01678	K03409	chemotaxis protein CheX    
+PDPDEDFA_01679	K03413	two-component system, chemotaxis family, chemotaxis protein CheY
+PDPDEDFA_01680	K03406	methyl-accepting chemotaxis protein    
+PDPDEDFA_01681	K03408	purine-binding chemotaxis protein CheW   
+PDPDEDFA_01682	K03412	two-component system, chemotaxis family, protein-glutamate methylesterase/glutaminase [EC:3.1.1.61
+PDPDEDFA_01684	K00575	chemotaxis protein methyltransferase CheR [EC:2.1.1.80]  
+PDPDEDFA_01686	K03407	two-component system, chemotaxis family, sensor kinase CheA
+PDPDEDFA_01694	K01596	phosphoenolpyruvate carboxykinase (GTP) [EC:4.1.1.32]   
+PDPDEDFA_01696	K04652	hydrogenase nickel incorporation protein HypB  
+PDPDEDFA_01698	K00335	NADH-quinone oxidoreductase subunit F [EC:7.1.1.2]  
+PDPDEDFA_01700	K00334	NADH-quinone oxidoreductase subunit E [EC:7.1.1.2]  
+PDPDEDFA_01702	K17996	sulfhydrogenase subunit beta (sulfur reductase) [EC:1.12.98.4] 
+PDPDEDFA_01706	K08965	2,3-diketo-5-methylthiopentyl-1-phosphate enolase [EC:5.3.2.5]    
+PDPDEDFA_01708	K02050	NitT/TauT family transport system permease protein 
+PDPDEDFA_01709	K02051	NitT/TauT family transport system substrate-binding protein 
+PDPDEDFA_01710	K00266	glutamate synthase (NADPH) small chain [EC:1.4.1.13] 
+PDPDEDFA_01712	K03605	hydrogenase maturation protease [EC:3.4.23.-]   
+PDPDEDFA_01713	K04655	hydrogenase expression/formation protein HypE   
+PDPDEDFA_01714	K04654	hydrogenase expression/formation protein HypD   
+PDPDEDFA_01715	K04653	hydrogenase expression/formation protein HypC   
+PDPDEDFA_01718	K04656	hydrogenase maturation protein HypF   
+PDPDEDFA_01719	K01881	prolyl-tRNA synthetase [EC:6.1.1.15]    
+PDPDEDFA_01720	K03581	exodeoxyribonuclease V alpha subunit [EC:3.1.11.5]  
+PDPDEDFA_01721	K18682	ribonucrease Y [EC:3.1.-.-]    
+PDPDEDFA_01723	K06416	stage V sporulation protein S  
+PDPDEDFA_01724	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]    
+PDPDEDFA_01725	K00791	tRNA dimethylallyltransferase [EC:2.5.1.75]    
+PDPDEDFA_01726	K01778	diaminopimelate epimerase [EC:5.1.1.7]    
+PDPDEDFA_01728	K03665	GTPase      
+PDPDEDFA_01729	K01356	repressor LexA [EC:3.4.21.88]    
+PDPDEDFA_01730	K00053	ketol-acid reductoisomerase [EC:1.1.1.86]    
+PDPDEDFA_01733	K01520	dUTP pyrophosphatase [EC:3.6.1.23]    
+PDPDEDFA_01735	K08999	uncharacterized protein     
+PDPDEDFA_01736	K00760	hypoxanthine phosphoribosyltransferase [EC:2.4.2.8]    
+PDPDEDFA_01738	K07258	serine-type D-Ala-D-Ala carboxypeptidase (penicillin-binding protein 5/6) [EC:3.4.16.4]
+PDPDEDFA_01743	K03977	GTPase      
+PDPDEDFA_01745	K03527	4-hydroxy-3-methylbut-2-en-1-yl diphosphate reductase [EC:1.17.7.4]   
+PDPDEDFA_01746	K00655	1-acyl-sn-glycerol-3-phosphate acyltransferase [EC:2.3.1.51]    
+PDPDEDFA_01747	K00945	CMP/dCMP kinase [EC:2.7.4.25]    
+PDPDEDFA_01748	K00800	3-phosphoshikimate 1-carboxyvinyltransferase [EC:2.5.1.19]    
+PDPDEDFA_01749	K04517	prephenate dehydrogenase [EC:1.3.1.12]    
+PDPDEDFA_01750	K01620	threonine aldolase [EC:4.1.2.48]    
+PDPDEDFA_01752	K06024	segregation and condensation protein B  
+PDPDEDFA_01753	K05896	segregation and condensation protein A  
+PDPDEDFA_01754	K01867	tryptophanyl-tRNA synthetase [EC:6.1.1.2]    
+PDPDEDFA_01759	K07063	uncharacterized protein     
+PDPDEDFA_01762	K07729	putative transcriptional regulator    
+PDPDEDFA_01764	K03320	ammonium transporter, Amt family   
+PDPDEDFA_01765	K04751	nitrogen regulatory protein P-II 1  
+PDPDEDFA_01766	K07814	putative two-component system response regulator  
+PDPDEDFA_01768	K04095	cell filamentation protein    
+PDPDEDFA_01771	K14623	DNA-damage-inducible protein D    
+PDPDEDFA_01774	K19166	mRNA interferase HigB [EC:3.1.-.-]   
+PDPDEDFA_01775	K05592	ATP-dependent RNA helicase DeaD [EC:3.6.4.13]  
+PDPDEDFA_01781	K03703	excinuclease ABC subunit C   
+PDPDEDFA_01782	K03701	excinuclease ABC subunit A   
+PDPDEDFA_01783	K03702	excinuclease ABC subunit B   
+PDPDEDFA_01784	K00859	dephospho-CoA kinase [EC:2.7.1.24]    
+PDPDEDFA_01785	K02945	small subunit ribosomal protein S1  
+PDPDEDFA_01786	K02335	DNA polymerase I [EC:2.7.7.7]   
+PDPDEDFA_01790	K21903	ArsR family transcriptional regulator, lead/cadmium/zinc/bismuth-responsive transcriptional repressor
+PDPDEDFA_01793	K03325	arsenite transporter     
+PDPDEDFA_01794	K02437	glycine cleavage system H protein  
+PDPDEDFA_01799	K05810	polyphenol oxidase [EC:1.10.3.-]    
+PDPDEDFA_01800	K00850	6-phosphofructokinase 1 [EC:2.7.1.11]    
+PDPDEDFA_01801	K11755	phosphoribosyl-ATP pyrophosphohydrolase / phosphoribosyl-AMP cyclohydrolase [EC:3.6.1.31 3.5.4.19]
+PDPDEDFA_01802	K02500	imidazole glycerol-phosphate synthase subunit HisF [EC:4.3.2.10] 
+PDPDEDFA_01806	K07114	Ca-activated chloride channel homolog   
+PDPDEDFA_01809	K01808	ribose 5-phosphate isomerase B [EC:5.3.1.6]  
+PDPDEDFA_01811	K00615	transketolase [EC:2.2.1.1]     
+PDPDEDFA_01813	K05366	penicillin-binding protein 1A [EC:2.4.1.129 3.4.16.4]  
+PDPDEDFA_01815	K05878	phosphoenolpyruvate---glycerone phosphotransferase subunit DhaK [EC:2.7.1.121]  
+PDPDEDFA_01817	K01885	glutamyl-tRNA synthetase [EC:6.1.1.17]    
+PDPDEDFA_01821	K14475	inhibitor of cysteine peptidase   
+PDPDEDFA_01822	K09711	uncharacterized protein     
+PDPDEDFA_01823	K02007	cobalt/nickel transport system permease protein  
+PDPDEDFA_01825	K02008	cobalt/nickel transport system permease protein  
+PDPDEDFA_01829	K12962	undecaprenyl phosphate-alpha-L-ara4N flippase subunit ArnE  
+PDPDEDFA_01835	K16870	N-acetylglucosaminyl-diphospho-decaprenol L-rhamnosyltransferase [EC:2.4.1.289]    
+PDPDEDFA_01835	K20444	O-antigen biosynthesis protein [EC:2.4.1.-]   
+PDPDEDFA_01836	K15856	GDP-4-dehydro-6-deoxy-D-mannose reductase [EC:1.1.1.281]    
+PDPDEDFA_01837	K00966	mannose-1-phosphate guanylyltransferase [EC:2.7.7.13]    
+PDPDEDFA_01838	K01711	GDPmannose 4,6-dehydratase [EC:4.2.1.47]    
+PDPDEDFA_01840	K15916	glucose/mannose-6-phosphate isomerase [EC:5.3.1.9 5.3.1.8]   
+PDPDEDFA_01841	K01251	adenosylhomocysteinase [EC:3.3.1.1]     
+PDPDEDFA_01842	K08963	methylthioribose-1-phosphate isomerase [EC:5.3.1.23]    
+PDPDEDFA_01845	K02242	competence protein ComFC    
+PDPDEDFA_01846	K03704	cold shock protein (beta-ribbon, CspA family) 
+PDPDEDFA_01847	K05808	putative sigma-54 modulation protein   
+PDPDEDFA_01848	K03070	preprotein translocase subunit SecA   
+PDPDEDFA_01849	K02836	peptide chain release factor 2  
+PDPDEDFA_01850	K09812	cell division transport system ATP-binding protein 
+PDPDEDFA_01851	K09811	cell division transport system permease protein 
+PDPDEDFA_01851	K02004	putative ABC transport system permease protein 
+PDPDEDFA_01853	K03797	carboxyl-terminal processing protease [EC:3.4.21.102]   
+PDPDEDFA_01854	K03664	SsrA-binding protein     
+PDPDEDFA_01857	K06147	ATP-binding cassette, subfamily B, bacterial  
+PDPDEDFA_01864	K01338	ATP-dependent Lon protease [EC:3.4.21.53]   
+PDPDEDFA_01865	K06158	ATP-binding cassette, subfamily F, member 3 
+PDPDEDFA_01866	K00602	phosphoribosylaminoimidazolecarboxamide formyltransferase / IMP cyclohydrolase [EC:2.1.2.3 3.5.4.10]
+PDPDEDFA_01868	K05962	protein-histidine pros-kinase [EC:2.7.13.1]    
+PDPDEDFA_01869	K07576	metallo-beta-lactamase family protein    
+PDPDEDFA_01871	K03698	3'-5' exoribonuclease [EC:3.1.-.-]    
+PDPDEDFA_01872	K03787	5'-nucleotidase [EC:3.1.3.5]     
+PDPDEDFA_01873	K01689	enolase [EC:4.2.1.11]     
+PDPDEDFA_01877	K06872	uncharacterized protein     
+PDPDEDFA_01878	K03744	LemA protein     
+PDPDEDFA_01879	K03687	molecular chaperone GrpE    
+PDPDEDFA_01881	K01448	N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]    
+PDPDEDFA_01885	K21993	formate transporter     
+PDPDEDFA_01890	K00754	L-malate glycosyltransferase [EC:2.4.1.-]    
+PDPDEDFA_01891	K01463	N-acetylglucosamine malate deacetylase 1 [EC:3.5.1.-]  
+PDPDEDFA_01892	K22136	bacillithiol synthase     
+PDPDEDFA_01893	K00826	branched-chain amino acid aminotransferase [EC:2.6.1.42]  
+PDPDEDFA_01897	K03969	phage shock protein A   
+PDPDEDFA_01900	K09807	uncharacterized protein     
+PDPDEDFA_01902	K19002	1,2-diacylglycerol 3-alpha-glucosyltransferase [EC:2.4.1.337]    
+PDPDEDFA_01903	K19002	1,2-diacylglycerol 3-alpha-glucosyltransferase [EC:2.4.1.337]    
+PDPDEDFA_01907	K01805	xylose isomerase [EC:5.3.1.5]    
+PDPDEDFA_01909	K09705	uncharacterized protein     
+PDPDEDFA_01915	K07171	mRNA interferase MazF [EC:3.1.-.-]   
+PDPDEDFA_01920	K04027	ethanolamine utilization protein EutM   
+PDPDEDFA_01921	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]   
+PDPDEDFA_01922	K01026	propionate CoA-transferase [EC:2.8.3.1]    
+PDPDEDFA_01924	K04028	ethanolamine utilization protein EutN   
+PDPDEDFA_01925	K04028	ethanolamine utilization protein EutN   
+PDPDEDFA_01926	K03615	Na+-translocating ferredoxin:NAD+ oxidoreductase subunit C [EC:7.2.1.2] 
+PDPDEDFA_01928	K01628	L-fuculose-phosphate aldolase [EC:4.1.2.17]    
+PDPDEDFA_01929	K04027	ethanolamine utilization protein EutM   
+PDPDEDFA_01932	K04027	ethanolamine utilization protein EutM   
+PDPDEDFA_01934	K22373	lactate racemase [EC:5.1.2.1]    
+PDPDEDFA_01936	K07133	uncharacterized protein     
+PDPDEDFA_01939	K00104	glycolate oxidase [EC:1.1.3.15]    
+PDPDEDFA_01940	K08264	heterodisulfide reductase subunit D [EC:1.8.98.1]  
+PDPDEDFA_01941	K02437	glycine cleavage system H protein  
+PDPDEDFA_01948	K03327	multidrug resistance protein, MATE family  
+PDPDEDFA_01952	K13566	omega-amidase [EC:3.5.1.3]     
+PDPDEDFA_01953	K08151	MFS transporter, DHA1 family, tetracycline resistance protein
+PDPDEDFA_01955	K03499	trk system potassium uptake protein  
+PDPDEDFA_01956	K01539	sodium/potassium-transporting ATPase subunit alpha [EC:3.6.3.9]  
+PDPDEDFA_01957	K00873	pyruvate kinase [EC:2.7.1.40]    
+PDPDEDFA_01960	K04069	pyruvate formate lyase activating enzyme [EC:1.97.1.4] 
+PDPDEDFA_01964	K02483	two-component system, OmpR family, response regulator 
+PDPDEDFA_01969	K07729	putative transcriptional regulator    
+PDPDEDFA_01975	K02313	chromosomal replication initiator protein   
+PDPDEDFA_01976	K02338	DNA polymerase III subunit beta [EC:2.7.7.7] 
+PDPDEDFA_01978	K01918	pantoate--beta-alanine ligase [EC:6.3.2.1]    
+PDPDEDFA_01979	K01579	aspartate 1-decarboxylase [EC:4.1.1.11]    
+PDPDEDFA_01982	K03088	RNA polymerase sigma-70 factor, ECF subfamily 
+PDPDEDFA_01985	K06959	protein Tex     
+PDPDEDFA_01987	K00764	amidophosphoribosyltransferase [EC:2.4.2.14]     
+PDPDEDFA_01989	K07053	3',5'-nucleoside bisphosphate phosphatase [EC:3.1.3.97]   
+PDPDEDFA_01990	K01624	fructose-bisphosphate aldolase, class II [EC:4.1.2.13]  
+PDPDEDFA_01991	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7] 
+PDPDEDFA_01992	K06901	putative MFS transporter, AGZA family, xanthine/uracil permease
+PDPDEDFA_01994	K03307	solute:Na+ symporter, SSS family   
+PDPDEDFA_01995	K09797	uncharacterized protein     
+PDPDEDFA_01996	K01838	beta-phosphoglucomutase [EC:5.4.2.6]     
+PDPDEDFA_02002	K05962	protein-histidine pros-kinase [EC:2.7.13.1]    
+PDPDEDFA_02003	K13924	two-component system, chemotaxis family, CheB/CheR fusion protein
+PDPDEDFA_02003	K00575	chemotaxis protein methyltransferase CheR [EC:2.1.1.80]  
+PDPDEDFA_02012	K11175	phosphoribosylglycinamide formyltransferase 1 [EC:2.1.2.2]   
+PDPDEDFA_02013	K01933	phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.3.1]    
+PDPDEDFA_02015	K00764	amidophosphoribosyltransferase [EC:2.4.2.14]     
+PDPDEDFA_02016	K01952	phosphoribosylformylglycinamidine synthase [EC:6.3.5.3]    
+PDPDEDFA_02017	K01756	adenylosuccinate lyase [EC:4.3.2.2]    
+PDPDEDFA_02020	K01926	redox-sensing transcriptional repressor    
+PDPDEDFA_02022	K07814	putative two-component system response regulator  
+PDPDEDFA_02023	K07082	UPF0755 protein     
+PDPDEDFA_02024	K03111	single-strand DNA-binding protein    
+PDPDEDFA_02028	K12511	tight adherence protein C   
+PDPDEDFA_02030	K02283	pilus assembly protein CpaF   
+PDPDEDFA_02032	K02279	pilus assembly protein CpaB   
+PDPDEDFA_02038	K02856	L-rhamnose-H+ transport protein    
+PDPDEDFA_02040	K03298	drug/metabolite transporter, DME family   
+PDPDEDFA_02041	K03781	catalase [EC:1.11.1.6]     
+PDPDEDFA_02042	K02337	DNA polymerase III subunit alpha [EC:2.7.7.7] 
+PDPDEDFA_02048	K08217	MFS transporter, DHA3 family, macrolide efflux protein
+PDPDEDFA_02054	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]    
+PDPDEDFA_02058	K09144	uncharacterized protein     
+PDPDEDFA_02059	K03811	nicotinamide mononucleotide transporter    
+PDPDEDFA_02061	K04028	ethanolamine utilization protein EutN   
+PDPDEDFA_02062	K04028	ethanolamine utilization protein EutN   
+PDPDEDFA_02064	K01491	methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5
+PDPDEDFA_02065	K01938	formate--tetrahydrofolate ligase [EC:6.3.4.3]    
+PDPDEDFA_02067	K03596	GTP-binding protein LepA    
+PDPDEDFA_02068	K03980	putative peptidoglycan lipid II flippase  
+PDPDEDFA_02069	K02968	small subunit ribosomal protein S20  
+PDPDEDFA_02070	K02340	DNA polymerase III subunit delta [EC:2.7.7.7] 
+PDPDEDFA_02071	K19157	mRNA interferase YafQ [EC:3.1.-.-]   
+PDPDEDFA_02072	K07473	DNA-damage-inducible protein J    
+PDPDEDFA_02074	K02238	competence protein ComEC    
+PDPDEDFA_02075	K02237	competence protein ComEA    
+PDPDEDFA_02076	K01869	leucyl-tRNA synthetase [EC:6.1.1.4]    
+PDPDEDFA_02077	K09710	ribosome-associated protein     
+PDPDEDFA_02080	K00969	nicotinate-nucleotide adenylyltransferase [EC:2.7.7.18]    
+PDPDEDFA_02081	K00147	glutamate-5-semialdehyde dehydrogenase [EC:1.2.1.41]    
+PDPDEDFA_02082	K00931	glutamate 5-kinase [EC:2.7.2.11]    
+PDPDEDFA_02083	K03979	GTPase [EC:3.6.5.-]     
+PDPDEDFA_02084	K07090	uncharacterized protein     
+PDPDEDFA_02087	K21866	ion channel POLLUX/CASTOR    
+PDPDEDFA_02088	K03320	ammonium transporter, Amt family   
+PDPDEDFA_02098	K04751	nitrogen regulatory protein P-II 1  
+PDPDEDFA_02099	K00052	3-isopropylmalate dehydrogenase [EC:1.1.1.85]    
+PDPDEDFA_02100	K01704	3-isopropylmalate/(R)-2-methylmalate dehydratase small subunit [EC:4.2.1.33 4.2.1.35] 
+PDPDEDFA_02101	K01703	3-isopropylmalate/(R)-2-methylmalate dehydratase large subunit [EC:4.2.1.33 4.2.1.35] 
+PDPDEDFA_02102	K01649	2-isopropylmalate synthase [EC:2.3.3.13]    
+PDPDEDFA_02106	K00641	homoserine O-acetyltransferase/O-succinyltransferase [EC:2.3.1.31 2.3.1.46]   
+PDPDEDFA_02109	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]   
+PDPDEDFA_02111	K00848	rhamnulokinase [EC:2.7.1.5]     
+PDPDEDFA_02114	K10441	ribose transport system ATP-binding protein [EC:3.6.3.17] 
+PDPDEDFA_02114	K10822	nonpolar-amino-acid-transporting ATPase [EC:7.4.2.2]    
+PDPDEDFA_02118	K01805	xylose isomerase [EC:5.3.1.5]    
+PDPDEDFA_02125	K07588	LAO/AO transport system kinase [EC:2.7.-.-]  
+PDPDEDFA_02130	K12941	aminobenzoyl-glutamate utilization protein B   
+PDPDEDFA_02131	K02946	small subunit ribosomal protein S10  
+PDPDEDFA_02132	K02906	large subunit ribosomal protein L3  
+PDPDEDFA_02133	K02926	large subunit ribosomal protein L4  
+PDPDEDFA_02134	K02892	large subunit ribosomal protein L23  
+PDPDEDFA_02135	K02886	large subunit ribosomal protein L2  
+PDPDEDFA_02136	K02965	small subunit ribosomal protein S19  
+PDPDEDFA_02137	K02890	large subunit ribosomal protein L22  
+PDPDEDFA_02138	K02982	small subunit ribosomal protein S3  
+PDPDEDFA_02139	K02878	large subunit ribosomal protein L16  
+PDPDEDFA_02140	K02904	large subunit ribosomal protein L29  
+PDPDEDFA_02141	K02961	small subunit ribosomal protein S17  
+PDPDEDFA_02142	K02874	large subunit ribosomal protein L14  
+PDPDEDFA_02143	K02895	large subunit ribosomal protein L24  
+PDPDEDFA_02144	K02931	large subunit ribosomal protein L5  
+PDPDEDFA_02145	K02994	small subunit ribosomal protein S8  
+PDPDEDFA_02146	K02933	large subunit ribosomal protein L6  
+PDPDEDFA_02147	K02881	large subunit ribosomal protein L18  
+PDPDEDFA_02148	K02988	small subunit ribosomal protein S5  
+PDPDEDFA_02149	K02876	large subunit ribosomal protein L15  
+PDPDEDFA_02150	K03076	preprotein translocase subunit SecY   
+PDPDEDFA_02151	K00939	adenylate kinase [EC:2.7.4.3]    
+PDPDEDFA_02152	K01265	methionyl aminopeptidase [EC:3.4.11.18]    
+PDPDEDFA_02153	K02518	translation initiation factor IF-1   
+PDPDEDFA_02154	K02952	small subunit ribosomal protein S13  
+PDPDEDFA_02155	K02948	small subunit ribosomal protein S11  
+PDPDEDFA_02156	K02986	small subunit ribosomal protein S4  
+PDPDEDFA_02157	K03040	DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6] 
+PDPDEDFA_02158	K02879	large subunit ribosomal protein L17  
+PDPDEDFA_02159	K06173	tRNA pseudouridine38-40 synthase [EC:5.4.99.12]   
+PDPDEDFA_02160	K02871	large subunit ribosomal protein L13  
+PDPDEDFA_02161	K02996	small subunit ribosomal protein S9  
+PDPDEDFA_02163	K03431	phosphoglucosamine mutase [EC:5.4.2.10]    
+PDPDEDFA_02164	K00820	glucosamine---fructose-6-phosphate aminotransferase (isomerizing) [EC:2.6.1.16]   
+PDPDEDFA_02165	K00997	holo-[acyl-carrier protein] synthase [EC:2.7.8.7]   
+PDPDEDFA_02166	K17758	ADP-dependent NAD(P)H-hydrate dehydratase [EC:4.2.1.136]   
+PDPDEDFA_02166	K17759	NAD(P)H-hydrate epimerase [EC:5.1.99.6]    
+PDPDEDFA_02168	K01775	alanine racemase [EC:5.1.1.1]    
+PDPDEDFA_02172	K07043	uncharacterized protein     
+PDPDEDFA_02173	K09125	uncharacterized protein     
+PDPDEDFA_02174	K09974	uncharacterized protein     
+PDPDEDFA_02176	K00179	indolepyruvate ferredoxin oxidoreductase, alpha subunit [EC:1.2.7.8] 
+PDPDEDFA_02177	K00180	indolepyruvate ferredoxin oxidoreductase, beta subunit [EC:1.2.7.8] 
+PDPDEDFA_02182	K01142	exodeoxyribonuclease III [EC:3.1.11.2]    
+PDPDEDFA_02188	K06207	GTP-binding protein     
+PDPDEDFA_02189	K03641	TolB protein     
+PDPDEDFA_02190	K06001	tryptophan synthase beta chain [EC:4.2.1.20]  
+PDPDEDFA_02192	K04773	protease IV [EC:3.4.21.-]    
+PDPDEDFA_02194	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]    
+PDPDEDFA_02198	K07133	uncharacterized protein     
+PDPDEDFA_02198	K06921	uncharacterized protein     
+PDPDEDFA_02199	K00620	glutamate N-acetyltransferase / amino-acid N-acetyltransferase [EC:2.3.1.35 2.3.1.1]
+PDPDEDFA_02203	K07814	putative two-component system response regulator  
+PDPDEDFA_02205	K02226	alpha-ribazole phosphatase [EC:3.1.3.73]    
+PDPDEDFA_02206	K02990	small subunit ribosomal protein S6  
+PDPDEDFA_02207	K03111	single-strand DNA-binding protein    
+PDPDEDFA_02208	K02963	small subunit ribosomal protein S18  
+PDPDEDFA_02210	K02939	large subunit ribosomal protein L9  
+PDPDEDFA_02211	K02314	replicative DNA helicase [EC:3.6.4.12]   
+PDPDEDFA_02212	K01939	adenylosuccinate synthase [EC:6.3.4.4]    
+PDPDEDFA_02213	K01945	phosphoribosylamine---glycine ligase [EC:6.3.4.13]    
+PDPDEDFA_02214	K01588	5-(carboxyamino)imidazole ribonucleotide mutase [EC:5.4.99.18]   
+PDPDEDFA_02215	K07814	putative two-component system response regulator  
+PDPDEDFA_02217	K02036	phosphate transport system ATP-binding protein [EC:7.3.2.1] 
+PDPDEDFA_02218	K03624	transcription elongation factor GreA   
+PDPDEDFA_02219	K04567	lysyl-tRNA synthetase, class II [EC:6.1.1.6]  
+PDPDEDFA_02220	K19411	protein arginine kinase activator   
+PDPDEDFA_02221	K19405	protein arginine kinase [EC:2.7.14.1]   
+PDPDEDFA_02222	K03696	ATP-dependent Clp protease ATP-binding subunit ClpC 
+PDPDEDFA_02223	K07067	diadenylate cyclase [EC:2.7.7.85]    
+PDPDEDFA_02224	K00991	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [EC:2.7.7.60]   
+PDPDEDFA_02226	K01885	glutamyl-tRNA synthetase [EC:6.1.1.17]    
+PDPDEDFA_02227	K00640	serine O-acetyltransferase [EC:2.3.1.30]    
+PDPDEDFA_02228	K01883	cysteinyl-tRNA synthetase [EC:6.1.1.16]    
+PDPDEDFA_02229	K03218	23S rRNA (guanosine2251-2'-O)-methyltransferase [EC:2.1.1.185]   
+PDPDEDFA_02230	K06962	uncharacterized protein     
+PDPDEDFA_02231	K01174	micrococcal nuclease [EC:3.1.31.1]    
+PDPDEDFA_02233	K01961	acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14]
+PDPDEDFA_02234	K02160	acetyl-CoA carboxylase biotin carboxyl carrier protein 
+PDPDEDFA_02235	K03523	biotin transport system substrate-specific component  
+PDPDEDFA_02241	K01990	ABC-2 type transport system ATP-binding protein 
+PDPDEDFA_02245	K19736	TetR/AcrR family transcriptional regulator, regulator of autoinduction
+PDPDEDFA_02249	K07089	uncharacterized protein     
+PDPDEDFA_02252	K07729	putative transcriptional regulator    
+PDPDEDFA_02259	K02469	DNA gyrase subunit A [EC:5.6.2.2]  
+PDPDEDFA_02260	K02470	DNA gyrase subunit B [EC:5.6.2.2]  
+PDPDEDFA_02262	K08264	heterodisulfide reductase subunit D [EC:1.8.98.1]  
+PDPDEDFA_02264	K03629	DNA replication and repair protein RecF 
+PDPDEDFA_02269	K01153	type I restriction enzyme, R subunit [EC:3.1.21.3]
+PDPDEDFA_02270	K01154	type I restriction enzyme, S subunit [EC:3.1.21.3]
+PDPDEDFA_02272	K00297	methylenetetrahydrofolate reductase (NADPH) [EC:1.5.1.20]   
+PDPDEDFA_02273	K03499	trk system potassium uptake protein  
+PDPDEDFA_02274	K03498	trk system potassium uptake protein  
+PDPDEDFA_02276	K14415	tRNA-splicing ligase RtcB (3'-phosphate/5'-hydroxy nucleic acid ligase)
+PDPDEDFA_02277	K02594	homocitrate synthase NifV [EC:2.3.3.14]   
+PDPDEDFA_02278	K02594	homocitrate synthase NifV [EC:2.3.3.14]   
+PDPDEDFA_02279	K01703	3-isopropylmalate/(R)-2-methylmalate dehydratase large subunit [EC:4.2.1.33 4.2.1.35] 
+PDPDEDFA_02280	K01704	3-isopropylmalate/(R)-2-methylmalate dehydratase small subunit [EC:4.2.1.33 4.2.1.35] 
+PDPDEDFA_02281	K00030	isocitrate dehydrogenase (NAD+) [EC:1.1.1.41]   
+PDPDEDFA_02283	K07814	putative two-component system response regulator  
+PDPDEDFA_02284	K07814	putative two-component system response regulator  
+PDPDEDFA_02285	K07814	putative two-component system response regulator  
+PDPDEDFA_02286	K21084	diguanylate cyclase [EC:2.7.7.65]    
+PDPDEDFA_02286	K07814	putative two-component system response regulator  
+PDPDEDFA_02287	K07133	uncharacterized protein     
+PDPDEDFA_02288	K02433	aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit A [EC:6.3.5.6 6.3.5.7] 
+PDPDEDFA_02288	K01426	amidase [EC:3.5.1.4]     
+PDPDEDFA_02289	K02435	aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit C [EC:6.3.5.6 6.3.5.7] 
+PDPDEDFA_02295	K07052	uncharacterized protein     
+PDPDEDFA_02296	K01972	DNA ligase (NAD+) [EC:6.5.1.2]   
+PDPDEDFA_02297	K07341	death on curing protein   
+PDPDEDFA_02298	K07171	mRNA interferase MazF [EC:3.1.-.-]   
+PDPDEDFA_02303	K07133	uncharacterized protein     
+PDPDEDFA_02305	K09132	uncharacterized protein     
+PDPDEDFA_02306	K03972	phage shock protein E   
+PDPDEDFA_02308	K07133	uncharacterized protein     
+PDPDEDFA_02319	K02510	4-hydroxy-2-oxoheptanedioate aldolase [EC:4.1.2.52]    
+PDPDEDFA_02320	K05799	GntR family transcriptional regulator, transcriptional repressor for
+PDPDEDFA_02321	K00074	3-hydroxybutyryl-CoA dehydrogenase [EC:1.1.1.157]    
+PDPDEDFA_02328	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]
+PDPDEDFA_02331	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]   
+PDPDEDFA_02332	K01273	membrane dipeptidase [EC:3.4.13.19]    
+PDPDEDFA_02335	K03446	MFS transporter, DHA2 family, multidrug resistance protein
+PDPDEDFA_02336	K07814	putative two-component system response regulator  
