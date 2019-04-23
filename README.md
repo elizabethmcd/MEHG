@@ -9,7 +9,7 @@ This notebook contains scripts, workflows, and results for analyzing publicly av
 - [AliView](http://www.ormbunkar.se/aliview/)
 - [metabolisHMM](https://github.com/elizabethmcd/metabolisHMM)
 - [GTDBtk](http://gtdb.ecogenomic.org/)
-- [Kallisto]((https://pachterlab.github.io/kallisto/)
+- [Kallisto](https://pachterlab.github.io/kallisto/)
 - [KofamKOALA](https://www.genome.jp/tools/kofamkoala/)
 
 
