@@ -3,11 +3,10 @@ library(reshape2)
 library(viridis)
 
 # Load marker counts and metadata 
-metabolic_markers = read_csv("results/mebolic-results/2019-03-11-metabolic-marker-results.csv")
-metadata = read_csv("~/Desktop/methylator-metadata.csv")
+metabolic_markers = read_csv("results/metabolic-results/2019-06-07-metabolic-results.csv")
+metadata = read_csv("files/methylator-metadata.csv")
 colnames(metabolic_markers)[1] = "genome"
 colnames(metadata)[1] = "genome"
-wlj = read_csv("results/mebolic-results/2019-03-11-WLJ-markers-fixed.csv")
 
 # Merge into one
 phyla = metadata %>% select(genome, Phylum)
@@ -20,6 +19,10 @@ count_data = metabolic_markers %>% column_to_rownames("genome")
 # Investigate percentages for each marker by presence/absence, ignore copy #s
 presence_absence = as.data.frame(lapply(count_data, function(x) ifelse(x>1, 1, x)))
 sort(colMeans(presence_absence))
+
+# Get rid of columns that don't really add to the analysis
+greater20 = presence_absence[,colMeans(presence_absence) > 0.2]
+
     # aggregate by phyla for percentages
 sumphyla_pres_ab = presence_absence
 sumphyla_pres_ab$phyla = marker_table$phyla
