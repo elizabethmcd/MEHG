@@ -1,5 +1,5 @@
 deltaproteobacteria #003c30
-euryarchaeota #543005
+euryarchaeota #aaaaaa
 chloroflexi #7fbc41
 actinobacteria #d6604d
 nitrospirae #35978f
