@@ -3,8 +3,8 @@ library(reshape2)
 library(viridis)
 
 # Load marker counts and metadata 
-metabolic_markers = read_csv("results/metabolic-results/2019-06-07-metabolic-results.csv")
-metadata = read_csv("files/methylator-metadata.csv")
+metabolic_markers = read_csv("~/Desktop/McMahon-Lab/MeHg-Projects/MEHG/results/metabolic-results/2019-06-07-metabolic-results.csv")
+metadata = read_csv("~/Desktop/McMahon-Lab/MeHg-Projects/MEHG/files/methylator-metadata.csv")
 colnames(metabolic_markers)[1] = "genome"
 colnames(metadata)[1] = "genome"
 
@@ -24,22 +24,23 @@ sort(colMeans(presence_absence))
 greater20 = presence_absence[,colMeans(presence_absence) > 0.2]
 
     # aggregate by phyla for percentages
-sumphyla_pres_ab = presence_absence
+sumphyla_pres_ab = greater20
 sumphyla_pres_ab$phyla = marker_table$phyla
-sumphyla = aggregate(sumphyla_pres_ab[1:130], list(sumphyla_pres_ab$phyla), sum)
+sumphyla = aggregate(sumphyla_pres_ab[1:32], list(sumphyla_pres_ab$phyla), sum)
 
 # get rid of ones with all zeros
-presence_absence_no_all_zeros = as.data.frame(presence_absence[,-(which(colSums(presence_absence) == 0))])
-presence_absence_no_all_zeros$phyla = marker_table$phyla
-no_zeros = aggregate(presence_absence_no_all_zeros[1:106], list(presence_absence_no_all_zeros$phyla), sum)
+## already done when set filter for markers have to be set above a total percentage
+# presence_absence_no_all_zeros = as.data.frame(presence_absence[,-(which(colSums(presence_absence) == 0))])
+# presence_absence_no_all_zeros$phyla = marker_table$phyla
+# no_zeros = aggregate(presence_absence_no_all_zeros[1:106], list(presence_absence_no_all_zeros$phyla), sum)
 
 # percentage by total genomes in phyla
-pcts_phyla = as.data.frame(lapply(no_zeros[,-1], function(x) {
-  (x / no_zeros$hgcA) * 100
+pcts_phyla = as.data.frame(lapply(sumphyla[,-1], function(x) {
+  (x / sumphyla$hgcA) * 100
 }))
-pcts_phyla$hgcA_count = no_zeros$hgcA
+pcts_phyla$hgcA_count = sumphyla$hgcA
 pcts_phyla_table = as.data.frame(lapply(pcts_phyla, round, 2))
-pcts_phyla_table$phyla = no_zeros$Group.1
+pcts_phyla_table$phyla = sumphyla$Group.1
 
 # percentage of marker by phyla and genomes
 phyla_percentages = pcts_phyla[,-c(107,108)]

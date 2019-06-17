@@ -13,4 +13,4 @@ aminicenantes #bf812d
 synergistacae #66c2a5
 acidobacteria #c51b7d
 wor1 #f1b6da
-planctomycetes/verruco/pvc #276419
+planctomycetes/verruco/pvc #ff8000
