@@ -20,13 +20,16 @@ count_data = metabolic_markers %>% column_to_rownames("genome")
 presence_absence = as.data.frame(lapply(count_data, function(x) ifelse(x>1, 1, x)))
 sort(colMeans(presence_absence))
 
+# Get rid of columns with WLJ from full metabolic analysis, including curated WLJ proteins for more closer look
+# also remove markers that don't have a cutoff and throw things off
+no_wlj = presence_absence %>% select(c(-codhC_TIGR00316, -codhD_TIGR00381, -codh_catalytic_TIGR01702, -fdhA_TIGR01591, -fdh_thiol_id_TIGR02819, -fdhB_TIGR01582, -fdhC_TIGR01583, -carbon_monoxide_dehydrogenase_coxL_TIGR02416, -carbon_monoxide_dehydrogenase_coxM, -carbon_monoxide_dehydrogenase_coxS))
 # Get rid of columns that don't really add to the analysis
-greater20 = presence_absence[,colMeans(presence_absence) > 0.2]
+greater20 = no_wlj[,colMeans(no_wlj) > 0.2]
 
     # aggregate by phyla for percentages
 sumphyla_pres_ab = greater20
 sumphyla_pres_ab$phyla = marker_table$phyla
-sumphyla = aggregate(sumphyla_pres_ab[1:32], list(sumphyla_pres_ab$phyla), sum)
+sumphyla = aggregate(sumphyla_pres_ab[1:24], list(sumphyla_pres_ab$phyla), sum)
 
 # get rid of ones with all zeros
 ## already done when set filter for markers have to be set above a total percentage
@@ -48,8 +51,8 @@ genome_sums$average = lapply(genome_sums$`colSums(greater20)`, function(x) x/518
 genome_sums$average = lapply(genome_sums$average, round, 2)
 
 # percentage of marker at phyla level
-pres_ab_phyla = as.data.frame(lapply(pcts_phyla_table[1:32], function(x) ifelse(x>1, 1, x)))
-pres_ab_phyla["percent_phyla", ] = (colSums(pres_ab_phyla[1:32]) / 23) * 100
+pres_ab_phyla = as.data.frame(lapply(pcts_phyla_table[1:24], function(x) ifelse(x>1, 1, x)))
+pres_ab_phyla["percent_phyla", ] = (colSums(pres_ab_phyla[1:24]) / 23) * 100
 pres_ab_phyla["percent_genomes", ] = genome_sums$average
 
 # put together in table
@@ -68,23 +71,28 @@ master_table_ordered$phyla = master_table$phyla
 
 write_csv(master_table_ordered, "~/Desktop/mehg-metabolism-stats-ordered.csv")
 
-# heatmap of ordered marker percentages
+# heatmap of marker percentages 
 no_totals = master_table_ordered[,c(-1)]
 throwout_no_cutoffs = no_totals[,c(-2, -3, -4)]
-table_melted = melt(throwout_no_cutoffs, id.vars="phyla")
-table_melted$phyla = factor(throwout_no_cutoffs$phyla, level = c('Acidobacteria', 'Actinobacteria', 'Aminicenantes', 'Bacteroidetes', 'Chlorobi', 'Chloroflexi', 'Deltaproteobacteria', 'Eisenbacteria', 'Elusimicrobia', 'Euryarchaeota', 'FCPU426', 'Fibrobacteres', 'Firestonebacteria', 'Firmicutes', 'KSB1', 'Margulisbacteria', 'Nitrospirae', 'PVC', 'Raymondbacteria', 'Spirochaetes', 'Synergistaceae', 'Taylorbacteria', 'Unclassified', 'Woesearchaeota', 'WOR1', 'Phyla', 'Genomes'))
+
+# split by function
+# hgcA > cytochromes > hydrogenases > nitrogen > sulfur > followed by wlj results parsed in a separate script and heatmaps stitched together
+
+ordered = throwout_no_cutoffs[,c("phyla", "hgcA", "cydA_PF01654", "cydB_TIGR00203", "coxB_TIGR02866", "nrfA_PF02335", "cyoE_TIGR01473","Hydrogenase_Group_1", "Hydrogenase_Group_3b", "Hydrogenase_Group_3c", "Hydrogenase_Group_3d", "Hydrogenase_Group_4", "nifA_Mo_TIGR01282", "nifB_Mo_TIGR01286", "nifH_TIGR01287", "sulfur_dioxygenase_sdo", "ars_thioredoxin_TIGR02691", "cysC_TIGR00455", "cysN_TIGR02034")]
+
+# melt for heatmap
+table_melted = melt(ordered, id.vars="phyla")
+table_melted$phyla = factor(ordered$phyla, level = c('Acidobacteria', 'Actinobacteria', 'Aminicenantes', 'Bacteroidetes', 'Chlorobi', 'Chloroflexi', 'Deltaproteobacteria', 'Eisenbacteria', 'Elusimicrobia', 'Euryarchaeota', 'FCPU426', 'Fibrobacteres', 'Firestonebacteria', 'Firmicutes', 'KSB1', 'Margulisbacteria', 'Nitrospirae', 'PVC', 'Raymondbacteria', 'Spirochaetes', 'Synergistaceae', 'Taylorbacteria', 'Unclassified', 'Woesearchaeota', 'WOR1', 'Phyla', 'Genomes'))
 marker_plot = ggplot(table_melted, aes(x=variable, y=fct_rev(phyla), fill=value)) + geom_tile(color="white") + scale_fill_viridis(option="plasma", alpha=1, begin=0, end=1, direction=-1) + theme_bw()
 marker_plot2 = marker_plot + theme(axis.text.x= element_text(angle=85, hjust=1)) + guides(fill = guide_colorbar(nbin = 10))
 marker_plot2
 
 ggsave(marker_plot2, file="~/Desktop/metabolic-markers-heatmap.png", height=20, width=40, units=c("cm"))
 
-# WLJ pathway characterization
-wlj_counts = wlj %>% column_to_rownames("genome")
-wlj_presence_absence = as.data.frame(lapply(wlj_counts, function(x) ifelse(x>1, 1, x)))
-as.data.frame(sort(colMeans(wlj_presence_absence)))
-colMeans(wlj_presence_absence)
+# WLJ pathway characterization with KEGG HMMs
+wlj = read_csv("~/Desktop/McMahon-Lab/MeHg-Projects/MEHG/results/metabolic-results/2019-06-18-wlj-markers.csv")
+colnames(wlj)[1] = "genome"
 
-# folD seems to be important, which ones are missing it 
-genomes_no_folD = wlj %>%  filter(folD==0) %>% select(genome)
-no_folD_taxonomy = inner_join(genomes_no_folD, metadata)
+phyla = metadata %>% select(genome, Phylum)
+colnames(phyla) = c("genome", "phyla")
+marker_table = inner_join(phyla, metabolic_markers)
