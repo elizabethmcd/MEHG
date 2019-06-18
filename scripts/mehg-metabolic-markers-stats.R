@@ -42,22 +42,25 @@ pcts_phyla$hgcA_count = sumphyla$hgcA
 pcts_phyla_table = as.data.frame(lapply(pcts_phyla, round, 2))
 pcts_phyla_table$phyla = sumphyla$Group.1
 
-# percentage of marker by phyla and genomes
-phyla_percentages = pcts_phyla[,-c(107,108)]
-avg = as.data.frame(lapply(no_zeros[2:107], function(x) x/512 * 100))
-avg_sigf = as.data.frame(lapply(avg, round, 2))
-avg_sigf$phyla = no_zeros$Group.1
-pres_ab_phyla = as.data.frame(lapply(no_zeros[2:107], function(x) ifelse(x>1, 1, x)))
-pres_ab_phyla$phyla = no_zeros$Group.1
-phyla_percentages["percent_phyla", ] = (colSums(pres_ab_phyla[1:106]) / 28) * 100
-phyla_percentages["percent_genomes", ] = (colSums(no_zeros[2:107]) / 512 ) * 100
+# percentage of marker by total genomes
+genome_sums = as.data.frame(colSums(greater20))
+genome_sums$average = lapply(genome_sums$`colSums(greater20)`, function(x) x/518 * 100)
+genome_sums$average = lapply(genome_sums$average, round, 2)
 
-# raw of both to stitch together
-write_csv(phyla_percentages, "~/Desktop/mehg-metabolism-percentages-phyla-genomes.csv")
-write_csv(pcts_phyla_table, "~/Desktop/mehg-metabolism-percentages-each-phyla.csv")
+# percentage of marker at phyla level
+pres_ab_phyla = as.data.frame(lapply(pcts_phyla_table[1:32], function(x) ifelse(x>1, 1, x)))
+pres_ab_phyla["percent_phyla", ] = (colSums(pres_ab_phyla[1:32]) / 23) * 100
+pres_ab_phyla["percent_genomes", ] = genome_sums$average
+
+# put together in table
+pcts_phyla_table["percent_phyla", ] = pres_ab_phyla["percent_phyla", ]
+pcts_phyla_table["percent_genomes", ] = pres_ab_phyla["percent_genomes", ]
+
+# export raw table to clean up
+write_csv(pcts_phyla_table, "~/Desktop/mehg-metabolism-percentages-raw.csv")
 
 # reimport to sort the markers by highest > lowest percentage
-master_table = read_csv("~/Desktop/mehg-metabolism-stats-raw.csv")
+master_table = read_csv("~/Desktop/mehg-metabolism-percentages-cleaned.csv")
 master_table_v1 = master_table %>% column_to_rownames("phyla")
 master_table_v2 = master_table_v1[,order(-master_table_v1[nrow(master_table_v1),])]
 master_table_ordered = master_table_v2
@@ -66,8 +69,10 @@ master_table_ordered$phyla = master_table$phyla
 write_csv(master_table_ordered, "~/Desktop/mehg-metabolism-stats-ordered.csv")
 
 # heatmap of ordered marker percentages
-table_melted = melt(master_table_ordered, id.vars="phyla")
-table_melted$phyla = factor(table_melted$phyla, level = c('Acidobacteria', 'Actinobacteria', 'Aminicenantes', 'Bacteroidetes', 'Chlorobi', 'Chloroflexi', 'Deltaproteobacteria', 'Eisenbacteria', 'Elusimicrobia', 'Euryarchaeota', 'FCPU426', 'Fibrobacteres', 'Firestonebacteria', 'Firmicutes', 'KSB1', 'Lentisphaerae', 'Margulisbacteria', 'Nitrospirae', 'Planctomycetes', 'PVC', 'Raymondbacteria', 'Spirochaetes', 'Synergistaceae', 'Taylorbacteria', 'Unclassified', 'Verrucomicrobia', 'Woesearchaeota', 'WOR1', 'Phyla', 'Genomes'))
+no_totals = master_table_ordered[,c(-1)]
+throwout_no_cutoffs = no_totals[,c(-2, -3, -4)]
+table_melted = melt(throwout_no_cutoffs, id.vars="phyla")
+table_melted$phyla = factor(throwout_no_cutoffs$phyla, level = c('Acidobacteria', 'Actinobacteria', 'Aminicenantes', 'Bacteroidetes', 'Chlorobi', 'Chloroflexi', 'Deltaproteobacteria', 'Eisenbacteria', 'Elusimicrobia', 'Euryarchaeota', 'FCPU426', 'Fibrobacteres', 'Firestonebacteria', 'Firmicutes', 'KSB1', 'Margulisbacteria', 'Nitrospirae', 'PVC', 'Raymondbacteria', 'Spirochaetes', 'Synergistaceae', 'Taylorbacteria', 'Unclassified', 'Woesearchaeota', 'WOR1', 'Phyla', 'Genomes'))
 marker_plot = ggplot(table_melted, aes(x=variable, y=fct_rev(phyla), fill=value)) + geom_tile(color="white") + scale_fill_viridis(option="plasma", alpha=1, begin=0, end=1, direction=-1) + theme_bw()
 marker_plot2 = marker_plot + theme(axis.text.x= element_text(angle=85, hjust=1)) + guides(fill = guide_colorbar(nbin = 10))
 marker_plot2
