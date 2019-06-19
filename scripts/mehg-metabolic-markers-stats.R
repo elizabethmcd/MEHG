@@ -87,12 +87,13 @@ marker_plot = ggplot(table_melted, aes(x=variable, y=fct_rev(phyla), fill=value)
 marker_plot2 = marker_plot + theme(axis.text.x= element_text(angle=85, hjust=1)) + guides(fill = guide_colorbar(nbin = 10))
 marker_plot2
 
+metabolism_no_legends = marker_plot2 +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(), legend.position="none")
+
 ggsave(marker_plot2, file="~/Desktop/metabolic-markers-heatmap.png", height=20, width=40, units=c("cm"))
 
-# WLJ pathway characterization with KEGG HMMs
-wlj = read_csv("~/Desktop/McMahon-Lab/MeHg-Projects/MEHG/results/metabolic-results/2019-06-18-wlj-markers.csv")
-colnames(wlj)[1] = "genome"
-
-phyla = metadata %>% select(genome, Phylum)
-colnames(phyla) = c("genome", "phyla")
-marker_table = inner_join(phyla, metabolic_markers)
+ggsave(metabolism_no_legends, file="~/Desktop/metabolic-markers-no-legends.png", height=20, width=40, units=c("cm"))
