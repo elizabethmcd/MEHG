@@ -2,7 +2,6 @@ library(tidyverse)
 library(reshape2)
 library(plyr)
 library(ggplot2)
-library()
 
 metadata = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/MeHg-Projects/MEHG/files/methylator-metadata.csv")
 environment = count(metadata, "Code")

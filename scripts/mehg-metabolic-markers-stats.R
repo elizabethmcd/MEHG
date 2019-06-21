@@ -94,6 +94,21 @@ metabolism_no_legends = marker_plot2 +
         axis.text.y=element_blank(),
         axis.ticks.y=element_blank(), legend.position="none")
 
+onecolor =ggplot(table_melted, aes(x=variable, y=fct_rev(phyla), fill=value)) + geom_tile(color="black") + scale_fill_gradient(low="white", high="steelblue") + theme_bw()
+onecolor2 = onecolor +  theme(axis.text.x= element_text(angle=85, hjust=1)) + guides(fill = guide_colorbar(nbin = 10))
+
+onecolorNolegends = onecolor2 +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(), legend.position="none")
+onecolorNolegends
+
 ggsave(marker_plot2, file="~/Desktop/metabolic-markers-heatmap.png", height=20, width=40, units=c("cm"))
 
 ggsave(metabolism_no_legends, file="~/Desktop/metabolic-markers-no-legends.png", height=20, width=40, units=c("cm"))
+
+ggsave(onecolorNolegends, file="~/Desktop/metabolic-markers-heatmap-one-color.png", height=20, width=40, units=c("cm"))
+
+ggsave(onecolor2, file="~/Desktop/metabolic-markers-one-color-legends.png", height=20, width=40, units=c("cm"))
