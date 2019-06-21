@@ -26,13 +26,9 @@ meth.counttable <- final.meth.counts[, c(1, 28:53)]
 ids <- read.delim("~/Desktop/McMahon-Lab/MeHg-Projects/MEHG/kallisto_mapping/perma-meth-ids.txt", sep="\t", header=TRUE)
 counttable.ids <- left_join(meth.counttable, ids)
 
-# counts for exploration & pick certain genomes
-ids <- read.delim("~/Desktop/McMahon-Lab/MeHg-Projects/MEHG/kallisto_mapping/perma-meth-ids.txt", sep="\t", header=TRUE)
-counttable.ids <- left_join(meth.finalcounts, ids)
-
 # TPM normalization
 ## Merge with annotations to divide by gene length for counts in all samples
-meth_prokka = read.delim("~/Desktop/permafrost-methylator-prokka-annotations.txt", sep="\t", header=FALSE)
+meth_prokka = read.delim("/Users/emcdaniel/Desktop/McMahon-Lab/MeHg-Projects/MEHG/files/permafrostTranscription/permafrost-methylator-prokka-annotations.txt", sep="\t", header=FALSE)
 colnames(meth_prokka) <- c("genome_name", "prokka_annotation", "size_bp", "accession")
 meth_counts_annots <- left_join(meth_prokka, counttable.ids)
 meth_counts_annots$size_kbp = meth_counts_annots$size_bp / 1000
@@ -52,7 +48,7 @@ meth_counts_tpm$genome_name = meth_counts_annots$genome
 meth_counts_totals = aggregate(meth_counts_tpm[1:26], list(meth_counts_tpm$genome_name), sum)
 
 # merge with metadata to get genome sizes to get relative expression by phyla
-meth_metadata = read.csv("~/Desktop/methylator-metadata.csv")
+meth_metadata = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/MeHg-Projects/MEHG/files/methylator-metadata.csv")
 peat_phyla = meth_metadata %>% select("genome_name", "Phylum")
 colnames(meth_counts_totals)[1] = "genome_name"
 meth_counts_totals_table = left_join(meth_counts_totals, peat_phyla)
@@ -63,7 +59,7 @@ meth_expression_average$avg_expression = rowSums(meth_expression_average[2:27]) 
 hgcA = read.delim("/Users/emcdaniel/Desktop/McMahon-Lab/MeHg-Projects/MEHG/files/tree-tax-files/hgcA-locus-tags-phyla.txt", sep="\t", header=FALSE)
 colnames(hgcA) = c("genome_name", "locus_tag", "Phylum")
 hgcA = hgcA %>% select(genome_name, locus_tag)
-mehg_metadata = read.csv("~/Desktop/methylator-metadata.csv")
+mehg_metadata = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/MeHg-Projects/MEHG/files/methylator-metadata.csv")
 mehg_peat = mehg_metadata %>% filter(Study=="Woodcroft2018") 
 peat_locus_tags = left_join(mehg_peat, hgcA)
 peat_hgcA = peat_locus_tags %>% select(c(Phylum, locus_tag))
@@ -112,6 +108,7 @@ no_zeros_plot3 = no_zeros_plot2 + theme_gray() +
   theme(legend.position = "bottom", legend.direction = "horizontal",
         legend.title = element_text(size = 15), legend.key.size = unit(1,"cm"),
         legend.text = element_text(size = 7))
+no_zeros_plot2
 
 # total hgcA by sample
 sample_totals = as.data.frame(colSums(hgcA_no_zeros[,c(2:18)]))
@@ -130,7 +127,7 @@ avg_expr
 
 # save plots indvidually
 ggsave(file="~/Desktop/hgcA-TPM-totals.png", hgcA_sample, width=15, height=15, units=c("cm"))
-ggsave(file="~/Desktop/hgcA-expression-heatmap", no_zeros_plot2, width=15, height=10, units=c("cm"))
+ggsave(file="~/Desktop/hgcA-expression-heatmap.png", no_zeros_plot2, width=15, height=10, units=c("cm"))
 ggsave(file="~/Desktop/average-expression-methylators.png", avg_expr, width=15, height=15, units=c("cm"))
 
 # combine plots
@@ -145,49 +142,34 @@ hm.clean <- no_zeros_plot3 +
         legend.position="none")
 hm.clean
 # x axis clean
-avg_clean = avg_expr + 
-  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank(), axis.title.y = element_blank(), axis.title.x = element_blank(),
-        axis.text.x = element_blank(), axis.ticks.x = element_blank(),
-        legend.position="none")
-avg_clean
+avg_clean = avg_expr + theme(axis.line=element_blank(),
+                             axis.text.x=element_blank(),
+                             axis.text.y=element_blank(),
+                             axis.ticks=element_blank(),
+                             axis.title.x=element_blank(),
+                             axis.title.y=element_blank(),
+                             legend.position="none",
+                             panel.background=element_blank(),
+                             panel.border=element_blank(),
+                             panel.grid.major=element_blank(),
+                             panel.grid.minor=element_blank(),
+                             plot.background=element_blank())
 # y axis clean
-hgcA_sample_clean = hgcA_sample + 
-  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank(), axis.title.y = element_blank(), axis.text.y = element_blank(),
-        axis.ticks.y = element_blank(), axis.title.x = element_blank(),
-        legend.position="none")
+hgcA_sample_clean = hgcA_sample + theme(axis.line=element_blank(),
+                                      axis.text.x=element_blank(),
+                                      axis.text.y=element_blank(),
+                                      axis.ticks=element_blank(),
+                                      axis.title.x=element_blank(),
+                                      axis.title.y=element_blank(),
+                                      legend.position="none",
+                                      panel.background=element_blank(),
+                                      panel.border=element_blank(),
+                                      panel.grid.major=element_blank(),
+                                      panel.grid.minor=element_blank(),
+                                      plot.background=element_blank())
 hgcA_sample_clean
 # together
 grid = grid.arrange(avg_clean, legend, hm.clean, hgcA_sample_clean, nrow=2, ncol=2, widths=c(30,40), heights=c(40,60))
 # save grid 
 ggsave(file="~/Desktop/mehg-grid-axes.png", grid, height=10, width=15, units=c("cm"))
 
-
-# Specific Bacteroidetes bin for differential expression analysis
-# no normalization by TPM - deseq applies own normalization methods
-bacteroidetes20440 = counttable.ids %>% filter(genome == "bacteria20440")
-permafrost_samples= read.delim("~/Desktop/McMahon-Lab/MeHg-Projects/MEHG/kallisto_mapping/permafrost-metadata.txt", sep="\t", header=TRUE)
-rownames(permafrost_samples) = permafrost_samples$sample
-bact20440_counts = bacteroidetes20440[,-28]
-write.csv(file="~/Desktop/bacteroidetes20440_raw_counts.csv", bact20440_counts, row.names=FALSE)
-# issues with reading straight from txi, output to save raw counts and input as matrix
-cts = as.matrix(read.csv("~/Desktop/bacteroidetes20440_raw_counts.csv",row.names="genome_name"))
-coldata = permafrost_samples
-colnames(cts) = sub("counts.", "", colnames(cts))
-ctsMatrix = as.matrix(lapply(as.matrix(cts), as.integer))
-ctsMatrix = as.matrix(apply(cts, 2, function(x) as.integer(as.numeric(x))))
-rownames(ctsMatrix) = rownames(cts)
-ddsBact = DESeqDataSetFromMatrix(countData = ctsMatrix, colData = coldata, design = ~ location)
-ddsBact
-
-## filtering
-keep = rowSums(counts(ddsBact)) >= 10
-ddsBact = ddsBact[keep,]
-ddsBact
-dds = DESeq(ddsBact)
-
-# add functional annotations to deseq object
-## go back and remove things from matrix that aren't in prokka annotations ORFs
-annots = meth_counts_annots %>% select(c(genome_name, prokka_annotation, genome))
-bact_annots = annots %>% filter(genome=='bacteria20440')
-rownames(annots) = annots$genome_name
-mcols(ddsBact) = DataFrame(mcols(ddsBact), annots)
