@@ -13,11 +13,8 @@ phyla = metadata %>% select(genome, Phylum)
 colnames(phyla) = c("genome", "phyla")
 marker_table = inner_join(phyla, metabolic_markers)
 
-# Counts with genome IDs
-count_data = metabolic_markers %>% column_to_rownames("genome")
-
 # Investigate percentages for each marker by presence/absence, ignore copy #s
-presence_absence = as.data.frame(lapply(count_data, function(x) ifelse(x>1, 1, x)))
+presence_absence = as.data.frame(lapply(marker_table[3:132], function(x) ifelse(x>1, 1, x)))
 sort(colMeans(presence_absence))
 
 # Get rid of columns with WLJ from full metabolic analysis, including curated WLJ proteins for more closer look
@@ -51,7 +48,7 @@ genome_sums$average = lapply(genome_sums$`colSums(greater20)`, function(x) x/518
 genome_sums$average = lapply(genome_sums$average, round, 2)
 
 # percentage of marker at phyla level
-pres_ab_phyla = as.data.frame(lapply(pcts_phyla_table[1:24], function(x) ifelse(x>1, 1, x)))
+pres_ab_phyla = as.data.frame(lapply(pcts_phyla_table[1:24], function(x) ifelse(x>0, 1, x)))
 pres_ab_phyla["percent_phyla", ] = (colSums(pres_ab_phyla[1:24]) / 23) * 100
 pres_ab_phyla["percent_genomes", ] = genome_sums$average
 
@@ -72,8 +69,7 @@ master_table_ordered$phyla = master_table$phyla
 write_csv(master_table_ordered, "~/Desktop/mehg-metabolism-stats-ordered.csv")
 
 # heatmap of marker percentages 
-no_totals = master_table_ordered[,c(-1)]
-throwout_no_cutoffs = no_totals[,c(-2, -3, -4)]
+throwout_no_cutoffs = master_table_ordered[,c(-2, -3, -4)]
 
 # split by function
 # hgcA > cytochromes > hydrogenases > nitrogen > sulfur > followed by wlj results parsed in a separate script and heatmaps stitched together
@@ -94,8 +90,9 @@ metabolism_no_legends = marker_plot2 +
         axis.text.y=element_blank(),
         axis.ticks.y=element_blank(), legend.position="none")
 
-onecolor =ggplot(table_melted, aes(x=variable, y=fct_rev(phyla), fill=value)) + geom_tile(color="black") + scale_fill_gradient(low="white", high="steelblue") + theme_bw()
+onecolor =ggplot(table_melted, aes(x=variable, y=fct_rev(phyla), fill=value)) + geom_tile(color="black") + scale_fill_gradient(low="grey", high="steelblue") + theme_bw()
 onecolor2 = onecolor +  theme(axis.text.x= element_text(angle=85, hjust=1)) + guides(fill = guide_colorbar(nbin = 10))
+onecolor2
 
 onecolorNolegends = onecolor2 +
   theme(axis.title.x=element_blank(),
