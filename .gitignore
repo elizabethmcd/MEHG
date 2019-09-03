@@ -1,6 +1,9 @@
+MEHG.Rproj
+figs/
 *.icloud
 kallisto_mapping/
 .Rhistory
 raw-figs/
 figs/
 .DS_Store
+.Rproj.user
