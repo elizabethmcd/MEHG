@@ -20,7 +20,7 @@ bar_phyla
 # reference isolate phyla 
 references = metadata %>% filter(code=="Isolate")
 reference_phyla = count(references, "Phyla")
-bar_ref = reference_phyla %>% ggplot(aes(x=reorder(Phyla, freq), y=freq)) + geom_bar(stat="identity", fill=(phylaColfunc(8))) + coord_flip() + scale_y_continuous(limits=c(0,100), expand= c(0,0)) + theme_classic()
+bar_ref = reference_phyla %>% ggplot(aes(x=reorder(Phyla, freq), y=freq)) + geom_bar(stat="identity", fill=(phylaColfunc(8))) + coord_flip() + scale_y_continuous(limits=c(0,100), expand= c(0,0), breaks=seq(0,100,10)) + theme_classic()
 bar_ref
 
 # CP phyla
