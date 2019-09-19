@@ -1,0 +1,124 @@
+2757320496,Spirochaetes,Spirochaetes
+2757320509,Euryarchaeota,Euryarchaeota
+archaea30022,Methanoregula_0028,Euryarchaeota
+bacteria23259,Chloroflexi,Chloroflexi
+GCA_000011005.1,Methanocella paludicola SANAE,Euryarchaeota
+GCA_000013445.1,Methanospirillum hungatei JF-1,Euryarchaeota
+GCA_000017625.1,Methanoregula boonei 6A8,Euryarchaeota
+GCA_000021965.1,Methanosphaerula palustris E1-9c,Euryarchaeota
+GCA_000063445.1,Methanocella arvoryzae MRE50,Euryarchaeota
+GCA_000275865.1,Methanofollis liminatans DSM 4140,Euryarchaeota
+GCA_000306725.1,Methanolobus psychrophilus R15,Euryarchaeota
+GCA_000308215.1,Methanomassiliicoccus luminyensis B10,Euryarchaeota
+GCA_000327485.1,Methanoregula formicica SMSP,Euryarchaeota
+GCA_000328665.1,Methanomethylovorans hollandica DSM 15978,Euryarchaeota
+GCA_000384395.1,Geopsychrobacter electrodiphilus DSM 16401,Deltaproteobacteria
+GCA_000504205.1,Methanolobus tindarius DSM 2278,Euryarchaeota
+GCA_000820505.1,Geoalkalibacter ferrihydriticus DSM 17813,Deltaproteobacteria
+GCA_001303955.1,Bacteroides sp. SM23_62,Bacteroidetes
+GCA_001304045.1,Bacteroides sp. SM1_62,Bacteroidetes
+GCA_001412355.1,Methanoculleus sp. SDB,Euryarchaeota
+GCA_001421185.1,Methanomassiliicoccales archaeon RumEn M1,Euryarchaeota
+GCA_001512965.1,Methanomicrobia archaeon DTU008,Euryarchaeota
+GCA_001516055.1,Gracilibacter sp. BRH_c7a,Firmicutes
+GCA_001595815.1,Theionarchaea archaeon DG-70-1,Euryarchaeota
+GCA_001749745.1,Candidatus Marispirochaeta associata,Spirochaetes
+GCA_001771545.1,candidate division WOR-1 bacterium RIFOXYB2_FULL_42_35,WOR4
+GCA_001771665.1,candidate division WOR-1 bacterium RIFOXYC2_FULL_41_25,WOR5
+GCA_001772415.1,candidate division WOR-1 bacterium RIFOXYA2_FULL_41_14,WOR7
+GCA_001789195.1,Candidatus Raymondbacteria bacterium RifOxyA12_full_50_37,Candidatus Raymondbacteria
+GCA_001789205.1,Candidatus Raymondbacteria bacterium RIFOXYA2_FULL_49_16,Candidatus Raymondbacteria
+GCA_001789215.1,Candidatus Raymondbacteria bacterium RifOxyB12_full_50_8,Candidatus Raymondbacteria
+GCA_001789245.1,Candidatus Raymondbacteria bacterium RifOxyC12_full_50_8,Candidatus Raymondbacteria
+GCA_001789275.1,Candidatus Raymondbacteria bacterium RIFOXYD12_FULL_49_13,Candidatus Raymondbacteria
+GCA_001797525.1,Candidatus Raymondbacteria bacterium RIFOXYB2_FULL_49_35,Candidatus Raymondbacteria
+GCA_001803605.1,Nitrospirae bacterium GWA2_46_11,Nitrospirae
+GCA_001803635.1,Nitrospirae bacterium GWB2_47_37,Nitrospirae
+GCA_001803845.1,Nitrospirae bacterium RBG_19FT_COMBO_55_12,Nitrospirae
+GCA_001829165.1,Spirochaetes bacterium GWB1_59_5,Spirochaetes
+GCA_001873745.1,Syntrophaceae bacterium CG2_30_58_14,Deltaproteobacteria
+GCA_002067045.1,Methanomassiliicoccales archaeon PtaB.Bin134,Euryarchaeota
+GCA_002067115.1,Methanoregulaceae archaeon PtaB.Bin009,Euryarchaeota
+GCA_002067275.1,Methanomethylovorans sp. PtaU1.Bin093,Euryarchaeota
+GCA_002067485.1,Methanoregulaceae archaeon PtaB.Bin108,Euryarchaeota
+GCA_002067635.1,Methanomassiliicoccales archaeon PtaU1.Bin030,Euryarchaeota
+GCA_002067665.1,Methanoregulaceae archaeon PtaU1.Bin066,Euryarchaeota
+GCA_002067865.1,Methanomassiliicoccales archaeon PtaU1.Bin124,Euryarchaeota
+GCA_002068035.1,Syntrophaceae bacterium PtaU1.Bin231,Deltaproteobacteria
+GCA_002093115.1,Geothermobacter sp. EPR-M,Deltaproteobacteria
+GCA_002243045.1,Methanolobus psychrotolerans,Euryarchaeota
+GCA_002287215.1,Methanocorpusculum parvum,Euryarchaeota
+GCA_002307015.1,Spirochaetaceae bacterium UBA1318,Spirochaetes
+GCA_002345625.1,Desulfuromonadaceae bacterium UBA2294,Deltaproteobacteria
+GCA_002347685.1,Syntrophaceae bacterium UBA2280,Deltaproteobacteria
+GCA_002348045.1,Anaerolineales bacterium UBA2232,Chloroflexi
+GCA_002380735.1,Anaerolineales bacterium UBA4142,Chloroflexi
+GCA_002400365.1,Anaerolineales bacterium UBA4826,Chloroflexi
+GCA_002412505.1,Anaerolineales bacterium UBA5215,Chloroflexi
+GCA_002422465.1,Peptococcaceae bacterium UBA6129,Firmicutes
+GCA_002435875.1,Anaerolineales bacterium UBA6131,Chloroflexi
+GCA_002494705.1,Methanomassiliicoccus sp. UBA238,Euryarchaeota
+GCA_002495055.1,Methanoregula sp. UBA247,Euryarchaeota
+GCA_002495065.1,Methanoregula sp. UBA471,Euryarchaeota
+GCA_002495585.1,Methanomassiliicoccus sp. UBA292,Euryarchaeota
+GCA_002495775.1,Methanoregula sp. UBA244,Euryarchaeota
+GCA_002496345.1,Methanomassiliicoccus sp. UBA382,Euryarchaeota
+GCA_002496855.1,Methanolinea sp. UBA145,Euryarchaeota
+GCA_002497445.1,Methanoregula sp. UBA450,Euryarchaeota
+GCA_002497995.1,Methanomassiliicoccus sp. UBA393,Euryarchaeota
+GCA_002498285.1,Methanomassiliicoccus sp. UBA386,Euryarchaeota
+GCA_002498295.1,Methanoregula sp. UBA434,Euryarchaeota
+GCA_002498705.1,Methanocorpusculum sp. UBA362,Euryarchaeota
+GCA_002498825.1,Methanolinea sp. UBA437,Euryarchaeota
+GCA_002499025.1,Methanoregula sp. UBA143,Euryarchaeota
+GCA_002499825.1,Methanolinea sp. UBA245,Euryarchaeota
+GCA_002499905.1,Methanolinea sp. UBA277,Euryarchaeota
+GCA_002502005.1,Methanomassiliicoccus sp. UBA321,Euryarchaeota
+GCA_002502245.1,Methanoregula sp. UBA154,Euryarchaeota
+GCA_002502735.1,Methanoregula sp. UBA64,Euryarchaeota
+GCA_002502975.1,Methanolinea sp. UBA451,Euryarchaeota
+GCA_002503495.1,Methanomassiliicoccus sp. UBA335,Euryarchaeota
+GCA_002503645.1,Methanomassiliicoccus sp. UBA315,Euryarchaeota
+GCA_002503825.1,Methanoregulaceae archaeon UBA467,Euryarchaeota
+GCA_002504525.1,Methanomassiliicoccus sp. UBA345,Euryarchaeota
+GCA_002505225.1,Methanomassiliicoccus sp. UBA429,Euryarchaeota
+GCA_002506085.1,Methanocorpusculaceae archaeon UBA425,Euryarchaeota
+GCA_002506105.1,Methanolinea sp. UBA275,Euryarchaeota
+GCA_002506145.1,Methanoregula sp. UBA274,Euryarchaeota
+GCA_002506785.1,Methanoregula sp. UBA452,Euryarchaeota
+GCA_002508425.1,Methanosarcinaceae archaeon UBA470,Euryarchaeota
+GCA_002508465.1,Methanosarcina sp. UBA7,Euryarchaeota
+GCA_002508495.1,Methanoregula sp. UBA276,Euryarchaeota
+GCA_002508545.1,Methanomassiliicoccus sp. UBA6,Euryarchaeota
+GCA_002508555.1,Methanomassiliicoccus sp. UBA364,Euryarchaeota
+GCA_002508585.1,Methanomassiliicoccus sp. UBA360,Euryarchaeota
+GCA_002509495.1,Methanolinea sp. UBA473,Euryarchaeota
+GCA_002509505.1,Methanolinea sp. UBA155,Euryarchaeota
+GCA_002779905.1,Syntrophobacterales bacterium CG03_land_8_20_14_0_80_58_14,Deltaproteobacteria
+GCA_002796565.1,Anaerolineae bacterium CG_4_9_14_0_8_um_filter_58_9,Chloroflexi
+GCA_002835825.1,Methanoregula sp.,Euryarchaeota
+GCA_002839545.1,Candidatus Methanoperedenaceae archaeon HGW-Methanoperedenaceae-1,Euryarchaeota
+GCA_002839605.1,Methanomicrobiales archaeon HGW-Methanomicrobiales-3,Euryarchaeota
+GCA_002839675.1,Methanomicrobiales archaeon HGW-Methanomicrobiales-1,Euryarchaeota
+GCA_002868845.1,Desulfuromonas sp.,Deltaproteobacteria
+GCA_002869615.1,Desulfuromonas sp.,Deltaproteobacteria
+GCA_003133285.1,Coriobacteriia bacterium,Actinobacteria
+GCA_003135935.1,Methanomassiliicoccaceae archaeon,Euryarchaeota
+GCA_003136075.1,Methanoregula sp.,Euryarchaeota
+GCA_003141275.1,Phycisphaerales bacterium,PVC;Planctomycetes
+GCA_003153835.1,Methanoregula sp.,Euryarchaeota
+GCA_003157895.1,Methanoregula sp.,Euryarchaeota
+GCA_003170075.1,Methanoregula sp.,Euryarchaeota
+GCA_003170975.1,Methanoregula sp.,Euryarchaeota
+GCA_003173355.1,Methanospirillum lacunae,Euryarchaeota
+GCA_003245635.1,Treponema sp.,Spirochaetes
+GCA_003245785.1,Spirochaetales bacterium,Spirochaetes
+GCA_003561325.1,Syntrophomonadaceae bacterium,Firmicutes
+GCA_003566645.1,Balneolia bacterium,Bacteroidetes
+GCA_003820245.1,Acidobacteria bacterium,Acidobacteria
+GCA_003838235.1,Methanosalsum natronophilum,Euryarchaeota
+GCA_004377365.1,Anaerolineales bacterium,Chloroflexi
+GCA_004525545.1,Methanomassiliicoccus sp.,Euryarchaeota
+GCA_006546655.1,Methanolobus vulcani,Euryarchaeota
+GCA_900103065.1,Geoalkalibacter ferrihydriticus,Deltaproteobacteria
+GCA_900114835.1,Methanolobus profundi,Euryarchaeota

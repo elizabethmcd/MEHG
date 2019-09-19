@@ -26,8 +26,8 @@ bar_ref
 
 # other with low amounts
 other = metadata %>% filter(Group=="Other")
-other_phyla = count(cp, "Phyla")
-bar_other= other_phyla %>% ggplot(aes(x=reorder(Phyla, freq), y=freq)) + geom_bar(stat="identity", fill="azure4") + coord_flip() + scale_y_continuous(limits=c(0,7), expand= c(0,0), breaks=seq(0,7,1)) + theme_classic()
+other_phyla = count(other, "Phyla")
+bar_other= other_phyla %>% ggplot(aes(x=reorder(Phyla, freq), y=freq)) + geom_bar(stat="identity", fill="azure4") + coord_flip() + scale_y_continuous(limits=c(0,10), expand= c(0,0), breaks=seq(0,10,1)) + theme_classic()
 bar_other
 
 # genome statistics
@@ -78,7 +78,7 @@ mag_qual
 ggsave(file="figs/2019-09-08-environment-barplot.png", bar_env, width=20, height=10, units=c("cm"))
 ggsave(file="figs/2019-09-08-phyla-barplot.png", bar_phyla, width=20, height=10, units=c("cm"))
 ggsave(file="figs/2019-09-08-reference-phyla-barplot.png", bar_ref, width=7, height=4, units=c("cm"))
-ggsave(file="figs/2019-09-08-other-phyla-barplot.png", bar_other, width=7, height=10, units=c("cm"))
+ggsave(file="figs/2019-09-08-other-phyla-barplot.png", bar_other, width=10, height=10, units=c("cm"))
 
 # stats
 ggsave(file="figs/2019-09-08-all-genome-sizes.png", all_avgs_theme, width=15, height=10, units=c("cm"))

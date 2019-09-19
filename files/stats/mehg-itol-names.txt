@@ -1,0 +1,937 @@
+LABELS
+SEPARATOR TAB
+DATA
+2744054410	Candidatus Aminicenantes
+2744054411	PVC
+2757320495	Spirochaetes
+2757320496	Spirochaetes
+2757320497	Spirochaetes
+2757320499	Firmicutes
+2757320500	Firmicutes
+2757320501	Firmicutes
+2757320502	Unclassified
+2757320503	Deltaproteobacteria
+2757320504	Deltaproteobacteria
+2757320505	Deltaproteobacteria
+2757320506	Deltaproteobacteria
+2757320507	Deltaproteobacteria
+2757320508	PVC
+2757320509	Euryarchaeota
+2757320510	Deltaproteobacteria
+archaea30022	Methanoregula_0028
+bacteria00190	2582580680
+bacteria00193	2582580684
+bacteria00203	2582580694
+bacteria00229	2593339183
+bacteria01060v2	Deltaproteobacteria
+bacteria23257	Deltaproteobacteria
+bacteria23258	Bacteroidetes
+bacteria23259	Chloroflexi
+bacteria23260	Deltaproteobacteria
+bacteria23263	Deltaproteobacteria
+bacteria23265	Deltaproteobacteria
+bacteria23266	Firmicutes
+bacteria23267	Deltaproteobacteria
+bacteria23268	Deltaproteobacteria
+bacteria23272	Deltaproteobacteria
+bacteria23311	Deltaproteobacteria
+bacteria23313	Eisenbacteria
+bacteria23314	Candidatus Aminicenantes
+bacteria23315	Candidatus Aminicenantes
+bacteria23317	Candidatus Aminicenantes
+bacteria30001	Actinobacteria
+bacteria30002	Actinobacteria
+bacteria30003	Bacteroidetes
+bacteria30004	Bacteroidetes
+bacteria30005	Bacteroidetes
+bacteria30006	Bacteroidetes
+bacteria30007	Chloroflexi
+bacteria30008	Clostridia_0004
+bacteria30010	Clostridia_0014
+bacteria30011	Clostridia_0015
+bacteria30012	Clostridia_0016
+bacteria30013	Desulfobacterales_0017
+bacteria30014	Desulfobacterales_0019
+bacteria30015	Desulfobacterales_0027
+bacteria30016	Desulfobacterales_0034
+bacteria30017	Candidatus Firestonebacteria_0002
+bacteria30018	Geobacterales_0030
+bacteria30019	Geobacteerales_0032
+bacteria30020	Margulisbacteria_0024
+bacteria30021	Margulisbacteria_0029
+bacteria30023	PVC_0021
+bacteria30024	Syntrophobacterales_0007
+bacteria30025	Syntrophobacterales_0012
+bacteria30026	Verruco_0001
+bacteria30027	Verruco_0006
+bacteria30028	Verruco_0008
+bacteria30029	Verruco_0010
+bacteria30030	Verruco_0011
+bacteria30031	Verruco_0020
+bacteria30032	Verruco_0022
+bacteria30033	Verruco_0023
+bacteria30034	Verruco_0031
+bacteria30035	Verruco_0036
+bacteria30036	Verruco_0037
+GCA_000007985.2	Geobacter sulfurreducens PCA
+GCA_000011005.1	Methanocella paludicola SANAE
+GCA_000012925.1	Geobacter metallireducens GS-15
+GCA_000013405.1	Syntrophus aciditrophicus SB
+GCA_000013445.1	Methanospirillum hungatei JF-1
+GCA_000016745.1	Geobacter uraniireducens Rf4
+GCA_000017625.1	Methanoregula boonei 6A8
+GCA_000020725.1	Geobacter bemidjiensis Bem
+GCA_000021965.1	Methanosphaerula palustris E1-9c
+GCA_000022265.1	Geobacter daltonii FRC-32
+GCA_000023225.1	Desulfomicrobium baculatum DSM 4028
+GCA_000023645.1	Geobacter sp. M21
+GCA_000063445.1	Methanocella arvoryzae MRE50
+GCA_000174415.1	Dethiobacter alkaliphilus AHT 1
+GCA_000174435.1	Desulfonatronospira thiodismutans ASO3-1
+GCA_000175115.2	Geobacter sp. M18
+GCA_000176915.2	Pseudodesulfovibrio aespoeensis Aspo-2
+GCA_000178115.2	Ethanoligenens harbinense YUAN-3
+GCA_000179315.1	delta proteobacterium NaphS2
+GCA_000179595.2	Hungateiclostridium cellulolyticum CD2
+GCA_000186885.1	Desulfobulbus propionicus DSM 2032
+GCA_000189295.2	Desulfovibrio desulfuricans ND132
+GCA_000190635.1	Syntrophobotulus glycolicus DSM 8271
+GCA_000210155.1	Geobacter sulfurreducens KN400
+GCA_000212675.2	Desulfocurvibacter africanus subsp. africanus str. Walvis Bay
+GCA_000219125.2	Acetonema longum DSM 6540
+GCA_000224515.2	Desulfosporosinus sp. OT
+GCA_000231405.3	Desulfitobacterium metallireducens DSM 15288
+GCA_000235605.1	Desulfosporosinus orientis DSM 765
+GCA_000243135.3	Desulfitobacterium dichloroeliminans LMG P-21439
+GCA_000243155.3	Desulfitobacterium dehalogenans ATCC 51507
+GCA_000243475.2	Geobacter metallireducens RCH3
+GCA_000244895.1	Desulfosporosinus youngiae DSM 17734
+GCA_000255115.3	Desulfosporosinus acidiphilus SJ4
+GCA_000266945.1	Desulfomonile tiedjei DSM 6799
+GCA_000275865.1	Methanofollis liminatans DSM 4140
+GCA_000300195.1	Clostridium tunisiense TJ
+GCA_000305775.1	Dehalobacter sp. DCA
+GCA_000305815.1	Dehalobacter sp. CF
+GCA_000306725.1	Methanolobus psychrophilus R15
+GCA_000308215.1	Methanomassiliicoccus luminyensis B10
+GCA_000309295.1	Dehalobacter sp. E1
+GCA_000327485.1	Methanoregula formicica SMSP
+GCA_000328665.1	Methanomethylovorans hollandica DSM 15978
+GCA_000341655.1	Dehalococcoides mccartyi DCMB5
+GCA_000344315.1	Desulfocurvibacter africanus PCS
+GCA_000350485.1	Ruminiclostridium cellobioparum subsp. termitidis CT1112
+GCA_000350545.1	Desulfotignum phosphitoxidans DSM 13687
+GCA_000375485.1	Desulfovibrio oxyclinae DSM 11498
+GCA_000384015.1	Desulfitobacterium sp. PCE1
+GCA_000384395.1	Geopsychrobacter electrodiphilus DSM 16401
+GCA_000420085.1	Desulfospira joergensenii DSM 10085
+GCA_000420485.1	Desulfovibrio longus DSM 6739
+GCA_000421285.1	Desulfotignum balticum DSM 7044
+GCA_000422185.1	Desulfococcus multivorans DSM 2059
+GCA_000422205.1	Desulfovibrio sp. X2
+GCA_000422245.1	Desulfovibrio alkalitolerans DSM 16529
+GCA_000422545.1	Desulfocurvibacter africanus subsp. africanus DSM 2603
+GCA_000426865.1	Geobacter bremensis R1
+GCA_000428825.1	Desulfomicrobium escambiense DSM 10707
+GCA_000429305.1	Desulfovibrio inopinatus DSM 10711
+GCA_000429325.1	Desulfovibrio putealis DSM 16056
+GCA_000429945.1	Desulfobulbus japonicus DSM 18378
+GCA_000429965.1	Desulfobulbus mediterraneus DSM 13871
+GCA_000430905.1	Methanocorpusculum bavaricum DSM 4179
+GCA_000445165.1	Dehalobacter sp. UNSWDHB
+GCA_000504205.1	Methanolobus tindarius DSM 2278
+GCA_000512235.1	Syntrophorhabdus aromaticivorans UI
+GCA_000512895.1	Dehalobacter restrictus DSM 9455
+GCA_000519265.1	Desulfonatronum lacustre DSM 10312
+GCA_000521465.1	Hungateiclostridium straminisolvens JCM 21531
+GCA_000526155.1	Deferrisoma camini S3R1
+GCA_000621505.1	Ruminiclostridium cellobioparum DSM 1351 = ATCC 15832
+GCA_000686525.1	Desulfonatronovibrio hydrogenovorans DSM 9292
+GCA_000699585.1	Peptoclostridium litorale DSM 5388
+GCA_000711225.1	Pelobacter seleniigenes DSM 18267
+GCA_000717475.2	Desulfonatronum thiodismutans
+GCA_000732885.1	Desulfobacula sp. TS
+GCA_000739515.1	Candidatus Moduliflexus flocculans
+GCA_000745845.1	Pseudobacteroides cellulosolvens ATCC 35603 = DSM 2933
+GCA_000747085.1	Smithella sp. F21
+GCA_000769715.1	Desulfobulbus sp. Tol-SR
+GCA_000770645.1	Desulfosporosinus sp. Tol-M
+GCA_000802135.1	Desulfosporosinus sp. BICA1-9
+GCA_000813145.1	Geobacter sp. OR-1
+GCA_000816575.1	Geobacter soli
+GCA_000817955.1	Geobacter pickeringii
+GCA_000820505.1	Geoalkalibacter ferrihydriticus DSM 17813
+GCA_000931935.2	Dethiosulfatarculus sandiegensis
+GCA_000934745.1	Desulfonatronum thioautotrophicum
+GCA_000960765.1	Desulfosporosinus sp. I2
+GCA_000961035.1	Geobacter sulfurreducens
+GCA_000961655.1	Desulfatitalea sp. BRH_c12
+GCA_000961725.1	Desulfobulbaceae bacterium BRH_c16a
+GCA_000961765.1	Clostridiaceae bacterium BRH_c20a
+GCA_001029285.1	Desulfosporosinus acididurans
+GCA_001050275.1	Leptolinea tardivitalis
+GCA_001184205.1	Desulfocarbo indianensis
+GCA_001262605.1	Pseudobacteroides cellulosolvens ATCC 35603 = DSM 2933
+GCA_001278055.1	Desulfuromonas soudanensis
+GCA_001303025.1	Deltaproteobacteria bacterium SG8_13
+GCA_001303465.1	Phycisphaerae bacterium SG8_4
+GCA_001303785.1	candidate division WOR_3 bacterium SM23_42
+GCA_001303955.1	Bacteroides sp. SM23_62
+GCA_001304045.1	Bacteroides sp. SM1_62
+GCA_001304105.1	Deltaproteobacteria bacterium SM23_61
+GCA_001306095.1	Leptolinea tardivitalis
+GCA_001311825.1	Desulfovibrio brasiliensis JCM 12178
+GCA_001311845.1	Desulfosarcina cetonica JCM 12296
+GCA_001311985.1	Geobacter toluenoxydans JCM 15764
+GCA_001412345.1	Smithella sp. SDB
+GCA_001412355.1	Methanoculleus sp. SDB
+GCA_001421185.1	Methanomassiliicoccales archaeon RumEn M1
+GCA_001440545.1	Caloramator mitchellensis
+GCA_001443455.1	Deltaproteobacteria bacterium CSP1-8
+GCA_001508375.1	Desulfotomaculum sp. 46_296
+GCA_001508995.1	Desulfotomaculum sp. 46_80
+GCA_001512965.1	Methanomicrobia archaeon DTU008
+GCA_001513155.1	Syntrophomonas sp. DTU018
+GCA_001515945.1	Desulfitibacter sp. BRH_c19
+GCA_001516045.1	Desulfosporosinus sp. BRH_c37
+GCA_001516055.1	Gracilibacter sp. BRH_c7a
+GCA_001541255.1	Nitrospirae bacterium HCH-1
+GCA_001563225.1	Pseudodesulfovibrio indicus
+GCA_001577565.1	Methanolobus sp. T82-4
+GCA_001595385.3	Deltaproteobacteria bacterium GWC2_55_46
+GCA_001595815.1	Theionarchaea archaeon DG-70-1
+GCA_001602685.1	Methanomicrobiales archaeon Methan_05
+GCA_001603855.1	Syntrophobacterales bacterium Delta_03
+GCA_001603955.1	Syntrophobacterales bacterium Delta_02
+GCA_001604385.1	Spirochaetales bacterium Spiro_09
+GCA_001604405.1	Spirochaetales bacterium Spiro_10
+GCA_001604475.1	Synergistales bacterium Syner_03
+GCA_001611275.1	Desulfuromonas sp. DDH964
+GCA_001618385.1	Paludibacter jiangxiensis
+GCA_001628815.1	Geobacter anodireducens
+GCA_001707455.1	Dehalobacter sp. TeCB1
+GCA_001707885.1	Desulfosporosinus sp. BG
+GCA_001714685.2	Methanosarcina sp. Ant1
+GCA_001717745.1	Clostridium sp. Bc-iso-3
+GCA_001735875.1	Olavius algarvensis Delta 1 endosymbiont
+GCA_001742305.1	Desulfuribacillus stibiiarsenatis
+GCA_001749745.1	Candidatus Marispirochaeta associata
+GCA_001750925.1	Desulfobulbaceae bacterium S3730MH12
+GCA_001750995.1	Desulfobulbaceae bacterium S5133MH15
+GCA_001768155.1	Bacteroidetes bacterium GWA2_30_7
+GCA_001768975.1	Bacteroidetes bacterium GWA2_31_9
+GCA_001769035.1	Bacteroidetes bacterium GWA2_32_17
+GCA_001769125.1	Bacteroidetes bacterium GWF2_35_48
+GCA_001769395.1	Bacteroidetes bacterium RIFOXYA12_FULL_35_11
+GCA_001769785.1	Bacteroidetes bacterium RIFOXYC12_FULL_35_7
+GCA_001770075.1	Bdellovibrionales bacterium RIFOXYC1_FULL_54_43
+GCA_001770175.1	Bdellovibrionales bacterium RIFOXYD1_FULL_55_31
+GCA_001771235.1	candidate division KSB1 bacterium RBG_16_48_16
+GCA_001771415.1	candidate division WOR-1 bacterium RIFOXYA12_FULL_43_27
+GCA_001771545.1	candidate division WOR-1 bacterium RIFOXYB2_FULL_42_35
+GCA_001771585.1	candidate division WOR-1 bacterium RIFOXYB2_FULL_46_45
+GCA_001771665.1	candidate division WOR-1 bacterium RIFOXYC2_FULL_41_25
+GCA_001771695.1	candidate division WOR-1 bacterium RIFOXYC2_FULL_46_14
+GCA_001772415.1	candidate division WOR-1 bacterium RIFOXYA2_FULL_41_14
+GCA_001772435.1	candidate division WOR-1 bacterium RIFOXYA2_FULL_46_56
+GCA_001778375.1	Candidatus Firestonebacteria bacterium RIFOXYD2_FULL_39_29
+GCA_001780375.1	Candidatus Firestonebacteria bacterium RIFOXYC2_FULL_39_67
+GCA_001789195.1	Candidatus Raymondbacteria bacterium RifOxyA12_full_50_37
+GCA_001789205.1	Candidatus Raymondbacteria bacterium RIFOXYA2_FULL_49_16
+GCA_001789215.1	Candidatus Raymondbacteria bacterium RifOxyB12_full_50_8
+GCA_001789245.1	Candidatus Raymondbacteria bacterium RifOxyC12_full_50_8
+GCA_001789275.1	Candidatus Raymondbacteria bacterium RIFOXYD12_FULL_49_13
+GCA_001794965.1	Chloroflexi bacterium GWD2_49_16
+GCA_001795535.1	Deltaproteobacteria bacterium GWA2_54_12
+GCA_001795545.1	Deltaproteobacteria bacterium GWA2_55_82
+GCA_001795575.1	Deltaproteobacteria bacterium GWB2_65_81
+GCA_001796335.1	Chloroflexi bacterium GWB2_49_20
+GCA_001796365.1	Chloroflexi bacterium GWC2_49_37
+GCA_001797355.1	Deltaproteobacteria bacterium GWA2_43_19
+GCA_001797415.1	Deltaproteobacteria bacterium GWA2_55_10
+GCA_001797465.1	Deltaproteobacteria bacterium GWB2_55_19
+GCA_001797525.1	Candidatus Raymondbacteria bacterium RIFOXYB2_FULL_49_35
+GCA_001797585.1	Deltaproteobacteria bacterium GWD2_42_10
+GCA_001797665.1	Deltaproteobacteria bacterium GWF2_42_12
+GCA_001797695.1	Deltaproteobacteria bacterium RBG_13_49_15
+GCA_001797745.1	Deltaproteobacteria bacterium RBG_13_52_11
+GCA_001797845.1	Deltaproteobacteria bacterium RBG_16_44_11
+GCA_001797865.1	Deltaproteobacteria bacterium RBG_16_48_10
+GCA_001797945.1	Deltaproteobacteria bacterium RBG_16_58_17
+GCA_001798155.1	Deltaproteobacteria bacterium RIFCSPHIGHO2_02_FULL_42_44
+GCA_001798165.1	Deltaproteobacteria bacterium RIFCSPHIGHO2_02_FULL_43_33
+GCA_001798425.1	Deltaproteobacteria bacterium RIFCSPLOWO2_02_FULL_55_12
+GCA_001798605.1	Deltaproteobacteria bacterium RIFOXYA12_FULL_58_15
+GCA_001798625.1	Deltaproteobacteria bacterium RIFOXYA2_FULL_42_10
+GCA_001798725.1	Deltaproteobacteria bacterium RIFOXYD12_FULL_53_23
+GCA_001798915.1	Deltaproteobacteria bacterium RBG_19FT_COMBO_43_11
+GCA_001799225.1	Deltaproteobacteria bacterium RIFOXYD12_FULL_50_9
+GCA_001799275.1	Deltaproteobacteria bacterium RIFOXYD12_FULL_57_12
+GCA_001799285.1	Deltaproteobacteria bacterium RIFOXYD12_FULL_56_24
+GCA_001799365.1	Desulfobacterales bacterium GWB2_56_26
+GCA_001799395.1	Desulfobacterales bacterium RIFOXYA12_FULL_46_15
+GCA_001799485.1	Desulfuromonadales bacterium GWC2_61_20
+GCA_001799505.1	Desulfuromonadales bacterium GWD2_54_10
+GCA_001799645.1	Elusimicrobia bacterium GWA2_64_40
+GCA_001799695.1	Elusimicrobia bacterium GWA2_69_24
+GCA_001799715.1	Elusimicrobia bacterium GWB2_63_16
+GCA_001799735.1	Elusimicrobia bacterium GWB2_63_22
+GCA_001799795.1	Elusimicrobia bacterium GWC2_61_19
+GCA_001799895.1	Elusimicrobia bacterium GWD2_63_28
+GCA_001800235.1	Elusimicrobia bacterium RIFOXYA12_FULL_49_49
+GCA_001800315.1	Elusimicrobia bacterium RIFOXYA2_FULL_47_53
+GCA_001800325.1	Elusimicrobia bacterium RIFOXYA2_FULL_40_6
+GCA_001800425.1	Elusimicrobia bacterium RIFOXYB1_FULL_48_9
+GCA_001800455.1	Elusimicrobia bacterium RIFOXYB12_FULL_50_12
+GCA_001800475.1	Elusimicrobia bacterium RIFOXYB2_FULL_46_23
+GCA_001800495.1	Elusimicrobia bacterium RIFOXYB2_FULL_48_7
+GCA_001802095.1	Geobacteraceae bacterium GWB2_52_12
+GCA_001802135.1	Geobacteraceae bacterium GWC2_58_44
+GCA_001803235.1	Lentisphaerae bacterium RIFOXYA12_64_32
+GCA_001803305.1	Lentisphaerae bacterium RIFOXYB12_FULL_65_16
+GCA_001803605.1	Nitrospirae bacterium GWA2_46_11
+GCA_001803635.1	Nitrospirae bacterium GWB2_47_37
+GCA_001803705.1	Nitrospirae bacterium GWC2_56_14
+GCA_001803845.1	Nitrospirae bacterium RBG_19FT_COMBO_55_12
+GCA_001803945.1	Nitrospirae bacterium RIFOXYA2_FULL_44_9
+GCA_001803955.1	Nitrospirae bacterium RIFOXYB2_FULL_43_5
+GCA_001804865.1	Lentisphaerae bacterium GWF2_57_35
+GCA_001804885.1	Lentisphaerae bacterium RIFOXYA12_FULL_48_11
+GCA_001805105.1	Nitrospirae bacterium GWF2_44_13
+GCA_001805295.1	Nitrospirae bacterium RIFOXYC2_FULL_44_7
+GCA_001806225.1	Deltaproteobacteria bacterium RIFCSPLOWO2_02_FULL_42_39
+GCA_001825565.1	Desulfuromonadaceae bacterium GWC2_58_13
+GCA_001828265.1	Planctomycetes bacterium RBG_13_63_9
+GCA_001828335.1	Planctomycetes bacterium RBG_16_64_12
+GCA_001829125.1	Spirochaetes bacterium GWB1_27_13
+GCA_001829155.1	Spirochaetes bacterium GWB1_36_13
+GCA_001829165.1	Spirochaetes bacterium GWB1_59_5
+GCA_001829185.1	Spirochaetes bacterium GWB1_60_80
+GCA_001829215.1	Spirochaetes bacterium GWB1_66_5
+GCA_001829245.1	Spirochaetes bacterium GWC1_61_12
+GCA_001829295.1	Spirochaetes bacterium GWD1_61_31
+GCA_001829315.1	Spirochaetes bacterium GWE1_32_154
+GCA_001829335.1	Spirochaetes bacterium GWE2_31_10
+GCA_001829345.1	Spirochaetes bacterium GWF1_31_7
+GCA_001829375.1	Spirochaetes bacterium GWF1_41_5
+GCA_001829395.1	Spirochaetes bacterium GWF1_49_6
+GCA_001829415.1	Spirochaetes bacterium GWF1_51_8
+GCA_001829455.1	Spirochaetes bacterium RBG_13_51_14
+GCA_001829495.1	Spirochaetes bacterium RBG_16_49_21
+GCA_001829505.1	Spirochaetes bacterium RBG_16_67_19
+GCA_001829535.1	Spirochaetes bacterium RIFOXYB1_FULL_32_8
+GCA_001829835.1	Syntrophobacterales bacterium GWF2_56_9
+GCA_001829875.1	Syntrophus sp. GWC2_56_31
+GCA_001830155.1	Treponema sp. GWA1_62_8
+GCA_001830585.1	Spirochaetes bacterium GWD1_27_9
+GCA_001830615.1	Spirochaetes bacterium GWE1_60_18
+GCA_001830635.1	Spirochaetes bacterium GWF1_60_12
+GCA_001830645.1	Spirochaetes bacterium RIFOXYC1_FULL_54_7
+GCA_001830835.1	Syntrophobacterales bacterium GWC2_56_13
+GCA_001831025.1	Treponema sp. GWB1_62_6
+GCA_001854245.1	Desulfococcus multivorans
+GCA_001871115.1	Elusimicrobia bacterium CG1_02_56_21
+GCA_001871685.1	Nitrospirae bacterium CG1_02_44_142
+GCA_001873285.1	Nitrospirae bacterium CG2_30_53_67
+GCA_001873705.1	Syntrophobacteraceae bacterium CG2_30_61_12
+GCA_001873745.1	Syntrophaceae bacterium CG2_30_58_14
+GCA_001873905.1	Deltaproteobacteria bacterium CG2_30_43_15
+GCA_001873935.1	Deltaproteobacteria bacterium CG2_30_66_27
+GCA_001874005.1	Desulfobacteraceae bacterium CG2_30_51_40
+GCA_001874525.1	Pseudodesulfovibrio hydrargyri
+GCA_001897035.1	Bacteroidales bacterium 45-6
+GCA_001902295.1	Clostridium kluyveri
+GCA_001936615.1	Desulfosporosinus sp. OL
+GCA_002009335.2	Desulfococcus multivorans
+GCA_002051585.1	Ruminiclostridium hungatei
+GCA_002067035.1	Methanoregula sp. PtaB.Bin085
+GCA_002067045.1	Methanomassiliicoccales archaeon PtaB.Bin134
+GCA_002067115.1	Methanoregulaceae archaeon PtaB.Bin009
+GCA_002067165.1	Syntrophorhabdus sp. PtaB.Bin006
+GCA_002067235.1	Syntrophorhabdus sp. PtaB.Bin047
+GCA_002067245.1	Syntrophus sp. PtaB.Bin138
+GCA_002067275.1	Methanomethylovorans sp. PtaU1.Bin093
+GCA_002067315.1	Methanocella sp. PtaU1.Bin125
+GCA_002067405.1	Syntrophorhabdaceae bacterium PtaU1.Bin034
+GCA_002067415.1	Syntrophorhabdus sp. PtaU1.Bin002
+GCA_002067445.1	Syntrophorhabdus sp. PtaU1.Bin050
+GCA_002067475.1	Syntrophorhabdus sp. PtaU1.Bin153
+GCA_002067485.1	Methanoregulaceae archaeon PtaB.Bin108
+GCA_002067515.1	Pelotomaculum sp. PtaB.Bin013
+GCA_002067585.1	Syntrophorhabdus sp. PtaB.Bin027
+GCA_002067635.1	Methanomassiliicoccales archaeon PtaU1.Bin030
+GCA_002067645.1	Methanoregula sp. PtaU1.Bin006
+GCA_002067665.1	Methanoregulaceae archaeon PtaU1.Bin066
+GCA_002067745.1	Syntrophus sp. PtaU1.Bin005
+GCA_002067815.1	Syntrophus sp. PtaB.Bin001
+GCA_002067825.1	Syntrophus sp. PtaB.Bin075
+GCA_002067865.1	Methanomassiliicoccales archaeon PtaU1.Bin124
+GCA_002067895.1	Methanoregula sp. PtaU1.Bin051
+GCA_002067975.1	Syntrophorhabdus sp. PtaU1.Bin058
+GCA_002068015.1	Smithella sp. PtaU1.Bin162
+GCA_002068025.1	Syntrophus sp. PtaU1.Bin208
+GCA_002068035.1	Syntrophaceae bacterium PtaU1.Bin231
+GCA_002084945.1	Desulfobacteraceae bacterium 4572_87
+GCA_002093115.1	Geothermobacter sp. EPR-M
+GCA_002117975.1	Geobacter pelophilus
+GCA_002196705.1	Desulfosporosinus sp. FKB
+GCA_002196785.1	Desulfosporosinus sp. FKA
+GCA_002202365.1	Clostridium sp. link-BC1
+GCA_002243045.1	Methanolobus psychrotolerans
+GCA_002279275.1	Deltaproteobacteria bacterium 37-65-8
+GCA_002287215.1	Methanocorpusculum parvum
+GCA_002292015.1	Firmicutes bacterium UBA993
+GCA_002294405.1	Anaerolineales bacterium UBA877
+GCA_002298125.1	Clostridium sp. UBA701
+GCA_002298165.1	Desulfarculales bacterium UBA702
+GCA_002298725.1	Desulfovibrio sp. UBA728
+GCA_002298915.1	Clostridium sp. UBA699
+GCA_002298925.1	Geobacter sp. UBA698
+GCA_002298995.1	Desulfarculales bacterium UBA696
+GCA_002299555.1	Candidatus Aminicenantes bacterium UBA647
+GCA_002304835.1	Firmicutes bacterium UBA1422
+GCA_002304995.1	Syntrophaceae bacterium UBA1411
+GCA_002305765.1	Deltaproteobacteria bacterium UBA1386
+GCA_002306665.1	Desulfovibrio sp. UBA1335
+GCA_002306975.1	Ruminococcaceae bacterium UBA1320
+GCA_002307015.1	Spirochaetaceae bacterium UBA1318
+GCA_002307245.1	Spirochaetaceae bacterium UBA1306
+GCA_002307275.1	Hungateiclostridiaceae bacterium UBA1305
+GCA_002312915.1	Syntrophaceae bacterium UBA1164
+GCA_002319915.1	Bacteroidales bacterium UBA1800
+GCA_002322035.1	Geobacter sp. UBA1603
+GCA_002322475.1	Elusimicrobia bacterium UBA1565
+GCA_002327225.1	Desulfobulbaceae bacterium UBA2213
+GCA_002327415.1	Smithella sp. UBA2180
+GCA_002327925.1	Anaerolineales bacterium UBA2200
+GCA_002327985.1	Syntrophaceae bacterium UBA2188
+GCA_002328165.1	Desulfobacteraceae bacterium UBA2156
+GCA_002328485.1	Deltaproteobacteria bacterium UBA2221
+GCA_002329025.1	Desulfobacteraceae bacterium UBA2130
+GCA_002329645.1	Lachnoclostridium sp. UBA1434
+GCA_002340985.1	Firmicutes bacterium UBA2530
+GCA_002345625.1	Desulfuromonadaceae bacterium UBA2294
+GCA_002345925.1	Actinobacteria bacterium UBA2286
+GCA_002347185.1	Desulfobulbaceae bacterium UBA2262
+GCA_002347225.1	Desulfobulbaceae bacterium UBA2248
+GCA_002347365.1	Actinobacteria bacterium UBA2279
+GCA_002347425.1	Firmicutes bacterium UBA2269
+GCA_002347465.1	Geobacter sp. UBA2265
+GCA_002347685.1	Syntrophaceae bacterium UBA2280
+GCA_002347745.1	Desulfobulbaceae bacterium UBA2270
+GCA_002347815.1	Syntrophaceae bacterium UBA2251
+GCA_002348045.1	Anaerolineales bacterium UBA2232
+GCA_002352445.1	Desulfobulbaceae bacterium UBA2775
+GCA_002367115.1	Clostridium tunisiense
+GCA_002367305.1	Actinobacteria bacterium UBA3086
+GCA_002375855.1	Clostridiales bacterium UBA3578
+GCA_002376415.1	Clostridiales bacterium UBA3582
+GCA_002376665.1	Hungateiclostridiaceae bacterium UBA3548
+GCA_002380735.1	Anaerolineales bacterium UBA4142
+GCA_002380925.1	Bacteroidales bacterium UBA4133
+GCA_002381185.1	Firmicutes bacterium UBA3553
+GCA_002381895.1	Geobacter sp. UBA4078
+GCA_002381965.1	Syntrophaceae bacterium UBA4065
+GCA_002382045.1	Syntrophaceae bacterium UBA4059
+GCA_002382135.1	Smithella sp. UBA4047
+GCA_002382705.1	Geobacter sp. UBA4057
+GCA_002382725.1	Desulfobulbaceae bacterium UBA4056
+GCA_002382755.1	Firmicutes bacterium UBA4049
+GCA_002382785.1	Desulfosporosinus sp. UBA4048
+GCA_002383325.1	Candidatus Aminicenantes bacterium UBA4085
+GCA_002386685.1	Firmicutes bacterium UBA4599
+GCA_002387895.1	Clostridium sp. UBA4548
+GCA_002396925.1	Syntrophomonas sp. UBA4990
+GCA_002397225.1	Syntrophomonas sp. UBA4968
+GCA_002397955.1	Synergistaceae bacterium UBA4921
+GCA_002398105.1	Syntrophomonas sp. UBA4911
+GCA_002398325.1	Syntrophomonas sp. UBA4894
+GCA_002399145.1	Syntrophomonas sp. UBA4889
+GCA_002399315.1	Syntrophomonas sp. UBA4878
+GCA_002400005.1	Syntrophomonas sp. UBA4844
+GCA_002400365.1	Anaerolineales bacterium UBA4826
+GCA_002402385.1	Syntrophaceae bacterium UBA4816
+GCA_002402545.1	Syntrophaceae bacterium UBA4810
+GCA_002402945.1	Pelotomaculum sp. UBA4789
+GCA_002403175.1	Syntrophaceae bacterium UBA4778
+GCA_002403815.1	Desulfosporosinus sp. UBA4745
+GCA_002404215.1	Desulfosporosinus sp. UBA4726
+GCA_002407865.1	Spirochaetia bacterium UBA5368
+GCA_002408285.1	Peptococcaceae bacterium UBA5318
+GCA_002408305.1	Syntrophomonas sp. UBA5316
+GCA_002408445.1	Syntrophomonas sp. UBA5288
+GCA_002408685.1	Synergistaceae bacterium UBA5258
+GCA_002408885.1	Lentisphaeria bacterium UBA5247
+GCA_002408935.1	Syntrophomonas sp. UBA5246
+GCA_002409045.1	Synergistaceae bacterium UBA5240
+GCA_002409825.1	Syntrophomonas sp. UBA5373
+GCA_002410205.1	Synergistaceae bacterium UBA5331
+GCA_002410325.1	Syntrophomonas sp. UBA5314
+GCA_002410865.1	Syntrophomonas sp. UBA5380
+GCA_002411325.1	Syntrophomonas sp. UBA5298
+GCA_002412435.1	Syntrophomonas sp. UBA5221
+GCA_002412505.1	Anaerolineales bacterium UBA5215
+GCA_002412715.1	Deltaproteobacteria bacterium UBA5205
+GCA_002412825.1	Spirochaetaceae bacterium UBA5200
+GCA_002412965.1	Desulfomicrobium sp. UBA5193
+GCA_002413075.1	Desulfosporosinus sp. UBA5188
+GCA_002413245.1	Desulfosporosinus sp. UBA5179
+GCA_002414225.1	Desulfobulbaceae bacterium UBA5121
+GCA_002415465.1	Desulfobulbaceae bacterium UBA5123
+GCA_002415855.1	Bacteroidales bacterium UBA5072
+GCA_002418185.1	Deltaproteobacteria bacterium UBA5799
+GCA_002418585.1	Desulfosporosinus sp. UBA5775
+GCA_002418825.1	Syntrophaceae bacterium UBA5764
+GCA_002418835.1	Spirochaetia bacterium UBA5763
+GCA_002418985.1	Deltaproteobacteria bacterium UBA5756
+GCA_002419085.1	Desulfobulbaceae bacterium UBA5750
+GCA_002419385.1	Geobacter sp. UBA5735
+GCA_002419525.1	Syntrophaceae bacterium UBA5726
+GCA_002419605.1	Smithella sp. UBA5724
+GCA_002420525.1	Desulfobacteraceae bacterium UBA5681
+GCA_002421695.1	Smithella sp. UBA6208
+GCA_002422465.1	Peptococcaceae bacterium UBA6129
+GCA_002423105.1	Geobacter sp. UBA6151
+GCA_002423615.1	Desulfobacteraceae bacterium UBA5616
+GCA_002423765.1	Firmicutes bacterium UBA5526
+GCA_002424125.1	Syntrophomonas sp. UBA5481
+GCA_002424635.1	Desulfobulbaceae bacterium UBA5611
+GCA_002425885.1	Spirochaetia bacterium UBA5550
+GCA_002426245.1	Syntrophomonas sp. UBA5504
+GCA_002426625.1	Syntrophomonas sp. UBA5443
+GCA_002428495.1	Synergistaceae bacterium UBA6101
+GCA_002428705.1	Desulfovibrio sp. UBA6079
+GCA_002428765.1	Desulfosporosinus sp. UBA6075
+GCA_002432985.1	Syntrophaceae bacterium UBA5828
+GCA_002435875.1	Anaerolineales bacterium UBA6131
+GCA_002441385.1	Firmicutes bacterium UBA6245
+GCA_002448235.1	Syntrophaceae bacterium UBA6087
+GCA_002448905.1	Desulfobulbaceae bacterium UBA6913
+GCA_002451165.1	Nitrospiraceae bacterium UBA6905
+GCA_002452125.1	Firmicutes bacterium UBA6827
+GCA_002452365.1	Smithella sp. UBA6798
+GCA_002452635.1	Desulfovibrionaceae bacterium UBA6814
+GCA_002452655.1	Firmicutes bacterium UBA6813
+GCA_002469335.1	Firmicutes bacterium UBA6800
+GCA_002471555.1	Desulfovibrio sp. UBA7315
+GCA_002478265.1	Syntrophaceae bacterium UBA7520
+GCA_002478275.1	Actinobacteria bacterium UBA7524
+GCA_002479215.1	Syntrophaceae bacterium UBA7544
+GCA_002482545.1	Sporomusaceae bacterium UBA7701
+GCA_002482655.1	Geobacter sp. UBA7696
+GCA_002494705.1	Methanomassiliicoccus sp. UBA238
+GCA_002495055.1	Methanoregula sp. UBA247
+GCA_002495065.1	Methanoregula sp. UBA471
+GCA_002495585.1	Methanomassiliicoccus sp. UBA292
+GCA_002495775.1	Methanoregula sp. UBA244
+GCA_002496345.1	Methanomassiliicoccus sp. UBA382
+GCA_002496855.1	Methanolinea sp. UBA145
+GCA_002497445.1	Methanoregula sp. UBA450
+GCA_002497995.1	Methanomassiliicoccus sp. UBA393
+GCA_002498285.1	Methanomassiliicoccus sp. UBA386
+GCA_002498295.1	Methanoregula sp. UBA434
+GCA_002498375.1	Methanocorpusculum sp. UBA424
+GCA_002498705.1	Methanocorpusculum sp. UBA362
+GCA_002498825.1	Methanolinea sp. UBA437
+GCA_002499025.1	Methanoregula sp. UBA143
+GCA_002499825.1	Methanolinea sp. UBA245
+GCA_002499905.1	Methanolinea sp. UBA277
+GCA_002502005.1	Methanomassiliicoccus sp. UBA321
+GCA_002502245.1	Methanoregula sp. UBA154
+GCA_002502735.1	Methanoregula sp. UBA64
+GCA_002502975.1	Methanolinea sp. UBA451
+GCA_002503495.1	Methanomassiliicoccus sp. UBA335
+GCA_002503645.1	Methanomassiliicoccus sp. UBA315
+GCA_002503825.1	Methanoregulaceae archaeon UBA467
+GCA_002504525.1	Methanomassiliicoccus sp. UBA345
+GCA_002505225.1	Methanomassiliicoccus sp. UBA429
+GCA_002506085.1	Methanocorpusculaceae archaeon UBA425
+GCA_002506105.1	Methanolinea sp. UBA275
+GCA_002506145.1	Methanoregula sp. UBA274
+GCA_002506785.1	Methanoregula sp. UBA452
+GCA_002508425.1	Methanosarcinaceae archaeon UBA470
+GCA_002508465.1	Methanosarcina sp. UBA7
+GCA_002508495.1	Methanoregula sp. UBA276
+GCA_002508545.1	Methanomassiliicoccus sp. UBA6
+GCA_002508555.1	Methanomassiliicoccus sp. UBA364
+GCA_002508585.1	Methanomassiliicoccus sp. UBA360
+GCA_002509495.1	Methanolinea sp. UBA473
+GCA_002509505.1	Methanolinea sp. UBA155
+GCA_002687435.1	Desulfobacter sp.
+GCA_002711645.1	Desulfovibrio sp.
+GCA_002733995.1	Desulfotalea sp.
+GCA_002753225.1	Deltaproteobacteria bacterium YD0425bin51
+GCA_002753305.1	Nitrospirae bacterium MYbin6
+GCA_002753335.1	Nitrospirae bacterium MYbin3
+GCA_002753435.1	Nitrospirae bacterium
+GCA_002771395.1	Bacteroidetes bacterium CG23_combo_of_CG06-09_8_20_14_all_32_9
+GCA_002771505.1	Nitrospirae bacterium CG22_combo_CG10-13_8_21_14_all_44_11
+GCA_002774365.1	Candidatus Saganbacteria bacterium CG08_land_8_20_14_0_20_45_16
+GCA_002774505.1	Nitrospirae bacterium CG08_land_8_20_14_0_20_52_24
+GCA_002779265.1	Syntrophobacteraceae bacterium CG07_land_8_20_14_0_80_61_8
+GCA_002779785.1	Deltaproteobacteria bacterium CG06_land_8_20_14_3_00_44_19
+GCA_002779905.1	Syntrophobacterales bacterium CG03_land_8_20_14_0_80_58_14
+GCA_002780715.1	Deltaproteobacteria bacterium CG03_land_8_20_14_0_80_45_14
+GCA_002780905.1	Nitrospirae bacterium CG02_land_8_20_14_3_00_44_33
+GCA_002781315.1	Bacteroidetes bacterium CG02_land_8_20_14_3_00_31_25
+GCA_002781345.1	Nitrospirae bacterium CG01_land_8_20_14_3_00_44_22
+GCA_002781445.1	Nitrospirae bacterium CG17_big_fil_post_rev_8_21_14_2_50_50_9
+GCA_002781565.1	Deltaproteobacteria bacterium CG17_big_fil_post_rev_8_21_14_2_50_51_6
+GCA_002782115.1	Nitrospirae bacterium CG_4_8_14_3_um_filter_50_41
+GCA_002782185.1	Nitrospirae bacterium CG_4_8_14_3_um_filter_44_28
+GCA_002783085.1	Nitrospirae bacterium CG_4_10_14_3_um_filter_44_29
+GCA_002783705.1	Deltaproteobacteria bacterium CG_4_8_14_3_um_filter_51_11
+GCA_002783725.1	Deltaproteobacteria bacterium CG_4_8_14_3_um_filter_45_9
+GCA_002784085.1	Bacteroidetes bacterium CG_4_10_14_3_um_filter_31_20
+GCA_002784205.1	Deltaproteobacteria bacterium CG_4_10_14_3_um_filter_51_14
+GCA_002789615.1	Acidobacteria bacterium CG_4_9_14_3_um_filter_49_7
+GCA_002789935.1	Deltaproteobacteria bacterium CG_4_9_14_3_um_filter_44_9
+GCA_002789985.1	Deltaproteobacteria bacterium CG_4_9_14_3_um_filter_65_9
+GCA_002790755.1	Nitrospirae bacterium CG_4_9_14_3_um_filter_44_28
+GCA_002793335.1	Elusimicrobia bacterium CG_4_10_14_0_2_um_filter_56_8
+GCA_002796305.1	Deltaproteobacteria bacterium CG11_big_fil_rev_8_21_14_0_20_49_13
+GCA_002796565.1	Anaerolineae bacterium CG_4_9_14_0_8_um_filter_58_9
+GCA_002798115.1	Desulfofaba hansenii
+GCA_002835825.1	Methanoregula sp.
+GCA_002838975.1	Candidatus Wallbacteria bacterium HGW-Wallbacteria-1
+GCA_002839185.1	Synergistetes bacterium HGW-Synergistetes-1
+GCA_002839245.1	Spirochaetae bacterium HGW-Spirochaetae-7
+GCA_002839285.1	Spirochaetae bacterium HGW-Spirochaetae-5
+GCA_002839375.1	Spirochaetae bacterium HGW-Spirochaetae-1
+GCA_002839545.1	Candidatus Methanoperedenaceae archaeon HGW-Methanoperedenaceae-1
+GCA_002839605.1	Methanomicrobiales archaeon HGW-Methanomicrobiales-3
+GCA_002839675.1	Methanomicrobiales archaeon HGW-Methanomicrobiales-1
+GCA_002839855.1	Candidatus Goldbacteria bacterium HGW-Goldbacteria-1
+GCA_002840355.1	Elusimicrobia bacterium HGW-Elusimicrobia-3
+GCA_002840435.1	Deltaproteobacteria bacterium HGW-Deltaproteobacteria-6
+GCA_002840495.1	Deltaproteobacteria bacterium HGW-Deltaproteobacteria-21
+GCA_002840505.1	Deltaproteobacteria bacterium HGW-Deltaproteobacteria-2
+GCA_002840535.1	Deltaproteobacteria bacterium HGW-Deltaproteobacteria-15
+GCA_002840555.1	Deltaproteobacteria bacterium HGW-Deltaproteobacteria-13
+GCA_002840565.1	Deltaproteobacteria bacterium HGW-Deltaproteobacteria-12
+GCA_002840635.1	Deltaproteobacteria bacterium HGW-Deltaproteobacteria-1
+GCA_002840935.1	Bacteroidetes bacterium HGW-Bacteroidetes-21
+GCA_002841275.1	Actinobacteria bacterium HGW-Actinobacteria-7
+GCA_002841295.1	Actinobacteria bacterium HGW-Actinobacteria-6
+GCA_002841355.1	Actinobacteria bacterium HGW-Actinobacteria-1
+GCA_002841395.1	Firmicutes bacterium HGW-Firmicutes-9
+GCA_002841405.1	Firmicutes bacterium HGW-Firmicutes-4
+GCA_002841765.1	Deltaproteobacteria bacterium HGW-Deltaproteobacteria-4
+GCA_002841785.1	Deltaproteobacteria bacterium HGW-Deltaproteobacteria-3
+GCA_002841885.1	Deltaproteobacteria bacterium HGW-Deltaproteobacteria-18
+GCA_002868845.1	Desulfuromonas sp.
+GCA_002868865.1	Desulfuromonas sp.
+GCA_002868905.1	Desulfuromonas sp.
+GCA_002868925.1	Desulfuromonas sp.
+GCA_002868945.1	Desulfobulbaceae bacterium
+GCA_002868955.1	Desulfobulbaceae bacterium
+GCA_002868985.1	Desulfobacteraceae bacterium
+GCA_002869005.1	Deltaproteobacteria bacterium
+GCA_002869015.1	Deltaproteobacteria bacterium
+GCA_002869605.1	Desulfuromonas sp.
+GCA_002869615.1	Desulfuromonas sp.
+GCA_002869665.1	Desulfuromonas sp.
+GCA_002869695.1	Desulfuromonas sp.
+GCA_002869725.1	Desulfuromonas sp.
+GCA_002897615.1	bacterium BMS3Bbin14
+GCA_002897695.1	bacterium BMS3Abin14
+GCA_002897815.1	bacterium BMS3Abin07
+GCA_002897855.1	bacterium BMS3Bbin05
+GCA_002897975.1	bacterium BMS3Abin13
+GCA_002898515.1	Geothermobacter sp. HR-1
+GCA_002995785.1	Clostridium liquoris
+GCA_003003035.1	Marinilabilia salmonicolor
+GCA_003020045.1	Ethanoligenens harbinense YUAN-3
+GCA_003046795.1	Desulfonatronum sp. SC1
+GCA_003053505.1	Geobacter sp. DSM 2909
+GCA_003104905.1	Candidatus Methanoperedenaceae archaeon
+GCA_003132645.1	Actinobacteria bacterium
+GCA_003133285.1	Coriobacteriia bacterium
+GCA_003135935.1	Methanomassiliicoccaceae archaeon
+GCA_003136075.1	Methanoregula sp.
+GCA_003136095.1	Myxococcales bacterium
+GCA_003137035.1	Bryobacterales bacterium
+GCA_003138315.1	Syntrophaceae bacterium
+GCA_003138675.1	Syntrophaceae bacterium
+GCA_003138835.1	Syntrophaceae bacterium
+GCA_003139105.1	Syntrophaceae bacterium
+GCA_003139775.1	Syntrophaceae bacterium
+GCA_003140615.1	Syntrophaceae bacterium
+GCA_003141275.1	Phycisphaerales bacterium
+GCA_003141415.1	Bacteroidales bacterium
+GCA_003141495.1	Bacteroidales bacterium
+GCA_003141525.1	Bacteroidales bacterium
+GCA_003141555.1	Candidatus Aminicenantes bacterium
+GCA_003141575.1	Bacteroidales bacterium
+GCA_003141595.1	Bacteroidales bacterium
+GCA_003141715.1	Bacteroidales bacterium
+GCA_003141755.1	Bacteroidales bacterium
+GCA_003141795.1	Spirochaetaceae bacterium
+GCA_003141895.1	Bacteroidales bacterium
+GCA_003142255.1	Bacteroidales bacterium
+GCA_003142295.1	Syntrophaceae bacterium
+GCA_003142355.1	Bryobacterales bacterium
+GCA_003142475.1	Ignavibacteriae bacterium
+GCA_003142535.1	Syntrophaceae bacterium
+GCA_003142575.1	Ignavibacteriae bacterium
+GCA_003142635.1	Syntrophaceae bacterium
+GCA_003142715.1	Ignavibacteriae bacterium
+GCA_003142835.1	Syntrophaceae bacterium
+GCA_003142875.1	Syntrophaceae bacterium
+GCA_003151775.1	Geobacter sp.
+GCA_003152715.1	Syntrophaceae bacterium
+GCA_003152875.1	Ignavibacteriae bacterium
+GCA_003152935.1	Bacteroidales bacterium
+GCA_003153075.1	Dehalococcoidia bacterium
+GCA_003153725.1	Candidatus Aminicenantes bacterium
+GCA_003153775.1	Syntrophaceae bacterium
+GCA_003153795.1	Ignavibacteriae bacterium
+GCA_003153835.1	Methanoregula sp.
+GCA_003153935.1	Elusimicrobia bacterium
+GCA_003153955.1	Dehalococcoidia bacterium
+GCA_003154025.1	Syntrophaceae bacterium
+GCA_003154095.1	Myxococcales bacterium
+GCA_003154255.1	Candidatus Aminicenantes bacterium
+GCA_003154355.1	Opitutae bacterium
+GCA_003154455.1	Dehalococcoidia bacterium
+GCA_003154475.1	Actinobacteria bacterium
+GCA_003154495.1	Elusimicrobia bacterium
+GCA_003154555.1	Spirochaetaceae bacterium
+GCA_003154595.1	Dehalococcoidia bacterium
+GCA_003154615.1	Myxococcales bacterium
+GCA_003154635.1	Actinobacteria bacterium
+GCA_003154715.1	Dehalococcoidia bacterium
+GCA_003154725.1	Bacteroidales bacterium
+GCA_003155275.1	Actinobacteria bacterium
+GCA_003155375.1	Syntrophaceae bacterium
+GCA_003155455.1	Dehalococcoidia bacterium
+GCA_003155495.1	Ignavibacteriae bacterium
+GCA_003155505.1	Ignavibacteriae bacterium
+GCA_003155595.1	Myxococcales bacterium
+GCA_003155675.1	Bacteroidales bacterium
+GCA_003155705.1	Bacteroidales bacterium
+GCA_003156875.1	Nitrospiraceae bacterium
+GCA_003156895.1	Nitrospiraceae bacterium
+GCA_003157015.1	Bacteroidales bacterium
+GCA_003157075.1	Bacteroidales bacterium
+GCA_003157225.1	Actinobacteria bacterium
+GCA_003157475.1	Ignavibacteriae bacterium
+GCA_003157495.1	Opitutae bacterium
+GCA_003157735.1	Myxococcales bacterium
+GCA_003157745.1	Bryobacterales bacterium
+GCA_003157835.1	Ignavibacteriae bacterium
+GCA_003157895.1	Methanoregula sp.
+GCA_003158355.1	Anaerolineaceae bacterium
+GCA_003158395.1	Myxococcales bacterium
+GCA_003158435.1	Dehalococcoidia bacterium
+GCA_003158535.1	Ignavibacteriae bacterium
+GCA_003158615.1	Nitrospiraceae bacterium
+GCA_003158735.1	Myxococcales bacterium
+GCA_003158775.1	Myxococcales bacterium
+GCA_003158815.1	Dehalococcoidia bacterium
+GCA_003159015.1	Myxococcales bacterium
+GCA_003159065.1	Myxococcales bacterium
+GCA_003159495.1	candidate division FCPU426 bacterium
+GCA_003159865.1	Syntrophaceae bacterium
+GCA_003161685.1	Nitrospiraceae bacterium
+GCA_003161895.1	Bacteroidales bacterium
+GCA_003161915.1	Ignavibacteriae bacterium
+GCA_003162335.1	Dehalococcoidia bacterium
+GCA_003162595.1	Bacteroidales bacterium
+GCA_003162695.1	Ignavibacteriae bacterium
+GCA_003163755.1	Syntrophaceae bacterium
+GCA_003164335.1	Fibrobacteres bacterium
+GCA_003165055.1	Syntrophaceae bacterium
+GCA_003165115.1	Syntrophaceae bacterium
+GCA_003165235.1	Syntrophobacteraceae bacterium
+GCA_003165595.1	Fibrobacteres bacterium
+GCA_003165815.1	Syntrophaceae bacterium
+GCA_003166505.1	Syntrophaceae bacterium
+GCA_003167475.1	candidate division FCPU426 bacterium
+GCA_003168735.1	Syntrophaceae bacterium
+GCA_003169075.1	Syntrophaceae bacterium
+GCA_003170055.1	Nitrospiraceae bacterium
+GCA_003170075.1	Methanoregula sp.
+GCA_003170115.1	Spirochaetaceae bacterium
+GCA_003170135.1	Acidobacteria bacterium
+GCA_003170975.1	Methanoregula sp.
+GCA_003171175.1	Syntrophaceae bacterium
+GCA_003171275.1	Acidobacteria bacterium
+GCA_003173355.1	Methanospirillum lacunae
+GCA_003228585.1	Proteobacteria bacterium
+GCA_003234985.1	Nitrospirae bacterium
+GCA_003235275.1	Proteobacteria bacterium
+GCA_003236115.1	Desulfobacterales bacterium
+GCA_003245525.1	Victivallales bacterium
+GCA_003245635.1	Treponema sp.
+GCA_003245695.1	Bacteroidetes bacterium
+GCA_003245785.1	Spirochaetales bacterium
+GCA_003245835.1	Spirochaetales bacterium
+GCA_003245915.1	Deltaproteobacteria bacterium
+GCA_003246295.1	Clostridia bacterium
+GCA_003246975.1	Desulfuromonadaceae bacterium
+GCA_003247115.1	Deltaproteobacteria bacterium
+GCA_003247215.1	Malonomonas rubra
+GCA_003247455.1	Desulfobacterales bacterium
+GCA_003250215.1	Malonomonas rubra
+GCA_003250235.1	Desulfuromonadaceae bacterium
+GCA_003252075.1	Nitrospirae bacterium
+GCA_003252375.1	Halodesulfovibrio sp.
+GCA_003252395.1	Spirochaetales bacterium
+GCA_003314535.1	Geobacter sp.
+GCA_003337725.1	Marinilabilia salmonicolor
+GCA_003353725.1	Deltaproteobacteria bacterium
+GCA_003353835.1	PVC group bacterium
+GCA_003353845.1	Proteobacteria bacterium
+GCA_003353855.1	Desulfobacteraceae bacterium
+GCA_003354035.1	Bacteroidetes bacterium
+GCA_003354055.1	Desulfobacteraceae bacterium
+GCA_003550525.1	Syntrophomonadaceae bacterium
+GCA_003550765.1	Syntrophomonadaceae bacterium
+GCA_003551035.1	Syntrophomonadaceae bacterium
+GCA_003551205.1	Dehalococcoidia bacterium
+GCA_003551785.1	Candidatus Brocadiaceae bacterium
+GCA_003551985.1	Desulfobacteraceae bacterium
+GCA_003553695.1	Desulfonatronospira sp.
+GCA_003553735.1	Syntrophomonadaceae bacterium
+GCA_003553955.1	Syntrophomonadaceae bacterium
+GCA_003553975.1	Syntrophomonadaceae bacterium
+GCA_003554395.1	Syntrophomonadaceae bacterium
+GCA_003554725.1	Syntrophomonadaceae bacterium
+GCA_003555305.1	Syntrophomonadaceae bacterium
+GCA_003555325.1	Methanosarcinaceae archaeon
+GCA_003556225.1	Syntrophomonadaceae bacterium
+GCA_003557245.1	Balneolia bacterium
+GCA_003557565.1	Desulfobulbaceae bacterium
+GCA_003558625.1	Syntrophomonas sp.
+GCA_003561325.1	Syntrophomonadaceae bacterium
+GCA_003561375.1	Syntrophomonadaceae bacterium
+GCA_003561605.1	Syntrophomonadaceae bacterium
+GCA_003563065.1	Syntrophomonadaceae bacterium
+GCA_003563175.1	Dehalococcoidia bacterium
+GCA_003563615.1	Desulfonatronovibrio sp.
+GCA_003563695.1	Syntrophomonadaceae bacterium
+GCA_003564275.1	Desulfonatronospira sp.
+GCA_003564315.1	Syntrophomonadaceae bacterium
+GCA_003564435.1	Syntrophomonadaceae bacterium
+GCA_003566455.1	Desulfonatronovibrio sp.
+GCA_003566645.1	Balneolia bacterium
+GCA_003567495.1	Candidatus Brocadiaceae bacterium
+GCA_003567515.1	Syntrophomonadaceae bacterium
+GCA_003567555.1	Dehalococcoidia bacterium
+GCA_003567715.1	Syntrophomonadaceae bacterium
+GCA_003568005.1	Desulfobacteraceae bacterium
+GCA_003574175.1	Geobacter sulfurreducens
+GCA_003574885.1	Geobacter sp.
+GCA_003574895.1	Geobacter sp.
+GCA_003590275.1	Dehalobacter sp. MCB1
+GCA_003597945.1	Desulfobacteraceae bacterium
+GCA_003597995.1	Dehalococcoidia bacterium
+GCA_003599575.1	Desulfobacteraceae bacterium
+GCA_003599615.1	Desulfobacteraceae bacterium
+GCA_003599865.1	Desulfobacteraceae bacterium
+GCA_003605055.1	Desulfarculus sp.
+GCA_003612835.1	Ethanoligenens harbinense
+GCA_003612855.1	Ethanoligenens harbinense
+GCA_003646975.1	Deltaproteobacteria bacterium
+GCA_003647375.1	Deltaproteobacteria bacterium
+GCA_003647385.1	Deltaproteobacteria bacterium
+GCA_003647445.1	Deltaproteobacteria bacterium
+GCA_003647485.1	Deltaproteobacteria bacterium
+GCA_003647755.1	Candidatus Coatesbacteria bacterium
+GCA_003648415.1	Bacteroidetes bacterium
+GCA_003648655.1	Bacteroidetes bacterium
+GCA_003694255.1	Deltaproteobacteria bacterium
+GCA_003696505.1	Deltaproteobacteria bacterium
+GCA_003712145.1	Desulfuromonadales bacterium
+GCA_003751385.1	Desulfosoma caldarium
+GCA_003818505.1	Desulfobacteraceae bacterium
+GCA_003818675.1	Spirochaetaceae bacterium
+GCA_003819735.1	Chloroflexi bacterium
+GCA_003819755.1	Acidobacteria bacterium
+GCA_003819975.1	Desulfobacteraceae bacterium
+GCA_003820245.1	Acidobacteria bacterium
+GCA_003820265.1	Acidobacteria bacterium
+GCA_003838035.1	Desulfonatronospira sp. MSAO_Bac3
+GCA_003838235.1	Methanosalsum natronophilum
+GCA_003857395.1	Geobacter sp.
+GCA_003966735.1	Desulfovibrio ferrophilus
+GCA_003978695.1	Desulfobulbus sp.
+GCA_004025585.1	Pseudodesulfovibrio sp. S3
+GCA_004102745.1	Hungateiclostridium sp. N2K1
+GCA_004117875.1	Geobacter sp. S43
+GCA_004195035.1	Candidatus Acidulodesulfobacterium ferriphilum
+GCA_004195345.1	Clostridiales bacterium MAG-BB-3
+GCA_004298625.1	Nitrospirae bacterium
+GCA_004321905.1	Verrucomicrobia bacterium
+GCA_004321915.1	Nitrospirae bacterium
+GCA_004321925.1	Nitrospirae bacterium
+GCA_004322245.1	Bacteriodetes bacterium
+GCA_004322275.1	bacterium
+GCA_004343605.1	Dehalobacter sp. 12DCB1
+GCA_004343635.1	Dehalobacter sp. 14DCB1
+GCA_004343725.1	Treponema sp. J25
+GCA_004345905.1	Serpentinicella alkaliphila
+GCA_004348925.1	Actinobacteria bacterium
+GCA_004365595.1	Pseudodesulfovibrio indicus
+GCA_004375785.1	Candidatus Cloacimonetes bacterium
+GCA_004376055.1	Nitrospirales bacterium LBB_01
+GCA_004376575.1	candidate division TA06 bacterium
+GCA_004377095.1	candidate division TA06 bacterium
+GCA_004377365.1	Anaerolineales bacterium
+GCA_004525155.1	Spirochaetales bacterium
+GCA_004525355.1	Spirochaetales bacterium
+GCA_004525545.1	Methanomassiliicoccus sp.
+GCA_004525935.1	Lentisphaerales bacterium
+GCA_004526055.1	Bacteroidia bacterium
+GCA_004766045.1	Desulfosporosinus fructosivorans
+GCA_004766055.1	Desulfosporosinus sp. Sb-LF
+GCA_004791675.1	Geobacter sp. Red111
+GCA_004796425.1	Desulfobulbaceae bacterium
+GCA_004796465.1	Desulfovibrio sp.
+GCA_004917065.1	Geobacter sp. S62
+GCA_004917075.1	Geobacter sp. Red53
+GCA_005116645.1	Desulfopila sp. IMCC35006
+GCA_005116655.1	Desulfopila sp. IMCC35005
+GCA_005116675.1	Desulfopila sp. IMCC35004
+GCA_005222505.1	Ethanoligenens harbinense
+GCA_005774545.1	Deltaproteobacteria bacterium
+GCA_005774585.1	Actinobacteria bacterium
+GCA_006226855.1	bacterium
+GCA_006226895.1	Deltaproteobacteria bacterium
+GCA_006546655.1	Methanolobus vulcani
+GCA_007244375.1	Smithella sp.
+GCA_007279735.1	Bacteroidetes bacterium
+GCA_007280195.1	Deltaproteobacteria bacterium
+GCA_007559175.1	Geobacter sp.
+GCA_007625075.1	Desulfovibrio indonesiensis
+GCA_007625085.1	Desulfovibrio marinus
+GCA_900100715.1	Methanolobus vulcani
+GCA_900101345.1	Desulfoluna spongiiphila
+GCA_900101495.1	Alkaliphilus peptidifermentans DSM 18978
+GCA_900103065.1	Geoalkalibacter ferrihydriticus
+GCA_900105645.1	Desulfobacula phenolica
+GCA_900109885.1	Syntrophus gentianae
+GCA_900111615.1	Natronincola peptidivorans
+GCA_900114115.1	Desulfomicrobium apsheronum
+GCA_900114595.1	Desulfomicrobium norvegicum
+GCA_900114835.1	Methanolobus profundi
+GCA_900129305.1	Desulfacinum infernum DSM 9756
+GCA_900129935.1	Desulfosporosinus lacus DSM 15449
+GCA_900130015.1	Desulfofustis glycolicus DSM 9705
+GCA_900141635.1	Peptoclostridium litorale DSM 5388
+GCA_900142215.1	Anaerocolumna jejuensis DSM 15929
+GCA_900143645.1	Anaerocolumna xylanovorans DSM 12503
+GCA_900143695.1	Desulfopila aestuarii DSM 18488
+GCA_900167065.1	Desulfovibrio bizertensis DSM 18034
+GCA_900167235.1	Desulfococcus multivorans DSM 2059
+GCA_900170035.1	Desulfamplus magnetovallimortis
+GCA_900176285.1	Desulfacinum hydrothermale DSM 13146
+GCA_900176365.1	Desulfobacterium vacuolatum DSM 3385
+GCA_900184255.1	Khelaifiella massiliensis
+GCA_900185645.1	Clostridium sp. BSD9I1
+GCA_900187405.1	Geobacter sp. DSM 9736
+GCA_900217235.1	Pseudodesulfovibrio profundus
+GCA_900290365.1	Syntrophobacter sp. SbD1
+GCA_900290375.1	Candidatus Desulfosporosinus infrequens
+GCA_900476375.1	Lucifera butyrica
