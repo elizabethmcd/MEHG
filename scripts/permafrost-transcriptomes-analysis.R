@@ -2,7 +2,6 @@ library(tximport)
 library(readr)
 library(tibble)
 library(dplyr)
-library(DESeq2)
 library(reshape2)
 library(gtable)
 library(grid)
@@ -15,6 +14,7 @@ meth_samples <- read.table(file.path(meth_dir, "permafrost-metadata.txt"), heade
 meth_files <- file.path(meth_dir, meth_samples$sample, "abundance.h5")
 rownames(meth_samples) <- meth_samples$sample
 names(meth_files) <- meth_samples$sample
+# check if in the cloud backup
 meth.kallisto <- tximport(meth_files, type="kallisto", txOut = TRUE)
 
 # counts file
@@ -28,6 +28,7 @@ counttable.ids <- left_join(meth.counttable, ids)
 
 # TPM normalization
 ## Merge with annotations to divide by gene length for counts in all samples
+# also check if this is in the cloud
 meth_prokka = read.delim("/Users/emcdaniel/Desktop/McMahon-Lab/MeHg-Projects/MEHG/files/permafrostTranscription/permafrost-methylator-prokka-annotations.txt", sep="\t", header=FALSE)
 colnames(meth_prokka) <- c("genome_name", "prokka_annotation", "size_bp", "accession")
 meth_counts_annots <- left_join(meth_prokka, counttable.ids)
@@ -47,8 +48,9 @@ meth_counts_tpm$locus_tag = meth_counts_annots$genome_name
 meth_counts_tpm$genome_name = meth_counts_annots$genome
 meth_counts_totals = aggregate(meth_counts_tpm[1:26], list(meth_counts_tpm$genome_name), sum)
 
+# permafrost results from archived set of metadata
 # merge with metadata to get genome sizes to get relative expression by phyla
-meth_metadata = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/MeHg-Projects/MEHG/files/methylator-metadata.csv")
+meth_metadata = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/MeHg-Projects/MEHG/files/archived/archived-metadata/archived-methylator-metadata.csv")
 peat_phyla = meth_metadata %>% select("genome_name", "Phylum")
 colnames(meth_counts_totals)[1] = "genome_name"
 meth_counts_totals_table = left_join(meth_counts_totals, peat_phyla)
@@ -56,11 +58,10 @@ meth_expression_average = aggregate(meth_counts_totals_table[2:27], list(meth_co
 meth_expression_average$avg_expression = rowSums(meth_expression_average[2:27]) / 26
 
 # hgcA locus tags 
-hgcA = read.delim("/Users/emcdaniel/Desktop/McMahon-Lab/MeHg-Projects/MEHG/files/tree-tax-files/hgcA-locus-tags-phyla.txt", sep="\t", header=FALSE)
+hgcA = read.delim("/Users/emcdaniel/Desktop/McMahon-Lab/MeHg-Projects/MEHG/files/archived/tree-tax-files/hgcA-locus-tags-phyla.txt", sep="\t", header=FALSE)
 colnames(hgcA) = c("genome_name", "locus_tag", "Phylum")
 hgcA = hgcA %>% select(genome_name, locus_tag)
-mehg_metadata = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/MeHg-Projects/MEHG/files/methylator-metadata.csv")
-mehg_peat = mehg_metadata %>% filter(Study=="Woodcroft2018") 
+mehg_peat = meth_metadata %>% filter(Study=="Woodcroft2018") 
 peat_locus_tags = left_join(mehg_peat, hgcA)
 peat_hgcA = peat_locus_tags %>% select(c(Phylum, locus_tag))
 
@@ -97,7 +98,7 @@ colnames(sample_totals) = c("total", "sample")
 sample_totals$sample = factor(sample_totals$sample, levels=c(sample_list))
 
 # heatmap of hgcA total expression
-hgcA_plot = ggplot(hgcA_counts.m, aes(x=fct_rev(Group.1), y=variable, fill=value)) + geom_tile(color="white") + scale_fill_viridis(option="viridis",alpha=1, begin=0, end=1, direction=-1) + theme_bw()
+hgcA_plot = ggplot(hgcA_counts.m, aes(x=fct_rev(Group.1), y=variable, fill=value)) + geom_tile(color="white") + scale_fill_viridis(option="magma",alpha=1, begin=0, end=0.95, direction=-1) + theme_bw()
 hgcA_plot2 = hgcA_plot + theme(axis.text.x= element_text(angle=85, hjust=1)) + guides(fill = guide_colorbar(nbin = 10))
 hgcA_plot2
 
@@ -118,11 +119,11 @@ sample_totals$sample = factor(sample_totals$sample, levels=c(sample_list))
 
 # plot bar graph of total hgcA per sample
 colors = c("bog", "bog", "fen", "fen", "bog", "bog", "bog", "fen", "fen", "fen","fen","fen","fen","fen", "fen", "fen", "fen")
-hgcA_sample = sample_totals %>% ggplot(aes(x=fct_rev(sample), y=total, fill=colors)) + geom_bar(stat="identity", width=.70) + coord_flip() + scale_y_continuous(limits=c(0,350), expand= c(0,0)) + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank()) + scale_fill_manual("legend", values=c("bog"="darkgreen","fen"="blue3"))
+hgcA_sample = sample_totals %>% ggplot(aes(x=fct_rev(sample), y=total, fill=colors)) + geom_bar(stat="identity", width=.70) + coord_flip() + scale_y_continuous(limits=c(0,350), expand= c(0,0)) + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank()) + scale_fill_manual("legend", values=c("bog"="darkgreen","fen"="midnightblue"))
 hgcA_sample
 
 # average expression of each methylator
-avg_expr = meth_expression_average %>% ggplot(aes(x=Group.1, y=avg_expression)) + geom_bar(stat="identity", fill="midnightblue") + theme(axis.text.x= element_text(angle=85, hjust=1))
+avg_expr = meth_expression_average %>% ggplot(aes(x=Group.1, y=avg_expression)) + geom_bar(stat="identity", fill="purple4") + theme(axis.text.x= element_text(angle=85, hjust=1))
 avg_expr
 
 # save plots indvidually
