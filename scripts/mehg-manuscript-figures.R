@@ -2,7 +2,7 @@ library(tidyverse)
 library(reshape2)
 library(plyr)
 
-metadata = read.csv("files/stats/medium-mehg-metadata-stats.csv")
+metadata = read.csv("files/stats/mehg-final-dataset-metadata.csv")
 environment = count(metadata, "code")
 group = count(metadata, "Group")
 phyla = count(metadata, "Phyla")
@@ -10,7 +10,7 @@ study = count(metadata, "study")
 
 # Environments plot
 phaColfunc = colorRampPalette(c("palegreen3", "slateblue"))
-bar_env = environment %>% ggplot(aes(x=reorder(code, freq), y=freq)) + geom_bar(stat="identity", fill=(phaColfunc(13))) + coord_flip() + scale_y_continuous(limits=c(0,215), expand = c(0, 0)) + theme_classic()
+bar_env = environment %>% ggplot(aes(x=reorder(code, freq), y=freq)) + geom_bar(stat="identity", fill=(phaColfunc(12))) + coord_flip() + scale_y_continuous(limits=c(0,215), expand = c(0, 0)) + theme_classic()
 bar_env 
 
 # phyla plot
@@ -21,7 +21,7 @@ bar_phyla
 # reference isolate phyla 
 references = metadata %>% filter(code=="Isolate")
 reference_phyla = count(references, "Phyla")
-bar_ref = reference_phyla %>% ggplot(aes(x=reorder(Phyla, freq), y=freq)) + geom_bar(stat="identity", fill=(phylaColfunc(7))) + coord_flip() + scale_y_continuous(limits=c(0,100), expand= c(0,0), breaks=seq(0,100,10)) + theme_classic()
+bar_ref = reference_phyla %>% ggplot(aes(x=reorder(Phyla, freq), y=freq)) + geom_bar(stat="identity", fill="azure4") + coord_flip() + scale_y_continuous(limits=c(0,100), expand= c(0,0), breaks=seq(0,100,10)) + theme_classic()
 bar_ref
 
 # other with low amounts
@@ -75,16 +75,16 @@ mag_qual
 
 # Save plots
 # bar plots
-ggsave(file="figs/2019-09-08-environment-barplot.png", bar_env, width=20, height=10, units=c("cm"))
-ggsave(file="figs/2019-09-08-phyla-barplot.png", bar_phyla, width=20, height=10, units=c("cm"))
-ggsave(file="figs/2019-09-08-reference-phyla-barplot.png", bar_ref, width=7, height=4, units=c("cm"))
-ggsave(file="figs/2019-09-08-other-phyla-barplot.png", bar_other, width=10, height=10, units=c("cm"))
+ggsave(file="figs/2019-10-21-environment-barplot.png", bar_env, width=20, height=10, units=c("cm"))
+ggsave(file="figs/2019-10-21-phyla-barplot.png", bar_phyla, width=20, height=10, units=c("cm"))
+ggsave(file="figs/2019-10-21-reference-phyla-barplot.png", bar_ref, width=7, height=4, units=c("cm"))
+ggsave(file="figs/2019-10-21-other-phyla-barplot.png", bar_other, width=10, height=10, units=c("cm"))
 
 # stats
-ggsave(file="figs/2019-09-08-all-genome-sizes.png", all_avgs_theme, width=15, height=10, units=c("cm"))
-ggsave(file="figs/2019-09-08-all-gc.png", gc_meth_theme, width=15, height=10, units=c("cm"))
-ggsave(file="figs/2019-09-08-isolates-sizes.png", isolate_avgs_theme, width=10, height=7, units=c("cm"))
-ggsave(file="figs/2019-09-08-isolates-gc.png", gc_isolates_theme, width=10, height=7, units=c("cm"))
-ggsave(file="figs/2019-09-08-other-phyla-sizes.png", other_avgs_theme, width=7,height=10,units=c("cm"))
-ggsave(file="figs/2019-09-08-other-phyla-gc.png", other_gc_theme,width=7,height=10,units=c("cm"))
-ggsave(file="figs/2019-09-08-mags-qual-stats.png", mag_qual, width=15,height=10,units=c("cm"))
+ggsave(file="figs/2019-10-21-all-genome-sizes.png", all_avgs_theme, width=15, height=10, units=c("cm"))
+ggsave(file="figs/2019-10-21-all-gc.png", gc_meth_theme, width=15, height=10, units=c("cm"))
+ggsave(file="figs/2019-10-21-isolates-sizes.png", isolate_avgs_theme, width=10, height=7, units=c("cm"))
+ggsave(file="figs/2019-10-21-isolates-gc.png", gc_isolates_theme, width=10, height=7, units=c("cm"))
+ggsave(file="figs/2019-10-21-other-phyla-sizes.png", other_avgs_theme, width=7,height=10,units=c("cm"))
+ggsave(file="figs/2019-10-21-other-phyla-gc.png", other_gc_theme,width=7,height=10,units=c("cm"))
+ggsave(file="figs/2019-10-21-mags-qual-stats.png", mag_qual, width=15,height=10,units=c("cm"))

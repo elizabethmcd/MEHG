@@ -68,6 +68,7 @@ peat_hgcA = peat_locus_tags %>% select(c(Phylum, locus_tag))
 # counts of hgcA
 meth_counts_norm = meth_counts_tpm
 hgcA_counts = left_join(peat_hgcA, meth_counts_norm)
+hgcA_non_agg_zeros = hgcA_counts %>% select(c(Phylum, locus_tag, 4,6,9,10,12,14,16,17,18,20:26,28))
 hgcA_phyla_total = aggregate(hgcA_counts[3:28], list(hgcA_counts$Phylum),sum)
 hgcA_no_zeros = hgcA_phyla_total %>% select(c(Group.1, 3,5,8,9,11,13,15,16,17,19:25,27))
 hgcA_counts.m = melt(hgcA_phyla_total, id.vars="Group.1")

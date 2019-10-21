@@ -1,0 +1,14 @@
+HistoryId: NCID_1_80509776_130.14.22.76_5555_1561393011_2350152835_0MetA0_S_HStore
+QueryKey: 2
+ReleaseType: GenBank
+FileType: genomic.fna.gz
+Flat: true
+
+Query title: Select 1 document(s)
+    
+Search results count: 1
+Entries to download: 1
+
+genomic.fna.gz files in archive: 1
+Total size (bytes): 1290424
+Total time: 317 milliseconds
