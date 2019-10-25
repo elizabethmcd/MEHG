@@ -7,6 +7,7 @@ environment = count(metadata, "code")
 group = count(metadata, "Group")
 phyla = count(metadata, "Phyla")
 study = count(metadata, "study")
+ref = count(metadata, "reference")
 
 # Environments plot
 phaColfunc = colorRampPalette(c("palegreen3", "slateblue"))

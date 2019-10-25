@@ -1,8 +1,0 @@
-#
-#
-#  Percent Identity  Matrix - created by Clustal2.1 
-#
-#
-
-     1: GCA_002841275.1  100.00   41.55
-     2: GCA_003353845.1   41.55  100.00
