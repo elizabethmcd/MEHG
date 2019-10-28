@@ -7,6 +7,7 @@ library(gtable)
 library(grid)
 library(gridExtra)
 library(viridis)
+library(ggplot2)
 
 # kallisto directory for mapped transcriptomes to methylators
 meth_dir <- "/Users/emcdaniel/Desktop/McMahon-Lab/MeHg-Projects/MEHG/kallisto_mapping"
@@ -175,3 +176,36 @@ grid = grid.arrange(avg_clean, legend, hm.clean, hgcA_sample_clean, nrow=2, ncol
 # save grid 
 ggsave(file="~/Desktop/mehg-grid-axes.png", grid, height=10, width=15, units=c("cm"))
 
+
+### comparison to housekeeping gene expression
+rpoB = read.delim("/Users/emcdaniel/Desktop/McMahon-Lab/MeHg-Projects/MEHG/files/permafrostTranscription/rpoB-locus-tags.tsv", header=TRUE, sep="\t")
+peat_rpoB = rpoB %>% select(c(Phyla, locus_tag))
+rpoB_counts = left_join(peat_rpoB, meth_counts_norm)
+rpoB_no_zeros = rpoB_counts %>% select(c(Phyla, locus_tag, 4,6,9,10,12,14,16,17,18,20:26,28))
+rpoB_agg = aggregate(rpoB_no_zeros[3:19], list(rpoB_no_zeros$Phyla), sum)
+rpoB.m = melt(rpoB_agg, id.vars="Group.1")
+rpoB.m$variable = factor(rpoB.m$variable, levels=c(sample_list))
+rpo.sub = rpoB.m %>% filter(value < 1000)
+
+hgcA.rpo = hgcA_no_zeros.m %>% filter(Group.1 %in% c("Acidobacteria", "Actinobacteria", "Aminicenantes", "Bacteroidetes", "Chlorobi", "Chloroflexi", "Deltaproteobacteria", "Elusimicrobia", "Euryarchaeota", "FCPU426", "Fibrobacteres", "Nitrospirae"))
+hgcA.test = hgcA.rpo %>% select(variable, value)
+write.csv(hgcA.rpo, "~/Desktop/hgcA-counts.csv", quote=FALSE, row.names=FALSE)
+write.csv(rpo.sub, "~/Desktop/rpo-counts.csv", quote=FALSE, row.names=FALSE)
+colnames(hgcA.test) = c("variable", "hgcA.counts")
+merged.counts = left_join(rpo.sub, hgcA.test)
+
+# separate tottals
+  #rpoB
+rpoB.plt = ggplot(rpo.sub, aes(x=Group.1, y=value)) + geom_boxplot()
+rpoB.plt + geom_jitter(shape=15, position=position_jitter(0.2)) + theme_classic() + theme(axis.text.x=element_text(angle=85, hjust=1))
+  # hgcA
+hgcA.rpo.plt = ggplot(hgcA.rpo, aes(x=Group.1, y=value)) + geom_boxplot()
+hgcA.rpo.plt + geom_jitter(shape=15, position=position_jitter(0.2)) + theme_classic() + theme(axis.text.x=element_text(angle=85, hjust=1))
+
+# together with variable as marker instead of sampling depth
+hgcA.var = read.csv("~/Desktop/hgcA-counts-var.csv")
+rpoB.var = read.csv("~/Desktop/rpo-counts-var.csv")
+combined = rbind(hgcA.var, rpoB.var)
+comb.plt = ggplot(combined, aes(x=phyla, y=value, fill=variable)) + geom_boxplot()
+comb.form = comb.plt + theme_classic() + theme(axis.text.x=element_text(angle=85, hjust=1))
+ggsave(comb.form, filename="/Users/emcdaniel/Desktop/McMahon-Lab/MeHg-Projects/MEHG/files/permafrostTranscription/hgcA-vs-rpoB-expression.png", width=30, height=20, units=c("cm"))
