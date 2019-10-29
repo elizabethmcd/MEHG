@@ -89,3 +89,11 @@ ggsave(file="figs/2019-10-21-isolates-gc.png", gc_isolates_theme, width=10, heig
 ggsave(file="figs/2019-10-21-other-phyla-sizes.png", other_avgs_theme, width=7,height=10,units=c("cm"))
 ggsave(file="figs/2019-10-21-other-phyla-gc.png", other_gc_theme,width=7,height=10,units=c("cm"))
 ggsave(file="figs/2019-10-21-mags-qual-stats.png", mag_qual, width=15,height=10,units=c("cm"))
+
+
+#### above 90 comp and below 10 red for metabolic marker analyses
+highqual = metadata %>% filter(Completeness > 90) %>% filter(Contamination < 10)
+high.count = count(highqual, "Group")
+highqual.groups = highqual %>% filter(Group!="Other")
+groups.count = count(highqual.groups, "Group")
+write.csv(groups.count, "files/stats/quals/high-qual-90-10-no-other-mehg-metadata.csv", quote=FALSE, row.names=FALSE)
