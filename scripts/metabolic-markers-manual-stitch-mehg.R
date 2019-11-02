@@ -2,6 +2,7 @@ library(tidyverse)
 library(reshape2)
 library(grid)
 library(gridExtra)
+library(plyr)
 
 markers = read.csv("~/Desktop/custom-markers-results.csv")
 metadata = read.csv("files/stats/quals/mehg-markers-metadata.csv", header=FALSE, stringsAsFactors = FALSE)
@@ -19,8 +20,8 @@ agg <- aggregate(test[1:exclude], list(test$group), mean)
 
 # individual melts for heatmap colors
   # carbon & wlj pathways
-carbon = cbind(agg$Group.1, agg[,c("codhC_TIGR00316", "codhD_TIGR00381", "codh_catalytic_TIGR01702", "folD", "metF", "coxA_TIGR02891", "coxB_TIGR02866")])
-colnames(carbon) = c("group", "codhC", "codhD", "codh catalytic", "folD", "metF", "coxA", "coxB")
+carbon = cbind(agg$Group.1, agg[,c("codhC_TIGR00316", "codhD_TIGR00381", "codh_catalytic_TIGR01702", "folD", "metF")])
+colnames(carbon) = c("group", "codhC", "codhD", "codh catalytic", "folD", "metF")
 carbon.melted = melt(carbon, id.vars= "group") %>%  mutate(group=factor(group), group = factor(group, levels = rev(levels(group))))
 carbon.plot = carbon.melted %>% ggplot(aes(x=variable, y=(group), fill=value)) + geom_tile(color='black',size=0.5,aes(width=1, height=1)) + coord_fixed() +  scale_fill_gradient(low="gray85", high="brown4") + theme(panel.grid = element_blank(), panel.border = element_blank(), plot.margin = unit(c(0, 0, 0, 0), "cm"))
 carbon.formatted = carbon.plot + scale_x_discrete(position="top", expand=c(0,0)) + theme(axis.text.x.top=element_text(angle=85, hjust=0, face="italic"), axis.ticks.x=element_blank(), axis.ticks.y=element_blank(), axis.text.y=element_blank()) + labs(x=NULL, y=NULL) +  scale_y_discrete(expand=c(0,0))
@@ -34,7 +35,7 @@ sulfur.formatted = sulfur.plot + scale_x_discrete(position="top", expand=c(0,0))
 sulfur.clean = sulfur.formatted + theme(legend.position="none")
   # nitrogen
 nitrogen = cbind(agg$Group.1, agg[,c("nifA_Mo_TIGR01282", "nifB_Mo_TIGR01286", "nifH_TIGR01287", "nirB_TIGR02374", "nirD_TIGR02378")])
-colnames(nitrogen) = c("group", "nifA", "nifB", "nifH", "nirB", "nirD")
+colnames(nitrogen) = c("group", "nifD", "nifK", "nifH", "nirB", "nirD")
 nitrogen.melted <- melt(nitrogen, id.vars="group") %>% mutate(group=factor(group), group = factor(group, levels = rev(levels(group))))
 nitrogen.plot <- nitrogen.melted %>% ggplot(aes(x=variable, y=(group), fill=value)) + geom_tile(color='black',size=0.5,aes(width=1, height=1)) + coord_fixed() +  scale_fill_gradient(low="grey85", high="steelblue4") + theme(panel.grid = element_blank(), panel.border = element_blank(), plot.margin = unit(c(0, 0, 0, 0), "cm"))
 nitrogen.formatted = nitrogen.plot + scale_x_discrete(position="top", expand=c(0,0)) + theme(axis.text.x.top=element_text(angle=85, hjust=0, face="italic"), axis.ticks.x=element_blank(), axis.ticks.y=element_blank(), axis.text.y=element_blank()) + labs(x="Nitrogen", y=NULL) +  scale_y_discrete(expand=c(0,0))
@@ -59,5 +60,11 @@ n3 <- length(nitrogen.tmp[["panel"]][["ranges"]][[1]][["x.major_source"]])
 n4 <- length(sulfur.tmp[["panel"]][["ranges"]][[1]][["x.major_source"]])
 
 
-g = cbind(g1, g2, g3, g4, size="min")
+g = cbind(g1, g2, g3, g4, size="first")
 ggsave(file="~/Desktop/test.png", plot=g, width=20, height=10, units=c("cm"))
+
+carbon.formatted
+sulfur.formatted
+nitrogen.formatted
+metals.formatted
+groups = count(merged, "group")
