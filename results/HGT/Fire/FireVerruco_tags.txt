@@ -1,5 +1,0 @@
-genome,classf,tag
-bacteria30017,Firestonebacteria,ELGMNEEA_00192
-bacteria30036,Verrucomicrobia,FNBLJPLD_01726
-GCA_001778375.1,Firestonebacteria,ABAIHMEL_01193
-GCA_001780375.1,Firestonebacteria,ANANCPGA_02018

@@ -1,8 +1,0 @@
-GCF_000299415.1	Acdimicrobia
-GCF_000455525.1	Acdimicrobia
-GCF_000023265.1	Acdimicrobia
-GCF_000745905.1	Acdimicrobia
-GCF_000949255.1	Acdimicrobia
-GCF_900128965.1	Acdimicrobia
-GCF_000350145.1	Acdimicrobia
-GCF_000949295.1	Acdimicrobia

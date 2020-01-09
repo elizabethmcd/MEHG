@@ -1,1 +1,0 @@
-60b4445468b67e1c2cf7ab2b1d2ede32  GCA_000009045.1_ASM904v1_genomic.fna.gz

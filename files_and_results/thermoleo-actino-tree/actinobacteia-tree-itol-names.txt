@@ -1,0 +1,149 @@
+LABELS
+SEPARATOR TAB
+DATA
+GCA_000011325.1	Corynebacterium glutamicum ATCC 13032
+GCA_000015005.1	Mycolicibacterium smegmatis MC2 155
+GCA_000023405.1	Brachybacterium faecium DSM 4810
+GCF_000025265.1	Conexibacter woesei DSM 14684
+GCA_000069185.1	Mycobacteroides abscessus ATCC 19977
+GCA_000159155.2	Gardnerella vaginalis ATCC 14019
+GCA_000165905.1	Bifidobacterium bifidum PRL2010
+GCA_000195835.2	Mycobacterium tuberculosis variant bovis AF2122/97
+GCA_000195855.1	Mycobacterium leprae TN
+GCA_000195955.2	Mycobacterium tuberculosis H37Rv
+GCA_000196835.1	Amycolatopsis mediterranei U32
+GCA_000203835.1	Streptomyces coelicolor A3(2)
+GCA_000240225.2	Patulibacter medicamentivorans
+GCF_000420025.1	Patulibacter americanus DSM 16676
+GCF_000423665.1	Solirubrobacter soli DSM 22325
+GCF_000424625.1	Conexibacter woesei Iso977N
+GCF_000425945.1	Solirubrobacter sp. URHD0082
+GCF_000519325.1	Patulibacter minatonensis DSM 18081
+GCF_000688095.1	Solirubrobacterales bacterium URHD0059
+GCA_000969705.1	Nitriliruptor alkaliphilus DSM 45188
+GCA_001313025.1	Conexibacter sp. JCM 18997
+GCA_001897355.1	Solirubrobacterales bacterium 67-14
+GCA_001898095.1	Solirubrobacterales bacterium 70-9
+GCA_002347645.1	Thermoleophilia bacterium UBA2241
+GCA_002413095.1	Thermoleophilia bacterium UBA5186
+GCA_002423545.1	Thermoleophilia bacterium UBA6103
+GCA_002737265.1	Thermoleophilia bacterium
+GCF_003044185.1	Conexibacter sp. Seoho-28
+GCA_003132505.1	Solirubrobacterales bacterium
+GCA_003132565.1	Solirubrobacterales bacterium
+GCA_003133565.1	Solirubrobacterales bacterium
+GCA_003134675.1	Solirubrobacterales bacterium
+GCA_003136735.1	Solirubrobacterales bacterium
+GCA_003137075.1	Solirubrobacterales bacterium
+GCA_003138355.1	Solirubrobacterales bacterium
+GCA_003139475.1	Solirubrobacterales bacterium
+GCA_003141155.1	Solirubrobacterales bacterium
+GCA_003142975.1	Solirubrobacterales bacterium
+GCA_003151895.1	Solirubrobacterales bacterium
+GCA_003152395.1	Solirubrobacterales bacterium
+GCA_003156675.1	Solirubrobacterales bacterium
+GCA_003156735.1	Solirubrobacterales bacterium
+GCA_003156855.1	Solirubrobacterales bacterium
+GCA_003156915.1	Solirubrobacterales bacterium
+GCA_003157595.1	Solirubrobacterales bacterium
+GCA_003159535.1	Solirubrobacterales bacterium
+GCA_003161445.1	Solirubrobacterales bacterium
+GCA_003164875.1	Solirubrobacterales bacterium
+GCA_003165655.1	Solirubrobacterales bacterium
+GCA_003167135.1	Solirubrobacterales bacterium
+GCA_003168035.1	Solirubrobacterales bacterium
+GCA_003244035.1	Solirubrobacterales bacterium
+GCA_003244205.1	Solirubrobacterales bacterium
+GCF_900108055.1	Thermoleophilum album
+GCF_000014185.1	Rubrobacter xylanophilus DSM 9941
+GCF_000023265.1	Acidimicrobium ferrooxidans DSM 10331
+GCF_000023845.1	Cryptobacterium curtum DSM 15641
+GCF_000023885.1	Slackia heliotrinireducens DSM 20476
+GCF_000024225.1	Atopobium parvulum DSM 20469
+GCF_000024265.1	Eggerthella lenta DSM 2243
+GCF_000143845.1	Olsenella uli DSM 7084
+GCF_000156175.1	Collinsella intestinalis DSM 13280
+GCF_000156215.1	Collinsella stercoris DSM 13279
+GCF_000159235.2	Atopobium vaginae DSM 15829
+GCF_000162875.1	Slackia exigua ATCC 700122
+GCF_000169035.1	Collinsella aerofaciens ATCC 25986
+GCF_000174015.1	Atopobium rimae ATCC 49626
+GCF_000179715.1	Atopobium vaginae PB189-T1-4
+GCF_000195315.1	Coriobacterium glomerans PW2
+GCF_000210055.1	Gordonibacter pamelaeae 7-10-1-b
+GCF_000225705.1	Collinsella tanakaei YIT 12063
+GCF_000236865.1	Senegalimassilia anaerobia JC110
+GCF_000296445.1	Slackia piriformis YIT 12062
+GCF_000299415.1	Candidatus Microthrix parvicella Bio17-1
+GCF_000311845.1	Enorma massiliensis phI
+GCF_000350145.1	Ilumatobacter nonamiensis YM16-303
+GCF_000403355.2	Enterorhabdus caecimuris B7
+GCF_000422625.1	Enterorhabdus mucosicola DSM 19490
+GCF_000455525.1	Candidatus Microthrix parvicella RN1
+GCF_000468755.1	Olsenella profusa F0195
+GCF_000478885.1	Adlercreutzia equolifaciens DSM 19450
+GCF_000483125.1	Atopobium fossor DSM 15642
+GCF_000661895.1	Rubrobacter radiotolerans
+GCF_000745905.1	Ferrimicrobium acidiphilum DSM 19497
+GCF_000949255.1	Ferrimicrobium acidiphilum DSM 19497
+GCF_000949295.1	Acidithrix ferrooxidans
+GCF_001029505.1	Rubrobacter aplysinae
+GCF_001437015.1	Atopobium minutum
+GCF_001494635.1	Olsenella scatoligenes
+GCF_001552785.1	Atopobium deltae
+GCF_001643775.1	Denitrobacterium detoxificans
+GCF_900046475.1	Collinsella ihuae
+GCF_900078545.1	Olegusella massiliensis
+GCF_900105025.1	Olsenella umbonata
+GCF_900111255.1	Olsenella umbonata
+GCF_900119895.1	Collinsella phocaeensis
+GCF_900128965.1	Ferrithrix thermotolerans DSM 19514
+GCF_900143685.1	Libanicoccus massiliensis
+GCF_900155365.1	Collinsella bouchesdurhonensis
+GCF_900169485.1	Phoenicibacter congonensis
+GCF_900169505.1	Arabia massiliensis
+GCF_900170005.1	Gordonibacter massiliensis
+GCF_900175965.1	Rubrobacter radiotolerans DSM 5868
+GCA_003344625.1	Solirubrobacter sp. CPCC 204708 
+GCA_004525525.1	Solirubrobacterales bacterium
+GCA_003633755.1	Solirubrobacterales pauli
+bacteria20068	PERMA-THERM1
+bacteria30002	MENDH-THERM
+bacteria00190	TBH-THERM
+bacteria20819	PERMA-THERM2
+GCA_000009045.1	Bacillus subtilis
+GCA_001464275.1	Actinobacteria bacterium Ga0077560
+GCA_001464995.1	Actinobacteria bacterium Ga0077541
+GCA_001768675.1	Actinobacteria bacterium RBG_16_64_13
+GCA_001914705.1	Actinobacteria bacterium 13_2_20CM_68_14
+GCA_001920085.1	Actinobacteria bacterium 13_1_20CM_4_69_9
+GCA_001920325.1�	Actinobacteria bacterium 13_1_20CM_3_68_9�
+GCA_002897715.1	bacterium BMS3Abin01
+GCA_002898855.1�	bacterium HR41
+GCA_002919115.1	bacterium
+GCA_003132585.1	Actinobacteria bacterium
+GCA_003132645.1	Actinobacteria bacterium
+GCA_003132665.1	Actinobacteria bacterium
+GCA_003134505.1	Actinobacteria bacterium
+GCA_003136795.1	Actinobacteria bacterium
+GCA_003139545.1	Actinobacteria bacterium
+GCA_003139575.1	Actinobacteria bacterium
+GCA_003152275.1	Actinobacteria bacterium
+GCA_003157225.1	Actinobacteria bacterium
+GCA_003157275.1	Actinobacteria bacterium
+GCA_003157415.1	Actinobacteria bacterium
+GCA_003157435.1	Actinobacteria bacterium
+GCA_003157595.1	Solirubrobacterales bacterium
+GCA_003157715.1	Actinobacteria bacterium
+GCA_003158705.1	Actinobacteria bacterium
+GCA_003159035.1	Actinobacteria bacterium
+GCA_003161615.1	Actinobacteria bacterium
+GCA_003162055.1	Actinobacteria bacterium
+GCA_003162125.1	Actinobacteria bacterium
+GCA_003162235.1	Actinobacteria bacterium
+GCA_003162355.1	Actinobacteria bacterium
+GCA_003164655.1	Actinobacteria bacterium
+GCA_003170155.1	Actinobacteria bacterium
+GCA_003170895.1	Actinobacteria bacterium
+GCA_003170995.1	Actinobacteria bacterium
+GCA_003351045.1�	Gaiella occulta

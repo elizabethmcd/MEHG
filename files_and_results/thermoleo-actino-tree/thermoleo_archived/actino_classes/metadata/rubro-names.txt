@@ -1,0 +1,4 @@
+GCF_000661895.1	Rubrobacteria
+GCF_900175965.1	Rubrobacteria
+GCF_000014185.1	Rubrobacteria
+GCF_001029505.1	Rubrobacteria

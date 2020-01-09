@@ -1,0 +1,446 @@
+IMG OID,Genome ID,Phylum,Class,Order,Lineage,Clade,Tribe,QC/Curation Status,JGI Project ID,GOLD Study ID,GOLD Biosample ID,GOLD Project ID,GOLD Analysis Project ID
+2236347068,AAA487-M09,Proteobacteria,Alphaproteobacteria,Rickettsiales,alfV,alfV-A,LD12,None,404281,Gs0015033,Gb0015801 ,Gp0012856,Ga0025832
+2236347069,AAA028-D10,Proteobacteria,Alphaproteobacteria,Rickettsiales,alfV,alfV-A,LD12,None,403743,Gs0015033,Gb0012963 ,Gp0012861,Ga0025833
+2236661000,AAA023-L09,Proteobacteria,Alphaproteobacteria,Rickettsiales,alfV,alfV-A,LD12,None,403740,Gs0015033,Gb0012934 ,Gp0012862,Ga0025834
+2236661001,AAA023-J06,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,acI-A7,None,403714,Gs0015033,Gb0012819 ,Gp0012939,Ga0025835
+2236661002,AAA027-J17,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B1,None,403716,Gs0015033,Gb0012861 ,Gp0012937,Ga0025836
+2236661003,AAA027-M14,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,acI-A1,None,403717,Gs0015033,Gb0012862 ,Gp0012934,Ga0025837
+2236661004,AAA028-A23,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B1,None,403718,Gs0015033,Gb0012893 ,Gp0012893,Ga0025838
+2236661005,AAA044-N04,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,acI-A7,None,403736,Gs0015033,Gb0012930 ,Gp0012933,Ga0025839
+2236661006,AAA278-I18,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B1,None,403737,Gs0015033,Gb0012932 ,Gp0012935,Ga0025840
+2236661007,AAA278-O22,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,acI-A1,None,403738,Gs0015033,Gb0012933 ,Gp0012932,Ga0025841
+2236661008,AAA028-C07,Proteobacteria,Alphaproteobacteria,Rickettsiales,alfV,alfV-A,LD12,None,403742,Gs0015033,Gb0012956 ,Gp0012930,Ga0025842
+2236661009,AAA023-D18,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B1,None,403715,Gs0015033,Gb0012818 ,Gp0012938,Ga0025843
+2236876027,AAA024-N17,Proteobacteria,Alphaproteobacteria,Rickettsiales,alfV,alfV-A,LD12,None,403739,Gs0015033,Gb0012935 ,Gp0012964,Ga0025794
+2236876028,AB141-P03,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B1,None,404759,Gs0014996,Gb0012949,Gp0012949,Ga0025854
+2236876029,AAA280-P20,Proteobacteria,Alphaproteobacteria,Rickettsiales,alfV,alfV-A,LD12,None,404280,Gs0015033,Gb0012965 ,Gp0012963,Ga0025855
+2236876030,AAA027-J10,Proteobacteria,Alphaproteobacteria,Rickettsiales,alfV,alfV-A,LD12,None,404279,Gs0015033,Gb0012938 ,Gp0012819,Ga0025856
+2236876031,AAA027-L15,Proteobacteria,Alphaproteobacteria,Rickettsiales,alfV,alfV-A,LD12,None,403741,Gs0015033,Gb0012939 ,Gp0012894,Ga0025857
+2236876032,AAA280-B11,Proteobacteria,Alphaproteobacteria,Rickettsiales,alfV,alfV-A,LD12,None,403746,Gs0015033,Gb0012964 ,Gp0012965,Ga0025858
+2264265094,AAA027-C06,Proteobacteria,Alphaproteobacteria,Rickettsiales,alfV,alfV-A,LD12,None,404278,Gs0015033,Gb0012937 ,Gp0012956,Ga0025576
+2264265190,AAA024-D14,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,acI-A7,None,403713,Gs0015033,Gb0012856 ,Gp0012818,Ga0025577
+2505679121,AAA027-L06,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B1,None,400471,Gs0014996,Gb0011037,Gp0011037,Ga0025306
+2518285508,AAA024-K11,Proteobacteria,Betaproteobacteria,Burkholderiales,betI,betI-B,Rhodo,None,1004433,Gs0015918,Gb0025327 ,Gp0025327,Ga0000738
+2519103005,AAA027-C02,Proteobacteria,Betaproteobacteria,Burkholderiales,betII,Pnec,PnecC,Sarah L R Stevens followed JGI QC protocol and uploaded new version in IMG,1004436,Gs0015918,Gb0025335 ,Gp0025335,Ga0000739
+2519899769,AAA041-L13,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,acI-A7,Sarah L R Stevens followed JGI QC protocol and uploaded new version in IMG,1008241,Gs0015033,Gb0012894 ,Gp0015801,Ga0001324
+2524023172,AAA027-D23,Actinobacteria,Actinobacteria,Actinomycetales,acSTL,acSTL-A,acSTL-A1,Sarah L R Stevens followed JGI QC protocol and uploaded new version in IMG,1004439,Gs0015918,Gb0025329 ,Gp0025329,Ga0000740
+2524023174,AAA027-I06,Proteobacteria,Betaproteobacteria,Burkholderiales,betI,betI-A,Lhab-A1,Sarah L R Stevens followed JGI QC protocol and uploaded new version in IMG,1004445,Gs0015918,Gb0019155 ,Gp0019155,Ga0000742
+2524023175,AAA027-I19,Verrucomicrobia,Opitutae,Opitutales,,,,Sarah L R Stevens followed JGI QC protocol and uploaded new version in IMG,1004448,Gs0015918,Gb0025333 ,Gp0025333,Ga0000743
+2524023176,AAA027-K21,Proteobacteria,Betaproteobacteria,Burkholderiales,betIII,betIII-A,betIII-A1,Sarah L R Stevens followed JGI QC protocol and uploaded new version in IMG,1004451,Gs0015918,Gb0025330 ,Gp0025330,Ga0000744
+2524023178,AAA028-K02,Proteobacteria,Betaproteobacteria,Methylophilales,betIV,betIV-A,LD28,Sarah L R Stevens followed JGI QC protocol and uploaded new version in IMG,1004460,Gs0015918,Gb0025293 ,Gp0025293,Ga0000747
+2524023179,AAA028-N15,Actinobacteria,Actinobacteria,Actinomycetales,acTH1,acTH1-A,acTH1-A1,Sarah L R Stevens followed JGI QC protocol and uploaded new version in IMG,1004463,Gs0015918,Gb0025292 ,Gp0025292,Ga0000748
+2524023189,AAA044-D11,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B4,Sarah L R Stevens followed JGI QC protocol and uploaded new version in IMG,1004466,Gs0015918,Gb0025368 ,Gp0025368,Ga0000749
+2541046968,AAA027-N21,Bacteroidetes,Flavobacteriia,Flavobacteriales,bacII,bacII-A,Flavo-A2,Sarah L R Stevens followed JGI QC protocol and uploaded new version in IMG,1004454,Gs0015918,Gb0025369 ,Gp0025369,Ga0000745
+2545555807,AAA027-G08,Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacI,bacI-A,bacI-A1,Sarah L R Stevens followed JGI QC protocol and uploaded new version in IMG,1004442,Gs0015918,Gb0025334 ,Gp0025334,Ga0000741
+2545555832,AAA028-I14,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,acI-A6,Sarah L R Stevens followed JGI QC protocol and uploaded new version in IMG,1004457,Gs0015918,Gb0025326 ,Gp0025326,Ga0000746
+2582580512,MEint.metabat.10020,Planctomycetes,Planctomycetia,Planctomycetales,,,,,,Gs0063444,,,Ga0047928
+2582580513,MEint.metabat.10152,Actinobacteria,Actinobacteria,Actinomycetales,,,,,,Gs0063444,,,Ga0047929
+2582580514,MEint.metabat.10417,Tenericutes,Mollicutes,Mycoplasmatales,,,,,,Gs0063444,,,Ga0047930
+2582580515,MEint.metabat.10739,Proteobacteria,Betaproteobacteria,Burkholderiales,,,,,,Gs0063444,,,Ga0047931
+2582580516,MEint.metabat.10873,Proteobacteria,Deltaproteobacteria,[Blank],,,,,,Gs0063444,,,Ga0047932
+2582580517,MEint.metabat.1091,Actinobacteria,Actinobacteria,Acidimicrobiales,,,,,,Gs0063444,,,Ga0047933
+2582580518,MEint.metabat.112,Cyanobacteria,[Blank],[Blank],,,,,,Gs0063444,,,Ga0047934
+2582580519,MEint.metabat.11260,Bacteroidetes,Cytophagia,Cytophagales,,,,,,Gs0063444,,,Ga0047935
+2582580520,MEint.metabat.11576,Actinobacteria,Actinobacteria,Acidimicrobiales,,,,,,Gs0063444,,,Ga0047936
+2582580521,MEint.metabat.12173,Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,,,,,,Gs0063444,,,Ga0047937
+2582580522,MEint.metabat.12555,Planctomycetes,[Blank],[Blank],,,,,,Gs0063444,,,Ga0047938
+2582580523,MEint.metabat.12612,Verrucomicrobia,[Blank],[Blank],,,,,,Gs0063444,,,Ga0047939
+2582580524,MEint.metabat.12657,Verrucomicrobia,Opitutae,Puniceicoccales,,,,,,Gs0063444,,,Ga0047940
+2582580525,MEint.metabat.1300,Cyanobacteria,[Blank],[Blank],,,,,,Gs0063444,,,Ga0047941
+2582580526,MEint.metabat.13165,Bacteroidetes,Flavobacteriia,Flavobacteriales,,,,,,Gs0063444,,,Ga0047942
+2582580527,MEint.metabat.13530,Bacteroidetes,Flavobacteriia,Flavobacteriales,,,,,,Gs0063444,,,Ga0047943
+2582580528,MEint.metabat.1363,Actinobacteria,Actinobacteria,[Blank],,,,,,Gs0063444,,,Ga0047944
+2582580529,MEint.metabat.14003,Planctomycetes,Planctomycetia,Planctomycetales,,,,,,Gs0063444,,,Ga0047945
+2582580530,MEint.metabat.14260,Actinobacteria,Actinobacteria,Acidimicrobiales,,,,,,Gs0063444,,,Ga0047946
+2582580531,MEint.metabat.14445,Cyanobacteria,[Blank],[Blank],,,,,,Gs0063444,,,Ga0047947
+2582580532,MEint.metabat.14726,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0047948
+2582580533,MEint.metabat.15216,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0047949
+2582580534,MEint.metabat.15468,[Blank],[Blank],[Blank],,,,,,Gs0063444,,,Ga0047950
+2582580535,MEint.metabat.15824,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0047951
+2582580536,MEint.metabat.15954,Planctomycetes,Planctomycetia,Planctomycetales,,,,,,Gs0063444,,,Ga0047952
+2582580537,MEint.metabat.1627,Cyanobacteria,[Blank],[Blank],,,,,,Gs0063444,,,Ga0047953
+2582580538,MEint.metabat.16806,Proteobacteria,Betaproteobacteria,Burkholderiales,,,,,,Gs0063444,,,Ga0047954
+2582580539,MEint.metabat.1719,Actinobacteria,Actinobacteria,Acidimicrobiales,,,,,,Gs0063444,,,Ga0047955
+2582580540,MEint.metabat.17476,[Blank],[Blank],[Blank],,,,,,Gs0063444,,,Ga0047956
+2582580541,MEint.metabat.17509,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0047957
+2582580542,MEint.metabat.18138,Planctomycetes,Planctomycetia,Planctomycetales,,,,,,Gs0063444,,,Ga0047958
+2582580543,MEint.metabat.18233,Bacteroidetes,Flavobacteriia,Flavobacteriales,,,,,,Gs0063444,,,Ga0047959
+2582580544,MEint.metabat.1953,Actinobacteria,Actinobacteria,Acidimicrobiales,,,,,,Gs0063444,,,Ga0047960
+2582580545,MEint.metabat.19941,[Blank],[Blank],[Blank],,,,,,Gs0063444,,,Ga0047961
+2582580546,MEint.metabat.2014,Verrucomicrobia,Opitutae,[Blank],,,,,,Gs0063444,,,Ga0047962
+2582580547,MEint.metabat.20494,Planctomycetes,Planctomycetia,Planctomycetales,,,,,,Gs0063444,,,Ga0047963
+2582580548,MEint.metabat.22738,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0047964
+2582580549,MEint.metabat.2278,Bacteroidetes,Flavobacteriia,Flavobacteriales,,,,,,Gs0063444,,,Ga0047965
+2582580550,MEint.metabat.2297,Actinobacteria,Actinobacteria,[Blank],,,,,,Gs0063444,,,Ga0047966
+2582580551,MEint.metabat.2353,Cyanobacteria,[Blank],[Blank],,,,,,Gs0063444,,,Ga0047967
+2582580552,MEint.metabat.2384,Cyanobacteria,[Blank],[Blank],,,,,,Gs0063444,,,Ga0047968
+2582580553,MEint.metabat.2538,Actinobacteria,Actinobacteria,Actinomycetales,,,,,,Gs0063444,,,Ga0047969
+2582580554,MEint.metabat.2729,Actinobacteria,Actinobacteria,Acidimicrobiales,,,,,,Gs0063444,,,Ga0047970
+2582580555,MEint.metabat.283,Actinobacteria,Actinobacteria,[Blank],,,,,,Gs0063444,,,Ga0047971
+2582580556,MEint.metabat.28789,Proteobacteria,Betaproteobacteria,Rhodocyclales,,,,,,Gs0063444,,,Ga0047972
+2582580557,MEint.metabat.2898,Proteobacteria,Betaproteobacteria,[Blank],,,,,,Gs0063444,,,Ga0047973
+2582580558,MEint.metabat.2907,Planctomycetes,Planctomycetia,Planctomycetales,,,,,,Gs0063444,,,Ga0047974
+2582580559,MEint.metabat.30509,Verrucomicrobia,[Blank],[Blank],,,,,,Gs0063444,,,Ga0047975
+2582580560,MEint.metabat.3061,Planctomycetes,Planctomycetia,Planctomycetales,,,,,,Gs0063444,,,Ga0047976
+2582580561,MEint.metabat.3080,Proteobacteria,Betaproteobacteria,Methylophilales,,,,,,Gs0063444,,,Ga0047977
+2582580562,MEint.metabat.30805,[Blank],[Blank],[Blank],,,,,,Gs0063444,,,Ga0047978
+2582580563,MEint.metabat.3085,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0047979
+2582580564,MEint.metabat.3119,Actinobacteria,Actinobacteria,[Blank],,,,,,Gs0063444,,,Ga0047980
+2582580565,MEint.metabat.3163,Actinobacteria,Actinobacteria,Acidimicrobiales,,,,,,Gs0063444,,,Ga0047981
+2582580566,MEint.metabat.3293,Proteobacteria,Gammaproteobacteria,Methylococcales,,,,,,Gs0063444,,,Ga0047982
+2582580567,MEint.metabat.33807,Cyanobacteria,[Blank],[Blank],,,,,,Gs0063444,,,Ga0047983
+2582580568,MEint.metabat.34551,Bacteroidetes,Flavobacteriia,Flavobacteriales,,,,,,Gs0063444,,,Ga0047984
+2582580569,MEint.metabat.3611,Planctomycetes,Planctomycetia,Planctomycetales,,,,,,Gs0063444,,,Ga0047985
+2582580570,MEint.metabat.36464,Proteobacteria,Alphaproteobacteria,Rickettsiales,,,,,,Gs0063444,,,Ga0047986
+2582580571,MEint.metabat.3713,Bacteroidetes,Sphingobacteriia,[Blank],,,,,,Gs0063444,,,Ga0047987
+2582580572,MEint.metabat.3864,Actinobacteria,Actinobacteria,[Blank],,,,,,Gs0063444,,,Ga0047988
+2582580573,MEint.metabat.3880,Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,,,,,,Gs0063444,,,Ga0047989
+2582580574,MEint.metabat.422,Chloroflexi,[Blank],[Blank],,,,,,Gs0063444,,,Ga0047990
+2582580575,MEint.metabat.4252,Actinobacteria,Actinobacteria,[Blank],,,,,,Gs0063444,,,Ga0047991
+2582580576,MEint.metabat.4498,Cyanobacteria,[Blank],[Blank],,,,,,Gs0063444,,,Ga0047992
+2582580577,MEint.metabat.4500,Cyanobacteria,[Blank],[Blank],,,,,,Gs0063444,,,Ga0047993
+2582580578,MEint.metabat.4620,Planctomycetes,Planctomycetia,Planctomycetales,,,,,,Gs0063444,,,Ga0047994
+2582580579,MEint.metabat.46339,[Blank],[Blank],[Blank],,,,,,Gs0063444,,,Ga0047995
+2582580580,MEint.metabat.5184,Bacteroidetes,Flavobacteriia,Flavobacteriales,,,,,,Gs0063444,,,Ga0047996
+2582580581,MEint.metabat.5338,Proteobacteria,Alphaproteobacteria,Sphingomonadales,,,,,,Gs0063444,,,Ga0047997
+2582580582,MEint.metabat.5344,Bacteroidetes,[Blank],[Blank],,,,,,Gs0063444,,,Ga0047998
+2582580583,MEint.metabat.5466,Bacteroidetes,Sphingobacteriia,[Blank],,,,,,Gs0063444,,,Ga0047999
+2582580584,MEint.metabat.548,Cyanobacteria,[Blank],[Blank],,,,,,Gs0063444,,,Ga0048000
+2582580585,MEint.metabat.5493,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0048001
+2582580586,MEint.metabat.5513,Bacteroidetes,[Blank],[Blank],,,,,,Gs0063444,,,Ga0048002
+2582580587,MEint.metabat.5895,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0048003
+2582580588,MEint.metabat.5983,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0048004
+2582580589,MEint.metabat.5999,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0048005
+2582580590,MEint.metabat.6031,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0048006
+2582580591,MEint.metabat.6097,Cyanobacteria,[Blank],[Blank],,,,,,Gs0063444,,,Ga0048007
+2582580592,MEint.metabat.6180,Bacteroidetes,Flavobacteriia,Flavobacteriales,,,,,,Gs0063444,,,Ga0048008
+2582580593,MEint.metabat.6381,Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,,,,,,Gs0063444,,,Ga0048009
+2582580594,MEint.metabat.6450,Chlamydiae,Chlamydiia,Chlamydiales,,,,,,Gs0063444,,,Ga0048010
+2582580595,MEint.metabat.6647,Actinobacteria,Actinobacteria,Actinomycetales,,,,,,Gs0063444,,,Ga0048011
+2582580596,MEint.metabat.6777,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0048012
+2582580597,MEint.metabat.6778,Bacteroidetes,Flavobacteriia,Flavobacteriales,,,,,,Gs0063444,,,Ga0048013
+2582580598,MEint.metabat.68,Proteobacteria,Betaproteobacteria,Methylophilales,,,,,,Gs0063444,,,Ga0048014
+2582580599,MEint.metabat.6813,Bacteroidetes,[Blank],[Blank],,,,,,Gs0063444,,,Ga0048015
+2582580600,MEint.metabat.7043,Proteobacteria,Betaproteobacteria,Burkholderiales,,,,,,Gs0063444,,,Ga0048016
+2582580601,MEint.metabat.7198,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0048017
+2582580602,MEint.metabat.7257,Bacteroidetes,Flavobacteriia,Flavobacteriales,,,,,,Gs0063444,,,Ga0048018
+2582580603,MEint.metabat.7484,Bacteroidetes,Cytophagia,Cytophagales,,,,,,Gs0063444,,,Ga0048019
+2582580604,MEint.metabat.7672,Planctomycetes,Planctomycetia,Planctomycetales,,,,,,Gs0063444,,,Ga0048020
+2582580605,MEint.metabat.7690,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0048021
+2582580606,MEint.metabat.7803,Planctomycetes,Planctomycetia,Planctomycetales,,,,,,Gs0063444,,,Ga0048022
+2582580607,MEint.metabat.8366,Verrucomicrobia,Spartobacteria,[Blank],,,,,,Gs0063444,,,Ga0048023
+2582580608,MEint.metabat.885,Actinobacteria,Actinobacteria,[Blank],,,,,,Gs0063444,,,Ga0048024
+2582580609,MEint.metabat.9104,Proteobacteria,Gammaproteobacteria,Xanthomonadales,,,,,,Gs0063444,,,Ga0048025
+2582580610,MEint.metabat.9147,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0048026
+2582580611,MEint.metabat.9166,Planctomycetes,Planctomycetia,Planctomycetales,,,,,,Gs0063444,,,Ga0048027
+2582580612,MEint.metabat.9351,Tenericutes,[Blank],[Blank],,,,,,Gs0063444,,,Ga0048028
+2582580613,MEint.metabat.9495,Bacteroidetes,[Blank],[Blank],,,,,,Gs0063444,,,Ga0048029
+2582580614,MEint.metabat.9830,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0048030
+2582580615,TBepi.metabat.1149,Proteobacteria,Gammaproteobacteria,Methylococcales,,,,,,Gs0063444,,,Ga0048031
+2582580616,TBepi.metabat.1301,Verrucomicrobia,Opitutae,[Blank],,,,,,Gs0063444,,,Ga0048032
+2582580617,TBepi.metabat.149,Actinobacteria,[Blank],[Blank],,,,,,Gs0063444,,,Ga0048033
+2582580620,TBepi.metabat.2093,Proteobacteria,Betaproteobacteria,Burkholderiales,,,,,,Gs0063444,,,Ga0048036
+2582580621,TBepi.metabat.2094,Proteobacteria,Betaproteobacteria,Burkholderiales,,,,,,Gs0063444,,,Ga0048037
+2582580622,TBepi.metabat.211,Chlorobi,Chlorobia,Chlorobiales,,,,,,Gs0063444,,,Ga0048038
+2582580623,TBepi.metabat.2167,Proteobacteria,Betaproteobacteria,Methylophilales,,,,,,Gs0063444,,,Ga0048039
+2582580624,TBepi.metabat.2443,Proteobacteria,Deltaproteobacteria,Bdellovibrionales,,,,,,Gs0063444,,,Ga0048040
+2582580625,TBepi.metabat.2493,Chlorobi,Chlorobia,Chlorobiales,,,,,,Gs0063444,,,Ga0048041
+2582580627,TBepi.metabat.2754,Actinobacteria,Actinobacteria,[Blank],,,,,,Gs0063444,,,Ga0048043
+2582580628,TBepi.metabat.2973,Actinobacteria,Actinobacteria,Acidimicrobiales,,,,,,Gs0063444,,,Ga0048044
+2582580629,TBepi.metabat.3083,Proteobacteria,Alphaproteobacteria,Rickettsiales,,,,,,Gs0063444,,,Ga0048045
+2582580630,TBepi.metabat.3207,Actinobacteria,Actinobacteria,[Blank],,,,,,Gs0063444,,,Ga0048046
+2582580631,TBepi.metabat.3256,Actinobacteria,Actinobacteria,Acidimicrobiales,,,,,,Gs0063444,,,Ga0048047
+2582580632,TBepi.metabat.3475,Actinobacteria,Actinobacteria,[Blank],,,,,,Gs0063444,,,Ga0048048
+2582580633,TBepi.metabat.3838,Proteobacteria,Betaproteobacteria,Burkholderiales,,,,,,Gs0063444,,,Ga0048049
+2582580634,TBepi.metabat.4163,Actinobacteria,Actinobacteria,Acidimicrobiales,,,,,,Gs0063444,,,Ga0048050
+2582580635,TBepi.metabat.4208,Actinobacteria,Actinobacteria,[Blank],,,,,,Gs0063444,,,Ga0048051
+2582580637,TBepi.metabat.4548,Proteobacteria,Betaproteobacteria,Burkholderiales,,,,,,Gs0063444,,,Ga0048053
+2582580638,TBepi.metabat.4605,Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,,,,,,Gs0063444,,,Ga0048054
+2582580639,TBepi.metabat.5136,Proteobacteria,Gammaproteobacteria,Methylococcales,,,,,,Gs0063444,,,Ga0048055
+2582580640,TBepi.metabat.5144,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0048056
+2582580641,TBepi.metabat.5243,Acidobacteria,Solibacteres,Solibacterales,,,,,,Gs0063444,,,Ga0048057
+2582580642,TBepi.metabat.567,Proteobacteria,Betaproteobacteria,Burkholderiales,,,,,,Gs0063444,,,Ga0048058
+2582580643,TBepi.metabat.5716,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0048059
+2582580644,TBepi.metabat.755,Proteobacteria,Alphaproteobacteria,Rickettsiales,,,,,,Gs0063444,,,Ga0048060
+2582580646,TBepi.metabat.8031,Proteobacteria,Gammaproteobacteria,Methylococcales,,,,,,Gs0063444,,,Ga0048062
+2582580647,TBepi.metabat.8052,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0048063
+2582580648,TBepi.metabat.911,Acidobacteria,Holophagae,Holophagales,,,,,,Gs0063444,,,Ga0048064
+2582580649,TBepi.metabat.913,Proteobacteria,Betaproteobacteria,Methylophilales,,,,,,Gs0063444,,,Ga0048065
+2582580650,TBepi.metabat.9727,Proteobacteria,Alphaproteobacteria,[Blank],,,,,,Gs0063444,,,Ga0048066
+2582580651,TBhypo.metabat.111,Chlorobi,Chlorobia,Chlorobiales,,,,,,Gs0063444,,,Ga0048067
+2582580652,TBhypo.metabat.1225,[Blank],[Blank],[Blank],,,,,,Gs0063444,,,Ga0048068
+2582580653,TBhypo.metabat.1542,Proteobacteria,Betaproteobacteria,Burkholderiales,,,,,,Gs0063444,,,Ga0048069
+2582580654,TBhypo.metabat.1998,Proteobacteria,Epsilonproteobacteria,Campylobacterales,,,,,,Gs0063444,,,Ga0048070
+2582580657,TBhypo.metabat.2152,Actinobacteria,Actinobacteria,[Blank],,,,,,Gs0063444,,,Ga0048073
+2582580658,TBhypo.metabat.2159,Proteobacteria,Betaproteobacteria,Burkholderiales,,,,,,Gs0063444,,,Ga0048074
+2582580659,TBhypo.metabat.2160,Proteobacteria,Betaproteobacteria,Burkholderiales,,,,,,Gs0063444,,,Ga0048075
+2582580662,TBhypo.metabat.254,Acidobacteria,Holophagae,Holophagales,,,,,,Gs0063444,,,Ga0048079
+2582580663,TBhypo.metabat.2565,[Blank],[Blank],[Blank],,,,,,Gs0063444,,,Ga0048080
+2582580664,TBhypo.metabat.2746,Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,,,,,,Gs0063444,,,Ga0048081
+2582580665,TBhypo.metabat.2747,Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,,,,,,Gs0063444,,,Ga0048082
+2582580668,TBhypo.metabat.3004,Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,,,,,,Gs0063444,,,Ga0048085
+2582580669,TBhypo.metabat.3063,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0048086
+2582580670,TBhypo.metabat.3180,Actinobacteria,[Blank],[Blank],,,,,,Gs0063444,,,Ga0048087
+2582580671,TBhypo.metabat.3219,Actinobacteria,Actinobacteria,Acidimicrobiales,,,,,,Gs0063444,,,Ga0048088
+2582580672,TBhypo.metabat.3273,Acidobacteria,Holophagae,Holophagales,,,,,,Gs0063444,,,Ga0048089
+2582580673,TBhypo.metabat.3311,Bacteroidetes,Bacteroidia,Bacteroidales,,,,,,Gs0063444,,,Ga0048090
+2582580674,TBhypo.metabat.3415,Proteobacteria,Betaproteobacteria,Gallionellales,,,,,,Gs0063444,,,Ga0048091
+2582580675,TBhypo.metabat.3463,Actinobacteria,Actinobacteria,[Blank],,,,,,Gs0063444,,,Ga0048092
+2582580677,TBhypo.metabat.3552,Proteobacteria,Gammaproteobacteria,Methylococcales,,,,,,Gs0063444,,,Ga0048094
+2582580679,TBhypo.metabat.3772,[Blank],[Blank],[Blank],,,,,,Gs0063444,,,Ga0048096
+2582580680,TBhypo.metabat.3815,Actinobacteria,Actinobacteria,Solirubrobacterales,,,,,,Gs0063444,,,Ga0048097
+2582580682,TBhypo.metabat.4093,Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,,,,,,Gs0063444,,,Ga0048099
+2582580683,TBhypo.metabat.4247,Proteobacteria,Alphaproteobacteria,Rickettsiales,,,,,,Gs0063444,,,Ga0048100
+2582580684,TBhypo.metabat.433,Proteobacteria,Deltaproteobacteria,Desulfobacterales,,,,,,Gs0063444,,,Ga0048101
+2582580685,TBhypo.metabat.4436,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,,,,,,Gs0063444,,,Ga0048102
+2582580686,TBhypo.metabat.4491,Proteobacteria,Gammaproteobacteria,Legionellales,,,,,,Gs0063444,,,Ga0048103
+2582580687,TBhypo.metabat.4565,Acidobacteria,Holophagae,Holophagales,,,,,,Gs0063444,,,Ga0048104
+2582580688,TBhypo.metabat.4590,Verrucomicrobia,Opitutae,[Blank],,,,,,Gs0063444,,,Ga0048105
+2582580689,TBhypo.metabat.4645,Proteobacteria,Deltaproteobacteria,Desulfuromonadales,,,,,,Gs0063444,,,Ga0048106
+2582580690,TBhypo.metabat.4697,Bacteroidetes,Flavobacteriia,Flavobacteriales,,,,,,Gs0063444,,,Ga0048107
+2582580691,TBhypo.metabat.4820,Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,,,,,,Gs0063444,,,Ga0048108
+2582580692,TBhypo.metabat.4848,Bacteroidetes,Bacteroidia,Bacteroidales,,,,,,Gs0063444,,,Ga0048109
+2582580693,TBhypo.metabat.4964,Proteobacteria,[Blank],[Blank],,,,,,Gs0063444,,,Ga0048110
+2582580694,TBhypo.metabat.5247,Bacteroidetes,Flavobacteriia,Flavobacteriales,,,,,,Gs0063444,,,Ga0048111
+2582580695,TBhypo.metabat.5354,Ignavibacteria,[Blank],[Blank],,,,,,Gs0063444,,,Ga0048112
+2582580697,TBhypo.metabat.5629,Ignavibacteria,Ignavibacteria,Ignavibacteriales,,,,,,Gs0063444,,,Ga0048114
+2582580698,TBhypo.metabat.5702,Proteobacteria,Alphaproteobacteria,Rickettsiales,,,,,,Gs0063444,,,Ga0048115
+2582580699,TBhypo.metabat.5737,Proteobacteria,Deltaproteobacteria,Bdellovibrionales,,,,,,Gs0063444,,,Ga0048116
+2582580700,TBhypo.metabat.5891,Proteobacteria,Betaproteobacteria,Burkholderiales,,,,,,Gs0063444,,,Ga0048117
+2582580701,TBhypo.metabat.6070,Proteobacteria,Gammaproteobacteria,Pseudomonadales,,,,,,Gs0063444,,,Ga0048118
+2582580702,TBhypo.metabat.6286,Bacteroidetes,Bacteroidia,Bacteroidales,,,,,,Gs0063444,,,Ga0048119
+2582580703,TBhypo.metabat.6717,Proteobacteria,Alphaproteobacteria,Rhizobiales,,,,,,Gs0063444,,,Ga0048120
+2582580704,TBhypo.metabat.6736,Elusimicrobia,Elusimicrobia,Elusimicrobiales,,,,,,Gs0063444,,,Ga0048121
+2582580705,TBhypo.metabat.680,Actinobacteria,Actinobacteria,[Blank],,,,,,Gs0063444,,,Ga0048122
+2582580706,TBhypo.metabat.7795,[Blank],[Blank],[Blank],,,,,,Gs0063444,,,Ga0048123
+2582580707,TBhypo.metabat.7925,Proteobacteria,Alphaproteobacteria,Rhodospirillales,,,,,,Gs0063444,,,Ga0048124
+2582580708,TBhypo.metabat.7934,Bacteroidetes,Bacteroidia,Bacteroidales,,,,,,Gs0063444,,,Ga0048125
+2582580709,TBhypo.metabat.8362,Proteobacteria,[Blank],[Blank],,,,,,Gs0063444,,,Ga0048126
+2582580711,TBhypo.metabat.944,Proteobacteria,Betaproteobacteria,Burkholderiales,,,,,,Gs0063444,,,Ga0048128
+2582580712,TBhypo.metabat.953,Proteobacteria,Betaproteobacteria,Methylophilales,,,,,,Gs0063444,,,Ga0048129
+2582580714,TBhypo.metabat.9906,Actinobacteria,Actinobacteria,[Blank],,,,,,Gs0063444,,,Ga0048130
+2588253500,TBhypo.metabat.238,Proteobacteria,Betaproteobacteria,Burkholderiales,,,,,,Gs0063444,,,Ga0048077
+2593339176,TBhypo.metabat.545.v2,Proteobacteria,Betaproteobacteria,Methylophilales,,,,,,Gs0063444,,,Ga0059277
+2593339177,TBhypo.metabat.941.v2,Proteobacteria,Betaproteobacteria,Burkholderiales,,,,,,Gs0063444,,,Ga0059278
+2593339178,TBhypo.metabat.2062.v2,Proteobacteria,Gammaproteobacteria,Methylococcales,,,,,,Gs0063444,,,Ga0059279
+2593339179,TBhypo.metabat.2086.v2,Bacteroidetes,Bacteroidia,Bacteroidales,,,,,,Gs0063444,,,Ga0059280
+2593339180,TBhypo.metabat.2270.v2,Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,,,,,,Gs0063444,,,Ga0059281
+2593339181,TBhypo.metabat.2519.v2,Verrucomicrobia,Opitutae,[Blank],,,,,,Gs0063444,,,Ga0059282
+2593339182,TBhypo.metabat.2902.v2,Proteobacteria,Betaproteobacteria,Methylophilales,,,,,,Gs0063444,,,Ga0059283
+2593339183,TBhypo.metabat.2922.v2,Proteobacteria,Deltaproteobacteria,Desulfobacterales,,,,,,Gs0063444,,,Ga0059284
+2593339184,TBhypo.metabat.3520.v2,Chlorobi,Chlorobia,Chlorobiales,,,,,,Gs0063444,,,Ga0059285
+2593339185,TBhypo.metabat.3765.v2,Actinobacteria,Actinobacteria,Acidimicrobiales,,,,,,Gs0063444,,,Ga0059286
+2593339186,TBhypo.metabat.3838.v2,Actinobacteria,Actinobacteria,[Blank],,,,,,Gs0063444,,,Ga0059287
+2593339187,TBepi.metabat.439.v2,Proteobacteria,Betaproteobacteria,Nitrosomonadales,,,,,,Gs0063444,,,Ga0059288
+2593339188,TBepi.metabat.788.v2,Proteobacteria,Betaproteobacteria,[Blank],,,,,,Gs0063444,,,Ga0059289
+2593339189,TBepi.metabat.1800.v2,Verrucomicrobia,Opitutae,[Blank],,,,,,Gs0063444,,,Ga0059290
+2593339190,TBepi.metabat.2057.v2,Actinobacteria,Actinobacteria,[Blank],,,,,,Gs0063444,,,Ga0059291
+2593339191,TBhypo.metabat.1380,Proteobacteria,Gammaproteobacteria,Methylococcales,,,,,,Gs0063444,,,Ga0059387
+2593339192,TBhypo.metabat.1381,Proteobacteria,Betaproteobacteria,Methylophilales,,,,,,Gs0063444,,,Ga0059388
+2593339193,TBepi.metabat.2668.v2,Proteobacteria,Gammaproteobacteria,[Blank],,,,,,Gs0063444,,,Ga0059292
+2602042079,AAA028-E20,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,acI-A6,Standard QC at JGI,1024061,Gs0030582,Gb0044638 ,Gp0044638,Ga0005098
+2602042080,AAA028-E20 (screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,acI-A6,Strict QC at JGI ,1024061,Gs0030582,Gb0044638 ,Gp0044638,Ga0009079
+2602042081,AAA204-A20,Verrucomicrobia,Spartobacteria,Spartobacteriales,verI,verI-B,Xip-B1,Standard QC at JGI,1024049,Gs0030582,Gb0044569 ,Gp0044569,Ga0005094
+2602042082,AAA204-A20 (screened),Verrucomicrobia,Spartobacteria,Spartobacteriales,verI,verI-B,Xip-B1,Strict QC at JGI ,1024049,Gs0030582,Gb0044569 ,Gp0044569,Ga0009086
+2602042083,AAA024-F06,Verrucomicrobia,Not classified,Not classified,,,,Standard QC at JGI,1024046,Gs0030582,Gb0044568,Gp0044568,Ga0005093
+2603880159,AAA028-C09,Actinobacteria,Actinobacteria,Actinomycetales,Luna1,Luna1-A,Luna1-A4,Standard QC at JGI,1024067,Gs0030582,Gb0044637 ,Gp0044637,Ga0005100
+2603880160,AAA028-C09 (screened),Actinobacteria,Actinobacteria,Actinomycetales,Luna1,Luna1-A,Luna1-A4,Strict QC at JGI ,1024067,Gs0030582,Gb0044637 ,Gp0044637,Ga0009078
+2603880161,AAA028-P02,Actinobacteria,Actinobacteria,Actinomycetales,Luna1,Luna1-A,Luna1-A2,Standard QC at JGI,1024070,Gs0030582,Gb0043995 ,Gp0043995,Ga0005101
+2603880162,AAA028-P02 (screened),Actinobacteria,Actinobacteria,Actinomycetales,Luna1,Luna1-A,Luna1-A2,Strict QC at JGI ,1024070,Gs0030582,Gb0043995 ,Gp0043995,Ga0009083
+2606217190,AAA028-G02,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,acI-A5,Standard QC at JGI,1024076,Gs0030582,Gb0044639 ,Gp0044639,Ga0005103
+2606217191,AAA028-G02 (screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,acI-A5,Strict QC at JGI ,1024076,Gs0030582,Gb0044639 ,Gp0044639,Ga0009080
+2606217192,AAA027-F04,Actinobacteria,Actinobacteria,Actinomycetales,acTH1,acTH1-A,acTH1-A1,Standard QC at JGI,1024073,Gs0030582,Gb0044635 ,Gp0044635,Ga0005102
+2606217193,AAA027-F04 (screened),Actinobacteria,Actinobacteria,Actinomycetales,acTH1,acTH1-A,acTH1-A1,Strict QC at JGI ,1024073,Gs0030582,Gb0044635 ,Gp0044635,Ga0009076
+2606217197,AAA027-E14 (screened),Actinobacteria,Actinobacteria,Actinomicrobiales,acIV,acIV-A,Iluma-A2,Strict QC at JGI ,1024052,Gs0030582,Gb0044634 ,Gp0044634,Ga0009075
+2606217198,AAA027-E14,Actinobacteria,Actinobacteria,Actinomicrobiales,acIV,acIV-A,Iluma-A2,Standard QC at JGI,1024052,Gs0030582,Gb0044634 ,Gp0044634,Ga0005095
+2606217199,AAA044-O16,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,acI-A5,Standard QC at JGI,1024079,Gs0030582,Gb0043996 ,Gp0043996,Ga0005104
+2606217200,AAA044-O16 (screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,acI-A5,Strict QC at JGI ,1024079,Gs0030582,Gb0043996 ,Gp0043996,Ga0009084
+2606217734,AAA027-L17 (screened),Actinobacteria,Actinobacteria,Actinomicrobiales,acIV,acIV-B,Iluma-B1,Strict QC at JGI ,1024055,Gs0030582,Gb0044636 ,Gp0044636,Ga0009077
+2606217735,AAA027-L17,Actinobacteria,Actinobacteria,Actinomicrobiales,acIV,acIV-B,Iluma-B1,Standard QC at JGI,1024055,Gs0030582,Gb0044636 ,Gp0044636,Ga0005096
+2616645017,AAA028-I18,Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,acI-A6,Standard QC at JGI,1024064,Gs0030582,Gb0043993 ,Gp0043993,Ga0005099
+2619618800,AAA024-K11 (screened),Proteobacteria,Betaproteobacteria,Burkholderiales,betI,betI-B,Rhodo,"Joshua J Hamilton ran through ProDeGe using classification at ""Order"" level",1004433,Gs0015918,Gb0025327 ,Gp0025327,Ga0073393
+2619618801,AAA027-C02 (screened),Proteobacteria,Betaproteobacteria,Burkholderiales,betII,Pnec,PnecC,"Joshua J Hamilton ran through ProDeGe using classification at ""Order"" level",1004436,Gs0015918,Gb0025335 ,Gp0025335,Ga0073394
+2619618802,AAA027-I06 (screened),Proteobacteria,Betaproteobacteria,Burkholderiales,betI,betI-A,Lhab-A1,"Joshua J Hamilton ran through ProDeGe using classification at ""Order"" level",1004445,Gs0015918,Gb0019155 ,Gp0019155,Ga0073396
+2619618803,AAA027-K21 (screened),Proteobacteria,Betaproteobacteria,Burkholderiales,betIII,betIII-A,betIII-A1,"Joshua J Hamilton ran through ProDeGe using classification at ""Order"" level",1004451,Gs0015918,Gb0025330 ,Gp0025330,Ga0073397
+2619618804,AAA028-K02 (screened),Proteobacteria,Betaproteobacteria,Methylophilales,betIV,betIV-A,LD28,"Joshua J Hamilton ran through ProDeGe using classification at ""Order"" level",1004460,Gs0015918,Gb0025293 ,Gp0025293,Ga0073398
+2619618805,AAA027-I19 (screened),Verrucomicrobia,Opitutae,Opitutales,,,,"Joshua J Hamilton ran through ProDeGe using classification at ""Order"" level",1004448,Gs0015918,Gb0025333 ,Gp0025333,Ga0073400
+2619618806,AAA027-G08 (screened),Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacI,bacI-A,bacI-A1,"Joshua J Hamilton ran through ProDeGe using classification at ""Order"" level",1004442,Gs0015918,Gb0025334 ,Gp0025334,Ga0073401
+2619618807,AAA027-N21 (screened),Bacteroidetes,Flavobacteriia,Flavobacteriales,bacII,bacII-A,Flavo-A2,"Joshua J Hamilton ran through ProDeGe using classification at ""Order"" level",1004454,Gs0015918,Gb0025369 ,Gp0025369,Ga0073402
+2619618808,AAA027-D23 (screened),Actinobacteria,Actinobacteria,Actinomycetales,acSTL,acSTL-A,acSTL-A1,"Joshua J Hamilton ran through ProDeGe using classification at ""Order"" level",1004439,Gs0015918,Gb0025329 ,Gp0025329,Ga0073403
+2619618809,AAA028-I14 (screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,acI-A6,"Joshua J Hamilton ran through ProDeGe using classification at ""Order"" level",1004457,Gs0015918,Gb0025326 ,Gp0025326,Ga0073404
+2619618810,AAA028-N15 (screened),Actinobacteria,Actinobacteria,Actinomycetales,acTH1,acTH1-A,acTH1-A1,"Joshua J Hamilton ran through ProDeGe using classification at ""Order"" level",1004463,Gs0015918,Gb0025292 ,Gp0025292,Ga0073405
+2619618811,AAA044-D11 (screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B4,"Joshua J Hamilton ran through ProDeGe using classification at ""Order"" level",1004466,Gs0015918,Gb0025368 ,Gp0025368,Ga0073406
+2619619039,AAA028-K15 (screened),Actinobacteria,Actinobacteria,Actinomicrobiales,acIV,acIV-B,Iluma-B2,Strict QC at JGI ,1024058,Gs0030582,Gb0043994 ,Gp0043994,Ga0009082
+2619619040,AAA028-K15,Actinobacteria,Actinobacteria,Actinomicrobiales,acIV,acIV-B,Iluma-B2,Standard QC at JGI,1024058,Gs0030582,Gb0043994 ,Gp0043994,Ga0005097
+2663763562,Bacteroidetes bacI-A JGI MCM14ME143 Screened,Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacI,bacI-A,bacI-A1,Auto decontamination with ProDeGe,1101068,Gs0118702,,Gp0139293,Ga0116899
+2663763563,Bacteroidetes bacI-A JGI MCM14ME143 Unscreened,Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacI,bacI-A,bacI-A1,None,1101068,Gs0118702,,Gp0139293,Ga0116898
+2663763564,Bacteroidetes bacI-A JGI MCM14ME088 Unscreened,Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacI,bacI-A,bacI-A1,None,1101066,Gs0118702,,Gp0139292,Ga0116896
+2663763565,Bacteroidetes bacI-A JGI MCM14ME088 Screened,Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacI,bacI-A,bacI-A1,Auto decontamination with ProDeGe,1101066,Gs0118702,,Gp0139292,Ga0116897
+2663763582,Bacteroidetes bacI-A JGI MCM14ME196 Screened,Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacI,bacI-A,bacI-A1,Auto decontamination with ProDeGe,1101070,Gs0118702,,Gp0139295,Ga0116903
+2663763583,Bacteroidetes bacI-A JGI MCM14ME196 Unscreened,Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacI,bacI-A,bacI-A1,None,1101070,Gs0118702,,Gp0139295,Ga0116902
+2663763584,Bacteroidetes bacI-A JGI MCM14ME166 Screened,Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacI,bacI-A,bacI-A1,Auto decontamination with ProDeGe,1101065,Gs0118702,,Gp0139291,Ga0116895
+2663763585,Bacteroidetes bacI-A JGI MCM14ME166 Unscreened,Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacI,bacI-A,bacI-A1,None,1101065,Gs0118702,,Gp0139291,Ga0116894
+2663763586,Bacteroidetes bacI-A JGI MCM14ME134 Unscreened,Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacI,bacI-A,bacI-A1,None,1101064,Gs0118702,,Gp0139290,Ga0116892
+2663763587,Bacteroidetes bacI-A JGI MCM14ME134 Screened,Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacI,bacI-A,bacI-A1,Auto decontamination with ProDeGe,1101064,Gs0118702,,Gp0139290,Ga0116893
+2663763588,Bacteroidetes bacVI JGI MCM14ME016 Screened,Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacVI,bacVI,,Auto decontamination with ProDeGe,1101072,Gs0118702,,Gp0139297,Ga0116907
+2663763589,Bacteroidetes bacVI JGI MCM14ME016 Unscreened,Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacVI,bacVI,,None,1101072,Gs0118702,,Gp0139297,Ga0116906
+2663763590,Bacteroidetes bacII-A JGI MCM14ME128 Unscreened,Bacteroidetes,Flavobacteria,Flavobacteriales,bacII,bacII-A,,None,1101071,Gs0118702,,Gp0139296,Ga0116904
+2663763591,Bacteroidetes bacII-A JGI MCM14ME128 Screened,Bacteroidetes,Flavobacteria,Flavobacteriales,bacII,bacII-A,,Auto decontamination with ProDeGe,1101071,Gs0118702,,Gp0139296,Ga0116905
+2663763592,Bacteroidetes bacI-A JGI MCM14ME168 Screened,Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacI,bacI-A,bacI-A1,Auto decontamination with ProDeGe,1101069,Gs0118702,,Gp0139294,Ga0116901
+2663763593,Bacteroidetes bacI-A JGI MCM14ME168 Unscreened,Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacI,bacI-A,bacI-A1,None,1101069,Gs0118702,,Gp0139294,Ga0116900
+2663763594,Bacteroidetes bacVI JGI MCM14ME156 Unscreened,Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacVI,bacVI,,None,1101073,Gs0118702,,Gp0139298,Ga0116908
+2663763595,Bacteroidetes bacVI JGI MCM14ME156 Screened,Bacteroidetes,Sphingobacteria,Sphingobacteriales,bacVI,bacVI,,Auto decontamination with ProDeGe,1101073,Gs0118702,,Gp0139298,Ga0116909
+2739367524,Actinobacteria bacterium acI-A JGI_MCM14ME051 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,,None,1132888,Gs0129090,,Gp0216557,Ga0191916 
+2739367558,Actinobacteria bacterium acI-A JGI_MCM14ME049 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,,None,1133021,Gs0129090,,Gp0216606,Ga0191937 
+2739367555,Actinobacteria bacterium acSTL-A JGI_MCM14ME264 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acSTL,acSTL-A,,Auto decontamination with ProDeGe and CrossBlock,1133028,Gs0129090,,Gp0216620,Ga0191157 
+2739367554,Actinobacteria bacterium acSTL-A JGI_MCM14ME264 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acSTL,acSTL-A,,None,1133028,Gs0129090,,Gp0216620,Ga0191944 
+2739367548,Limnohabitans bacterium JGI_MCM14TBH003 (unscreened),Proteobacteria,Betaproteobacteria,Burkholderiales,betI,betI-A,,None,1132872,Gs0129090,,Gp0216551,Ga0191900 
+2737471672,Acidobacteria bacterium JGI_MCM14TBH040 (unscreened),Acidobacteria,Holophagae,Holophagales,Holophagaceae,Geothrix,,None,1132763,Gs0129090,,Gp0216545,Ga0191887 
+2739367538,Acidobacteria bacterium JGI_MCM14TBH018 (unscreened),Acidobacteria,Holophagae,Holophagales,Holophagaceae,Geothrix,,None,1132877,Gs0129090,,Gp0216544,Ga0191905 
+2739367574,Acidobacteria bacterium JGI_MCM14TBH024 (unscreened),Acidobacteria,Holophagae,Holophagales,Holophagaceae,Geothrix,,None,1133009,Gs0129090,,Gp0216593,Ga0191925 
+2739367607,Acidobacteria bacterium JGI_MCM14TBH014 (unscreened),Acidobacteria,Holophagae,Holophagales,Holophagaceae,Geothrix,,None,1133129,Gs0129090,,Gp0216592,Ga0191949 
+2737471656,Verrucomicrobia bacterium JGI_MCM14ME258 (unscreened),Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,Luteolibacter,,None,1132764,Gs0129090,,Gp0216585,Ga0191888 
+2737471657,Verrucomicrobia bacterium JGI_MCM14ME258 (contamination screened),Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,Luteolibacter,,Auto decontamination with ProDeGe and CrossBlock,1132764,Gs0129090,,Gp0216585,Ga0191045 
+2737471653,Polynucleobacter bacterium JGI_MCM14ME033 (unscreened),Proteobacteria,Betaproteobacteria,Burkholderiales,betII,Pnec,PnecB,None,1132762,Gs0129090,,Gp0216579,Ga0191886 
+2737472025,Polynucleobacter bacterium JGI_MCM14ME033 (contamination screened),Proteobacteria,Betaproteobacteria,Burkholderiales,betII,Pnec,PnecB,Auto decontamination with ProDeGe and CrossBlock,1132762,Gs0129090,,Gp0216579,Ga0191041 
+2739367622,Polynucleobacter bacterium JGI_MCM14TBH064 (unscreened),Proteobacteria,Betaproteobacteria,Burkholderiales,betII,Pnec,PnecC,None,1133144,Gs0129090,,Gp0216602,Ga0191964 
+2739367575,Polynucleobacter bacterium JGI_MCM14TBH017 (unscreened),Proteobacteria,Betaproteobacteria,Burkholderiales,betII,Pnec,PnecC,None,1133008,Gs0129090,,Gp0216601,Ga0191924 
+2739367576,Polynucleobacter bacterium JGI_MCM14TBH017 (contamination screened),Proteobacteria,Betaproteobacteria,Burkholderiales,betII,Pnec,PnecC,Auto decontamination with ProDeGe and CrossBlock,1133008,Gs0129090,,Gp0216601,Ga0191117 
+2739367623,Polynucleobacter bacterium JGI_MCM14TBH064 (contamination screened),Proteobacteria,Betaproteobacteria,Burkholderiales,betII,Pnec,PnecC,Auto decontamination with ProDeGe and CrossBlock,1133144,Gs0129090,,Gp0216602,Ga0191197 
+2739367550,Polynucleobacter bacterium JGI_MCM14TBH079 (unscreened),Proteobacteria,Betaproteobacteria,Burkholderiales,betII,Pnec,PnecC,None,1132892,Gs0129090,,Gp0216553,Ga0191920 
+2739367551,Polynucleobacter bacterium JGI_MCM14TBH079 (contamination screened),Proteobacteria,Betaproteobacteria,Burkholderiales,betII,Pnec,PnecC,Auto decontamination with ProDeGe and CrossBlock,1132892,Gs0129090,,Gp0216553,Ga0191109 
+2739367560,Verrucomicrobia bacterium verI-A JGI_MCM14ME135 (unscreened),Verrucomicrobia,Spartobacteria,,verI,verI-A,,None,1133026,Gs0129090,,Gp0216637,Ga0191942 
+2737471655,Verrucomicrobia bacterium verI-A JGI_MCM14ME069 (contamination screened),Verrucomicrobia,Spartobacteria,,verI,verI-A,,Auto decontamination with ProDeGe and CrossBlock,1132769,Gs0129090,,Gp0216589,Ga0191055 
+2737471654,Verrucomicrobia bacterium verI-A JGI_MCM14ME069 (unscreened),Verrucomicrobia,Spartobacteria,,verI,verI-A,,None,1132769,Gs0129090,,Gp0216589,Ga0191893 
+2739367620,Verrucomicrobia bacterium verI-A JGI_MCM14ME192 (unscreened),Verrucomicrobia,Spartobacteria,,verI,verI-A,,None,1133142,Gs0129090,,Gp0216639,Ga0191962 
+2739367603,Verrucomicrobia bacterium verI-A JGI_MCM14ME158 (unscreened),Verrucomicrobia,Spartobacteria,,verI,verI-A,,None,1133131,Gs0129090,,Gp0216638,Ga0191951 
+2739367557,Verrucomicrobia bacterium verI-A JGI_MCM14ME061 (contamination screened),Verrucomicrobia,Spartobacteria,,verI,verI-A,,Auto decontamination with ProDeGe and CrossBlock,1133025,Gs0129090,,Gp0216636,Ga0191151 
+2739367561,Verrucomicrobia bacterium verI-A JGI_MCM14ME135 (contamination screened),Verrucomicrobia,Spartobacteria,,verI,verI-A,,Auto decontamination with ProDeGe and CrossBlock,1133026,Gs0129090,,Gp0216637,Ga0191153 
+2739367604,Verrucomicrobia bacterium verI-A JGI_MCM14ME158 (contamination screened),Verrucomicrobia,Spartobacteria,,verI,verI-A,,Auto decontamination with ProDeGe and CrossBlock,1133131,Gs0129090,,Gp0216638,Ga0191171 
+2739367621,Verrucomicrobia bacterium verI-A JGI_MCM14ME192 (contamination screened),Verrucomicrobia,Spartobacteria,,verI,verI-A,,Auto decontamination with ProDeGe and CrossBlock,1133142,Gs0129090,,Gp0216639,Ga0191193 
+2739367526,Verrucomicrobia bacterium verI-A JGI_MCM14ME047 (contamination screened),Verrucomicrobia,Spartobacteria,,verI,verI-A,,Auto decontamination with ProDeGe and CrossBlock,1132887,Gs0129090,,Gp0216588,Ga0191099 
+2737471660,Verrucomicrobia bacterium verI-A JGI_MCM14ME215 (unscreened),Verrucomicrobia,Spartobacteria,,verI,verI-A,,None,1132771,Gs0129090,,Gp0216590,Ga0191895 
+2739367556,Verrucomicrobia bacterium verI-A JGI_MCM14ME061 (unscreened),Verrucomicrobia,Spartobacteria,,verI,verI-A,,None,1133025,Gs0129090,,Gp0216636,Ga0191941 
+2739367525,Verrucomicrobia bacterium verI-A JGI_MCM14ME047 (unscreened),Verrucomicrobia,Spartobacteria,,verI,verI-A,,None,1132887,Gs0129090,,Gp0216588,Ga0191915 
+2737471661,Verrucomicrobia bacterium verI-A JGI_MCM14ME215 (contamination screened),Verrucomicrobia,Spartobacteria,,verI,verI-A,,Auto decontamination with ProDeGe and CrossBlock,1132771,Gs0129090,,Gp0216590,Ga0191059 
+2737471693,Verrucomicrobia bacterium verl-B JGI_MCM14ME089 (unscreened),Verrucomicrobia,Spartobacteria,,verI,verl-B,,None,1132754,Gs0129090,,Gp0216591,Ga0191878 
+2737471694,Verrucomicrobia bacterium verl-B JGI_MCM14ME089 (contamination screened),Verrucomicrobia,Spartobacteria,,verI,verl-B,,Auto decontamination with ProDeGe and CrossBlock,1132754,Gs0129090,,Gp0216591,Ga0191025 
+2739367633,Actinobacteria bacterium acI-B JGI_MCM14ME025 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B1,Auto decontamination with ProDeGe and CrossBlock,1133134,Gs0129090,,Gp0216608,Ga0191177 
+2739367520,Actinobacteria bacterium acI-B JGI_MCM14ME065 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B1,None,1132891,Gs0129090,,Gp0216560,Ga0191919 
+2739367596,Actinobacteria bacterium acI-B JGI_MCM14ME048 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B1,Auto decontamination with ProDeGe and CrossBlock,1133019,Gs0129090,,Gp0216609,Ga0191139 
+2739367595,Actinobacteria bacterium acI-B JGI_MCM14ME048 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B1,None,1133019,Gs0129090,,Gp0216609,Ga0191935 
+2739367521,Actinobacteria bacterium acI-B JGI_MCM14ME065 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B1,Auto decontamination with ProDeGe and CrossBlock,1132891,Gs0129090,,Gp0216560,Ga0191107 
+2739367632,Actinobacteria bacterium acI-B JGI_MCM14ME025 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B1,None,1133134,Gs0129090,,Gp0216608,Ga0191954 
+2739367539,Actinobacteria bacterium acI-B JGI_MCM14TBH026 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B2,None,1132879,Gs0129090,,Gp0216546,Ga0191907 
+2737471666,Actinobacteria bacterium acI-B JGI_MCM14TBH075 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B2,None,1132767,Gs0129090,,Gp0216547,Ga0191891 
+2739367614,Actinobacteria bacterium acI-B JGI_MCM14TBH061 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B2,Auto decontamination with ProDeGe and CrossBlock,1133141,Gs0129090,,Gp0216595,Ga0191191 
+2739367613,Actinobacteria bacterium acI-B JGI_MCM14TBH061 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B2,None,1133141,Gs0129090,,Gp0216595,Ga0191961 
+2737471667,Actinobacteria bacterium acI-B JGI_MCM14TBH075 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B2,Auto decontamination with ProDeGe and CrossBlock,1132767,Gs0129090,,Gp0216547,Ga0191051 
+2739367597,Actinobacteria bacterium acI-B JGI_MCM14TBH043 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B2,None,1133014,Gs0129090,,Gp0216594,Ga0191930 
+2739367540,Actinobacteria bacterium acI-B JGI_MCM14TBH026 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-B,acI-B2,Auto decontamination with ProDeGe and CrossBlock,1132879,Gs0129090,,Gp0216546,Ga0191083 
+2739367546,Actinobacteria bacterium acI-C JGI_MCM14ME077 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-C,acI-C1,Auto decontamination with ProDeGe and CrossBlock,1132871,Gs0129090,,Gp0216563,Ga0191067 
+2739367545,Actinobacteria bacterium acI-C JGI_MCM14ME077 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-C,acI-C1,None,1132871,Gs0129090,,Gp0216563,Ga0191899 
+2737471698,Actinobacteria bacterium acI-C JGI_MCM14ME008 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-C,acI-C2,Auto decontamination with ProDeGe and CrossBlock,1132751,Gs0129090,,Gp0216561,Ga0191019 
+2739367569,Actinobacteria bacterium acI-C JGI_MCM14ME097 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-C,acI-C2,None,1133010,Gs0129090,,Gp0216610,Ga0191926 
+2739367532,Actinobacteria bacterium acI-C JGI_MCM14ME034 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-C,acI-C2,None,1132883,Gs0129090,,Gp0216562,Ga0191911 
+2739367570,Actinobacteria bacterium acI-C JGI_MCM14ME097 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-C,acI-C2,Auto decontamination with ProDeGe and CrossBlock,1133010,Gs0129090,,Gp0216610,Ga0191121 
+2739367629,Actinobacteria bacterium acI-C JGI_MCM14ME159 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-C,acI-C2,Auto decontamination with ProDeGe and CrossBlock,1133132,Gs0129090,,Gp0216612,Ga0191173 
+2739367617,Actinobacteria bacterium acI-C JGI_MCM14ME133 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-C,acI-C2,None,1133146,Gs0129090,,Gp0216611,Ga0191966 
+2739367579,Actinobacteria bacterium acI-C JGI_MCM14ME182 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-C,acI-C2,None,1133017,Gs0129090,,Gp0216613,Ga0191933 
+2739367618,Actinobacteria bacterium acI-C JGI_MCM14ME133 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-C,acI-C2,Auto decontamination with ProDeGe and CrossBlock,1133146,Gs0129090,,Gp0216611,Ga0191201 
+2739367533,Actinobacteria bacterium acI-C JGI_MCM14ME034 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-C,acI-C2,Auto decontamination with ProDeGe and CrossBlock,1132883,Gs0129090,,Gp0216562,Ga0191091 
+2739367518,Actinobacteria bacterium acI-C JGI_MCM14ME114 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-C,acI-C2,None,1132884,Gs0129090,,Gp0216564,Ga0191912 
+2737471697,Actinobacteria bacterium acI-C JGI_MCM14ME008 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-C,acI-C2,None,1132751,Gs0129090,,Gp0216561,Ga0191875 
+2739367628,Actinobacteria bacterium acI-C JGI_MCM14ME159 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-C,acI-C2,None,1133132,Gs0129090,,Gp0216612,Ga0191952 
+2739367580,Actinobacteria bacterium acI-C JGI_MCM14ME182 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-C,acI-C2,Auto decontamination with ProDeGe and CrossBlock,1133017,Gs0129090,,Gp0216613,Ga0191135 
+2737471675,Actinobacteria bacterium acTH1-A JGI_MCM14ME106 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acTHL,acTHL-A,acTH1-A1,None,1132760,Gs0129090,,Gp0216571,Ga0191884 
+2737471676,Actinobacteria bacterium acTH1-A JGI_MCM14ME106 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acTHL,acTHL-A,acTH1-A1,Auto decontamination with ProDeGe and CrossBlock,1132760,Gs0129090,,Gp0216571,Ga0191037 
+2739367602,Actinobacteria bacterium acTH1-A JGI_MCM14ME001 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acTHL,acTHL-A,acTH1-A1,None,1133126,Gs0129090,,Gp0216621,Ga0191946 
+2739367536,Actinobacteria bacterium acIV-A JGI_MCM14ME165 (unscreened),Actinobacteria,Acidimicrobiia,Acidimicrobiales ,acIV,acIV-A,Iluma-A2,None,1132880,Gs0129090,,Gp0216565,Ga0191908 
+2739367627,Actinobacteria bacterium acIV-A JGI_MCM14ME176 (unscreened),Actinobacteria,Acidimicrobiia,Acidimicrobiales ,acIV,acIV-A,Iluma-A2,None,1133137,Gs0129090,,Gp0216615,Ga0191957 
+2737471668,Actinobacteria bacterium acIV-A JGI_MCM14ME173 (unscreened),Actinobacteria,Acidimicrobiia,Acidimicrobiales ,acIV,acIV-A,Iluma-A2,None,1132761,Gs0129090,,Gp0216566,Ga0191885 
+2739367537,Actinobacteria bacterium acIV-A JGI_MCM14ME165 (contamination screened),Actinobacteria,Acidimicrobiia,Acidimicrobiales ,acIV,acIV-A,Iluma-A2,Auto decontamination with ProDeGe and CrossBlock,1132880,Gs0129090,,Gp0216565,Ga0191085 
+2739367571,Actinobacteria bacterium acIV-A JGI_MCM14ME169 (unscreened),Actinobacteria,Acidimicrobiia,Acidimicrobiales ,acIV,acIV-A,Iluma-A2,None,1133011,Gs0129090,,Gp0216614,Ga0191927 
+2739367559,Actinobacteria bacterium acIV-B JGI_MCM14ME186 (unscreened),Actinobacteria,Acidimicrobiia,Acidimicrobiales ,acIV,acIV-B,Iluma-B1,None,1133020,Gs0129090,,Gp0216616,Ga0191936 
+2739367547,Actinobacteria bacterium acIV-B JGI_MCM14ME141 (unscreened),Actinobacteria,Acidimicrobiia,Acidimicrobiales ,acIV,acIV-B,Iluma-B1,None,1132873,Gs0129090,,Gp0216568,Ga0191901 
+2737471663,Actinobacteria bacterium acIV-B JGI_MCM14ME129 (contamination screened),Actinobacteria,Acidimicrobiia,Acidimicrobiales ,acIV,acIV-B,Iluma-B1,Auto decontamination with ProDeGe and CrossBlock,1132766,Gs0129090,,Gp0216567,Ga0191049 
+2737471662,Actinobacteria bacterium acIV-B JGI_MCM14ME129 (unscreened),Actinobacteria,Acidimicrobiia,Acidimicrobiales ,acIV,acIV-B,Iluma-B1,None,1132766,Gs0129090,,Gp0216567,Ga0191890 
+2739367564,Actinobacteria bacterium acIV-B JGI_MCM14ME194 (unscreened),Actinobacteria,Acidimicrobiia,Acidimicrobiales ,acIV,acIV-B,Iluma-B2,None,1133022,Gs0129090,,Gp0216619,Ga0191938 
+2739367616,Actinobacteria bacterium acIV-B JGI_MCM14ME188 (unscreened),Actinobacteria,Acidimicrobiia,Acidimicrobiales ,acIV,acIV-B,Iluma-B2,None,1133140,Gs0129090,,Gp0216618,Ga0191960 
+2739367631,Actinobacteria bacterium acIV-B JGI_MCM14ME187 (unscreened),Actinobacteria,Acidimicrobiia,Acidimicrobiales ,acIV,acIV-B,Iluma-B2,None,1133139,Gs0129090,,Gp0216617,Ga0191959 
+2737471701,Actinobacteria bacterium acIV-C JGI_MCM14ME150 (unscreened),Actinobacteria,Acidimicrobiia,Acidimicrobiales ,acIV,acIV-C,Iluma-C1,None,1132752,Gs0129090,,Gp0216569,Ga0191876 
+2737471671,Actinobacteria bacterium acIV-C JGI_MCM14ME163 (unscreened),Actinobacteria,Acidimicrobiia,Acidimicrobiales ,acIV,acIV-C,Iluma-C1,None,1132757,Gs0129090,,Gp0216570,Ga0191881 
+2737471702,Actinobacteria bacterium acIV-C JGI_MCM14ME150 (contamination screened),Actinobacteria,Acidimicrobiia,Acidimicrobiales ,acIV,acIV-C,Iluma-C1,Auto decontamination with ProDeGe and CrossBlock,1132752,Gs0129090,,Gp0216569,Ga0191021 
+2739367517,Proteobacteria bacterium LD28 JGI_MCM14ME191 (contamination screened),Proteobacteria,Betaproteobacteria,Methylophilales,betIV,betIV-A,LD28,Auto decontamination with ProDeGe and CrossBlock,1132889,Gs0129090,,Gp0216584,Ga0191103 
+2737471677,Proteobacteria bacterium LD28 JGI_MCM14ME026 (unscreened),Proteobacteria,Betaproteobacteria,Methylophilales,betIV,betIV-A,LD28,None,1132759,Gs0129090,,Gp0216583,Ga0191883 
+2739367583,Proteobacteria bacterium LD28 JGI_MCM14TBH053 (unscreened),Proteobacteria,Betaproteobacteria,Methylophilales,betIV,betIV-A,LD28,None,1133018,Gs0129090,,Gp0216604,Ga0191934 
+2739367516,Proteobacteria bacterium LD28 JGI_MCM14ME191 (unscreened),Proteobacteria,Betaproteobacteria,Methylophilales,betIV,betIV-A,LD28,None,1132889,Gs0129090,,Gp0216584,Ga0191917 
+2739367619,Proteobacteria bacterium LD28 JGI_MCM14TBH083 (unscreened),Proteobacteria,Betaproteobacteria,Methylophilales,betIV,betIV-A,LD28,None,1133147,Gs0129090,,Gp0216605,Ga0191967 
+2737471678,Proteobacteria bacterium LD28 JGI_MCM14ME026 (contamination screened),Proteobacteria,Betaproteobacteria,Methylophilales,betIV,betIV-A,LD28,Auto decontamination with ProDeGe and CrossBlock,1132759,Gs0129090,,Gp0216583,Ga0191035 
+2739367578,Limnohabitans bacterium JGI_MCM14ME171 (contamination screened),Proteobacteria,Betaproteobacteria,Burkholderiales,betI,betI-A,Lhab-A1,Auto decontamination with ProDeGe and CrossBlock,1133013,Gs0129090,,Gp0216627,Ga0191127 
+2739367522,Limnohabitans bacterium JGI_MCM14ME184 (unscreened),Proteobacteria,Betaproteobacteria,Burkholderiales,betI,betI-A,Lhab-A1,None,1132886,Gs0129090,,Gp0216575,Ga0191914 
+2739367610,Limnohabitans bacterium JGI_MCM14ME290 (unscreened),Proteobacteria,Betaproteobacteria,Burkholderiales,betI,betI-A,Lhab-A1,None,1133149,Gs0129090,,Gp0216628,Ga0191969 
+2737471703,Limnohabitans bacterium JGI_MCM14ME275 (unscreened),Proteobacteria,Betaproteobacteria,Burkholderiales,betI,betI-A,Lhab-A1,None,1132772,Gs0129090,,Gp0216577,Ga0191896 
+2739367577,Limnohabitans bacterium JGI_MCM14ME171 (unscreened),Proteobacteria,Betaproteobacteria,Burkholderiales,betI,betI-A,Lhab-A1,None,1133013,Gs0129090,,Gp0216627,Ga0191929 
+2737471704,Limnohabitans bacterium JGI_MCM14ME275 (contamination screened),Proteobacteria,Betaproteobacteria,Burkholderiales,betI,betI-A,Lhab-A1,Auto decontamination with ProDeGe and CrossBlock,1132772,Gs0129090,,Gp0216577,Ga0191061 
+2739367611,Limnohabitans bacterium JGI_MCM14ME290 (contamination screened),Proteobacteria,Betaproteobacteria,Burkholderiales,betI,betI-A,Lhab-A1,Auto decontamination with ProDeGe and CrossBlock,1133149,Gs0129090,,Gp0216628,Ga0191207 
+2739367523,Limnohabitans bacterium JGI_MCM14ME184 (contamination screened),Proteobacteria,Betaproteobacteria,Burkholderiales,betI,betI-A,Lhab-A1,Auto decontamination with ProDeGe and CrossBlock,1132886,Gs0129090,,Gp0216575,Ga0191097 
+2739367530,Limnohabitans bacterium JGI_MCM14ME254 (unscreened),Proteobacteria,Betaproteobacteria,Burkholderiales,betI,betI-A,Lhab-A2,None,1132882,Gs0129090,,Gp0216576,Ga0191910 
+2739367531,Limnohabitans bacterium JGI_MCM14ME254 (contamination screened),Proteobacteria,Betaproteobacteria,Burkholderiales,betI,betI-A,Lhab-A2,Auto decontamination with ProDeGe and CrossBlock,1132882,Gs0129090,,Gp0216576,Ga0191089 
+2737471691,Actinobacteria bacterium acI-A JGI_MCM14ME145 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,Phila,None,1132750,Gs0129090,,Gp0216558,Ga0191874 
+2739367634,Actinobacteria bacterium acI-A JGI_MCM14ME105 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,Phila,None,1133135,Gs0129090,,Gp0216607,Ga0191955 
+2739367635,Actinobacteria bacterium acI-A JGI_MCM14ME105 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,Phila,Auto decontamination with ProDeGe and CrossBlock,1133135,Gs0129090,,Gp0216607,Ga0191179 
+2739367541,Actinobacteria bacterium acI-A JGI_MCM14ME217 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,Phila,None,1132870,Gs0129090,,Gp0216559,Ga0191898 
+2737471692,Actinobacteria bacterium acI-A JGI_MCM14ME145 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,Phila,Auto decontamination with ProDeGe and CrossBlock,1132750,Gs0129090,,Gp0216558,Ga0191017 
+2739367542,Actinobacteria bacterium acI-A JGI_MCM14ME217 (contamination screened),Actinobacteria,Actinobacteria,Actinomycetales,acI,acI-A,Phila,Auto decontamination with ProDeGe and CrossBlock,1132870,Gs0129090,,Gp0216559,Ga0191065 
+2739367515,Proteobacteria bacterium betI-B JGI_MCM14TBH049 (unscreened),Proteobacteria,Betaproteobacteria,Burkholderiales,betI,betI-B,Rhodo,None,1132885,Gs0129090,,Gp0216554,Ga0191913 
+2739367624,Proteobacteria bacterium betI-B JGI_MCM14TBH062 (unscreened),Proteobacteria,Betaproteobacteria,Burkholderiales,betI,betI-B,Rhodo,None,1133143,Gs0129090,,Gp0216603,Ga0191963 
+2739367534,Polynucleobacter bacterium JGI_MCM14ME153 (unscreened),Proteobacteria,Alphaproteobacteria,Sphingomonadales,alfIII,alfIII-A,Sphingo,None,1132878,Gs0129090,,Gp0216580,Ga0191906 
+2739367535,Polynucleobacter bacterium JGI_MCM14ME153 (contamination screened),Proteobacteria,Alphaproteobacteria,Sphingomonadales,alfIII,alfIII-A,Sphingo,Auto decontamination with ProDeGe and CrossBlock,1132878,Gs0129090,,Gp0216580,Ga0191081 
+2739367568,Proteobacteria bacterium alfIII-A JGI_MCM14ME142 (unscreened),Proteobacteria,Alphaproteobacteria,Sphingomonadales,alfIII,alfIII-A,Sphingo,None,1133006,Gs0129090,,Gp0216633,Ga0191922 
+2739367529,Proteobacteria bacterium alfIII-A JGI_MCM14ME152 (unscreened),Proteobacteria,Alphaproteobacteria,Sphingomonadales,alfIII,alfIII-A,Sphingo,None,1132876,Gs0129090,,Gp0216581,Ga0191904 
+2739367519,Proteobacteria bacterium alfIII-A JGI_MCM14ME193 (unscreened),Proteobacteria,Alphaproteobacteria,Sphingomonadales,alfIII,alfIII-A,Sphingo,None,1132890,Gs0129090,,Gp0216582,Ga0191918 
+2739367615,Actinobacteria bacterium JGI_MCM14ME201 (unscreened),Actinobacteria,Actinobacteria,Actinomycetales,acSTL,,,None,1133145,Gs0129090,,Gp0216622,Ga0191965 
+2739367572,Polynucleobacter bacterium JGI_MCM14TBH005 (unscreened),Proteobacteria,Betaproteobacteria,Burkholderiales,betII,,,None,1133007,Gs0129090,,Gp0216599,Ga0191923 
+2739367573,Polynucleobacter bacterium JGI_MCM14TBH005 (contamination screened),Proteobacteria,Betaproteobacteria,Burkholderiales,betII,,,Auto decontamination with ProDeGe and CrossBlock,1133007,Gs0129090,,Gp0216599,Ga0191115 
+2739367608,Polynucleobacter bacterium JGI_MCM14TBH008 (unscreened),Proteobacteria,Betaproteobacteria,Burkholderiales,betII,,,None,1133128,Gs0129090,,Gp0216600,Ga0191948 
+2737471664,Polynucleobacter bacterium JGI_MCM14TBH076 (unscreened),Proteobacteria,Betaproteobacteria,Burkholderiales,betII,,,None,1132768,Gs0129090,,Gp0216552,Ga0191892 
+2739367609,Polynucleobacter bacterium JGI_MCM14TBH008 (contamination screened),Proteobacteria,Betaproteobacteria,Burkholderiales,betII,,,Auto decontamination with ProDeGe and CrossBlock,1133128,Gs0129090,,Gp0216600,Ga0191165 
+2737471665,Polynucleobacter bacterium JGI_MCM14TBH076 (contamination screened),Proteobacteria,Betaproteobacteria,Burkholderiales,betII,,,Auto decontamination with ProDeGe and CrossBlock,1132768,Gs0129090,,Gp0216552,Ga0191053 
+2737471658,Chlorobi bacterium JGI_MCM14TBH085 (unscreened),Chlorobi,Chlorobea,Chlorobiales,Chlorobiaceae,,,None,1132770,Gs0129090,,Gp0216550,Ga0191894 
+2739367567,Chlorobi bacterium JGI_MCM14TBH067 (unscreened),Chlorobi,Chlorobea,Chlorobiales,Chlorobiaceae,,,None,1133023,Gs0129090,,Gp0216598,Ga0191939 
+2739367543,Chlorobi bacterium JGI_MCM14TBH012 (unscreened),Chlorobi,Chlorobea,Chlorobiales,Chlorobiaceae,,,None,1132874,Gs0129090,,Gp0216549,Ga0191902 
+2739367637,Chlorobi bacterium JGI_MCM14TBH044 (contamination screened),Chlorobi,Chlorobea,Chlorobiales,Chlorobiaceae,,,None,1133136,Gs0129090,,Gp0216597,Ga0191181 
+2739367544,Chlorobi bacterium JGI_MCM14TBH012 (contamination screened),Chlorobi,Chlorobea,Chlorobiales,Chlorobiaceae,,,None,1132874,Gs0129090,,Gp0216549,Ga0191073 
+2739367636,Chlorobi bacterium JGI_MCM14TBH044 (unscreened),Chlorobi,Chlorobea,Chlorobiales,Chlorobiaceae,,,None,1133136,Gs0129090,,Gp0216597,Ga0191956 
+2737471659,Chlorobi bacterium JGI_MCM14TBH085 (contamination screened),Chlorobi,Chlorobea,Chlorobiales,Chlorobiaceae,,,None,1132770,Gs0129090,,Gp0216550,Ga0191057 
+2737471699,Betaproteobacteria bacterium JGI_MCM14TBH016 (unscreened),Proteobacteria,Betaproteobacteria,Ferrovales,Ferrovaceae,,,None,1132753,Gs0129090,,Gp0216548,Ga0191877 
+2739367626,Betaproteobacteria bacterium JGI_MCM14TBH028 (contamination screened),Proteobacteria,Betaproteobacteria,Ferrovales,Ferrovaceae,,,Auto decontamination with ProDeGe and CrossBlock,1133133,Gs0129090,,Gp0216596,Ga0191175 
+2737471700,Betaproteobacteria bacterium JGI_MCM14TBH016 (contamination screened),Proteobacteria,Betaproteobacteria,Ferrovales,Ferrovaceae,,,Auto decontamination with ProDeGe and CrossBlock,1132753,Gs0129090,,Gp0216548,Ga0191023 
+2739367625,Betaproteobacteria bacterium JGI_MCM14TBH028 (unscreened),Proteobacteria,Betaproteobacteria,Ferrovales,Ferrovaceae,,,None,1133133,Gs0129090,,Gp0216596,Ga0191953 
+2737471670,Verrucomicrobia bacterium LD19 JGI_MCM14ME022 (contamination screened),Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,LD19,,,Auto decontamination with ProDeGe and CrossBlock,1132756,Gs0129090,,Gp0216587,Ga0191029 
+2739367601,Verrucomicrobia bacterium LD19 JGI_MCM14ME111 (contamination screened),Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,LD19,,,Auto decontamination with ProDeGe and CrossBlock,1133015,Gs0129090,,Gp0216635,Ga0191131 
+2737471669,Verrucomicrobia bacterium LD19 JGI_MCM14ME022 (unscreened),Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,LD19,,,None,1132756,Gs0129090,,Gp0216587,Ga0191880 
+2739367600,Verrucomicrobia bacterium LD19 JGI_MCM14ME111 (unscreened),Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,LD19,,,None,1133015,Gs0129090,,Gp0216635,Ga0191931 
+2739367549,Betaproteobacteria bacterium JGI_MCM14ME279 (unscreened),Proteobacteria,Betaproteobacteria,Nitrosomonadales,Nitrosomonadaceae,,,None,1132893,Gs0129090,,Gp0216574,Ga0191921 
+2739367630,Betaproteobacteria bacterium JGI_MCM14ME259 (unscreened),Proteobacteria,Betaproteobacteria,Nitrosomonadales,Nitrosomonadaceae,,,None,1133138,Gs0129090,,Gp0216625,Ga0191958 
+2739367552,Betaproteobacteria bacterium JGI_MCM14ME284 (unscreened),Proteobacteria,Betaproteobacteria,Nitrosomonadales,Nitrosomonadaceae,,,None,1133029,Gs0129090,,Gp0216626,Ga0191945 
+2739367566,Planctomycetes bacterium JGI_MCM14ME059 (contamination screened),Planctomycetes,Planctomycetia,Pirellulales,Pirellulaceae,,,Auto decontamination with ProDeGe and CrossBlock,1133024,Gs0129090,,Gp0216630,Ga0191149 
+2739367701,Planctomycetes bacterium JGI_MCM14ME087 (unscreened),Planctomycetes,Planctomycetia,Pirellulales,Pirellulaceae,,,None,1133130,Gs0129090,,Gp0216632,Ga0191950 
+2739367565,Planctomycetes bacterium JGI_MCM14ME059 (unscreened),Planctomycetes,Planctomycetia,Pirellulales,Pirellulaceae,,,None,1133024,Gs0129090,,Gp0216630,Ga0191940 
+2739367702,Planctomycetes bacterium JGI_MCM14ME087 (contamination screened),Planctomycetes,Planctomycetia,Pirellulales,Pirellulaceae,,,Auto decontamination with ProDeGe and CrossBlock,1133130,Gs0129090,,Gp0216632,Ga0191169 
+2739367612,Verrucomicrobia bacterium JGI_MCM14ME267 (unscreened),Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,,,None,1133148,Gs0129090,,Gp0216634,Ga0191968 
+2737471696,Betaproteobacteria bacterium JGI_MCM14ME238 (contamination screened),Proteobacteria,Betaproteobacteria,Nitrotoga,,,,Auto decontamination with ProDeGe and CrossBlock,1132755,Gs0129090,,Gp0216573,Ga0191027 
+2739367606,Betaproteobacteria bacterium JGI_MCM14ME221 (contamination screened),Proteobacteria,Betaproteobacteria,Nitrotoga,,,,Auto decontamination with ProDeGe and CrossBlock,1133127,Gs0129090,,Gp0216623,Ga0191163 
+2739367581,Betaproteobacteria bacterium JGI_MCM14ME250 (unscreened),Proteobacteria,Betaproteobacteria,Nitrotoga,,,,None,1133012,Gs0129090,,Gp0216624,Ga0191928 
+2737471695,Betaproteobacteria bacterium JGI_MCM14ME238 (unscreened),Proteobacteria,Betaproteobacteria,Nitrotoga,,,,None,1132755,Gs0129090,,Gp0216573,Ga0191879 
+2739367582,Betaproteobacteria bacterium JGI_MCM14ME250 (contamination screened),Proteobacteria,Betaproteobacteria,Nitrotoga,,,,Auto decontamination with ProDeGe and CrossBlock,1133012,Gs0129090,,Gp0216624,Ga0191125 
+2739367605,Betaproteobacteria bacterium JGI_MCM14ME221 (unscreened),Proteobacteria,Betaproteobacteria,Nitrotoga,,,,None,1133127,Gs0129090,,Gp0216623,Ga0191947 
+2739367528,Planctomycetes bacterium JGI_MCM14ME028 (contamination screened),Planctomycetes,,,,,,Auto decontamination with ProDeGe and CrossBlock,1132881,Gs0129090,,Gp0216578,Ga0191087 
+2739367599,Planctomycetes bacterium JGI_MCM14ME042 (contamination screened),Planctomycetes,,,,,,Auto decontamination with ProDeGe and CrossBlock,1133016,Gs0129090,,Gp0216629,Ga0191133 
+2739367598,Planctomycetes bacterium JGI_MCM14ME042 (unscreened),Planctomycetes,,,,,,None,1133016,Gs0129090,,Gp0216629,Ga0191932 
+2739367562,Planctomycetes bacterium JGI_MCM14ME068 (unscreened),Planctomycetes,,,,,,None,1133027,Gs0129090,,Gp0216631,Ga0191943 
+2739367563,Planctomycetes bacterium JGI_MCM14ME068 (contamination screened),Planctomycetes,,,,,,Auto decontamination with ProDeGe and CrossBlock,1133027,Gs0129090,,Gp0216631,Ga0191155 
+2739367527,Planctomycetes bacterium JGI_MCM14ME028 (unscreened),Planctomycetes,,,,,,None,1132881,Gs0129090,,Gp0216578,Ga0191909 
+2737471673,Verrucomicrobia bacterium JGI_MCM14TBH032 (unscreened),Verrucomicrobia,,,,,,None,1132758,Gs0129090,,Gp0216556,Ga0191882 
+2737471674,Verrucomicrobia bacterium JGI_MCM14TBH032 (contamination screened),Verrucomicrobia,,,,,,Auto decontamination with ProDeGe and CrossBlock,1132758,Gs0129090,,Gp0216556,Ga0191033 
