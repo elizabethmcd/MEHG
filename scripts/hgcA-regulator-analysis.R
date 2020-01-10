@@ -37,8 +37,3 @@ colnames(hgcb) = c("genome", "hgcb_locus_tag")
 hgcab = left_join(hgca1, hgcb)
 write.csv(hgcab, file="files/annotations/hgcAB_loci.csv", quote=FALSE, row.names=FALSE)
 
-# original hgcA locus tags
-orig = read.csv("~/Desktop/locus-tags.txt", header=FALSE)
-colnames(orig) = c("hgca_locus_tag")
-origmerg = left_join(orig, hgca1)
-orighgcab = left_join(origmerg, hgcb)
