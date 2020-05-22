@@ -1,0 +1,747 @@
+
+>2757320496_FGCILFFA_01194 Arsenical-resistance protein Acr3
+>2757320496_FGCILFFA_01195 Arsenate reductase
+>2757320496_FGCILFFA_01196 hypothetical protein
+>2757320496_FGCILFFA_01197 hypothetical protein
+>2757320496_FGCILFFA_01198 Thiosulfate sulfurtransferase
+>2757320508_GBGOIMGM_01495 hypothetical protein
+>2757320508_GBGOIMGM_01496 NAD(P)H-quinone oxidoreductase subunit I, chloroplastic
+>2757320508_GBGOIMGM_01497 hypothetical protein
+>2757320508_GBGOIMGM_01498 Arsenical-resistance protein Acr3
+>2757320508_GBGOIMGM_01499 Arsenate reductase
+>2757320509_EMCPGNPG_01737 hypothetical protein
+>2757320509_EMCPGNPG_01738 hypothetical protein
+>2757320509_EMCPGNPG_01739 hypothetical protein
+>2757320509_EMCPGNPG_01740 hypothetical protein
+>2757320509_EMCPGNPG_01741 Protein ArsC
+>archaea30022_BIMDFBEB_00199 hypothetical protein
+>archaea30022_BIMDFBEB_00200 hypothetical protein
+>archaea30022_BIMDFBEB_00201 hypothetical protein
+>archaea30022_BIMDFBEB_00202 hypothetical protein
+>archaea30022_BIMDFBEB_00203 Protein ArsC
+>bacteria00190_EEIMFIFM_01318 Arsenical-resistance protein Acr3
+>bacteria00190_EEIMFIFM_01319 hypothetical protein
+>bacteria00190_EEIMFIFM_01320 hypothetical protein
+>bacteria00190_EEIMFIFM_01321 hypothetical protein
+>bacteria00190_EEIMFIFM_01322 hypothetical protein
+>bacteria00193_PKBCNPMC_01237 hypothetical protein
+>bacteria00193_PKBCNPMC_01238 hypothetical protein
+>bacteria00193_PKBCNPMC_01239 hypothetical protein
+>bacteria00193_PKBCNPMC_01240 Arsenical-resistance protein Acr3
+>bacteria00193_PKBCNPMC_01241 hypothetical protein
+>bacteria00203_DLLPHHKL_01821 hypothetical protein
+>bacteria00203_DLLPHHKL_01822 hypothetical protein
+>bacteria00203_DLLPHHKL_01823 hypothetical protein
+>bacteria00203_DLLPHHKL_01824 hypothetical protein
+>bacteria00203_DLLPHHKL_01825 Arsenical-resistance protein Acr3
+>bacteria23258_PDNEIIOK_00382 IS4 family transposase IS1598
+>bacteria23258_PDNEIIOK_00383 hypothetical protein
+>bacteria23258_PDNEIIOK_00384 hypothetical protein
+>bacteria23258_PDNEIIOK_00385 Electron transport complex subunit RsxB
+>bacteria23258_PDNEIIOK_00386 Arsenical-resistance protein Acr3
+>bacteria23311_KJEOFFCG_00322 Arsenical-resistance protein Acr3
+>bacteria23311_KJEOFFCG_00323 hypothetical protein
+>bacteria23311_KJEOFFCG_00324 hypothetical protein
+>bacteria23311_KJEOFFCG_00325 hypothetical protein
+>bacteria23311_KJEOFFCG_00326 hypothetical protein
+>bacteria30003_HJDAENCM_00937 hypothetical protein
+>bacteria30003_HJDAENCM_00938 Arsenate reductase
+>bacteria30003_HJDAENCM_00939 hypothetical protein
+>bacteria30003_HJDAENCM_00940 hypothetical protein
+>bacteria30003_HJDAENCM_00941 Nitronate monooxygenase
+>bacteria30004_MNKGMMAP_01749 hypothetical protein
+>bacteria30004_MNKGMMAP_01750 hypothetical protein
+>bacteria30004_MNKGMMAP_01751 hypothetical protein
+>bacteria30004_MNKGMMAP_01752 Arsenate reductase
+>bacteria30004_MNKGMMAP_01753 hypothetical protein
+>bacteria30006_MIGOLCED_00862 Thiol:disulfide interchange protein DsbD
+>bacteria30006_MIGOLCED_00863 Arsenate reductase
+>bacteria30006_MIGOLCED_00864 hypothetical protein
+>bacteria30006_MIGOLCED_00865 hypothetical protein
+>bacteria30006_MIGOLCED_00866 Arsenical-resistance protein Acr3
+>bacteria30021_JLEEPOFI_00534 Protein ArsC
+>bacteria30021_JLEEPOFI_00535 hypothetical protein
+>bacteria30021_JLEEPOFI_00536 hypothetical protein
+>bacteria30021_JLEEPOFI_00537 hypothetical protein
+>bacteria30021_JLEEPOFI_00538 hypothetical protein
+>bacteria30027_AILFPFHK_02300 Cobalt-zinc-cadmium resistance protein CzcA
+>bacteria30027_AILFPFHK_02301 hypothetical protein
+>bacteria30027_AILFPFHK_02302 hypothetical protein
+>bacteria30027_AILFPFHK_02303 Electron transport complex subunit RsxB
+>bacteria30027_AILFPFHK_02304 Arsenate reductase
+>bacteria30028_LNFDEICF_01628 Arsenical-resistance protein Acr3
+>bacteria30028_LNFDEICF_01629 hypothetical protein
+>bacteria30028_LNFDEICF_01630 hypothetical protein
+>bacteria30028_LNFDEICF_01631 hypothetical protein
+>bacteria30028_LNFDEICF_01632 Cadmium, cobalt and zinc/H(+)-K(+) antiporter
+>bacteria30031_PLAHAMAM_02576 hypothetical protein
+>bacteria30031_PLAHAMAM_02577 hypothetical protein
+>bacteria30031_PLAHAMAM_02578 hypothetical protein
+>bacteria30031_PLAHAMAM_02579 hypothetical protein
+>bacteria30031_PLAHAMAM_02580 Arsenate reductase
+>bacteria30032_NOHJHLCI_01731 Arsenate reductase
+>bacteria30032_NOHJHLCI_01732 hypothetical protein
+>bacteria30032_NOHJHLCI_01733 hypothetical protein
+>bacteria30032_NOHJHLCI_01734 hypothetical protein
+>bacteria30032_NOHJHLCI_01735 hypothetical protein
+>bacteria30036_FNBLJPLD_01724 hypothetical protein
+>GCA_000013445.1_PDDGDOMI_00953 Protein ArsC
+>GCA_000013445.1_PDDGDOMI_00954 hypothetical protein
+>GCA_000013445.1_PDDGDOMI_00955 hypothetical protein
+>GCA_000013445.1_PDDGDOMI_00956 hypothetical protein
+>GCA_000013445.1_PDDGDOMI_00957 hypothetical protein
+>GCA_000178115.2_MKAFJNDH_00990 HTH-type transcriptional regulator HdfR
+>GCA_000178115.2_MKAFJNDH_00991 hypothetical protein
+>GCA_000178115.2_MKAFJNDH_00992 hypothetical protein
+>GCA_000178115.2_MKAFJNDH_00993 hypothetical protein
+>GCA_000178115.2_MKAFJNDH_00994 Arsenical-resistance protein Acr3
+>GCA_000179595.2_IFOIEPLI_00056 FMN reductase [NAD(P)H]
+>GCA_000179595.2_IFOIEPLI_00057 Arsenic resistance transcriptional regulator ArsR1
+>GCA_000179595.2_IFOIEPLI_00058 hypothetical protein
+>GCA_000179595.2_IFOIEPLI_00059 hypothetical protein
+>GCA_000179595.2_IFOIEPLI_00060 hypothetical protein
+>GCA_000224515.2_CODDIPFD_00436 hypothetical protein
+>GCA_000224515.2_CODDIPFD_00437 Electron transport complex subunit RsxB
+>GCA_000224515.2_CODDIPFD_00438 hypothetical protein
+>GCA_000224515.2_CODDIPFD_00439 Arsenate reductase
+>GCA_000224515.2_CODDIPFD_00440 hypothetical protein
+>GCA_000243135.3_BDEBGKKP_00762 Arsenical-resistance protein Acr3
+>GCA_000243135.3_BDEBGKKP_00763 Arsenate reductase
+>GCA_000243135.3_BDEBGKKP_00764 hypothetical protein
+>GCA_000243135.3_BDEBGKKP_00765 Electron transport complex subunit RsxB
+>GCA_000243135.3_BDEBGKKP_00766 hypothetical protein
+>GCA_000243155.3_LLKGBECD_02746 hypothetical protein
+>GCA_000243155.3_LLKGBECD_02747 hypothetical protein
+>GCA_000243155.3_LLKGBECD_02748 hypothetical protein
+>GCA_000243155.3_LLKGBECD_02749 Arsenate reductase
+>GCA_000243155.3_LLKGBECD_02750 hypothetical protein
+>GCA_000255115.3_KJAPFONA_01594 Arsenical-resistance protein Acr3
+>GCA_000255115.3_KJAPFONA_01595 Arsenate reductase
+>GCA_000255115.3_KJAPFONA_01596 hypothetical protein
+>GCA_000255115.3_KJAPFONA_01597 Electron transport complex subunit RsxB
+>GCA_000255115.3_KJAPFONA_01598 hypothetical protein
+>GCA_000384015.1_PMIJBOOF_02701 hypothetical protein
+>GCA_000384015.1_PMIJBOOF_02702 hypothetical protein
+>GCA_000384015.1_PMIJBOOF_02703 hypothetical protein
+>GCA_000384015.1_PMIJBOOF_02704 Arsenate reductase
+>GCA_000384015.1_PMIJBOOF_02705 hypothetical protein
+>GCA_000512235.1_OJNICAGI_00646 Arsenical-resistance protein Acr3
+>GCA_000512235.1_OJNICAGI_00647 hypothetical protein
+>GCA_000512235.1_OJNICAGI_00648 hypothetical protein
+>GCA_000512235.1_OJNICAGI_00649 hypothetical protein
+>GCA_000512235.1_OJNICAGI_00650 hypothetical protein
+>GCA_000521465.1_NEDMJAGL_00922 Arsenate reductase
+>GCA_000521465.1_NEDMJAGL_00923 Electron transport complex subunit RsxB
+>GCA_000521465.1_NEDMJAGL_00924 hypothetical protein
+>GCA_000521465.1_NEDMJAGL_00925 hypothetical protein
+>GCA_000521465.1_NEDMJAGL_00926 hypothetical protein
+>GCA_000621505.1_NCJGIDAL_03950 hypothetical protein
+>GCA_000621505.1_NCJGIDAL_03951 hypothetical protein
+>GCA_000621505.1_NCJGIDAL_03952 hypothetical protein
+>GCA_000621505.1_NCJGIDAL_03953 hypothetical protein
+>GCA_000621505.1_NCJGIDAL_03954 Arsenate reductase
+>GCA_000770645.1_JNDDHELP_00934 hypothetical protein
+>GCA_000770645.1_JNDDHELP_00935 Arsenate reductase
+>GCA_000770645.1_JNDDHELP_00936 hypothetical protein
+>GCA_000770645.1_JNDDHELP_00937 Electron transport complex subunit RsxB
+>GCA_000770645.1_JNDDHELP_00938 FAD-dependent catabolic D-arginine dehydrogenase DauA
+>GCA_000802135.1_MIBBBBEE_00029 hypothetical protein
+>GCA_000802135.1_MIBBBBEE_00030 Electron transport complex subunit RsxB
+>GCA_000802135.1_MIBBBBEE_00031 hypothetical protein
+>GCA_000802135.1_MIBBBBEE_00032 Arsenate reductase
+>GCA_000802135.1_MIBBBBEE_00033 hypothetical protein
+>GCA_001029285.1_MIOFNAOG_03634 Arsenical-resistance protein Acr3
+>GCA_001029285.1_MIOFNAOG_03635 Arsenate reductase
+>GCA_001029285.1_MIOFNAOG_03636 hypothetical protein
+>GCA_001029285.1_MIOFNAOG_03637 Electron transport complex subunit RsxB
+>GCA_001029285.1_MIOFNAOG_03638 ATP-dependent RecD-like DNA helicase
+>GCA_001508375.1_KBIGOCKL_01701 N-acetyltransferase YodP
+>GCA_001508375.1_KBIGOCKL_01702 hypothetical protein
+>GCA_001508375.1_KBIGOCKL_01703 hypothetical protein
+>GCA_001508375.1_KBIGOCKL_01704 Arsenical resistance operon repressor
+>GCA_001508375.1_KBIGOCKL_01705 hypothetical protein
+>GCA_001508995.1_FEOFPAGP_00902 Coenzyme F420:L-glutamate ligase
+>GCA_001508995.1_FEOFPAGP_00903 Arsenical resistance operon repressor
+>GCA_001508995.1_FEOFPAGP_00904 hypothetical protein
+>GCA_001508995.1_FEOFPAGP_00905 hypothetical protein
+>GCA_001508995.1_FEOFPAGP_00906 hypothetical protein
+>GCA_001604475.1_JLPLPPPL_00529 Transcriptional repressor SdpR
+>GCA_001604475.1_JLPLPPPL_00530 Arsenical-resistance protein Acr3
+>GCA_001604475.1_JLPLPPPL_00531 hypothetical protein
+>GCA_001604475.1_JLPLPPPL_00532 hypothetical protein
+>GCA_001604475.1_JLPLPPPL_00533 hypothetical protein
+>GCA_001618385.1_DCIDKKEI_01356 hypothetical protein
+>GCA_001618385.1_DCIDKKEI_01357 hypothetical protein
+>GCA_001618385.1_DCIDKKEI_01358 hypothetical protein
+>GCA_001618385.1_DCIDKKEI_01359 Arsenate reductase
+>GCA_001618385.1_DCIDKKEI_01360 hypothetical protein
+>GCA_001707885.1_HLBFPDHK_02606 Rubrerythrin-2
+>GCA_001707885.1_HLBFPDHK_02607 Electron transport complex subunit RsxB
+>GCA_001707885.1_HLBFPDHK_02608 hypothetical protein
+>GCA_001707885.1_HLBFPDHK_02609 Arsenate reductase
+>GCA_001707885.1_HLBFPDHK_02610 hypothetical protein
+>GCA_001717745.1_KKIIDCPJ_01927 Arsenate reductase
+>GCA_001717745.1_KKIIDCPJ_01928 NAD(P)H-quinone oxidoreductase subunit I, chloroplastic
+>GCA_001717745.1_KKIIDCPJ_01929 hypothetical protein
+>GCA_001717745.1_KKIIDCPJ_01930 hypothetical protein
+>GCA_001717745.1_KKIIDCPJ_01931 hypothetical protein
+>GCA_001768155.1_KAHJNAMD_00521 hypothetical protein
+>GCA_001768155.1_KAHJNAMD_00522 hypothetical protein
+>GCA_001768155.1_KAHJNAMD_00523 hypothetical protein
+>GCA_001768155.1_KAHJNAMD_00524 Electron transport complex subunit RsxB
+>GCA_001768155.1_KAHJNAMD_00525 Protein ArsC
+>GCA_001771415.1_BABFCFMP_00561 hypothetical protein
+>GCA_001771415.1_BABFCFMP_00562 hypothetical protein
+>GCA_001771415.1_BABFCFMP_00563 hypothetical protein
+>GCA_001771415.1_BABFCFMP_00564 hypothetical protein
+>GCA_001771415.1_BABFCFMP_00565 Arsenical-resistance protein Acr3
+>GCA_001794965.1_DANIKHCL_03005 Biofilm growth-associated repressor
+>GCA_001794965.1_DANIKHCL_03006 Arsenite methyltransferase
+>GCA_001794965.1_DANIKHCL_03007 hypothetical protein
+>GCA_001794965.1_DANIKHCL_03008 hypothetical protein
+>GCA_001794965.1_DANIKHCL_03009 putative HTH-type transcriptional regulator YfiR
+>GCA_001795575.1_LLLIDBJJ_00209 hypothetical protein
+>GCA_001795575.1_LLLIDBJJ_00210 Arsenite methyltransferase
+>GCA_001795575.1_LLLIDBJJ_00211 hypothetical protein
+>GCA_001795575.1_LLLIDBJJ_00212 hypothetical protein
+>GCA_001795575.1_LLLIDBJJ_00213 hypothetical protein
+>GCA_001796335.1_LLMCPGPE_00355 Biofilm growth-associated repressor
+>GCA_001796335.1_LLMCPGPE_00356 Arsenite methyltransferase
+>GCA_001796335.1_LLMCPGPE_00357 hypothetical protein
+>GCA_001796335.1_LLMCPGPE_00358 hypothetical protein
+>GCA_001796335.1_LLMCPGPE_00359 putative HTH-type transcriptional regulator YfiR
+>GCA_001796365.1_CNDOKAND_00874 putative HTH-type transcriptional regulator YfiR
+>GCA_001796365.1_CNDOKAND_00875 hypothetical protein
+>GCA_001796365.1_CNDOKAND_00876 hypothetical protein
+>GCA_001796365.1_CNDOKAND_00877 Arsenite methyltransferase
+>GCA_001796365.1_CNDOKAND_00878 Biofilm growth-associated repressor
+>GCA_001800235.1_MPBCOEAA_01892 Arsenate reductase
+>GCA_001800235.1_MPBCOEAA_01893 Arsenical-resistance protein Acr3
+>GCA_001800235.1_MPBCOEAA_01894 hypothetical protein
+>GCA_001800235.1_MPBCOEAA_01895 hypothetical protein
+>GCA_001800235.1_MPBCOEAA_01896 3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+>GCA_001800315.1_NCGABLOG_00422 3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+>GCA_001800315.1_NCGABLOG_00423 hypothetical protein
+>GCA_001800315.1_NCGABLOG_00424 hypothetical protein
+>GCA_001800315.1_NCGABLOG_00425 Arsenical-resistance protein Acr3
+>GCA_001800315.1_NCGABLOG_00426 Arsenate reductase
+>GCA_001800325.1_NGEIJBHL_00415 hypothetical protein
+>GCA_001800325.1_NGEIJBHL_00416 hypothetical protein
+>GCA_001800325.1_NGEIJBHL_00417 hypothetical protein
+>GCA_001800325.1_NGEIJBHL_00418 Arsenical-resistance protein Acr3
+>GCA_001800325.1_NGEIJBHL_00419 hypothetical protein
+>GCA_001800425.1_ENHFGELK_01284 Arsenate reductase
+>GCA_001800425.1_ENHFGELK_01285 hypothetical protein
+>GCA_001800425.1_ENHFGELK_01286 hypothetical protein
+>GCA_001800425.1_ENHFGELK_01287 hypothetical protein
+>GCA_001800425.1_ENHFGELK_01288 3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+>GCA_001800455.1_FCAMBAOI_01128 Arsenate reductase
+>GCA_001800455.1_FCAMBAOI_01129 Arsenical-resistance protein Acr3
+>GCA_001800455.1_FCAMBAOI_01130 hypothetical protein
+>GCA_001800455.1_FCAMBAOI_01131 hypothetical protein
+>GCA_001800455.1_FCAMBAOI_01132 3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+>GCA_001800475.1_CEIFCGGE_01606 Arsenate reductase
+>GCA_001800475.1_CEIFCGGE_01607 Arsenical-resistance protein Acr3
+>GCA_001800475.1_CEIFCGGE_01608 hypothetical protein
+>GCA_001800475.1_CEIFCGGE_01609 hypothetical protein
+>GCA_001800475.1_CEIFCGGE_01610 3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+>GCA_001802135.1_JIONDOCD_00390 Arsenical-resistance protein Acr3
+>GCA_001802135.1_JIONDOCD_00391 hypothetical protein
+>GCA_001802135.1_JIONDOCD_00392 hypothetical protein
+>GCA_001802135.1_JIONDOCD_00393 hypothetical protein
+>GCA_001802135.1_JIONDOCD_00394 hypothetical protein
+>GCA_001804885.1_KIDIHAMB_02781 hypothetical protein
+>GCA_001804885.1_KIDIHAMB_02782 NAD(P)H-quinone oxidoreductase subunit I, chloroplastic
+>GCA_001804885.1_KIDIHAMB_02783 hypothetical protein
+>GCA_001804885.1_KIDIHAMB_02784 Arsenical-resistance protein Acr3
+>GCA_001804885.1_KIDIHAMB_02785 hypothetical protein
+>GCA_001829165.1_FCMKJLNC_03249 Thiosulfate sulfurtransferase
+>GCA_001829165.1_FCMKJLNC_03250 Electron transport complex subunit RsxB
+>GCA_001829165.1_FCMKJLNC_03251 hypothetical protein
+>GCA_001829165.1_FCMKJLNC_03252 Arsenate reductase
+>GCA_001829165.1_FCMKJLNC_03253 Arsenical-resistance protein Acr3
+>GCA_001897035.1_FOIIGNCF_00282 Arsenical-resistance protein Acr3
+>GCA_001897035.1_FOIIGNCF_00283 hypothetical protein
+>GCA_001897035.1_FOIIGNCF_00284 hypothetical protein
+>GCA_001897035.1_FOIIGNCF_00285 Arsenate reductase
+>GCA_001897035.1_FOIIGNCF_00286 hypothetical protein
+>GCA_001902295.1_KOGKBOEC_01894 hypothetical protein
+>GCA_001902295.1_KOGKBOEC_01895 hypothetical protein
+>GCA_001902295.1_KOGKBOEC_01896 hypothetical protein
+>GCA_001902295.1_KOGKBOEC_01897 Electron transport complex subunit RsxB
+>GCA_001902295.1_KOGKBOEC_01898 Arsenical-resistance protein Acr3
+>GCA_002051585.1_LCNKBCDO_02147 Arsenical-resistance protein Acr3
+>GCA_002051585.1_LCNKBCDO_02148 hypothetical protein
+>GCA_002051585.1_LCNKBCDO_02149 hypothetical protein
+>GCA_002051585.1_LCNKBCDO_02150 hypothetical protein
+>GCA_002051585.1_LCNKBCDO_02151 putative molybdenum cofactor guanylyltransferase
+>GCA_002067585.1_GKNGJNHD_02659 Carbon monoxide dehydrogenase small chain
+>GCA_002067585.1_GKNGJNHD_02660 hypothetical protein
+>GCA_002067585.1_GKNGJNHD_02661 hypothetical protein
+>GCA_002067585.1_GKNGJNHD_02662 hypothetical protein
+>GCA_002067585.1_GKNGJNHD_02663 Arsenical-resistance protein Acr3
+>GCA_002196785.1_HJGCDLNH_01551 Arsenical-resistance protein Acr3
+>GCA_002196785.1_HJGCDLNH_01552 Arsenate reductase
+>GCA_002196785.1_HJGCDLNH_01553 hypothetical protein
+>GCA_002196785.1_HJGCDLNH_01554 Electron transport complex subunit RsxB
+>GCA_002196785.1_HJGCDLNH_01555 hypothetical protein
+>GCA_002202365.1_FMOODIKD_03022 hypothetical protein
+>GCA_002202365.1_FMOODIKD_03023 hypothetical protein
+>GCA_002202365.1_FMOODIKD_03024 hypothetical protein
+>GCA_002202365.1_FMOODIKD_03025 NAD(P)H-quinone oxidoreductase subunit I, chloroplastic
+>GCA_002202365.1_FMOODIKD_03026 Arsenate reductase
+>GCA_002292015.1_MBMAFBPO_01730 hypothetical protein
+>GCA_002292015.1_MBMAFBPO_01731 hypothetical protein
+>GCA_002292015.1_MBMAFBPO_01732 hypothetical protein
+>GCA_002292015.1_MBMAFBPO_01733 hypothetical protein
+>GCA_002292015.1_MBMAFBPO_01734 Arsenical-resistance protein Acr3
+>GCA_002294405.1_EPJIFBAC_01103 hypothetical protein
+>GCA_002294405.1_EPJIFBAC_01104 hypothetical protein
+>GCA_002294405.1_EPJIFBAC_01105 hypothetical protein
+>GCA_002294405.1_EPJIFBAC_01106 Arsenite methyltransferase
+>GCA_002294405.1_EPJIFBAC_01107 Biofilm growth-associated repressor
+>GCA_002304835.1_CMINLDON_00203 hypothetical protein
+>GCA_002304835.1_CMINLDON_00204 hypothetical protein
+>GCA_002304835.1_CMINLDON_00205 hypothetical protein
+>GCA_002304835.1_CMINLDON_00206 Arsenical-resistance protein Acr3
+>GCA_002304835.1_CMINLDON_00207 hypothetical protein
+>GCA_002305765.1_LJPNFJOP_01532 hypothetical protein
+>GCA_002305765.1_LJPNFJOP_01533 Arsenic resistance transcriptional regulator ArsR1
+>GCA_002305765.1_LJPNFJOP_01534 hypothetical protein
+>GCA_002305765.1_LJPNFJOP_01535 hypothetical protein
+>GCA_002305765.1_LJPNFJOP_01536 hypothetical protein
+>GCA_002319915.1_NNDILIGJ_00617 hypothetical protein
+>GCA_002319915.1_NNDILIGJ_00618 hypothetical protein
+>GCA_002319915.1_NNDILIGJ_00619 hypothetical protein
+>GCA_002319915.1_NNDILIGJ_00620 hypothetical protein
+>GCA_002319915.1_NNDILIGJ_00621 Arsenical-resistance protein Acr3
+>GCA_002347465.1_OAFKKMIE_01586 Phenylacetate-coenzyme A ligase
+>GCA_002347465.1_OAFKKMIE_01587 hypothetical protein
+>GCA_002347465.1_OAFKKMIE_01588 hypothetical protein
+>GCA_002347465.1_OAFKKMIE_01589 hypothetical protein
+>GCA_002347465.1_OAFKKMIE_01590 Arsenic resistance transcriptional regulator ArsR1
+>GCA_002375855.1_BFBCJJED_01956 Arsenate reductase
+>GCA_002375855.1_BFBCJJED_01957 Electron transport complex subunit RsxB
+>GCA_002375855.1_BFBCJJED_01958 hypothetical protein
+>GCA_002375855.1_BFBCJJED_01959 hypothetical protein
+>GCA_002375855.1_BFBCJJED_01960 hypothetical protein
+>GCA_002376665.1_GGEBAFCM_03182 Protein ArsC
+>GCA_002376665.1_GGEBAFCM_03183 hypothetical protein
+>GCA_002376665.1_GGEBAFCM_03184 hypothetical protein
+>GCA_002376665.1_GGEBAFCM_03185 hypothetical protein
+>GCA_002376665.1_GGEBAFCM_03186 hypothetical protein
+>GCA_002380735.1_EFFFJLJE_01393 Ribosomal RNA small subunit methyltransferase G
+>GCA_002380735.1_EFFFJLJE_01394 hypothetical protein
+>GCA_002380735.1_EFFFJLJE_01395 hypothetical protein
+>GCA_002380735.1_EFFFJLJE_01396 hypothetical protein
+>GCA_002380735.1_EFFFJLJE_01397 Arsenite methyltransferase
+>GCA_002380925.1_BPIMLLMO_00754 hypothetical protein
+>GCA_002380925.1_BPIMLLMO_00755 hypothetical protein
+>GCA_002380925.1_BPIMLLMO_00756 hypothetical protein
+>GCA_002380925.1_BPIMLLMO_00757 Arsenate reductase
+>GCA_002380925.1_BPIMLLMO_00758 hypothetical protein
+>GCA_002381185.1_LEPNFCDJ_02260 hypothetical protein
+>GCA_002381185.1_LEPNFCDJ_02261 hypothetical protein
+>GCA_002381185.1_LEPNFCDJ_02262 hypothetical protein
+>GCA_002381185.1_LEPNFCDJ_02263 hypothetical protein
+>GCA_002381185.1_LEPNFCDJ_02264 Arsenate reductase
+>GCA_002381895.1_DJLCKCPD_01160 Phenylacetate-coenzyme A ligase
+>GCA_002381895.1_DJLCKCPD_01161 hypothetical protein
+>GCA_002381895.1_DJLCKCPD_01162 hypothetical protein
+>GCA_002381895.1_DJLCKCPD_01163 hypothetical protein
+>GCA_002381895.1_DJLCKCPD_01164 Arsenic resistance transcriptional regulator ArsR1
+>GCA_002382785.1_GPEANMAP_00234 FAD-dependent catabolic D-arginine dehydrogenase DauA
+>GCA_002382785.1_GPEANMAP_00235 Electron transport complex subunit RsxB
+>GCA_002382785.1_GPEANMAP_00236 hypothetical protein
+>GCA_002382785.1_GPEANMAP_00237 Arsenate reductase
+>GCA_002386685.1_PDBIJNDH_00741 Arsenate reductase
+>GCA_002386685.1_PDBIJNDH_00742 hypothetical protein
+>GCA_002386685.1_PDBIJNDH_00743 hypothetical protein
+>GCA_002386685.1_PDBIJNDH_00744 hypothetical protein
+>GCA_002386685.1_PDBIJNDH_00745 hypothetical protein
+>GCA_002397955.1_DBIPLNND_00144 hypothetical protein
+>GCA_002397955.1_DBIPLNND_00145 NAD(P)H-quinone oxidoreductase subunit I, chloroplastic
+>GCA_002397955.1_DBIPLNND_00146 hypothetical protein
+>GCA_002397955.1_DBIPLNND_00147 Arsenical-resistance protein Acr3
+>GCA_002397955.1_DBIPLNND_00148 Glutaredoxin arsenate reductase
+>GCA_002398325.1_IIHKFGOE_00056 Arsenical-resistance protein Acr3
+>GCA_002398325.1_IIHKFGOE_00057 Arsenate reductase
+>GCA_002398325.1_IIHKFGOE_00058 hypothetical protein
+>GCA_002398325.1_IIHKFGOE_00059 hypothetical protein
+>GCA_002398325.1_IIHKFGOE_00060 hypothetical protein
+>GCA_002399315.1_PNOFFAFC_01844 hypothetical protein
+>GCA_002399315.1_PNOFFAFC_01845 hypothetical protein
+>GCA_002399315.1_PNOFFAFC_01846 hypothetical protein
+>GCA_002399315.1_PNOFFAFC_01847 Arsenate reductase
+>GCA_002399315.1_PNOFFAFC_01848 Arsenical-resistance protein Acr3
+>GCA_002408285.1_MLFCMJLF_00137 Arsenical-resistance protein Acr3
+>GCA_002408285.1_MLFCMJLF_00138 hypothetical protein
+>GCA_002408285.1_MLFCMJLF_00139 hypothetical protein
+>GCA_002408285.1_MLFCMJLF_00140 hypothetical protein
+>GCA_002408285.1_MLFCMJLF_00141 D-alanyl-D-alanine carboxypeptidase DacF
+>GCA_002408685.1_JCEOAGOB_01486 Glutaredoxin arsenate reductase
+>GCA_002408685.1_JCEOAGOB_01487 Arsenical-resistance protein Acr3
+>GCA_002408685.1_JCEOAGOB_01488 hypothetical protein
+>GCA_002408685.1_JCEOAGOB_01489 NAD(P)H-quinone oxidoreductase subunit I, chloroplastic
+>GCA_002408685.1_JCEOAGOB_01490 hypothetical protein
+>GCA_002410865.1_DGAMCCAG_01884 Arsenical-resistance protein Acr3
+>GCA_002410865.1_DGAMCCAG_01885 Arsenate reductase
+>GCA_002410865.1_DGAMCCAG_01886 hypothetical protein
+>GCA_002410865.1_DGAMCCAG_01887 hypothetical protein
+>GCA_002410865.1_DGAMCCAG_01888 hypothetical protein
+>GCA_002415855.1_PAOGNADJ_03195 Regulator of RpoS
+>GCA_002415855.1_PAOGNADJ_03196 Arsenate reductase
+>GCA_002415855.1_PAOGNADJ_03197 hypothetical protein
+>GCA_002415855.1_PAOGNADJ_03198 hypothetical protein
+>GCA_002415855.1_PAOGNADJ_03199 hypothetical protein
+>GCA_002418585.1_ELOBJAIA_00978 hypothetical protein
+>GCA_002418585.1_ELOBJAIA_00979 Arsenate reductase
+>GCA_002418585.1_ELOBJAIA_00980 hypothetical protein
+>GCA_002418585.1_ELOBJAIA_00981 Electron transport complex subunit RsxB
+>GCA_002418585.1_ELOBJAIA_00982 FAD-dependent catabolic D-arginine dehydrogenase DauA
+>GCA_002419385.1_NBKINHNH_02628 Phenylacetate-coenzyme A ligase
+>GCA_002419385.1_NBKINHNH_02629 hypothetical protein
+>GCA_002419385.1_NBKINHNH_02630 hypothetical protein
+>GCA_002419385.1_NBKINHNH_02631 hypothetical protein
+>GCA_002419385.1_NBKINHNH_02632 Arsenic resistance transcriptional regulator ArsR1
+>GCA_002423765.1_PGDJPPLF_01826 hypothetical protein
+>GCA_002423765.1_PGDJPPLF_01827 hypothetical protein
+>GCA_002423765.1_PGDJPPLF_01828 hypothetical protein
+>GCA_002423765.1_PGDJPPLF_01829 hypothetical protein
+>GCA_002423765.1_PGDJPPLF_01830 Arsenate reductase
+>GCA_002428495.1_ELFKICJE_01746 Glutaredoxin arsenate reductase
+>GCA_002428495.1_ELFKICJE_01747 Arsenical-resistance protein Acr3
+>GCA_002428495.1_ELFKICJE_01748 hypothetical protein
+>GCA_002428495.1_ELFKICJE_01749 hypothetical protein
+>GCA_002428495.1_ELFKICJE_01750 hypothetical protein
+>GCA_002495055.1_JOJMOIPJ_00212 hypothetical protein
+>GCA_002495055.1_JOJMOIPJ_00213 hypothetical protein
+>GCA_002495055.1_JOJMOIPJ_00214 hypothetical protein
+>GCA_002495055.1_JOJMOIPJ_00215 hypothetical protein
+>GCA_002495055.1_JOJMOIPJ_00216 Protein ArsC
+>GCA_002497445.1_IJBDNEPB_00420 Protein ArsC
+>GCA_002497445.1_IJBDNEPB_00421 hypothetical protein
+>GCA_002497445.1_IJBDNEPB_00422 hypothetical protein
+>GCA_002497445.1_IJBDNEPB_00423 hypothetical protein
+>GCA_002497445.1_IJBDNEPB_00424 hypothetical protein
+>GCA_002839185.1_MKDLDMNL_00874 hypothetical protein
+>GCA_002839185.1_MKDLDMNL_00875 hypothetical protein
+>GCA_002839185.1_MKDLDMNL_00876 hypothetical protein
+>GCA_002839185.1_MKDLDMNL_00877 Glutaredoxin arsenate reductase
+>GCA_002839185.1_MKDLDMNL_00878 hypothetical protein
+>GCA_002839605.1_ICCNIBNN_00025 Protein ArsC
+>GCA_002839605.1_ICCNIBNN_00026 hypothetical protein
+>GCA_002839605.1_ICCNIBNN_00027 hypothetical protein
+>GCA_002839605.1_ICCNIBNN_00028 hypothetical protein
+>GCA_002839605.1_ICCNIBNN_00029 hypothetical protein
+>GCA_002839675.1_PNLANKDC_02221 hypothetical protein
+>GCA_002839675.1_PNLANKDC_02222 hypothetical protein
+>GCA_002839675.1_PNLANKDC_02223 hypothetical protein
+>GCA_002839675.1_PNLANKDC_02224 hypothetical protein
+>GCA_002839675.1_PNLANKDC_02225 Protein ArsC
+>GCA_002839855.1_LBJAPOJN_01861 hypothetical protein
+>GCA_002839855.1_LBJAPOJN_01862 hypothetical protein
+>GCA_002839855.1_LBJAPOJN_01863 hypothetical protein
+>GCA_002839855.1_LBJAPOJN_01864 Arsenical-resistance protein Acr3
+>GCA_002839855.1_LBJAPOJN_01865 HTH-type transcriptional repressor AseR
+>GCA_002995785.1_GDOMGJKO_02330 hypothetical protein
+>GCA_002995785.1_GDOMGJKO_02331 hypothetical protein
+>GCA_002995785.1_GDOMGJKO_02332 hypothetical protein
+>GCA_002995785.1_GDOMGJKO_02333 hypothetical protein
+>GCA_002995785.1_GDOMGJKO_02334 Arsenate reductase
+>GCA_003020045.1_PPDDBFKK_00993 HTH-type transcriptional regulator HdfR
+>GCA_003020045.1_PPDDBFKK_00994 hypothetical protein
+>GCA_003020045.1_PPDDBFKK_00995 hypothetical protein
+>GCA_003020045.1_PPDDBFKK_00996 hypothetical protein
+>GCA_003020045.1_PPDDBFKK_00997 Arsenical-resistance protein Acr3
+>GCA_003132645.1_EAGCLGCC_00363 Arsenical-resistance protein Acr3
+>GCA_003132645.1_EAGCLGCC_00364 hypothetical protein
+>GCA_003132645.1_EAGCLGCC_00365 hypothetical protein
+>GCA_003132645.1_EAGCLGCC_00366 hypothetical protein
+>GCA_003132645.1_EAGCLGCC_00367 putative HTH-type transcriptional regulator
+>GCA_003141275.1_EMHEPOCF_00360 hypothetical protein
+>GCA_003141275.1_EMHEPOCF_00361 Arsenic resistance transcriptional regulator ArsR1
+>GCA_003141275.1_EMHEPOCF_00362 hypothetical protein
+>GCA_003141275.1_EMHEPOCF_00363 NAD(P)H-quinone oxidoreductase subunit I, chloroplastic
+>GCA_003141275.1_EMHEPOCF_00364 hypothetical protein
+>GCA_003141415.1_ANOGBKNC_01913 hypothetical protein
+>GCA_003141415.1_ANOGBKNC_01914 Arsenate reductase
+>GCA_003141415.1_ANOGBKNC_01915 hypothetical protein
+>GCA_003141415.1_ANOGBKNC_01916 hypothetical protein
+>GCA_003141415.1_ANOGBKNC_01917 Arsenical-resistance protein Acr3
+>GCA_003141495.1_CIFLKLDM_00794 Arsenical-resistance protein Acr3
+>GCA_003141495.1_CIFLKLDM_00795 hypothetical protein
+>GCA_003141495.1_CIFLKLDM_00796 hypothetical protein
+>GCA_003141495.1_CIFLKLDM_00797 Arsenate reductase
+>GCA_003141495.1_CIFLKLDM_00798 hypothetical protein
+>GCA_003141525.1_BGHIJOPK_01305 Arsenical-resistance protein Acr3
+>GCA_003141525.1_BGHIJOPK_01306 hypothetical protein
+>GCA_003141525.1_BGHIJOPK_01307 hypothetical protein
+>GCA_003141525.1_BGHIJOPK_01308 Arsenate reductase
+>GCA_003141525.1_BGHIJOPK_01309 hypothetical protein
+>GCA_003141575.1_IMEGKKCF_02326 Arsenical-resistance protein Acr3
+>GCA_003141575.1_IMEGKKCF_02327 hypothetical protein
+>GCA_003141575.1_IMEGKKCF_02328 hypothetical protein
+>GCA_003141575.1_IMEGKKCF_02329 Arsenate reductase
+>GCA_003141575.1_IMEGKKCF_02330 hypothetical protein
+>GCA_003141595.1_FCODCFNE_01928 putative HTH-type transcriptional regulator YgaV
+>GCA_003141595.1_FCODCFNE_01929 Arsenate reductase
+>GCA_003141595.1_FCODCFNE_01930 hypothetical protein
+>GCA_003141595.1_FCODCFNE_01931 Electron transport complex subunit RsxB
+>GCA_003141595.1_FCODCFNE_01932 Arsenical-resistance protein Acr3
+>GCA_003141715.1_EBEKBODL_02673 Arsenical-resistance protein Acr3
+>GCA_003141715.1_EBEKBODL_02674 hypothetical protein
+>GCA_003141715.1_EBEKBODL_02675 hypothetical protein
+>GCA_003141715.1_EBEKBODL_02676 Arsenate reductase
+>GCA_003141715.1_EBEKBODL_02677 hypothetical protein
+>GCA_003141755.1_AKFEKFNK_03376 Arsenical-resistance protein Acr3
+>GCA_003141755.1_AKFEKFNK_03377 hypothetical protein
+>GCA_003141755.1_AKFEKFNK_03378 hypothetical protein
+>GCA_003141755.1_AKFEKFNK_03379 Arsenate reductase
+>GCA_003141755.1_AKFEKFNK_03380 hypothetical protein
+>GCA_003141795.1_AODCKDNA_00938 Arsenate reductase
+>GCA_003141795.1_AODCKDNA_00939 hypothetical protein
+>GCA_003141795.1_AODCKDNA_00940 hypothetical protein
+>GCA_003141795.1_AODCKDNA_00941 hypothetical protein
+>GCA_003141795.1_AODCKDNA_00942 hypothetical protein
+>GCA_003141895.1_AFLLMFID_02602 Arsenical-resistance protein Acr3
+>GCA_003141895.1_AFLLMFID_02603 hypothetical protein
+>GCA_003141895.1_AFLLMFID_02604 hypothetical protein
+>GCA_003141895.1_AFLLMFID_02605 Arsenate reductase
+>GCA_003141895.1_AFLLMFID_02606 hypothetical protein
+>GCA_003142255.1_IGJAHFNO_00606 putative HTH-type transcriptional regulator YgaV
+>GCA_003142255.1_IGJAHFNO_00607 Arsenate reductase
+>GCA_003142255.1_IGJAHFNO_00608 hypothetical protein
+>GCA_003142255.1_IGJAHFNO_00609 Electron transport complex subunit RsxB
+>GCA_003142255.1_IGJAHFNO_00610 Arsenical-resistance protein Acr3
+>GCA_003142475.1_GGILCKEN_01184 hypothetical protein
+>GCA_003142475.1_GGILCKEN_01185 Arsenate reductase
+>GCA_003142475.1_GGILCKEN_01186 hypothetical protein
+>GCA_003142475.1_GGILCKEN_01187 hypothetical protein
+>GCA_003142475.1_GGILCKEN_01188 Flavoredoxin
+>GCA_003142575.1_GBJDKDCP_02831 hypothetical protein
+>GCA_003142575.1_GBJDKDCP_02832 Arsenate reductase
+>GCA_003142575.1_GBJDKDCP_02833 hypothetical protein
+>GCA_003142575.1_GBJDKDCP_02834 hypothetical protein
+>GCA_003142575.1_GBJDKDCP_02835 Arsenical-resistance protein Acr3
+>GCA_003142715.1_OLMAJDFE_00664 hypothetical protein
+>GCA_003142715.1_OLMAJDFE_00665 Arsenate reductase
+>GCA_003142715.1_OLMAJDFE_00666 hypothetical protein
+>GCA_003142715.1_OLMAJDFE_00667 hypothetical protein
+>GCA_003142715.1_OLMAJDFE_00668 Flavoredoxin
+>GCA_003153075.1_MOCBEJKL_01942 NADH dehydrogenase
+>GCA_003153075.1_MOCBEJKL_01943 hypothetical protein
+>GCA_003153075.1_MOCBEJKL_01944 hypothetical protein
+>GCA_003153075.1_MOCBEJKL_01945 hypothetical protein
+>GCA_003153075.1_MOCBEJKL_01946 Arsenite methyltransferase
+>GCA_003153795.1_JAJNLFMN_03091 hypothetical protein
+>GCA_003153795.1_JAJNLFMN_03092 Arsenate reductase
+>GCA_003153795.1_JAJNLFMN_03093 hypothetical protein
+>GCA_003153795.1_JAJNLFMN_03094 hypothetical protein
+>GCA_003153795.1_JAJNLFMN_03095 hypothetical protein
+>GCA_003153835.1_JOIJDDGM_01986 Protein ArsC
+>GCA_003153835.1_JOIJDDGM_01987 hypothetical protein
+>GCA_003153835.1_JOIJDDGM_01988 hypothetical protein
+>GCA_003153835.1_JOIJDDGM_01989 hypothetical protein
+>GCA_003153835.1_JOIJDDGM_01990 hypothetical protein
+>GCA_003153955.1_PLMGMDBH_00114 hypothetical protein
+>GCA_003153955.1_PLMGMDBH_00115 Arsenite methyltransferase
+>GCA_003153955.1_PLMGMDBH_00116 hypothetical protein
+>GCA_003153955.1_PLMGMDBH_00117 hypothetical protein
+>GCA_003153955.1_PLMGMDBH_00118 hypothetical protein
+>GCA_003154455.1_CKFKFJOC_01457 hypothetical protein
+>GCA_003154455.1_CKFKFJOC_01458 Arsenite methyltransferase
+>GCA_003154455.1_CKFKFJOC_01459 hypothetical protein
+>GCA_003154455.1_CKFKFJOC_01460 hypothetical protein
+>GCA_003154455.1_CKFKFJOC_01461 hypothetical protein
+>GCA_003154715.1_KCOEBLCF_00389 hypothetical protein
+>GCA_003154715.1_KCOEBLCF_00390 hypothetical protein
+>GCA_003154715.1_KCOEBLCF_00391 hypothetical protein
+>GCA_003154715.1_KCOEBLCF_00392 Arsenite methyltransferase
+>GCA_003154715.1_KCOEBLCF_00393 hypothetical protein
+>GCA_003154725.1_NCPGCONH_00145 Arsenical-resistance protein Acr3
+>GCA_003154725.1_NCPGCONH_00146 hypothetical protein
+>GCA_003154725.1_NCPGCONH_00147 hypothetical protein
+>GCA_003154725.1_NCPGCONH_00148 Arsenate reductase
+>GCA_003154725.1_NCPGCONH_00149 hypothetical protein
+>GCA_003155455.1_OLCNJMFI_00864 hypothetical protein
+>GCA_003155455.1_OLCNJMFI_00865 Arsenite methyltransferase
+>GCA_003155455.1_OLCNJMFI_00866 hypothetical protein
+>GCA_003155455.1_OLCNJMFI_00867 hypothetical protein
+>GCA_003155455.1_OLCNJMFI_00868 hypothetical protein
+>GCA_003155495.1_ONOLOMGD_02008 hypothetical protein
+>GCA_003155495.1_ONOLOMGD_02009 hypothetical protein
+>GCA_003155495.1_ONOLOMGD_02010 hypothetical protein
+>GCA_003155495.1_ONOLOMGD_02011 Arsenate reductase
+>GCA_003155495.1_ONOLOMGD_02012 hypothetical protein
+>GCA_003155505.1_LPMOHICJ_00763 hypothetical protein
+>GCA_003155705.1_JLDBLKBK_01337 hypothetical protein
+>GCA_003155705.1_JLDBLKBK_01338 Arsenate reductase
+>GCA_003155705.1_JLDBLKBK_01339 hypothetical protein
+>GCA_003155705.1_JLDBLKBK_01340 Electron transport complex subunit RsxB
+>GCA_003155705.1_JLDBLKBK_01341 Arsenical-resistance protein Acr3
+>GCA_003157015.1_ABNNHAFK_01427 Arsenical-resistance protein Acr3
+>GCA_003157015.1_ABNNHAFK_01428 hypothetical protein
+>GCA_003157015.1_ABNNHAFK_01429 hypothetical protein
+>GCA_003157015.1_ABNNHAFK_01430 Arsenate reductase
+>GCA_003157015.1_ABNNHAFK_01431 hypothetical protein
+>GCA_003157475.1_CLECIBLG_02416 hypothetical protein
+>GCA_003157475.1_CLECIBLG_02417 Arsenate reductase
+>GCA_003157475.1_CLECIBLG_02418 hypothetical protein
+>GCA_003157475.1_CLECIBLG_02419 hypothetical protein
+>GCA_003157475.1_CLECIBLG_02420 hypothetical protein
+>GCA_003157835.1_HAPBOFHK_00938 hypothetical protein
+>GCA_003157835.1_HAPBOFHK_00939 Arsenate reductase
+>GCA_003157835.1_HAPBOFHK_00940 hypothetical protein
+>GCA_003157835.1_HAPBOFHK_00941 hypothetical protein
+>GCA_003157835.1_HAPBOFHK_00942 Arsenical-resistance protein Acr3
+>GCA_003157895.1_MEBJLFJC_00897 Protein ArsC
+>GCA_003157895.1_MEBJLFJC_00898 hypothetical protein
+>GCA_003157895.1_MEBJLFJC_00899 hypothetical protein
+>GCA_003157895.1_MEBJLFJC_00900 hypothetical protein
+>GCA_003157895.1_MEBJLFJC_00901 hypothetical protein
+>GCA_003158435.1_GHNDMMHF_03014 hypothetical protein
+>GCA_003158435.1_GHNDMMHF_03015 Arsenite methyltransferase
+>GCA_003158435.1_GHNDMMHF_03016 hypothetical protein
+>GCA_003158435.1_GHNDMMHF_03017 hypothetical protein
+>GCA_003158435.1_GHNDMMHF_03018 hypothetical protein
+>GCA_003158735.1_LIDIFIHF_04587 hypothetical protein
+>GCA_003158735.1_LIDIFIHF_04588 hypothetical protein
+>GCA_003158735.1_LIDIFIHF_04589 hypothetical protein
+>GCA_003158735.1_LIDIFIHF_04590 hypothetical protein
+>GCA_003158735.1_LIDIFIHF_04591 Protein ArsC
+>GCA_003158815.1_KOKFAPOG_02040 hypothetical protein
+>GCA_003158815.1_KOKFAPOG_02041 hypothetical protein
+>GCA_003158815.1_KOKFAPOG_02042 hypothetical protein
+>GCA_003158815.1_KOKFAPOG_02043 Arsenite methyltransferase
+>GCA_003158815.1_KOKFAPOG_02044 hypothetical protein
+>GCA_003161895.1_OCHCIKMJ_00747 hypothetical protein
+>GCA_003161895.1_OCHCIKMJ_00748 hypothetical protein
+>GCA_003161895.1_OCHCIKMJ_00749 hypothetical protein
+>GCA_003161895.1_OCHCIKMJ_00750 hypothetical protein
+>GCA_003161895.1_OCHCIKMJ_00751 Arsenical-resistance protein Acr3
+>GCA_003161915.1_CAOHOLIK_00833 hypothetical protein
+>GCA_003161915.1_CAOHOLIK_00834 hypothetical protein
+>GCA_003161915.1_CAOHOLIK_00835 hypothetical protein
+>GCA_003161915.1_CAOHOLIK_00836 Arsenate reductase
+>GCA_003161915.1_CAOHOLIK_00837 hypothetical protein
+>GCA_003162595.1_JKEDGKBH_00817 Arsenical-resistance protein Acr3
+>GCA_003162595.1_JKEDGKBH_00818 hypothetical protein
+>GCA_003162595.1_JKEDGKBH_00819 hypothetical protein
+>GCA_003162595.1_JKEDGKBH_00820 Arsenate reductase
+>GCA_003162595.1_JKEDGKBH_00821 hypothetical protein
+>GCA_003162695.1_OCCLLKKG_02276 Arsenical-resistance protein Acr3
+>GCA_003162695.1_OCCLLKKG_02277 hypothetical protein
+>GCA_003162695.1_OCCLLKKG_02278 hypothetical protein
+>GCA_003162695.1_OCCLLKKG_02279 Arsenate reductase
+>GCA_003162695.1_OCCLLKKG_02280 hypothetical protein
+>GCA_003164335.1_JLLBPIIL_01842 tRNA threonylcarbamoyladenosine dehydratase
+>GCA_003164335.1_JLLBPIIL_01843 hypothetical protein
+>GCA_003164335.1_JLLBPIIL_01844 hypothetical protein
+>GCA_003164335.1_JLLBPIIL_01845 hypothetical protein
+>GCA_003164335.1_JLLBPIIL_01846 Arsenate reductase
+>GCA_003165115.1_LOEDEDJK_03961 hypothetical protein
+>GCA_003165115.1_LOEDEDJK_03962 hypothetical protein
+>GCA_003165115.1_LOEDEDJK_03963 hypothetical protein
+>GCA_003165115.1_LOEDEDJK_03964 hypothetical protein
+>GCA_003165115.1_LOEDEDJK_03965 Arsenate reductase
+>GCA_003165595.1_AAGFGJFP_01995 hypothetical protein
+>GCA_003165595.1_AAGFGJFP_01996 hypothetical protein
+>GCA_003165595.1_AAGFGJFP_01997 hypothetical protein
+>GCA_003165595.1_AAGFGJFP_01998 hypothetical protein
+>GCA_003165595.1_AAGFGJFP_01999 Arsenical-resistance protein Acr3
+>GCA_003170975.1_JJDDBPIC_00285 hypothetical protein
+>GCA_003170975.1_JJDDBPIC_00286 hypothetical protein
+>GCA_003170975.1_JJDDBPIC_00287 hypothetical protein
+>GCA_003170975.1_JJDDBPIC_00288 hypothetical protein
+>GCA_003170975.1_JJDDBPIC_00289 Protein ArsC
+>GCA_003245525.1_ELDDELFM_03799 Arsenical-resistance protein Acr3
+>GCA_003245525.1_ELDDELFM_03800 hypothetical protein
+>GCA_003245525.1_ELDDELFM_03801 hypothetical protein
+>GCA_003245525.1_ELDDELFM_03802 Arsenate reductase
+>GCA_003245525.1_ELDDELFM_03803 Arsenic resistance transcriptional regulator ArsR1
+>GCA_003245695.1_FEFPDADP_02149 Arsenical-resistance protein Acr3
+>GCA_003245695.1_FEFPDADP_02150 hypothetical protein
+>GCA_003245695.1_FEFPDADP_02151 hypothetical protein
+>GCA_003245695.1_FEFPDADP_02152 hypothetical protein
+>GCA_003245695.1_FEFPDADP_02153 Beta-galactosidase
+>GCA_003246295.1_BDJDPKKB_01312 Putative cysteine protease YraA
+>GCA_003246295.1_BDJDPKKB_01313 hypothetical protein
+>GCA_003246295.1_BDJDPKKB_01314 hypothetical protein
+>GCA_003246295.1_BDJDPKKB_01315 NAD(P)H-quinone oxidoreductase subunit I, chloroplastic
+>GCA_003246295.1_BDJDPKKB_01316 Arsenical-resistance protein Acr3
+>GCA_003612835.1_GKEAMMGB_00968 HTH-type transcriptional regulator HdfR
+>GCA_003612835.1_GKEAMMGB_00969 hypothetical protein
+>GCA_003612835.1_GKEAMMGB_00970 hypothetical protein
+>GCA_003612835.1_GKEAMMGB_00971 hypothetical protein
+>GCA_003612835.1_GKEAMMGB_00972 Arsenical-resistance protein Acr3
+>GCA_003612855.1_HHFMOLMK_00992 HTH-type transcriptional regulator HdfR
+>GCA_003612855.1_HHFMOLMK_00993 hypothetical protein
+>GCA_003612855.1_HHFMOLMK_00994 hypothetical protein
+>GCA_003612855.1_HHFMOLMK_00995 hypothetical protein
+>GCA_003612855.1_HHFMOLMK_00996 Arsenical-resistance protein Acr3
+>GCA_004102745.1_AGNNABEL_00165 hypothetical protein
+>GCA_004102745.1_AGNNABEL_00166 hypothetical protein
+>GCA_004102745.1_AGNNABEL_00167 hypothetical protein
+>GCA_004102745.1_AGNNABEL_00168 NAD(P)H-quinone oxidoreductase subunit I, chloroplastic
+>GCA_004102745.1_AGNNABEL_00169 Arsenate reductase
+>GCA_004195035.1_ONBFGKOD_00700 putative alcohol dehydrogenase AdhA
+>GCA_004195035.1_ONBFGKOD_00701 hypothetical protein
+>GCA_004195035.1_ONBFGKOD_00702 hypothetical protein
+>GCA_004195035.1_ONBFGKOD_00703 Arsenate reductase
+>GCA_004195035.1_ONBFGKOD_00704 Arsenical pump membrane protein
+>GCA_004321905.1_PMHCMLIP_00181 Protein ArsC
+>GCA_004321905.1_PMHCMLIP_00182 hypothetical protein
+>GCA_004321905.1_PMHCMLIP_00183 hypothetical protein
+>GCA_004321905.1_PMHCMLIP_00184 hypothetical protein
+>GCA_004321905.1_PMHCMLIP_00185 hypothetical protein
+>GCA_004322245.1_PMLFJGKH_02336 Cardiolipin synthase B
+>GCA_004322245.1_PMLFJGKH_02337 hypothetical protein
+>GCA_004322245.1_PMLFJGKH_02338 hypothetical protein
+>GCA_004322245.1_PMLFJGKH_02339 Electron transport complex subunit RsxB
+>GCA_004322245.1_PMLFJGKH_02340 Arsenical-resistance protein Acr3
+>GCA_004345905.1_GIIPCGAD_01003 Chaperone protein HtpG
+>GCA_004345905.1_GIIPCGAD_01004 Electron transport complex subunit RsxB
+>GCA_004345905.1_GIIPCGAD_01005 hypothetical protein
+>GCA_004345905.1_GIIPCGAD_01006 hypothetical protein
+>GCA_004345905.1_GIIPCGAD_01007 Arsenical resistance operon trans-acting repressor ArsD
+>GCA_004525355.1_EKKJEHCN_00092 hypothetical protein
+>GCA_004525355.1_EKKJEHCN_00093 hypothetical protein
+>GCA_004525355.1_EKKJEHCN_00094 hypothetical protein
+>GCA_004525355.1_EKKJEHCN_00095 hypothetical protein
+>GCA_004525355.1_EKKJEHCN_00096 Arsenical-resistance protein Acr3
+>GCA_004796465.1_BKHMJKNP_01829 Arsenate reductase
+>GCA_004796465.1_BKHMJKNP_01830 NAD(P)H-quinone oxidoreductase subunit I, chloroplastic
+>GCA_004796465.1_BKHMJKNP_01831 hypothetical protein
+>GCA_004796465.1_BKHMJKNP_01832 hypothetical protein
+>GCA_004796465.1_BKHMJKNP_01833 hypothetical protein
+>GCA_005222505.1_FNFMEGPF_00994 HTH-type transcriptional regulator HdfR
+>GCA_005222505.1_FNFMEGPF_00995 hypothetical protein
+>GCA_005222505.1_FNFMEGPF_00996 hypothetical protein
+>GCA_005222505.1_FNFMEGPF_00997 hypothetical protein
+>GCA_005222505.1_FNFMEGPF_00998 Arsenical-resistance protein Acr3
+>GCA_007279735.1_OCFCAGCO_00054 Arsenical-resistance protein Acr3
+>GCA_007279735.1_OCFCAGCO_00055 hypothetical protein
+>GCA_007279735.1_OCFCAGCO_00056 hypothetical protein
+>GCA_007279735.1_OCFCAGCO_00057 hypothetical protein
+>GCA_007279735.1_OCFCAGCO_00058 hypothetical protein
+>GCA_007625075.1_AFHFOKPG_01664 hypothetical protein
+>GCA_007625075.1_AFHFOKPG_01665 hypothetical protein
+>GCA_007625075.1_AFHFOKPG_01666 hypothetical protein
+>GCA_007625075.1_AFHFOKPG_01667 Electron transport complex subunit RsxB
+>GCA_007625075.1_AFHFOKPG_01668 Arsenate reductase
+>GCA_900142215.1_FPPJHICE_00406 30S ribosomal protein S9
+>GCA_900142215.1_FPPJHICE_00407 Potassium-transporting ATPase KdpC subunit
+>GCA_900142215.1_FPPJHICE_00408 hypothetical protein
+>GCA_900142215.1_FPPJHICE_00409 hypothetical protein
+>GCA_900142215.1_FPPJHICE_00410 Arsenical-resistance protein Acr3
+>GCA_900143645.1_ACKDDBBB_04379 Arsenical resistance operon trans-acting repressor ArsD
+>GCA_900143645.1_ACKDDBBB_04380 hypothetical protein
+>GCA_900143645.1_ACKDDBBB_04381 hypothetical protein
+>GCA_900143645.1_ACKDDBBB_04382 Arsenical resistance operon repressor
+>GCA_900143645.1_ACKDDBBB_04383 hypothetical protein
+>GCA_900185645.1_KHGMKIPE_02867 Arsenate reductase
+>GCA_900185645.1_KHGMKIPE_02868 Arsenical-resistance protein Acr3
+>GCA_900185645.1_KHGMKIPE_02869 hypothetical protein
+>GCA_900185645.1_KHGMKIPE_02870 Electron transport complex subunit RsxB
+>GCA_900185645.1_KHGMKIPE_02871 hypothetical protein

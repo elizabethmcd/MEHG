@@ -1,0 +1,48 @@
+archaea00943,GCA_003135935.1,2.08,94.23076923076923,0.8064516129032258,Methanomassiliicoccaceae archaeon,d__Archaea;p__Thermoplasmatota;c__Thermoplasmata_A;o__Methanomassiliicoccales;f__;g__;s__,archaea00943.fna
+bacteria20068,GCA_003132645.1,3.24,85.63218390804599,2.1551724137931036,Actinobacteria bacterium,d__Bacteria;p__Actinobacteriota;c__Thermoleophilia;o__UBA2241;f__UBA2241;g__;s__,bacteria20068.fna
+bacteria20100,GCA_003133285.1,1.87,85.85317460317461,1.1746031746031744,Coriobacteriia bacterium,d__Bacteria;p__Actinobacteriota;c__Coriobacteriia;o__OPB41;f__;g__;s__,bacteria20100.fna
+bacteria20231,GCA_003136095.1,6.03,85.14592933947773,1.3133640552995391,Myxococcales bacterium,d__Bacteria;p__Myxococcota;c__Polyangia;o__;f__;g__;s__,bacteria20231.fna
+bacteria20275,GCA_003137035.1,5.07,87.81067251461988,2.6315789473684212,Solibacterales bacterium,d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Solibacterales;f__Solibacteraceae;g__;s__,bacteria20275.fna
+bacteria20443,GCA_003141555.1,3.79,93.84615384615384,3.4188034188034186,Candidatus Aminicenantes bacterium,d__Bacteria;p__Acidobacteriota;c__Aminicenantia;o__Aminicenantales;f__UBA4085;g__;s__,bacteria20443.fna
+bacteria20477,GCA_003142295.1,3.28,92.41935483870968,4.301075268817204,Syntrophaceae bacterium,d__Bacteria;p__Desulfobacterota;c__Syntrophia;o__Syntrophales;f__;g__;s__,bacteria20477.fna
+bacteria20480,GCA_003142355.1,6.56,85.58845029239765,3.9473684210526314,Solibacterales bacterium,d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Solibacterales;f__Solibacteraceae;g__;s__,bacteria20480.fna
+bacteria20489,GCA_003142535.1,2.93,93.54838709677419,1.2903225806451613,Syntrophaceae bacterium,d__Bacteria;p__Desulfobacterota;c__Syntrophia;o__Syntrophales;f__Smithellaceae;g__;s__,bacteria20489.fna
+bacteria20494,GCA_003142635.1,3.47,92.74193548387096,2.17357910906298,Syntrophaceae bacterium,d__Bacteria;p__Desulfobacterota;c__Syntrophia;o__Syntrophales;f__;g__;s__,bacteria20494.fna
+bacteria20503,GCA_003142835.1,2.49,86.03430619559653,1.6129032258064515,Syntrophaceae bacterium,d__Bacteria;p__Desulfobacterota;c__Syntrophia;o__Syntrophales;f__Smithellaceae;g__;s__,bacteria20503.fna
+bacteria20569,GCA_003151775.1,2.95,87.1326164874552,0.6451612903225806,Geobacter sp.,d__Bacteria;p__Desulfuromonadota;c__Desulfuromonadia;o__Geobacterales;f__Pelobacteraceae;g__;s__,bacteria20569.fna
+bacteria20631,GCA_003153075.1,2.77,71.31613161316132,0.9900990099009901,Dehalococcoidia bacterium,d__Bacteria;p__Chloroflexota;c__Dehalococcoidia;o__Dehalococcoidales;f__;g__;s__,bacteria20631.fna
+bacteria20664,GCA_003153725.1,3.74,75.41666666666667,3.4188034188034186,Candidatus Aminicenantes bacterium,d__Bacteria;p__Acidobacteriota;c__Aminicenantia;o__Aminicenantales;f__UBA4085;g__;s__,bacteria20664.fna
+bacteria20666,GCA_003153775.1,3.13,98.06451612903226,1.2903225806451613,Syntrophaceae bacterium,d__Bacteria;p__Desulfobacterota;c__Syntrophia;o__Syntrophales;f__;g__;s__,bacteria20666.fna
+bacteria20672,GCA_003153955.1,2.09,80.88508850885088,0.9900990099009901,Dehalococcoidia bacterium,d__Bacteria;p__Chloroflexota;c__Dehalococcoidia;o__Dehalococcoidales;f__;g__;s__,bacteria20672.fna
+bacteria20675,GCA_003154025.1,5.73,88.50486431131594,5.161290322580645,Syntrophaceae bacterium,d__Bacteria;p__Desulfobacterota;c__BSN033;o__;f__;g__;s__,bacteria20675.fna
+bacteria20678,GCA_003154095.1,8.66,87.3031233998976,2.096774193548387,Myxococcales bacterium,d__Bacteria;p__Myxococcota;c__Polyangia;o__Polyangiales;f__;g__;s__,bacteria20678.fna
+bacteria20685,GCA_003154255.1,3.48,74.50261158594492,1.7806267806267804,Candidatus Aminicenantes bacterium,d__Bacteria;p__Acidobacteriota;c__Aminicenantia;o__Aminicenantales;f__UBA4085;g__;s__,bacteria20685.fna
+bacteria20689,GCA_003154355.1,4.05,71.84065459321214,5.522914218566393,Opitutae bacterium,d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__;s__,bacteria20689.fna
+bacteria20692,GCA_003154455.1,2.07,85.06350635063507,2.9702970297029703,Dehalococcoidia bacterium,d__Bacteria;p__Chloroflexota;c__Dehalococcoidia;o__Dehalococcoidales;f__;g__;s__,bacteria20692.fna
+bacteria20693,GCA_003154475.1,1.86,78.63636363636364,0.9090909090909091,Actinobacteria bacterium,d__Bacteria;p__Actinobacteriota;c__UBA1414;o__UBA1414;f__;g__;s__,bacteria20693.fna
+bacteria20697,GCA_003154555.1,3.47,72.98117647058822,2.2666666666666666,Spirochaetaceae bacterium,d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__RBG-16-67-19;g__;s__,bacteria20697.fna
+bacteria20699,GCA_003154595.1,2.97,87.22872287228724,4.9504950495049505,Dehalococcoidia bacterium,d__Bacteria;p__Chloroflexota;c__Dehalococcoidia;o__Dehalococcoidales;f__;g__;s__,bacteria20699.fna
+bacteria20700,GCA_003154615.1,5.22,78.12186379928315,2.6036866359447,Myxococcales bacterium,d__Bacteria;p__Myxococcota;c__Polyangia;o__;f__;g__;s__,bacteria20700.fna
+bacteria20701,GCA_003154635.1,2.99,87.90382457049124,0.8547008547008547,Actinobacteria bacterium,d__Bacteria;p__Actinobacteriota;c__RBG-13-55-18;o__;f__;g__;s__,bacteria20701.fna
+bacteria20706,GCA_003154715.1,2.48,78.05980598059806,9.273927392739274,Dehalococcoidia bacterium,d__Bacteria;p__Chloroflexota;c__Dehalococcoidia;o__Dehalococcoidales;f__;g__;s__,bacteria20706.fna
+bacteria20733,GCA_003155275.1,2.18,85.75757575757576,1.8181818181818181,Actinobacteria bacterium,d__Bacteria;p__Actinobacteriota;c__UBA1414;o__UBA1414;f__;g__;s__,bacteria20733.fna
+bacteria20738,GCA_003155375.1,3.07,71.12903225806451,4.9846390168970816,Syntrophaceae bacterium,d__Bacteria;p__Desulfobacterota_B;c__Syntrophorhabdia;o__Syntrophorhabdales;f__Syntrophorhabdaceae;g__;s__,bacteria20738.fna
+bacteria20742,GCA_003155455.1,2.78,87.15571557155717,1.9801980198019802,Dehalococcoidia bacterium,d__Bacteria;p__Chloroflexota;c__Dehalococcoidia;o__Dehalococcoidales;f__;g__;s__,bacteria20742.fna
+bacteria20749,GCA_003155595.1,5.97,82.37839221710189,2.6036866359447,Myxococcales bacterium,d__Bacteria;p__Myxococcota;c__Polyangia;o__;f__;g__;s__,bacteria20749.fna
+bacteria20819,GCA_003157225.1,3.55,73.70894909688013,4.597701149425287,Actinobacteria bacterium,d__Bacteria;p__Actinobacteriota;c__Thermoleophilia;o__;f__;g__;s__,bacteria20819.fna
+bacteria20830,GCA_003157495.1,4.42,89.81755596818834,3.111971411554497,Opitutae bacterium,d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__;s__,bacteria20830.fna
+bacteria20841,GCA_003157735.1,5.21,85.25089605734767,3.870967741935484,Myxococcales bacterium,d__Bacteria;p__Myxococcota;c__Polyangia;o__;f__;g__;s__,bacteria20841.fna
+bacteria20842,GCA_003157745.1,5.82,90.07188109161793,2.6315789473684212,Solibacterales bacterium,d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Solibacterales;f__Solibacteraceae;g__;s__,bacteria20842.fna
+bacteria20867,GCA_003158355.1,2.71,84.31313131313131,4.545454545454546,Anaerolineaceae bacterium,d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Anaerolineaceae;g__;s__,bacteria20867.fna
+bacteria20869,GCA_003158395.1,5.35,89.64157706093191,4.516129032258065,Myxococcales bacterium,d__Bacteria;p__Myxococcota;c__Polyangia;o__;f__;g__;s__,bacteria20869.fna
+bacteria20871,GCA_003158435.1,3.07,82.54125412541255,2.9702970297029703,Dehalococcoidia bacterium,d__Bacteria;p__Chloroflexota;c__Dehalococcoidia;o__Dehalococcoidales;f__;g__;s__,bacteria20871.fna
+bacteria20885,GCA_003158735.1,6.49,89.33691756272401,4.585253456221198,Myxococcales bacterium,d__Bacteria;p__Myxococcota;c__Polyangia;o__;f__;g__;s__,bacteria20885.fna
+bacteria20888,GCA_003158775.1,5.33,86.28929851510496,3.870967741935484,Myxococcales bacterium,d__Bacteria;p__Myxococcota;c__Polyangia;o__;f__;g__;s__,bacteria20888.fna
+bacteria20889,GCA_003158815.1,3.06,84.07590759075907,4.9504950495049505,Dehalococcoidia bacterium,d__Bacteria;p__Chloroflexota;c__Dehalococcoidia;o__Dehalococcoidales;f__;g__;s__,bacteria20889.fna
+bacteria20898,GCA_003159015.1,5.58,75.83717357910906,1.3133640552995391,Myxococcales bacterium,d__Bacteria;p__Myxococcota;c__Polyangia;o__;f__;g__;s__,bacteria20898.fna
+bacteria20901,GCA_003159065.1,8.33,82.02867383512546,2.455197132616487,Myxococcales bacterium,d__Bacteria;p__Myxococcota;c__Polyangia;o__Polyangiales;f__;g__;s__,bacteria20901.fna
+bacteria21037,GCA_003162335.1,2.82,87.78877887788778,0.44554455445544555,Dehalococcoidia bacterium,d__Bacteria;p__Chloroflexota;c__Dehalococcoidia;o__Dehalococcoidales;f__;g__;s__,bacteria21037.fna
+bacteria21170,GCA_003165235.1,7.07,95.82437275985663,6.465437788018433,Syntrophobacteraceae bacterium,d__Bacteria;p__Desulfobacterota;c__Syntrophobacteria;o__Syntrophobacterales;f__Syntrophobacteraceae;g__;s__,bacteria21170.fna
+bacteria21278,GCA_003167475.1,2.75,85.24004085801839,2.247191011235955,candidate division FCPU426 bacterium,d__Bacteria;;c__;o__;f__;g__;s__,bacteria21278.fna
+bacteria21401,GCA_003170115.1,4.08,84.97725490196078,2.4,Spirochaetaceae bacterium,d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__RBG-16-67-19;g__;s__,bacteria21401.fna
+bacteria21447,GCA_003171175.1,3.76,93.84331797235023,2.7956989247311825,Syntrophaceae bacterium,d__Bacteria;p__Desulfobacterota;c__Syntrophia;o__Syntrophales;f__;g__;s__,bacteria21447.fna
