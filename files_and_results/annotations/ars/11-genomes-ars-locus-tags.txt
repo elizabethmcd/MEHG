@@ -1,0 +1,55 @@
+>bacteria00190_EEIMFIFM_01318 Arsenical-resistance protein Acr3
+>bacteria00190_EEIMFIFM_01319 hypothetical protein
+>bacteria00190_EEIMFIFM_01320 hypothetical protein
+>bacteria00190_EEIMFIFM_01321 hypothetical protein
+>bacteria00190_EEIMFIFM_01322 hypothetical protein
+>GCA_003132645.1_EAGCLGCC_00363 Arsenical-resistance protein Acr3
+>GCA_003132645.1_EAGCLGCC_00364 hypothetical protein
+>GCA_003132645.1_EAGCLGCC_00365 hypothetical protein
+>GCA_003132645.1_EAGCLGCC_00366 hypothetical protein
+>GCA_003132645.1_EAGCLGCC_00367 putative HTH-type transcriptional regulator
+>GCA_001618385.1_DCIDKKEI_01356 hypothetical protein
+>GCA_001618385.1_DCIDKKEI_01357 hypothetical protein
+>GCA_001618385.1_DCIDKKEI_01358 hypothetical protein
+>GCA_001618385.1_DCIDKKEI_01359 Arsenate reductase
+>GCA_001618385.1_DCIDKKEI_01360 hypothetical protein
+>bacteria30006_MIGOLCED_00862 Thiol:disulfide interchange protein DsbD
+>bacteria30006_MIGOLCED_00863 Arsenate reductase
+>bacteria30006_MIGOLCED_00864 hypothetical protein
+>bacteria30006_MIGOLCED_00865 hypothetical protein
+>bacteria30006_MIGOLCED_00866 Arsenical-resistance protein Acr3
+>GCA_002839855.1_LBJAPOJN_01861 hypothetical protein
+>GCA_002839855.1_LBJAPOJN_01862 hypothetical protein
+>GCA_002839855.1_LBJAPOJN_01863 hypothetical protein
+>GCA_002839855.1_LBJAPOJN_01864 Arsenical-resistance protein Acr3
+>GCA_002839855.1_LBJAPOJN_01865 HTH-type transcriptional repressor AseR
+>GCA_001794965.1_DANIKHCL_03005 Biofilm growth-associated repressor
+>GCA_001794965.1_DANIKHCL_03006 Arsenite methyltransferase
+>GCA_001794965.1_DANIKHCL_03007 hypothetical protein
+>GCA_001794965.1_DANIKHCL_03008 hypothetical protein
+>GCA_001794965.1_DANIKHCL_03009 putative HTH-type transcriptional regulator YfiR
+>GCA_001800235.1_MPBCOEAA_01892 Arsenate reductase
+>GCA_001800235.1_MPBCOEAA_01893 Arsenical-resistance protein Acr3
+>GCA_001800235.1_MPBCOEAA_01894 hypothetical protein
+>GCA_001800235.1_MPBCOEAA_01895 hypothetical protein
+>GCA_001800235.1_MPBCOEAA_01896 3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+>GCA_002839605.1_ICCNIBNN_00025 Protein ArsC
+>GCA_002839605.1_ICCNIBNN_00026 hypothetical protein
+>GCA_002839605.1_ICCNIBNN_00027 hypothetical protein
+>GCA_002839605.1_ICCNIBNN_00028 hypothetical protein
+>GCA_002839605.1_ICCNIBNN_00029 hypothetical protein
+>bacteria30021_JLEEPOFI_00534 Protein ArsC
+>bacteria30021_JLEEPOFI_00535 hypothetical protein
+>bacteria30021_JLEEPOFI_00536 hypothetical protein
+>bacteria30021_JLEEPOFI_00537 hypothetical protein
+>bacteria30021_JLEEPOFI_00538 hypothetical protein
+>bacteria30028_LNFDEICF_01628 Arsenical-resistance protein Acr3
+>bacteria30028_LNFDEICF_01629 hypothetical protein
+>bacteria30028_LNFDEICF_01630 hypothetical protein
+>bacteria30028_LNFDEICF_01631 hypothetical protein
+>bacteria30028_LNFDEICF_01632 Cadmium, cobalt and zinc/H(+)-K(+) antiporter
+>GCA_002839185.1_MKDLDMNL_00874 hypothetical protein
+>GCA_002839185.1_MKDLDMNL_00875 hypothetical protein
+>GCA_002839185.1_MKDLDMNL_00876 hypothetical protein
+>GCA_002839185.1_MKDLDMNL_00877 Glutaredoxin arsenate reductase
+>GCA_002839185.1_MKDLDMNL_00878 hypothetical protein

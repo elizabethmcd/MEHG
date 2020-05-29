@@ -1,0 +1,9 @@
+genome	gene	start	end	strand	direction
+bacteria00190	gene1	597	1712	forward	+
+bacteria00190	gene2	1714	2100	forward	+
+bacteria00190	gene3	2121	3386	forward	+
+bacteria00190	gene4	3392	3667	forward	+
+bacteria00190	gene5	3852	4064	forward	+
+bacteria00190	gene6	4095	4274	forward	+
+bacteria00190	gene7	4318	5208	reverse	-
+bacteria00190	gene8	5221	5598	reverse	-

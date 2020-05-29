@@ -1,0 +1,9 @@
+﻿genome,gene,start,end,strand,direction,locus_tag
+bacteria00190,acr3,597,1712,forward,+,EEIMFIFM_01318
+bacteria00190,gene2,1714,2100,forward,+,EEIMFIFM_01319
+bacteria00190,hgcA,2121,3386,forward,+,EEIMFIFM_01320
+bacteria00190,hgcB,3392,3667,forward,+,EEIMFIFM_01321
+bacteria00190,hyp,3852,4064,forward,+,EEIMFIFM_01322
+bacteria00190,hyp,4095,4274,forward,+,EEIMFIFM_01323
+bacteria00190,other,5208,4318,reverse,-,EEIMFIFM_01324
+bacteria00190,other,5598,5221,reverse,-,EEIMFIFM_01325

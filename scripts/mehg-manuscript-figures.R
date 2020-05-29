@@ -2,11 +2,12 @@ library(tidyverse)
 library(reshape2)
 library(plyr)
 
-metadata = read.csv("files/stats/mehg-final-dataset-metadata.csv")
+metadata = read.csv("files_and_results//stats/mehg-final-dataset-metadata.csv")
 environment = count(metadata, "code")
 group = count(metadata, "Group")
 phyla = count(metadata, "Phyla")
 study = count(metadata, "study")
+author = count(metadata, "reference")
 
 # Environments plot
 phaColfunc = colorRampPalette(c("palegreen3", "slateblue"))
