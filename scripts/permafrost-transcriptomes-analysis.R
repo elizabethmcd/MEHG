@@ -229,3 +229,54 @@ hgcA_vs_rpoB_all <- hgcA_rpo_combined %>% ggplot(aes(x=hgcA.val, y=rpo.val, colo
 ggsave(filename="figs/hgcA_vs_rpoB_facet_sample.png", plot=hgcA_rpoB_facet, width=20, height=15, units=c("cm"))
 ggsave(filename="figs/hgcA_vs_rpoB_all.png", plot=hgcA_vs_rpoB_all, width=15, height=8, units=c("cm"))
 ggsave(filename="figs/hgcA_vs_rpoB_all_configured.png", plot=hgcA_vs_rpoB_all, width=10, height=15, units=c("cm"))
+
+# hgcB locus tags 
+
+old_metadata <- read.csv("files_and_results/archived/archived-metadata/medium-qual-methylator-metadata.csv") %>% select(genome_name, original_name)
+peat_split <- separate(data= peat_hgcA, col=locus_tag, into=c("genome_name", "hgcA_locus_tag"), sep="_", extra="merge")
+old_metadata_peat <- left_join(peat_split, old_metadata)
+
+hgcAB_loci <- read.csv("files_and_results/annotations/hgcAB_loci.csv")
+colnames(hgcAB_loci)[1] = c("original_name")
+
+peat_hgcAB_loci <- left_join(old_metadata_peat, hgcAB_loci)
+hgcB_locus_tags <- peat_hgcAB_loci %>% select(Phylum, genome_name, hgcb_locus_tag)
+hgcB_locus_tags$hgcB_tag <- paste(hgcB_locus_tags$genome_name, hgcB_locus_tags$hgcb_locus_tag, sep="_")
+
+peat_hgcB_tags <- hgcB_locus_tags %>% select(Phylum, hgcB_tag)
+colnames(peat_hgcB_tags) <- c("Phylum", "locus_tag")
+
+hgcB_counts <- left_join(peat_hgcB_tags, counttable.ids) %>% drop_na()
+
+hgcB_phyla_total = aggregate(hgcB_counts[3:28], list(hgcB_counts$Phylum), sum)
+
+hgcB_cross <- hgcB_counts[-2]
+hgcB.m <- melt(hgcB_phyla_total, id.vars="Group.1", var="sample")
+hgcB.m$sample = factor(hgcB.m$sample, levels=c(sample_list))
+hgcB_table = hgcB.m %>% drop_na()
+
+hgcB_expression <- hgcB_table %>%  ggplot(aes(x=Group.1, y=fct_rev(sample), fill=value)) + geom_tile(color="white") + scale_fill_viridis(option="viridis",alpha=1, begin=0, end=1, direction=-1, limits=c(0,220), breaks=c(0, 25, 50, 75, 100, 120, 220), rescaler = function(x, to = c(0, 0.8), from = NULL) {
+  ifelse(x<120, 
+         scales::rescale(x,
+                         to = to,
+                         from = c(min(x, na.rm = TRUE), 100)),
+         1)
+}) + theme_bw() + theme(axis.text.x= element_text(angle=85, hjust=1)) + guides(fill = guide_colorbar(nbin = 10))
+
+# regulator locus tags
+
+regulator_metadata = read.csv("files_and_results/annotations/flanking-regulator-metadata.csv") %>% select(genome, reg_locus_tag)
+colnames(regulator_metadata) = c("original_name", "reg_locus_tag")
+peat_regulator = left_join(old_metadata_peat, regulator_metadata) %>% drop_na() %>% select(Phylum, genome_name, reg_locus_tag)
+peat_regulator$locus_tag = paste(peat_regulator$genome_name, peat_regulator$reg_locus_tag, sep="_")
+reg_tags = peat_regulator %>% select(Phylum, locus_tag)
+reg_counts = left_join(reg_tags, counttable.ids) %>% drop_na()
+reg_phyla_total = aggregate(reg_counts[3:28], list(reg_counts$Phylum), sum)
+reg.m = melt(reg_phyla_total, id.vars="Group.1", var="sample")
+reg.m$sample = factor(reg.m$sample, levels=c(sample_list))
+reg_table = reg.m %>% drop_na()
+
+reg_expression <- reg_table %>%  ggplot(aes(x=Group.1, y=(fct_rev(sample)), fill=value)) + geom_tile(color="white") + scale_fill_viridis(option="viridis",alpha=1, begin=0, end=1, direction=-1, limits=c(0,100)) + theme_bw() + theme(axis.text.x= element_text(angle=85, hjust=1)) + guides(fill = guide_colorbar(nbin = 10))
+
+ggsave(file="figs/hgcB-expression.png", plot=hgcB_expression, width=15, height=10, units=c("cm"))
+ggsave(file="figs/reg-expression.png", plot=reg_expression, width=15, height=10, units=c("cm"))
