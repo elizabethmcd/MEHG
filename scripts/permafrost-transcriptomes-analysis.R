@@ -216,3 +216,16 @@ hgcA_rpo_combined <- cbind(hgcA.counts, rpo.counts$rpo.val)
 colnames(hgcA_rpo_combined) <- c("phyla", "sample", "hgcA.val", "rpo.val")
 hgcA_rpo_combined$hgcA_over_rpo <- hgcA_rpo_combined$hgcA.val / hgcA_rpo_combined$rpo.val
 hgcA_rpo_combined[is.na(hgcA_rpo_combined)] <- 0
+hgcA_rpo_combined$sample = factor(hgcA_rpo_combined$sample, levels=c(sample_list))
+hgcA_rpo_combined_cleaned <- hgcA_rpo_combined %>% mutate(sample=str_replace_all(sample, "abundance.", ""))
+
+# Plot of hgcA normalized by rpoB facet by sample and color by phyla
+
+hgcA_rpoB_facet <- hgcA_rpo_combined_cleaned %>% ggplot(aes(x=hgcA.val, y=rpo.val, color=phyla)) + geom_point() + facet_wrap( ~ sample, scales="free") + 
+  scale_x_continuous(limits=c(0,175)) + scale_y_continuous(limits=c(0,450))
+
+hgcA_vs_rpoB_all <- hgcA_rpo_combined %>% ggplot(aes(x=hgcA.val, y=rpo.val, color=phyla)) + geom_point(size=3) + theme_classic() + theme(legend.position="bottom")
+
+ggsave(filename="figs/hgcA_vs_rpoB_facet_sample.png", plot=hgcA_rpoB_facet, width=20, height=15, units=c("cm"))
+ggsave(filename="figs/hgcA_vs_rpoB_all.png", plot=hgcA_vs_rpoB_all, width=15, height=8, units=c("cm"))
+ggsave(filename="figs/hgcA_vs_rpoB_all_configured.png", plot=hgcA_vs_rpoB_all, width=10, height=15, units=c("cm"))
