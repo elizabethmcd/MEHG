@@ -8,6 +8,7 @@ library(grid)
 library(gridExtra)
 library(viridis)
 library(tidyverse)
+library(reshape2)
 
 # kallisto directory for mapped transcriptomes to methylators
 meth_dir <- "kallisto_mapping/"
@@ -174,57 +175,31 @@ rpoB = read.delim("/Users/emcdaniel/Desktop/McMahon-Lab/MeHg-Projects/MEHG/files
 peat_rpoB = rpoB %>% select(c(Phyla, locus_tag))
 rpoB_counts = left_join(peat_rpoB, counttable.ids)
 rpoB_no_zeros = rpoB_counts %>% select(c(Phyla, locus_tag, 4,6,9,10,12,14,16,17,18,20:26,28))
-rpoB_agg = aggregate(rpoB_no_zeros[3:19], list(rpoB_no_zeros$Phyla), sum)
-rpoB.m = melt(rpoB_agg, id.vars="Group.1")
-rpoB.m$variable = factor(rpoB.m$variable, levels=c(sample_list))
-rpo.sub = rpoB.m %>% filter(value < 1000)
+rpoB_genome = separate(data= rpoB_no_zeros, col=locus_tag, into=c("genome", "locus_tag"), sep="_", extra="merge") %>% select(-locus_tag)
+rpoB.m = melt(rpoB_genome, id.vars=c("Phyla", "genome"), variable="sample") %>% select(-Phyla)
+colnames(rpoB.m) = c("genome", "sample", "rpoB_counts")
 
-hgcA.rpo = hgcA_no_zeros.m %>% filter(Group.1 %in% c("Acidobacteria", "Actinobacteria", "Aminicenantes", "Bacteroidetes", "Chlorobi", "Chloroflexi", "Deltaproteobacteria", "Elusimicrobia", "Euryarchaeota", "FCPU426", "Fibrobacteres", "Nitrospirae"))
-hgcA.test = hgcA.rpo %>% select(variable, value)
-write.csv(hgcA.rpo, "~/Desktop/hgcA-counts.csv", quote=FALSE, row.names=FALSE)
-write.csv(rpo.sub, "~/Desktop/rpo-counts.csv", quote=FALSE, row.names=FALSE)
-colnames(hgcA.test) = c("variable", "hgcA.counts")
-merged.counts = left_join(rpo.sub, hgcA.test)
-
-hgcA.rpo$marker = c("hgcA")
-colnames(hgcA.rpo)[1] = c("phyla")
-rpo.sub$marker = c("rpo")
-colnames(rpo.sub)[1] = c("phyla")
-
-# separate totals
-  #rpoB
-rpoB.plt = ggplot(rpo.sub, aes(x=Group.1, y=value)) + geom_boxplot()
-rpoB.plt + geom_jitter(shape=15, position=position_jitter(0.2)) + theme_classic() + theme(axis.text.x=element_text(angle=85, hjust=1))
-  # hgcA
-hgcA.rpo.plt = ggplot(hgcA.rpo, aes(x=Group.1, y=value)) + geom_boxplot()
-hgcA.rpo.plt + geom_jitter(shape=15, position=position_jitter(0.2)) + theme_classic() + theme(axis.text.x=element_text(angle=85, hjust=1))
-
-# together with variable as marker instead of sampling depth
-combined = rbind(hgcA.rpo, rpo.sub)
-comb.plt = ggplot(combined, aes(x=phyla, y=value, fill=marker)) + geom_boxplot() + geom_jitter()
-comb.plt
-comb.form = comb.plt + theme_classic() + theme(axis.text.x=element_text(angle=85, hjust=1))
-comb.form
-ggsave(comb.form, filename="/Users/emcdaniel/Desktop/McMahon-Lab/MeHg-Projects/MEHG/files/permafrostTranscription/hgcA-vs-rpoB-expression.png", width=30, height=20, units=c("cm"))
+# hgcA counts by individual genome
+hgcA_indv = separate(data=hgcA_non_agg_zeros, col=locus_tag, into=c("genome", "locus_tag"), sep="_", extra="merge") %>% select(-locus_tag)
+hgcA_indv.m = melt(hgcA_indv, id.vars=c("Phylum", "genome"), variable="sample")
+colnames(hgcA_indv.m) = c("Phyla", "genome", "sample", "hgcA_counts")
 
 # divide hgcA by rpoB
-hgcA.counts <- hgcA.rpo %>% select(phyla, variable, value)
-rpo.counts <- rpo.sub %>% select(phyla, variable, value)
-colnames(hgcA.counts)[3] <- c("hgcA.val")
-colnames(rpo.counts)[3] <- c("rpo.val")
-hgcA_rpo_combined <- cbind(hgcA.counts, rpo.counts$rpo.val)
-colnames(hgcA_rpo_combined) <- c("phyla", "sample", "hgcA.val", "rpo.val")
-hgcA_rpo_combined$hgcA_over_rpo <- hgcA_rpo_combined$hgcA.val / hgcA_rpo_combined$rpo.val
-hgcA_rpo_combined[is.na(hgcA_rpo_combined)] <- 0
-hgcA_rpo_combined$sample = factor(hgcA_rpo_combined$sample, levels=c(sample_list))
-hgcA_rpo_combined_cleaned <- hgcA_rpo_combined %>% mutate(sample=str_replace_all(sample, "abundance.", ""))
+hgcA_rpo_merged = left_join(hgcA_indv.m, rpoB.m) %>% drop_na()
+hgcA_rpo_merged$hgcA_over_rpo = hgcA_rpo_merged$hgcA_counts / hgcA_rpo_merged$rpoB_counts
+
+hgcA_rpo_merged[hgcA_rpo_merged == Inf] <- 0
+hgcA_rpo_merged[is.na(hgcA_rpo_merged)] <- 0
+
+hgcA_rpo_merged$sample = factor(hgcA_rpo_merged$sample, levels=c(sample_list))
+hgcA_rpo_combined_cleaned <- hgcA_rpo_merged %>% mutate(sample=str_replace_all(sample, "abundance.", ""))
 
 # Plot of hgcA normalized by rpoB facet by sample and color by phyla
 
-hgcA_rpoB_facet <- hgcA_rpo_combined_cleaned %>% ggplot(aes(x=hgcA.val, y=rpo.val, color=phyla)) + geom_point() + facet_wrap( ~ sample, scales="free") + 
-  scale_x_continuous(limits=c(0,175)) + scale_y_continuous(limits=c(0,450))
+hgcA_rpoB_facet = hgcA_rpo_combined_cleaned %>% ggplot(aes(x=hgcA_counts, y=rpoB_counts, color=Phyla)) + geom_point() + facet_wrap( ~ sample, scales="free") + 
+  scale_x_continuous(limits=c(0,150)) + scale_y_continuous(limits=c(0,200))
 
-hgcA_vs_rpoB_all <- hgcA_rpo_combined %>% ggplot(aes(x=hgcA.val, y=rpo.val, color=phyla)) + geom_point(size=3) + theme_classic() + theme(legend.position="bottom")
+hgcA_vs_rpoB_all = hgcA_rpo_combined_cleaned %>% ggplot(aes(x=hgcA_counts, y=rpoB_counts, color=Phyla)) + geom_point(size=3) + theme_classic() + theme(legend.position="bottom")
 
 ggsave(filename="figs/hgcA_vs_rpoB_facet_sample.png", plot=hgcA_rpoB_facet, width=20, height=15, units=c("cm"))
 ggsave(filename="figs/hgcA_vs_rpoB_all.png", plot=hgcA_vs_rpoB_all, width=15, height=8, units=c("cm"))
