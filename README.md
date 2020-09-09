@@ -3,7 +3,7 @@
 This respository contains scripts, workflows, and results for analyzing publicly available reference genomes and MAGs that contain the _hgcA_ marker, an indicator of putative mercury methylation. The overall goal of this project is to characterize novel methylators and their metabolic intracacies using environmental metagenomic datasets. 
 Analyses were performed for the mSystems publication "Expanded Phylogenetic Diversity and Metabolic Flexibility of Mercury-Methylating Microorganisms":
 
-**McDaniel E.A.**, Peterson B., Stevens S.L.R., Tran P.Q., Anantharaman K., McMahon K.D. **Expanded Phylogenetic Diversity and Metabolic Flexibility of Microbial Mercury Methylation.** Jan. 2020 *bioRxiv*. DOI: 10.1101/2020.01.16.909358 [[preprint]](https://www.biorxiv.org/content/10.1101/2020.01.16.909358v1) [[publication]](https://msystems.asm.org/content/5/4/e00299-20)
+**McDaniel E.A.**, Peterson B., Stevens S.L.R., Tran P.Q., Anantharaman K., McMahon K.D. **Expanded Phylogenetic Diversity and Metabolic Flexibility of Microbial Mercury Methylation.** mSystems. Aug 2020, 5 (4) e00299-20; DOI: 10.1128/mSystems.00299-20 [[preprint]](https://www.biorxiv.org/content/10.1101/2020.01.16.909358v1) [[publication]](https://msystems.asm.org/content/5/4/e00299-20)
 
 --------------------------------------------------------------
 
